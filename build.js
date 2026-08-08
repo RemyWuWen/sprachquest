@@ -225,8 +225,15 @@ function buildDict(lemmas) {
     if (k.length > 1 && out[k] === undefined) out[k] = i;
   };
 
+  /* PASS 1 — every headword owns its own key, unconditionally.
+     Without this, a generated inflection of an earlier lemma can claim the
+     slot first and the word ends up defined as something else: Frage was
+     resolving to "fragen", Eis to "Ei", wegen to "Weg". A dictionary that
+     confidently gives the wrong word is worse than one that gives none. */
+  lemmas.forEach((l, i) => { out[dnorm(l.lemma)] = i; });
+
+  // PASS 2 — derived forms, only where nothing has claimed the key.
   lemmas.forEach((l, i) => {
-    put(l.lemma, i);
     // plural: "die Häuser" → Häuser
     String(l.plural || '').split(/[\s/(),]+/)
       .filter(t => t && !['der', 'die', 'das', '—', '-'].includes(t.toLowerCase()))
@@ -251,12 +258,22 @@ function buildDict(lemmas) {
     if (l.pos === 'noun') ['n', 'en', 's', 'e'].forEach(suf => put(base + suf, i));
   });
 
-  // hand-written irregulars win over any generated guess
+  /* Hand-written irregulars, EXCEPT where the form is a headword in its own
+     right. "weiß" is both an adjective (white) and a form of wissen (to know);
+     "das" is an article and a demonstrative. German genuinely is ambiguous
+     here, so rather than silently pick a side we keep the headword as primary
+     and record the other reading — the tooltip shows both. */
+  const alt = {};
   Object.entries(IRREGULAR).forEach(([form, lemma]) => {
     const i = byLemma[dnorm(lemma)];
-    if (i !== undefined) out[dnorm(form)] = i;
+    if (i === undefined) return;
+    const k = dnorm(form);
+    const ownHeadword = byLemma[k];
+    if (ownHeadword !== undefined && ownHeadword !== i) alt[k] = i;   // both readings real
+    else out[k] = i;
   });
 
+  buildDict.alt = alt;
   return out;
 }
 
@@ -344,6 +361,7 @@ function main() {
     // Surface form → lemma index, so hovering any inflected word in the game
     // ("geht", "Häuser", "gegangen") resolves to its dictionary entry.
     dict: buildDict(lemmas),
+    dictAlt: buildDict.alt || {},
     packs
   };
 

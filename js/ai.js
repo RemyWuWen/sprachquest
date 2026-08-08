@@ -63,6 +63,7 @@ const AI = (() => {
       history: [],
       turns: 0,
       onWin: opts.onWin,
+      won: false,          // the boss can only be beaten once per conversation
       final: !!opts.final,
       busy: false
     };
@@ -145,7 +146,7 @@ const AI = (() => {
     }
     S.busy = false;
 
-    if (S.hit.size >= S.targets.length) setTimeout(win, 900);
+    if (!S.won && S.hit.size >= S.targets.length) { S.won = true; setTimeout(win, 900); }
   }
 
   function scoreTargets(text) {
@@ -157,13 +158,15 @@ const AI = (() => {
       const core = base.split(' ').filter(w => w.length > 2);
       // a chunk counts as "used" when most of its content words show up
       const need = Math.max(1, Math.ceil(core.length * 0.7));
-      const got = core.filter(w => n.includes(w)).length;
+      const words = n.split(' ');
+      const got = core.filter(w => words.includes(w)).length;
       if (core.length && got >= need) {
         S.hit.add(c.id);
         newHit = true;
         const card = Game.card(c.id);
-        SRS.review(card, 2);           // real communicative use is the strongest rep there is
-        card.strength = Math.min(5, card.strength + 1);
+        // Communicative use is a strong rep — but let SRS.review own the
+        // strength curve. Bumping it here too skipped a difficulty stage.
+        SRS.review(card, 2);
         Game.state.cards[c.id] = card;
         Game.addXp(20);
         Meta.progress('speak', 1);
@@ -189,7 +192,11 @@ const AI = (() => {
 
   /* ---------------- Anthropic call ---------------- */
   function systemPrompt() {
-    const known = Game.knownChunks().slice(-160).map(c => c.de);
+    // Strongest-known first, so the AI's ceiling is built from what the
+    // learner actually owns rather than from whatever sorts last.
+    const known = Game.knownChunks()
+      .sort((x, y) => (Game.card(y.id).strength || 0) - (Game.card(x.id).strength || 0))
+      .slice(0, 160).map(c => c.de);
     const targets = S.targets.map(c => `"${c.de}" (${c.es})`);
     return `Du bist "${S.npc.name}", eine Figur in einem Lernspiel für Deutsch. Der Lernende ist Anfänger (A1–A2), Muttersprache Spanisch.
 

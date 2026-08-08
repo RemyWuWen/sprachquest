@@ -18,6 +18,13 @@
    ============================================================ */
 
 const Meta = (() => {
+  /* The player's day, not UTC's. On UTC the day rolled over at 02:00 in Spain,
+     so a late-night session counted as tomorrow and broke the streak it should
+     have extended. */
+  const localDay = (d) => {
+    d = d || new Date();
+    return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  };
 
   /* ================= Wortgeister ================= */
   // perk: xp | coin | hint | shield | heal | crit
@@ -133,7 +140,7 @@ const Meta = (() => {
     { id: 'speak',  text: n => `Benutze ${n} Ausdrücke im Gespräch`,target: () => 3, coins: 50, xp: 80 },
   ];
 
-  const today = () => new Date().toISOString().slice(0, 10);
+  const today = () => localDay();
 
   function quests() {
     const s = Game.state;
@@ -290,7 +297,7 @@ const Meta = (() => {
     const p = Game.state.profile;
     const t = today();
     if (p.lastDay === t) return;
-    const y = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+    const y = localDay(new Date(Date.now() - 864e5));   // yesterday, locally
     if (p.lastDay === y || !p.lastDay) {
       p.streak = (p.lastDay ? p.streak : 0) + 1;
     } else if (has('schutz')) {

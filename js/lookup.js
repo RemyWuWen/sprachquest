@@ -16,6 +16,7 @@ const Lookup = (() => {
   const DATA = window.GQ_DATA || {};
   const DICT = DATA.dict || {};
   const LEMMAS = DATA.lemmas || [];
+  const ALT = DATA.dictAlt || {};   // words with two real readings (weiß, das, ihr)
 
   // Must match build.js's dnorm exactly — umlauts preserved, so schön ≠ schon.
   const dnorm = s => String(s || '').toLowerCase().replace(/[^a-zäöüß]/g, '');
@@ -59,12 +60,16 @@ const Lookup = (() => {
     const i = DICT[dnorm(word)];
     if (i === undefined || !LEMMAS[i]) return null;
     const l = LEMMAS[i];
+    const j = ALT[dnorm(word)];
+    const other = (j !== undefined && LEMMAS[j]) ? LEMMAS[j] : null;
     return {
       head: (l.a ? l.a + ' ' : '') + l.w,
       es: l.es,
       pos: l.p,
       rank: l.r,
-      inflected: dnorm(word) !== dnorm(l.w)
+      inflected: dnorm(word) !== dnorm(l.w),
+      // German is genuinely ambiguous here — say so rather than guessing.
+      alt: other ? ((other.a ? other.a + ' ' : '') + other.w + ' = ' + other.es) : null
     };
   }
 
@@ -143,7 +148,8 @@ const Lookup = (() => {
         `<b>${esc(found.word)}</b>` +
         (hit.inflected ? `<span class="wt-lem">→ ${esc(hit.head)}</span>` : '') +
         `<span class="wt-es">${esc(hit.es)}</span>` +
-        `<span class="wt-meta">${esc(hit.pos)} ${rankNote}</span>`);
+        `<span class="wt-meta">${esc(hit.pos)} ${rankNote}</span>` +
+        (hit.alt ? `<span class="wt-alt">o también: ${esc(hit.alt)}</span>` : ''));
       if (Speech && Speech.available()) Speech.say(found.word, { force: true });
       return true;
     }

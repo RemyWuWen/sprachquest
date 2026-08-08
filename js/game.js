@@ -770,7 +770,7 @@ const Game = (() => {
         'close-journal': () => show('screen-world'),
         'close-chat': () => AI.close(),
         'close-map': () => show('screen-world'),
-        'close-settings': () => show(state ? 'screen-world' : 'screen-title'),
+        'close-settings': () => show(running ? 'screen-world' : 'screen-title'),
         'lesson-next': lessonNext,
         'lesson-prev': lessonPrev,
         'lesson-again': lessonAgain,
@@ -787,9 +787,30 @@ const Game = (() => {
         },
         import: () => {
           const i = document.createElement('input'); i.type = 'file'; i.accept = '.json';
-          i.onchange = () => { const f = i.files[0]; if (!f) return; const r = new FileReader();
-            r.onload = () => { try { localStorage.setItem(SAVE_KEY, r.result); location.reload(); } catch (e) { toast('Datei ungültig.'); } };
-            r.readAsText(f); };
+          i.onchange = () => {
+            const f = i.files[0]; if (!f) return;
+            const r = new FileReader();
+            r.onload = () => {
+              // Validate BEFORE touching the existing save, and keep a backup
+              // either way. This used to setItem() the raw file text — one
+              // wrong file and every card, streak and badge was gone for good.
+              let incoming;
+              try { incoming = JSON.parse(r.result); }
+              catch (e) { toast('❌ Ese archivo no es una partida válida.'); return; }
+              if (!incoming || typeof incoming !== 'object' || !incoming.profile || !incoming.cards) {
+                toast('❌ Ese archivo no parece una partida de Sprachquest.'); return;
+              }
+              const mine = Object.keys(state.cards || {}).length;
+              const theirs = Object.keys(incoming.cards).length;
+              if (mine > 0 && !confirm(
+                    `Vas a sustituir tu partida (${mine} tarjetas) por la del archivo (${theirs}).\n\n` +
+                    'Se guardará una copia de seguridad. ¿Continuar?')) return;
+              try { localStorage.setItem(SAVE_KEY + '_backup', JSON.stringify(state)); } catch (e) {}
+              localStorage.setItem(SAVE_KEY, JSON.stringify(incoming));
+              location.reload();
+            };
+            r.readAsText(f);
+          };
           i.click();
         }
       };

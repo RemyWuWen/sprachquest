@@ -379,13 +379,15 @@ const Battle = (() => {
       btns.forEach((b, i) => { if (i === S.q.correctIdx) b.classList.add('good'); else if (i === S.q.answer && !ok) b.classList.add('bad'); });
     } else if (type === 'cloze') {
       const v = ($('q-input') || {}).value || '';
+      if (!v.trim()) { Game.toast('Escribe algo primero.'); return; }
       res = SRS.check(v, S.q.expected);
       shown = S.q.full || S.q.expected;   // show the whole chunk, not the bare word
     } else if (type === 'order') {
       res = SRS.check(S.q.answer || '', S.q.expected || chunk.de);
       shown = S.q.expected || chunk.de;
     } else {
-      const v = type === 'frame' ? (($('q-input') || {}).value || '') : (($('q-input') || {}).value || '');
+      const v = ($('q-input') || {}).value || '';
+      if (!v.trim()) { Game.toast('Escribe algo primero.'); return; }
       res = SRS.check(v, S.q.expected);
       shown = S.q.expected;
     }
@@ -472,12 +474,13 @@ const Battle = (() => {
     Speech.say(shown);
     Game.updateHud();
     updateBars();
+    Game.save();   // persist per answer — a closed tab used to lose the run
     $('q-submit').textContent = 'Weiter ▶';
     setTimeout(() => { const b = $('q-submit'); if (b) b.focus(); }, 40);
   }
 
   function hint() {
-    if (!S || S.answered) return;
+    if (!S || S.answered || S.hintUsed) return;   // one hint per question
     // party perks and shop tokens give you hints that don't cost you the grade
     if (S.freeHints > 0) { S.freeHints--; Game.toast(`💡 Gratis-Tipp (noch ${S.freeHints})`); }
     else if (Meta.has('tipp')) { Meta.inv().tipp--; Game.toast('💡 Tipp-Marke benutzt'); Game.save(); }
@@ -490,7 +493,10 @@ const Battle = (() => {
     } else {
       const exp = S.q.expected || chunk.de;
       const inp = $('q-input');
-      if (inp) { inp.value = exp.split(' ').map(w => w[0] + '·'.repeat(Math.max(0, w.length - 1))).join(' '); setTimeout(() => { inp.value = ''; inp.placeholder = exp.split(' ').map(w => w[0] + '…').join(' '); }, 1600); }
+      // Show the shape of the answer as a PLACEHOLDER — never touch what the
+      // player has typed. Writing into the box (and wiping it on a timer)
+      // meant the hint either submitted itself or deleted your answer.
+      if (inp) { inp.placeholder = exp.split(' ').map(w => w[0] + '·'.repeat(Math.max(0, w.length - 1))).join(' '); }
       else Game.toast(exp.split(' ').map(w => w[0] + '…').join(' '));
     }
     SFX.blip();
@@ -500,6 +506,10 @@ const Battle = (() => {
 
   function playAudio() {
     if (!S) return;
+    // On production questions, replaying the German before the answer IS the
+    // answer. Only speak it once the attempt is in.
+    const producing = ['recall', 'cloze', 'frame', 'order'].includes(S.q.type);
+    if (producing && !S.answered) { Game.toast('🔊 Primero inténtalo — luego lo escuchas.'); return; }
     Speech.say(S.answered ? (S.q.expected || S.q.chunk.de) : S.q.chunk.de, { force: true });
   }
 

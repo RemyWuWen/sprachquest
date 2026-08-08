@@ -57,7 +57,8 @@ const SRS = (() => {
       if (elapsed < 0.6 * card.ivl) { card.last = now; return card; }
 
       // and at most one scoring review per calendar day
-      const day = new Date(now).toISOString().slice(0, 10);
+      const d = new Date(now);
+      const day = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
       if (card.scoredDay === day) { card.last = now; return card; }
       card.scoredDay = day;
     }
