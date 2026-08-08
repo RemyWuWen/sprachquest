@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Sprachquest — Deutsch lernen</title>
-<link rel="stylesheet" href="css/style.css?v=11">
+<link rel="stylesheet" href="css/style.css?v=d3e0c453">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
@@ -59,7 +59,7 @@
       <button class="tbtn" data-act="journal" title="Wortschatz (J)">📖<span>Wortschatz</span></button>
       <button class="tbtn" data-act="review" title="Wiederholen (R)">🔁<span>Wiederholen</span><em id="due-badge" class="badge hidden">0</em></button>
       <button class="tbtn" data-act="map" title="Karte (M)">🗺️<span>Karte</span></button>
-      <button class="tbtn" data-act="dex" title="Wörterdex (D)">👾<span>Wörterdex</span></button>
+      <button class="tbtn" data-act="dex" title="Wörterdex (X)">👾<span>Wörterdex</span></button>
       <button class="tbtn" data-act="quests" title="Aufgaben (Q)">📋<span>Aufgaben</span><em id="quest-badge" class="badge hidden">0</em></button>
       <button class="tbtn" data-act="shop" title="Laden">🛒<span>Laden</span></button>
       <button class="tbtn" data-act="settings">⚙️<span>Optionen</span></button>
@@ -79,7 +79,7 @@
   <!-- ============ DIALOGUE ============ -->
   <div id="dialogue" class="dialogue hidden">
     <div class="dlg-box">
-      <div class="dlg-who"><span class="dlg-face" id="dlg-face">🧙</span><span id="dlg-name">—</span></div>
+      <div class="dlg-who"><span class="dlg-face" id="dlg-face">🧙</span><span id="dlg-name">—</span><button class="dlg-peek" data-act="peek" title="Ver traducción (Tab)"><span class="dlg-hint">Tab</span> 👁</button></div>
       <div class="dlg-text" id="dlg-text"></div>
       <div class="dlg-choices" id="dlg-choices"></div>
       <div class="dlg-next" id="dlg-next">▼</div>
@@ -171,6 +171,7 @@
       <header class="panel-head">
         <span class="tag" id="chat-tag">Gespräch</span>
         <h2 id="chat-title">—</h2>
+        <button class="x" data-act="peek" title="Ver traducción (Tab)">👁</button>
         <button class="x" data-act="close-chat">✕</button>
       </header>
       <div class="chat-goal" id="chat-goal"></div>
@@ -269,15 +270,16 @@
 
 </div>
 
-<script src="data/chunks.js?v=11"></script>
-<script src="js/srs.js?v=11"></script>
-<script src="js/audio.js?v=11"></script>
-<script src="js/fx.js?v=11"></script>
-<script src="js/world.js?v=11"></script>
-<script src="js/meta.js?v=11"></script>
-<script src="js/battle.js?v=11"></script>
-<script src="js/ai.js?v=11"></script>
-<script src="js/game.js?v=11"></script>
+<script src="data/chunks.js?v=d3e0c453"></script>
+<script src="js/srs.js?v=d3e0c453"></script>
+<script src="js/audio.js?v=d3e0c453"></script>
+<script src="js/fx.js?v=d3e0c453"></script>
+<script src="js/world.js?v=d3e0c453"></script>
+<script src="js/meta.js?v=d3e0c453"></script>
+<script src="js/battle.js?v=d3e0c453"></script>
+<script src="js/ai.js?v=d3e0c453"></script>
+<script src="js/lookup.js?v=d3e0c453"></script>
+<script src="js/game.js?v=d3e0c453"></script>
 <script>
   // Precaches the whole game so it plays with no connection at all.
   // file:// has no service workers — harmless, the game still runs.

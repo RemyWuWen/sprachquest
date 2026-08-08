@@ -125,15 +125,20 @@ const REGIONS = [
     },
     npcs: [
       { x: 18, y: 12, face: '👵', name: 'Oma Gerda', role: 'teacher', pack: 'greetings_social',
-        greet: 'Guten Tag! Ich bin Gerda. Wollen wir ein paar Sätze lernen?' },
+        greet: 'Guten Tag! Ich bin Gerda. Wollen wir ein paar Sätze lernen?',
+        greetEs: '¡Buenos días! Soy Gerda. ¿Aprendemos unas cuantas frases?' },
       { x: 30, y: 14, face: '🧙', name: 'Meister Klaus', role: 'teacher', pack: 'core_grammar',
-        greet: 'Wörter sind Bausteine. Ich zeige dir, wie man sie zusammensetzt.' },
+        greet: 'Wörter sind Bausteine. Ich zeige dir, wie man sie zusammensetzt.',
+        greetEs: 'Las palabras son piezas de construcción. Te enseño a juntarlas.' },
       { x: 9, y: 22, face: '🧑‍🌾', name: 'Bauer Ernst', role: 'trainer', pack: 'greetings_social',
-        greet: 'Du willst üben? Dann zeig mir, was du kannst!' },
+        greet: 'Du willst üben? Dann zeig mir, was du kannst!',
+        greetEs: '¿Quieres practicar? ¡Pues enséñame lo que sabes!' },
       { x: 36, y: 23, face: '🦉', name: 'Die Eule', role: 'boss', pack: 'greetings_social',
-        greet: 'Hu-hu! Sprich mit mir — nur auf Deutsch.' },
+        greet: 'Hu-hu! Sprich mit mir — nur auf Deutsch.',
+        greetEs: '¡Uh-uh! Habla conmigo, pero solo en alemán.' },
       { x: 21, y: 24, face: '🚩', name: 'Schild', role: 'sign',
-        greet: 'Willkommensdorf — hier beginnt deine Reise.' }
+        greet: 'Willkommensdorf — hier beginnt deine Reise.',
+        greetEs: 'Pueblo Bienvenida: aquí empieza tu viaje.' }
     ]
   },
   {
@@ -174,13 +179,17 @@ const REGIONS = [
     },
     npcs: [
       { x: 12, y: 11, face: '👨‍🍳', name: 'Bäcker Bruno', role: 'teacher', pack: 'food_drink',
-        greet: 'Frische Brötchen! Willst du bestellen lernen?' },
+        greet: 'Frische Brötchen! Willst du bestellen lernen?',
+        greetEs: '¡Panecillos recién hechos! ¿Quieres aprender a pedir?' },
       { x: 31, y: 21, face: '👩‍💼', name: 'Frau Meier', role: 'teacher', pack: 'shopping_money',
-        greet: 'Zahlen Sie bar oder mit Karte? Das üben wir jetzt.' },
+        greet: 'Zahlen Sie bar oder mit Karte? Das üben wir jetzt.',
+        greetEs: '¿Paga en efectivo o con tarjeta? Eso lo practicamos ahora.' },
       { x: 16, y: 21, face: '🧑‍🍳', name: 'Koch Timo', role: 'trainer', pack: 'food_drink',
-        greet: 'Schnell! Die Küche wartet. Antworte zügig!' },
+        greet: 'Schnell! Die Küche wartet. Antworte zügig!',
+        greetEs: '¡Rápido! La cocina espera. ¡Contesta deprisa!' },
       { x: 22, y: 8, face: '🐉', name: 'Der Marktdrache', role: 'boss', pack: 'shopping_money',
-        greet: 'Kauf etwas bei mir — aber nur auf Deutsch!' }
+        greet: 'Kauf etwas bei mir — aber nur auf Deutsch!',
+        greetEs: 'Cómprame algo, ¡pero solo en alemán!' }
     ]
   },
   {
@@ -202,13 +211,17 @@ const REGIONS = [
     },
     npcs: [
       { x: 9, y: 14, face: '👨‍👩‍👧', name: 'Familie Wolf', role: 'teacher', pack: 'people_family',
-        greet: 'Wir sind eine große Familie. Komm rein!' },
+        greet: 'Wir sind eine große Familie. Komm rein!',
+        greetEs: 'Somos una familia grande. ¡Pasa!' },
       { x: 31, y: 14, face: '🧹', name: 'Herr Ordnung', role: 'teacher', pack: 'home_routine',
-        greet: 'Erst aufräumen, dann lernen. Oder beides gleichzeitig!' },
+        greet: 'Erst aufräumen, dann lernen. Oder beides gleichzeitig!',
+        greetEs: 'Primero ordenar, luego estudiar. ¡O las dos cosas a la vez!' },
       { x: 21, y: 20, face: '🐕', name: 'Hund Bello', role: 'trainer', pack: 'home_routine',
-        greet: 'Wuff! (Er will offensichtlich üben.)' },
+        greet: 'Wuff! (Er will offensichtlich üben.)',
+        greetEs: '¡Guau! (Está claro que quiere practicar.)' },
       { x: 36, y: 28, face: '🧛', name: 'Nachbar Nachts', role: 'boss', pack: 'people_family',
-        greet: 'Erzähl mir von deiner Familie… ich habe Zeit. Viel Zeit.' }
+        greet: 'Erzähl mir von deiner Familie… ich habe Zeit. Viel Zeit.',
+        greetEs: 'Háblame de tu familia… tengo tiempo. Mucho tiempo.' }
     ]
   },
   {
@@ -240,13 +253,17 @@ const REGIONS = [
     },
     npcs: [
       { x: 20, y: 22, face: '🚉', name: 'Schaffner Ali', role: 'teacher', pack: 'city_travel',
-        greet: 'Einmal nach Berlin, bitte! So fragt man richtig.' },
+        greet: 'Einmal nach Berlin, bitte! So fragt man richtig.',
+        greetEs: '¡Uno para Berlín, por favor! Así se pide bien.' },
       { x: 12, y: 16, face: '👩‍🏫', name: 'Frau Doktor Lang', role: 'teacher', pack: 'work_school',
-        greet: 'Arbeit, Schule, Termine — die Sprache des Alltags.' },
+        greet: 'Arbeit, Schule, Termine — die Sprache des Alltags.',
+        greetEs: 'Trabajo, escuela, citas: la lengua del día a día.' },
       { x: 30, y: 16, face: '🚕', name: 'Taxi-Tom', role: 'trainer', pack: 'city_travel',
-        greet: 'Wohin soll es gehen? Schnell, der Zähler läuft!' },
+        greet: 'Wohin soll es gehen? Schnell, der Zähler läuft!',
+        greetEs: '¿Adónde vamos? ¡Rápido, que corre el taxímetro!' },
       { x: 30, y: 31, face: '🤖', name: 'Der Automat', role: 'boss', pack: 'work_school',
-        greet: 'SYSTEM BEREIT. SPRECHEN SIE DEUTSCH.' }
+        greet: 'SYSTEM BEREIT. SPRECHEN SIE DEUTSCH.',
+        greetEs: 'SISTEMA LISTO. HABLE EN ALEMÁN.' }
     ]
   },
   {
@@ -267,13 +284,17 @@ const REGIONS = [
     },
     npcs: [
       { x: 34, y: 15, face: '👨‍⚕️', name: 'Doktor Sanft', role: 'teacher', pack: 'health_body',
-        greet: 'Wo tut es weh? Keine Sorge — wir lernen es zusammen.' },
+        greet: 'Wo tut es weh? Keine Sorge — wir lernen es zusammen.',
+        greetEs: '¿Dónde te duele? Tranquilo, lo aprendemos juntos.' },
       { x: 10, y: 22, face: '🧘', name: 'Yoga-Yuki', role: 'teacher', pack: 'weather_leisure',
-        greet: 'Atme ein… und erzähl mir von deinem Wochenende.' },
+        greet: 'Atme ein… und erzähl mir von deinem Wochenende.',
+        greetEs: 'Respira hondo… y cuéntame qué tal tu fin de semana.' },
       { x: 24, y: 22, face: '⚽', name: 'Trainer Toni', role: 'trainer', pack: 'weather_leisure',
-        greet: 'Aufwärmen! Fünf Runden Vokabeln!' },
+        greet: 'Aufwärmen! Fünf Runden Vokabeln!',
+        greetEs: '¡A calentar! ¡Cinco vueltas de vocabulario!' },
       { x: 8, y: 8, face: '🌪️', name: 'Der Sturmgeist', role: 'boss', pack: 'health_body',
-        greet: 'Wie geht es dir WIRKLICH? Antworte, oder ich blase dich weg!' }
+        greet: 'Wie geht es dir WIRKLICH? Antworte, oder ich blase dich weg!',
+        greetEs: '¿Cómo estás DE VERDAD? ¡Contesta o te llevo por los aires!' }
     ]
   },
   {
@@ -300,11 +321,14 @@ const REGIONS = [
     },
     npcs: [
       { x: 21, y: 16, face: '📜', name: 'Der Schreiber', role: 'teacher', pack: 'core_connect',
-        greet: 'Weil, obwohl, deshalb… Damit klebst du Sätze zusammen.' },
+        greet: 'Weil, obwohl, deshalb… Damit klebst du Sätze zusammen.',
+        greetEs: 'Weil, obwohl, deshalb… Con eso pegas las frases entre sí.' },
       { x: 16, y: 22, face: '⚔️', name: 'Wächter Wolf', role: 'trainer', pack: 'core_connect',
-        greet: 'Niemand geht nach oben, ohne mich zu schlagen.' },
+        greet: 'Niemand geht nach oben, ohne mich zu schlagen.',
+        greetEs: 'Nadie sube sin antes vencerme.' },
       { x: 21, y: 9, face: '👑', name: 'Die Sprachkönigin', role: 'boss', pack: 'core_connect', final: true,
-        greet: 'Du bist weit gekommen. Jetzt reden wir — richtig.' }
+        greet: 'Du bist weit gekommen. Jetzt reden wir — richtig.',
+        greetEs: 'Has llegado lejos. Ahora hablamos, de verdad.' }
     ]
   }
 ];

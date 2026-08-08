@@ -11,23 +11,24 @@
    old build.
    ============================================================ */
 
-const CACHE = 'sprachquest-v3';
+const CACHE = 'sprachquest-d3e0c453';
 
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './icon.svg',
-  './css/style.css?v=11',
-  './data/chunks.js?v=11',
-  './js/srs.js?v=11',
-  './js/audio.js?v=11',
-  './js/fx.js?v=11',
-  './js/world.js?v=11',
-  './js/meta.js?v=11',
-  './js/battle.js?v=11',
-  './js/ai.js?v=11',
-  './js/game.js?v=11'
+  './css/style.css?v=d3e0c453',
+  './data/chunks.js?v=d3e0c453',
+  './js/ai.js?v=d3e0c453',
+  './js/audio.js?v=d3e0c453',
+  './js/battle.js?v=d3e0c453',
+  './js/fx.js?v=d3e0c453',
+  './js/game.js?v=d3e0c453',
+  './js/lookup.js?v=d3e0c453',
+  './js/meta.js?v=d3e0c453',
+  './js/srs.js?v=d3e0c453',
+  './js/world.js?v=d3e0c453'
 ];
 
 self.addEventListener('install', e => {

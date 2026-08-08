@@ -138,6 +138,25 @@ const Game = (() => {
 
   function checkStreak() { Meta.rollStreak(); }
 
+  /* ---------------- translation peek ----------------
+     Spanish is hidden by default and revealed on demand (Tab, or the 👁
+     button). Comprehension you reach for sticks; comprehension handed to
+     you unprompted gets skimmed past. The choice is remembered. */
+  function applyTranslations() {
+    const on = !!(state && state.settings.showTr);
+    document.body.classList.toggle('show-tr', on);
+    document.querySelectorAll('[data-act="peek"]').forEach(b => {
+      b.classList.toggle('on', on);
+      b.title = on ? 'Ocultar traducción (Tab)' : 'Ver traducción (Tab)';
+    });
+  }
+  function toggleTranslations() {
+    if (!state) return;
+    state.settings.showTr = !state.settings.showTr;
+    applyTranslations(); save(); SFX.blip();
+    toast(state.settings.showTr ? '👁 Traducciones visibles' : '🙈 Traducciones ocultas — Tab para verlas', 1600);
+  }
+
   /* ---------------- player / loop ---------------- */
   const player = { px: 0, py: 0, dir: 'down', moving: false, speed: 2.4, steps: 0 };
   const cam = { x: 0, y: 0 };
@@ -270,7 +289,11 @@ const Game = (() => {
         const line = this.queue.shift();
         const de = typeof line === 'string' ? line : line.de;
         const tr = typeof line === 'string' ? '' : (line.tr || '');
-        $('dlg-text').innerHTML = `<span class="de">${esc(de)}</span>` + (tr ? `<span class="tr">${esc(tr)}</span>` : '');
+        // The Spanish is always in the DOM but stays hidden until you ask for
+        // it. Reaching for the meaning before you're given it is most of the
+        // learning; handing it over unprompted turns reading into skimming.
+        $('dlg-text').innerHTML = `<span class="de">${esc(de)}</span>` +
+          (tr ? `<span class="tr">${esc(tr)}</span>` : '<span class="tr tr-none">—</span>');
         Speech.say(de);
         $('dlg-next').classList.toggle('hidden', this.queue.length === 0 && !!this.choices);
         return;
@@ -303,7 +326,7 @@ const Game = (() => {
     const n = World.npcAt(fx, fy);
     if (!n) return;
 
-    if (n.role === 'sign') { Dialogue.show(n.name, n.face, [{ de: n.greet, tr: '' }]); return; }
+    if (n.role === 'sign') { Dialogue.show(n.name, n.face, [{ de: n.greet, tr: n.greetEs || '' }]); return; }
 
     const p = pack(n.pack);
     const packChunks = p ? p.chunks : [];
@@ -316,7 +339,7 @@ const Game = (() => {
       if (remaining > 0) choices.push({ label: `📚 Unterricht — neue Ausdrücke lernen <em style="color:#8fa3bd">(${remaining} übrig)</em>`, act: () => startLesson(n) });
       if (seenHere.length >= 3) choices.push({ label: `🔁 Wiederholen — ${seenHere.length} Ausdrücke`, act: () => Battle.start({ title: n.name + 's Übung', face: n.face, chunks: pickForReview(seenHere, 8), max: 8 }) });
       choices.push({ label: '👋 Tschüss', act: () => {} });
-      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: '' }], choices);
+      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: n.greetEs || '' }], choices);
       return;
     }
 
@@ -325,7 +348,7 @@ const Game = (() => {
         Dialogue.show(n.name, n.face, [{ de: 'Du kennst noch zu wenig. Geh zuerst zum Lehrer!', tr: 'Aún sabes muy poco. Ve primero al profesor.' }]);
         return;
       }
-      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: '' }], [
+      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: n.greetEs || '' }], [
         { label: '⚔️ Kämpfen!', act: () => Battle.start({ title: n.name, face: n.face, chunks: pickForReview(seenHere, 10), max: 10 }) },
         { label: '🏃 Später', act: () => {} }
       ]);
@@ -338,7 +361,7 @@ const Game = (() => {
         Dialogue.show(n.name, n.face, [{ de: 'Noch nicht. Lerne mehr, dann reden wir.', tr: 'Todavía no. Aprende más y hablamos.' }]);
         return;
       }
-      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: '' }], [
+      Dialogue.show(n.name, n.face, [{ de: n.greet, tr: n.greetEs || '' }], [
         { label: beaten ? '💬 Nochmal reden' : '💬 Gespräch beginnen', act: () => startBoss(n) },
         { label: '🏃 Später', act: () => {} }
       ]);
@@ -591,6 +614,7 @@ const Game = (() => {
   function startGame(cont) {
     state = (cont && load()) || fresh();
     checkStreak();
+    applyTranslations();
     ctx = $('game').getContext('2d');
     ctx.imageSmoothingEnabled = false;
     enterRegion(state.profile.region || 'dorf');
@@ -637,11 +661,30 @@ const Game = (() => {
         }
         return;
       }
+      // Tab peeks at the Spanish. Deliberately not a letter: it has to work
+      // while you are mid-word in the chat or an answer box.
+      if (e.code === 'Tab') {
+        e.preventDefault();
+        // Hovering a German word? Translate just that word. Otherwise fall
+        // back to showing/hiding the whole line.
+        if (!Lookup.peekAtPointer()) toggleTranslations();
+        return;
+      }
+
       if (inField) return;
+
+      // Panel shortcuts only on the overworld — otherwise J during a battle
+      // would throw the journal over the question you are answering.
+      const busy = Dialogue.open
+        || document.querySelector('.screen.modal.active')
+        || $('screen-battle').classList.contains('active')
+        || !$('screen-world').classList.contains('active');
+      if (busy) return;
+
       if (e.code === 'KeyJ') openJournal();
       if (e.code === 'KeyR') reviewSession();
       if (e.code === 'KeyM') openMap();
-      if (e.code === 'KeyD') Meta.open('dex');
+      if (e.code === 'KeyX') Meta.open('dex');   // NOT KeyD — that walks right
       if (e.code === 'KeyQ') Meta.open('quests');
     });
 
@@ -669,7 +712,12 @@ const Game = (() => {
 
     // canvas tap → walk toward / interact
     $('game').addEventListener('click', () => { if (!Dialogue.open) interact(); });
-    $('dialogue').addEventListener('click', e => { if (!e.target.closest('.dlg-choices')) Dialogue.advance(); });
+    // Tapping the box advances it — but not when the tap landed on a control
+    // inside it, or peeking at the translation would skip the line instead.
+    $('dialogue').addEventListener('click', e => {
+      if (e.target.closest('.dlg-choices') || e.target.closest('[data-act]')) return;
+      Dialogue.advance();
+    });
 
     document.body.addEventListener('click', e => {
       const b = e.target.closest('[data-act]');
@@ -678,6 +726,7 @@ const Game = (() => {
       const acts = {
         start: () => { if (hasSave() && !confirm('Ya hay una partida guardada. ¿Empezar de nuevo y borrarla?')) return; localStorage.removeItem(SAVE_KEY); startGame(false); },
         continue: () => { if (!hasSave()) { toast('Keine Speicherung gefunden.'); return; } startGame(true); },
+        peek: toggleTranslations,
         settings: openSettings,
         journal: openJournal,
         review: reviewSession,
@@ -734,7 +783,7 @@ const Game = (() => {
   /* ---------------- init ---------------- */
   addEventListener('DOMContentLoaded', () => {
     state = load() || fresh();     // settings available before "start"
-    bindInput(); bindSettings();
+    bindInput(); bindSettings(); applyTranslations();
     refreshTitle();
     if (!ALL.length) {
       $('title-stats').innerHTML = '<span style="color:#ff6b6b">⚠️ data/chunks.js ist leer — führe <code>node build.js</code> aus.</span>';

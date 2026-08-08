@@ -73,7 +73,7 @@ const AI = (() => {
     $('chat-text').value = '';
     renderGoal();
     $('chat-help').innerHTML = hasKey()
-      ? 'Escribe en alemán. <kbd>Enter</kbd> para enviar · 🎤 para hablar · toca una frase para oírla.'
+      ? 'Escribe en alemán. <kbd>Enter</kbd> enviar · <kbd>Tab</kbd> traducción · 🎤 hablar · toca una frase para oírla.'
       : '⚠️ Modo offline (sin API key). Las respuestas son limitadas — añade tu key en Optionen para conversar de verdad.';
 
     Game.show('screen-chat');

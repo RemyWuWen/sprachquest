@@ -483,3 +483,48 @@ body{
 .catch-flavor{font-size:13px;color:var(--dim);margin:11px 0;line-height:1.5;position:relative}
 .catch-perk{font-size:14px;color:var(--green);font-weight:800;margin-bottom:16px;position:relative}
 .catch-card .btn{position:relative;width:100%}
+
+/* ---------- translation peek ----------
+   Spanish sits in the DOM but stays out of sight until asked for.
+   Reaching for the meaning is where the learning happens. */
+.dlg-text .tr,
+.msg .tr        { display: none; }
+body.show-tr .dlg-text .tr,
+body.show-tr .msg .tr { display: block; }
+.dlg-text .tr-none { color: var(--dim); opacity: .5; font-style: italic; }
+
+.dlg-peek {
+  margin-left: auto; display: flex; align-items: center; gap: 5px;
+  background: none; border: 1px solid var(--line); border-radius: 999px;
+  cursor: pointer; font-size: 13px; color: var(--dim);
+  padding: 3px 9px; line-height: 1; transition: .15s;
+}
+.dlg-peek:hover { border-color: var(--gold); color: var(--ink); }
+.dlg-peek.on    { border-color: var(--gold); color: var(--gold); background: rgba(255,207,77,.1); }
+.dlg-peek:hover { opacity: .9; }
+.dlg-peek.on    { opacity: 1; filter: drop-shadow(0 0 5px var(--gold)); }
+.panel-head .x[data-act="peek"]      { opacity: .45; font-size: 16px; }
+.panel-head .x[data-act="peek"].on   { opacity: 1; filter: drop-shadow(0 0 5px var(--gold)); }
+
+/* the hint line under the dialogue, so the key is discoverable at all */
+
+.dlg-hint { font-size: 10px; letter-spacing: .4px; opacity: .8; }
+@media (max-width:520px){ .dlg-hint { display: none; } }
+
+/* ---------- word tooltip (hover + Tab) ---------- */
+.wordtip {
+  position: fixed; z-index: 300; pointer-events: none;
+  background: linear-gradient(180deg, #1e2a3c, #141c28);
+  border: 1px solid var(--gold); border-radius: 11px;
+  padding: 9px 13px; max-width: 260px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.55);
+  animation: wtin .13s ease-out;
+}
+@keyframes wtin { from { opacity: 0; transform: translateY(4px) } }
+.wordtip b       { display: block; font-size: 15.5px; color: #fff; }
+.wordtip .wt-lem { display: block; font-size: 12px; color: var(--blue); margin-top: 1px; }
+.wordtip .wt-es  { display: block; font-size: 14.5px; color: var(--gold); margin-top: 5px; }
+.wordtip .wt-meta{ display: block; font-size: 10.5px; color: var(--dim); margin-top: 5px;
+                   text-transform: uppercase; letter-spacing: .4px; }
+.wordtip .wt-meta i { font-style: normal; opacity: .7; }
+.wordtip .wt-none{ display: block; font-size: 12.5px; color: var(--dim); margin-top: 4px; font-style: italic; }

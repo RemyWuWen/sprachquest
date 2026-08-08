@@ -8,6 +8,7 @@
    ============================================================ */
 
 const fs = require('fs');
+const crypto = require('crypto');
 const path = require('path');
 
 const DIR = path.join(__dirname, 'data');
@@ -178,7 +179,136 @@ function buildCoverage(packs, lemmas) {
     c.cov.forEach(i => covered.add(i));
   }));
 
+  buildCoverage.forms = { exact, stems };
+
   return covered.size;
+}
+
+/* ============================================================
+   Display dictionary — for hover-a-word-and-press-Tab.
+   ------------------------------------------------------------
+   Deliberately NOT the coverage normaliser: that one flattens
+   umlauts (ä→a), which collides schön with schon and für with
+   fur. For a translation the learner reads, a wrong answer is
+   worse than none, so this keeps umlauts and matches strictly.
+   ============================================================ */
+const dnorm = s => String(s || '').toLowerCase()
+  .replace(/[^a-zäöüß]/g, '');
+
+// Very common forms no dictionary field carries.
+const IRREGULAR = {
+  'möchte': 'mögen', 'möchtest': 'mögen', 'möchten': 'mögen', 'möchtet': 'mögen',
+  'wäre': 'sein', 'wären': 'sein', 'wärst': 'sein', 'bin': 'sein', 'bist': 'sein',
+  'ist': 'sein', 'sind': 'sein', 'seid': 'sein', 'war': 'sein', 'waren': 'sein', 'gewesen': 'sein',
+  'hätte': 'haben', 'hätten': 'haben', 'hab': 'haben', 'habe': 'haben', 'hast': 'haben',
+  'hat': 'haben', 'habt': 'haben', 'hatte': 'haben', 'hatten': 'haben', 'gehabt': 'haben',
+  'könnte': 'können', 'könnten': 'können', 'kann': 'können', 'kannst': 'können', 'könnt': 'können',
+  'wird': 'werden', 'wirst': 'werden', 'werde': 'werden', 'wurde': 'werden', 'geworden': 'werden',
+  'muss': 'müssen', 'musst': 'müssen', 'müsste': 'müssen',
+  'will': 'wollen', 'willst': 'wollen', 'wollte': 'wollen',
+  'darf': 'dürfen', 'darfst': 'dürfen', 'soll': 'sollen', 'sollst': 'sollen', 'sollte': 'sollen',
+  'weiß': 'wissen', 'weißt': 'wissen', 'wusste': 'wissen',
+  'mir': 'ich', 'mich': 'ich', 'dir': 'du', 'dich': 'du', 'uns': 'wir', 'euch': 'ihr',
+  'ihm': 'er', 'ihn': 'er', 'ihr': 'sie', 'ihnen': 'sie',
+  'dem': 'der', 'den': 'der', 'des': 'der', 'die': 'der', 'das': 'der',
+  'eine': 'ein', 'einen': 'ein', 'einem': 'ein', 'einer': 'ein', 'eines': 'ein'
+};
+
+/** form → lemma index, umlauts intact */
+function buildDict(lemmas) {
+  const byLemma = {};
+  lemmas.forEach((l, i) => { byLemma[dnorm(l.lemma)] = i; });
+
+  const out = {};
+  const put = (form, i) => {
+    const k = dnorm(form);
+    if (k.length > 1 && out[k] === undefined) out[k] = i;
+  };
+
+  lemmas.forEach((l, i) => {
+    put(l.lemma, i);
+    // plural: "die Häuser" → Häuser
+    String(l.plural || '').split(/[\s/(),]+/)
+      .filter(t => t && !['der', 'die', 'das', '—', '-'].includes(t.toLowerCase()))
+      .forEach(t => { put(t, i); put(t + 'n', i); });   // + dative plural: Kinder → Kindern
+    // declared verb forms: "geht / ist gegangen (trennbar)"
+    String(l.irregular || '').split(/[\s/(),·]+/)
+      .filter(t => t && !['ist', 'hat', 'sind', 'haben', 'sein', 'trennbar',
+                          'untrennbar', 'regelmäßig', 'unregelmäßig'].includes(t.toLowerCase()))
+      .forEach(t => put(t, i));
+
+    // regular inflections a learner will actually hover over
+    const base = dnorm(l.lemma);
+    if (l.pos === 'verb' && base.endsWith('en')) {
+      const st = base.slice(0, -2);
+      ['e', 'st', 't', 'en', 'te', 'test', 'ten',
+       'est', 'et', 'ete', 'etest', 'eten'].forEach(suf => put(st + suf, i));
+      put('ge' + st + 't', i);
+    }
+    if (l.pos === 'adjective' || l.pos === 'adj') {
+      ['e', 'er', 'es', 'en', 'em'].forEach(suf => put(base + suf, i));
+    }
+    if (l.pos === 'noun') ['n', 'en', 's', 'e'].forEach(suf => put(base + suf, i));
+  });
+
+  // hand-written irregulars win over any generated guess
+  Object.entries(IRREGULAR).forEach(([form, lemma]) => {
+    const i = byLemma[dnorm(lemma)];
+    if (i !== undefined) out[dnorm(form)] = i;
+  });
+
+  return out;
+}
+
+function buildForms() {
+  const out = {};
+  const m = buildCoverage.forms && buildCoverage.forms.exact;
+  if (m) for (const [form, set] of m) out[form] = Array.from(set)[0];
+  return out;
+}
+
+function buildStems() {
+  const out = {};
+  const m = buildCoverage.forms && buildCoverage.forms.stems;
+  if (m) for (const [stem, set] of m) out[stem] = Array.from(set)[0];
+  return out;
+}
+
+/* ============================================================
+   Cache busting, derived from content.
+   ------------------------------------------------------------
+   Hand-numbered ?v=N is a trap: change a file, forget the bump,
+   and the service worker keeps serving yesterday's build with no
+   error to notice. Hashing the actual bytes makes that impossible.
+   ============================================================ */
+function stampVersion() {
+  const root = __dirname;
+  const files = [
+    'css/style.css', 'data/chunks.js',
+    ...fs.readdirSync(path.join(root, 'js')).filter(f => f.endsWith('.js')).map(f => 'js/' + f)
+  ];
+
+  const h = crypto.createHash('sha1');
+  files.forEach(f => h.update(fs.readFileSync(path.join(root, f))));
+  const ver = h.digest('hex').slice(0, 8);
+
+  // index.html — rewrite every ?v= on a local asset
+  const idxPath = path.join(root, 'index.html');
+  let idx = fs.readFileSync(idxPath, 'utf8');
+  idx = idx.replace(/((?:href|src)="(?:css|js|data)\/[^"?]+)(?:\?v=[^"]*)?"/g, `$1?v=${ver}"`);
+  fs.writeFileSync(idxPath, idx);
+
+  // sw.js — regenerate the precache list from the files that actually exist
+  const swPath = path.join(root, 'sw.js');
+  let sw = fs.readFileSync(swPath, 'utf8');
+  const assets = ["'./'", "'./index.html'", "'./manifest.webmanifest'", "'./icon.svg'"]
+    .concat(files.map(f => `'./${f}?v=${ver}'`));
+  sw = sw.replace(/const CACHE = '[^']*';/, `const CACHE = 'sprachquest-${ver}';`);
+  sw = sw.replace(/const ASSETS = \[[\s\S]*?\];/,
+    'const ASSETS = [\n  ' + assets.join(',\n  ') + '\n];');
+  fs.writeFileSync(swPath, sw);
+
+  return ver;
 }
 
 function main() {
@@ -211,14 +341,20 @@ function main() {
     version: 2,
     builtAt: new Date().toISOString(),
     lemmas: lemmas.map(l => ({ w: l.lemma, a: l.article || '', es: l.es || '', en: l.en || '', p: l.pos || '', r: l.rank || 0 })),
+    // Surface form → lemma index, so hovering any inflected word in the game
+    // ("geht", "Häuser", "gegangen") resolves to its dictionary entry.
+    dict: buildDict(lemmas),
     packs
   };
 
   fs.mkdirSync(DIR, { recursive: true });
   fs.writeFileSync(OUT, 'window.GQ_DATA = ' + JSON.stringify(data) + ';\n');
 
+  const ver = stampVersion();
+
   const kb = (fs.statSync(OUT).size / 1024).toFixed(0);
   console.log(`✓ ${OUT}`);
+  console.log(`  version : ${ver}  (index.html + sw.js stamped)`);
   console.log(`  packs   : ${packs.length}`);
   console.log(`  chunks  : ${total}${dropped ? `  (${dropped} dropped as invalid/duplicate)` : ''}`);
   console.log(`  lemmas  : ${lemmas.length} canonical · ${coveredCount} covered by chunks (${lemmas.length ? Math.round(coveredCount / lemmas.length * 100) : 0}%)`);
