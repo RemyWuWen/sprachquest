@@ -1,0 +1,7589 @@
+{
+  "packId": "core_connect",
+  "title": "Verbindungen",
+  "titleDe": "Verbindungen: Wörter, die alles zusammenhalten",
+  "desc": "Después de este pack puedes unir tus frases como un nativo: dar razones, poner condiciones, situar cosas en el tiempo y el espacio, pedir permiso y sonar natural con las partículas que los alemanes usan en cada frase.",
+  "chunks": [
+    {
+      "id": "core_connect_001",
+      "de": "Genau!",
+      "es": "¡Exacto!",
+      "en": "Exactly!",
+      "gloss": "exacto",
+      "lemmas": [
+        "genau"
+      ],
+      "level": 1,
+      "type": "word",
+      "note": "Es la forma normal de decir 'estoy de acuerdo'."
+    },
+    {
+      "id": "core_connect_002",
+      "de": "Klar!",
+      "es": "¡Claro!",
+      "en": "Sure!",
+      "gloss": "claro",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 1,
+      "type": "word",
+      "note": ""
+    },
+    {
+      "id": "core_connect_003",
+      "de": "Alles klar!",
+      "es": "¡Todo bien! / ¡Vale!",
+      "en": "All good!",
+      "gloss": "todo claro",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Vale como pregunta ('¿todo bien?') y como respuesta ('vale')."
+    },
+    {
+      "id": "core_connect_004",
+      "de": "Na klar!",
+      "es": "¡Pues claro!",
+      "en": "Of course!",
+      "gloss": "pues claro",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_005",
+      "de": "Echt?",
+      "es": "¿En serio?",
+      "en": "Really?",
+      "gloss": "de-verdad",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_006",
+      "de": "Echt cool!",
+      "es": "¡Superguay!",
+      "en": "Really cool!",
+      "gloss": "de-verdad guay",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "'echt' delante de un adjetivo significa 'muy'."
+    },
+    {
+      "id": "core_connect_007",
+      "de": "Wirklich?",
+      "es": "¿De verdad?",
+      "en": "Really?",
+      "gloss": "realmente",
+      "lemmas": [
+        "wirklich"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_008",
+      "de": "Natürlich!",
+      "es": "¡Naturalmente!",
+      "en": "Of course!",
+      "gloss": "naturalmente",
+      "lemmas": [
+        "natürlich"
+      ],
+      "level": 1,
+      "type": "word",
+      "note": ""
+    },
+    {
+      "id": "core_connect_009",
+      "de": "Vielleicht später.",
+      "es": "Quizás luego.",
+      "en": "Maybe later.",
+      "gloss": "quizás más-tarde",
+      "lemmas": [
+        "vielleicht"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_010",
+      "de": "Tatsächlich?",
+      "es": "¿De verdad? ¿En serio?",
+      "en": "Really? Is that so?",
+      "gloss": "efectivamente",
+      "lemmas": [
+        "tatsächlich"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Más formal que 'Echt?'."
+    },
+    {
+      "id": "core_connect_011",
+      "de": "Und du?",
+      "es": "¿Y tú?",
+      "en": "And you?",
+      "gloss": "y tú",
+      "lemmas": [
+        "und"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_012",
+      "de": "Ich auch.",
+      "es": "Yo también.",
+      "en": "Me too.",
+      "gloss": "yo también",
+      "lemmas": [
+        "auch"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_013",
+      "de": "Ich auch nicht.",
+      "es": "Yo tampoco.",
+      "en": "Me neither.",
+      "gloss": "yo también no",
+      "lemmas": [
+        "auch"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "'tampoco' se dice literalmente 'también no'."
+    },
+    {
+      "id": "core_connect_014",
+      "de": "Bis gleich!",
+      "es": "¡Hasta ahora!",
+      "en": "See you in a bit!",
+      "gloss": "hasta enseguida",
+      "lemmas": [
+        "bis",
+        "gleich"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Se usa si te ves con esa persona en minutos."
+    },
+    {
+      "id": "core_connect_015",
+      "de": "Bis bald!",
+      "es": "¡Hasta pronto!",
+      "en": "See you soon!",
+      "gloss": "hasta pronto",
+      "lemmas": [
+        "bis",
+        "bald"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_016",
+      "de": "Bis morgen!",
+      "es": "¡Hasta mañana!",
+      "en": "See you tomorrow!",
+      "gloss": "hasta mañana",
+      "lemmas": [
+        "bis",
+        "morgen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_017",
+      "de": "Bis dann!",
+      "es": "¡Hasta luego!",
+      "en": "See you then!",
+      "gloss": "hasta entonces",
+      "lemmas": [
+        "bis",
+        "dann"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_018",
+      "de": "Bis morgen früh!",
+      "es": "¡Hasta mañana por la mañana!",
+      "en": "See you tomorrow morning!",
+      "gloss": "hasta mañana temprano",
+      "lemmas": [
+        "bis",
+        "morgen",
+        "früh"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_019",
+      "de": "Noch nicht.",
+      "es": "Todavía no.",
+      "en": "Not yet.",
+      "gloss": "todavía no",
+      "lemmas": [
+        "noch"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_020",
+      "de": "Schon gut.",
+      "es": "No pasa nada. / Déjalo.",
+      "en": "It's fine.",
+      "gloss": "ya bien",
+      "lemmas": [
+        "schon"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Se dice para quitar importancia a algo."
+    },
+    {
+      "id": "core_connect_021",
+      "de": "Nicht mehr, danke.",
+      "es": "Ya no más, gracias.",
+      "en": "No more, thanks.",
+      "gloss": "no más gracias",
+      "lemmas": [
+        "mehr"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_022",
+      "de": "Nur ein bisschen.",
+      "es": "Sólo un poquito.",
+      "en": "Just a little.",
+      "gloss": "sólo un poquito",
+      "lemmas": [
+        "nur"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_023",
+      "de": "Jetzt nicht.",
+      "es": "Ahora no.",
+      "en": "Not now.",
+      "gloss": "ahora no",
+      "lemmas": [
+        "jetzt"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_024",
+      "de": "Heute nicht.",
+      "es": "Hoy no.",
+      "en": "Not today.",
+      "gloss": "hoy no",
+      "lemmas": [
+        "heute"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_025",
+      "de": "Zu teuer!",
+      "es": "¡Demasiado caro!",
+      "en": "Too expensive!",
+      "gloss": "demasiado caro",
+      "lemmas": [
+        "zu"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Aquí 'zu' no es 'a', es 'demasiado'."
+    },
+    {
+      "id": "core_connect_026",
+      "de": "Zu spät!",
+      "es": "¡Demasiado tarde!",
+      "en": "Too late!",
+      "gloss": "demasiado tarde",
+      "lemmas": [
+        "zu",
+        "spät"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_027",
+      "de": "Sehr gut!",
+      "es": "¡Muy bien!",
+      "en": "Very good!",
+      "gloss": "muy bueno",
+      "lemmas": [
+        "sehr"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_028",
+      "de": "Sehr gern!",
+      "es": "¡Con mucho gusto!",
+      "en": "Gladly!",
+      "gloss": "muy con-gusto",
+      "lemmas": [
+        "sehr",
+        "gern"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "Respuesta típica a un ofrecimiento."
+    },
+    {
+      "id": "core_connect_029",
+      "de": "Nie wieder!",
+      "es": "¡Nunca más!",
+      "en": "Never again!",
+      "gloss": "nunca otra-vez",
+      "lemmas": [
+        "nie",
+        "wieder"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_030",
+      "de": "Schon wieder!",
+      "es": "¡Otra vez!",
+      "en": "Again!",
+      "gloss": "ya otra-vez",
+      "lemmas": [
+        "schon",
+        "wieder"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Con tono de fastidio."
+    },
+    {
+      "id": "core_connect_031",
+      "de": "Immer wieder!",
+      "es": "¡Una y otra vez!",
+      "en": "Over and over!",
+      "gloss": "siempre otra-vez",
+      "lemmas": [
+        "immer",
+        "wieder"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_032",
+      "de": "Wie immer.",
+      "es": "Como siempre.",
+      "en": "As always.",
+      "gloss": "como siempre",
+      "lemmas": [
+        "immer"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_033",
+      "de": "Genau so!",
+      "es": "¡Así, exacto!",
+      "en": "Exactly like that!",
+      "gloss": "exacto así",
+      "lemmas": [
+        "genau",
+        "so"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_034",
+      "de": "Na also!",
+      "es": "¡Pues eso! / ¿Ves?",
+      "en": "There you go!",
+      "gloss": "pues entonces",
+      "lemmas": [
+        "also"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Se dice cuando por fin pasa lo que esperabas."
+    },
+    {
+      "id": "core_connect_035",
+      "de": "Doch!",
+      "es": "¡Que sí!",
+      "en": "Yes it is! (contradicting)",
+      "gloss": "sí-que-sí",
+      "lemmas": [
+        "doch"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "Sólo se usa para contradecir una frase negativa."
+    },
+    {
+      "id": "core_connect_036",
+      "de": "Trotzdem danke!",
+      "es": "¡Gracias igualmente!",
+      "en": "Thanks anyway!",
+      "gloss": "aun-así gracias",
+      "lemmas": [
+        "trotzdem"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_037",
+      "de": "Leider nicht.",
+      "es": "Por desgracia no.",
+      "en": "Unfortunately not.",
+      "gloss": "lamentablemente no",
+      "lemmas": [
+        "leider"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_038",
+      "de": "Wahrscheinlich nicht.",
+      "es": "Probablemente no.",
+      "en": "Probably not.",
+      "gloss": "probablemente no",
+      "lemmas": [
+        "wahrscheinlich"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_039",
+      "de": "Nicht unbedingt.",
+      "es": "No necesariamente.",
+      "en": "Not necessarily.",
+      "gloss": "no absolutamente",
+      "lemmas": [
+        "unbedingt"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_040",
+      "de": "Alle zusammen!",
+      "es": "¡Todos juntos!",
+      "en": "All together!",
+      "gloss": "todos juntos",
+      "lemmas": [
+        "alle",
+        "zusammen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_041",
+      "de": "Zusammen oder getrennt?",
+      "es": "¿Junto o por separado?",
+      "en": "Together or separately?",
+      "gloss": "juntos o separado",
+      "lemmas": [
+        "zusammen",
+        "oder"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Es lo que pregunta el camarero al pagar."
+    },
+    {
+      "id": "core_connect_042",
+      "de": "Ganz allein?",
+      "es": "¿Tú solo del todo?",
+      "en": "All alone?",
+      "gloss": "del-todo solo",
+      "lemmas": [
+        "ganz",
+        "allein"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_043",
+      "de": "Du zuerst!",
+      "es": "¡Tú primero!",
+      "en": "You first!",
+      "gloss": "tú primero",
+      "lemmas": [
+        "zuerst"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_044",
+      "de": "Warte mal!",
+      "es": "¡Espera un momento!",
+      "en": "Hang on!",
+      "gloss": "espera vez",
+      "lemmas": [
+        "mal"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "'mal' aquí sólo suaviza la orden, no se traduce."
+    },
+    {
+      "id": "core_connect_045",
+      "de": "Komm mal her!",
+      "es": "¡Ven aquí un momento!",
+      "en": "Come here a sec!",
+      "gloss": "ven vez hacia-aquí",
+      "lemmas": [
+        "mal"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_046",
+      "de": "Endlich!",
+      "es": "¡Por fin!",
+      "en": "Finally!",
+      "gloss": "por-fin",
+      "lemmas": [
+        "endlich"
+      ],
+      "level": 1,
+      "type": "word",
+      "note": ""
+    },
+    {
+      "id": "core_connect_047",
+      "de": "Ja, allerdings!",
+      "es": "¡Ya lo creo!",
+      "en": "Yes, indeed!",
+      "gloss": "sí ciertamente",
+      "lemmas": [
+        "allerdings"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_048",
+      "de": "Sonst noch etwas?",
+      "es": "¿Algo más?",
+      "en": "Anything else?",
+      "gloss": "si-no todavía algo",
+      "lemmas": [
+        "sonst",
+        "noch",
+        "etwas"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Lo dicen en tiendas y panaderías."
+    },
+    {
+      "id": "core_connect_049",
+      "de": "Irgendwie komisch.",
+      "es": "Es como raro.",
+      "en": "Kind of weird.",
+      "gloss": "de-alguna-manera raro",
+      "lemmas": [
+        "irgendwie"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_050",
+      "de": "Ganz sicher!",
+      "es": "¡Segurísimo!",
+      "en": "Absolutely sure!",
+      "gloss": "del-todo seguro",
+      "lemmas": [
+        "ganz",
+        "sicher"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_051",
+      "de": "Ohne mich!",
+      "es": "¡Sin mí!",
+      "en": "Count me out!",
+      "gloss": "sin mí",
+      "lemmas": [
+        "ohne"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_052",
+      "de": "Um acht, okay?",
+      "es": "A las ocho, ¿vale?",
+      "en": "At eight, okay?",
+      "gloss": "a las-ocho vale",
+      "lemmas": [
+        "um"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Para las horas siempre se usa 'um'."
+    },
+    {
+      "id": "core_connect_053",
+      "de": "Für dich.",
+      "es": "Para ti.",
+      "en": "For you.",
+      "gloss": "para ti",
+      "lemmas": [
+        "für"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_054",
+      "de": "Bei mir, okay?",
+      "es": "En mi casa, ¿vale?",
+      "en": "At my place, okay?",
+      "gloss": "en-casa-de mí vale",
+      "lemmas": [
+        "bei"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "'bei mir' significa 'en mi casa'."
+    },
+    {
+      "id": "core_connect_055",
+      "de": "Seit gestern.",
+      "es": "Desde ayer.",
+      "en": "Since yesterday.",
+      "gloss": "desde ayer",
+      "lemmas": [
+        "seit",
+        "gestern"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_056",
+      "de": "Von acht bis zehn.",
+      "es": "De ocho a diez.",
+      "en": "From eight to ten.",
+      "gloss": "de ocho hasta diez",
+      "lemmas": [
+        "von",
+        "bis"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_057",
+      "de": "Aus Spanien.",
+      "es": "De España.",
+      "en": "From Spain.",
+      "gloss": "de España",
+      "lemmas": [
+        "aus"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "Respuesta a '¿de dónde eres?'."
+    },
+    {
+      "id": "core_connect_058",
+      "de": "Zu Hause.",
+      "es": "En casa.",
+      "en": "At home.",
+      "gloss": "a casa",
+      "lemmas": [
+        "zu"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "'zu Hause' es estar en casa; 'nach Hause' es ir a casa."
+    },
+    {
+      "id": "core_connect_059",
+      "de": "Nach Hause!",
+      "es": "¡A casa!",
+      "en": "Home!",
+      "gloss": "hacia casa",
+      "lemmas": [
+        "nach"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_060",
+      "de": "Mit dem Bus.",
+      "es": "En autobús.",
+      "en": "By bus.",
+      "gloss": "con el bus",
+      "lemmas": [
+        "mit"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "El transporte va con 'mit', no con 'in'."
+    },
+    {
+      "id": "core_connect_061",
+      "de": "Gegen sechs.",
+      "es": "Sobre las seis.",
+      "en": "Around six.",
+      "gloss": "contra seis",
+      "lemmas": [
+        "gegen"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": "Con horas, 'gegen' significa 'sobre, hacia'."
+    },
+    {
+      "id": "core_connect_062",
+      "de": "Hier, bitte!",
+      "es": "¡Aquí tienes!",
+      "en": "Here you go!",
+      "gloss": "aquí por-favor",
+      "lemmas": [
+        "hier"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_063",
+      "de": "Da ist es!",
+      "es": "¡Ahí está!",
+      "en": "There it is!",
+      "gloss": "ahí es ello",
+      "lemmas": [
+        "da"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_064",
+      "de": "Nur noch fünf Minuten!",
+      "es": "¡Sólo cinco minutos más!",
+      "en": "Just five more minutes!",
+      "gloss": "sólo todavía cinco minutos",
+      "lemmas": [
+        "nur",
+        "noch"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_065",
+      "de": "Und dann?",
+      "es": "¿Y luego?",
+      "en": "And then?",
+      "gloss": "y entonces",
+      "lemmas": [
+        "und",
+        "dann"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_066",
+      "de": "Ich komme gleich.",
+      "es": "Ahora voy.",
+      "en": "I'm coming in a sec.",
+      "gloss": "yo vengo enseguida",
+      "lemmas": [
+        "gleich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_067",
+      "de": "Ich komme sofort.",
+      "es": "Voy enseguida.",
+      "en": "I'm coming right away.",
+      "gloss": "yo vengo inmediatamente",
+      "lemmas": [
+        "sofort"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_068",
+      "de": "Mach das sofort!",
+      "es": "¡Haz eso ahora mismo!",
+      "en": "Do that right now!",
+      "gloss": "haz eso inmediatamente",
+      "lemmas": [
+        "sofort"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_069",
+      "de": "Ich bin gleich da.",
+      "es": "Llego enseguida.",
+      "en": "I'll be there in a moment.",
+      "gloss": "yo estoy enseguida ahí",
+      "lemmas": [
+        "gleich",
+        "da"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_070",
+      "de": "Bist du schon da?",
+      "es": "¿Ya has llegado?",
+      "en": "Are you there already?",
+      "gloss": "estás tú ya ahí",
+      "lemmas": [
+        "schon",
+        "da"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_071",
+      "de": "Ich bin noch hier.",
+      "es": "Todavía estoy aquí.",
+      "en": "I'm still here.",
+      "gloss": "yo estoy todavía aquí",
+      "lemmas": [
+        "noch",
+        "hier"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_072",
+      "de": "Ich wohne hier.",
+      "es": "Vivo aquí.",
+      "en": "I live here.",
+      "gloss": "yo vivo aquí",
+      "lemmas": [
+        "hier"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_073",
+      "de": "Immer noch?",
+      "es": "¿Todavía?",
+      "en": "Still?",
+      "gloss": "siempre todavía",
+      "lemmas": [
+        "immer",
+        "noch"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'immer noch' es 'todavía' con énfasis."
+    },
+    {
+      "id": "core_connect_074",
+      "de": "Ich habe immer Hunger.",
+      "es": "Siempre tengo hambre.",
+      "en": "I'm always hungry.",
+      "gloss": "yo tengo siempre hambre",
+      "lemmas": [
+        "immer"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_075",
+      "de": "Das ist auch gut.",
+      "es": "Eso también está bien.",
+      "en": "That's good too.",
+      "gloss": "eso es también bueno",
+      "lemmas": [
+        "auch"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_076",
+      "de": "Es ist schon spät.",
+      "es": "Ya es tarde.",
+      "en": "It's already late.",
+      "gloss": "ello es ya tarde",
+      "lemmas": [
+        "schon",
+        "spät"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_077",
+      "de": "Ich stehe früh auf.",
+      "es": "Me levanto temprano.",
+      "en": "I get up early.",
+      "gloss": "yo estoy-de-pie temprano arriba",
+      "lemmas": [
+        "früh",
+        "auf"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'aufstehen' es separable: el 'auf' se va al final."
+    },
+    {
+      "id": "core_connect_078",
+      "de": "Der Fernseher ist aus.",
+      "es": "La tele está apagada.",
+      "en": "The TV is off.",
+      "gloss": "el televisor está apagado",
+      "lemmas": [
+        "aus"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'aus' también significa 'apagado'."
+    },
+    {
+      "id": "core_connect_079",
+      "de": "Die Tür ist auf.",
+      "es": "La puerta está abierta.",
+      "en": "The door is open.",
+      "gloss": "la puerta está abierta",
+      "lemmas": [
+        "auf"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_080",
+      "de": "Das Buch liegt auf dem Tisch.",
+      "es": "El libro está sobre la mesa.",
+      "en": "The book is on the table.",
+      "gloss": "el libro yace sobre la mesa",
+      "lemmas": [
+        "auf"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'auf' + dativo cuando no hay movimiento."
+    },
+    {
+      "id": "core_connect_081",
+      "de": "Der Hund ist unter dem Tisch.",
+      "es": "El perro está debajo de la mesa.",
+      "en": "The dog is under the table.",
+      "gloss": "el perro está debajo-de la mesa",
+      "lemmas": [
+        "unter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_082",
+      "de": "Das bleibt unter uns.",
+      "es": "Que quede entre nosotros.",
+      "en": "That stays between us.",
+      "gloss": "eso queda entre nosotros",
+      "lemmas": [
+        "unter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'unter uns' = entre nosotros, en confianza."
+    },
+    {
+      "id": "core_connect_083",
+      "de": "Ich warte vor dem Haus.",
+      "es": "Espero delante de la casa.",
+      "en": "I'm waiting in front of the house.",
+      "gloss": "yo espero delante-de la casa",
+      "lemmas": [
+        "vor"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_084",
+      "de": "Der Garten ist hinter dem Haus.",
+      "es": "El jardín está detrás de la casa.",
+      "en": "The garden is behind the house.",
+      "gloss": "el jardín está detrás-de la casa",
+      "lemmas": [
+        "hinter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_085",
+      "de": "Setz dich neben mich!",
+      "es": "¡Siéntate a mi lado!",
+      "en": "Sit next to me!",
+      "gloss": "siéntate a-ti al-lado-de mí",
+      "lemmas": [
+        "neben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con movimiento, 'neben' lleva acusativo: 'mich'."
+    },
+    {
+      "id": "core_connect_086",
+      "de": "Er wohnt neben mir.",
+      "es": "Vive al lado de mi casa.",
+      "en": "He lives next door to me.",
+      "gloss": "él vive al-lado-de mí",
+      "lemmas": [
+        "neben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Sin movimiento, dativo: 'mir'."
+    },
+    {
+      "id": "core_connect_087",
+      "de": "Die Bäckerei ist gleich gegenüber.",
+      "es": "La panadería está justo enfrente.",
+      "en": "The bakery is right across.",
+      "gloss": "la panadería está enseguida enfrente",
+      "lemmas": [
+        "gegenüber",
+        "gleich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_088",
+      "de": "Er sitzt mir gegenüber.",
+      "es": "Está sentado enfrente de mí.",
+      "en": "He's sitting across from me.",
+      "gloss": "él sienta a-mí enfrente",
+      "lemmas": [
+        "gegenüber"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'gegenüber' va detrás del pronombre y pide dativo."
+    },
+    {
+      "id": "core_connect_089",
+      "de": "Wir gehen durch den Park.",
+      "es": "Vamos por el parque.",
+      "en": "We're walking through the park.",
+      "gloss": "nosotros vamos por el parque",
+      "lemmas": [
+        "durch"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'durch' siempre lleva acusativo: 'den Park'."
+    },
+    {
+      "id": "core_connect_090",
+      "de": "Komm, wir gehen über die Straße.",
+      "es": "Venga, cruzamos la calle.",
+      "en": "Come on, let's cross the street.",
+      "gloss": "ven nosotros vamos sobre la calle",
+      "lemmas": [
+        "über"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_091",
+      "de": "Das kostet über hundert Euro.",
+      "es": "Eso cuesta más de cien euros.",
+      "en": "That costs over a hundred euros.",
+      "gloss": "eso cuesta sobre cien euros",
+      "lemmas": [
+        "über"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con números, 'über' significa 'más de'."
+    },
+    {
+      "id": "core_connect_092",
+      "de": "Der Bus kommt um die Ecke.",
+      "es": "El autobús viene doblando la esquina.",
+      "en": "The bus is coming round the corner.",
+      "gloss": "el bus viene alrededor la esquina",
+      "lemmas": [
+        "um"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_093",
+      "de": "Ich warte an der Ecke.",
+      "es": "Espero en la esquina.",
+      "en": "I'll wait at the corner.",
+      "gloss": "yo espero en la esquina",
+      "lemmas": [
+        "an"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_094",
+      "de": "Ich denke an dich.",
+      "es": "Pienso en ti.",
+      "en": "I'm thinking of you.",
+      "gloss": "yo pienso a ti",
+      "lemmas": [
+        "an"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'denken an' + acusativo; nunca 'denken in'."
+    },
+    {
+      "id": "core_connect_095",
+      "de": "Ich gehe in die Stadt.",
+      "es": "Voy al centro.",
+      "en": "I'm going into town.",
+      "gloss": "yo voy en la ciudad",
+      "lemmas": [
+        "in"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con movimiento, 'in' + acusativo: 'die Stadt'."
+    },
+    {
+      "id": "core_connect_096",
+      "de": "Wir sind in der Schule.",
+      "es": "Estamos en el colegio.",
+      "en": "We're at school.",
+      "gloss": "nosotros estamos en la escuela",
+      "lemmas": [
+        "in"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_097",
+      "de": "Ich komme aus Spanien.",
+      "es": "Soy de España.",
+      "en": "I'm from Spain.",
+      "gloss": "yo vengo de España",
+      "lemmas": [
+        "aus"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_098",
+      "de": "Das ist von mir.",
+      "es": "Esto es de mi parte.",
+      "en": "That's from me.",
+      "gloss": "eso es de mí",
+      "lemmas": [
+        "von"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_099",
+      "de": "Ich fahre nach Berlin.",
+      "es": "Voy a Berlín.",
+      "en": "I'm going to Berlin.",
+      "gloss": "yo viajo hacia Berlín",
+      "lemmas": [
+        "nach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con ciudades y países se usa 'nach', no 'zu'."
+    },
+    {
+      "id": "core_connect_100",
+      "de": "Nach der Schule spielen wir.",
+      "es": "Después del cole jugamos.",
+      "en": "After school we'll play.",
+      "gloss": "después-de la escuela jugamos nosotros",
+      "lemmas": [
+        "nach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Si empiezas por 'nach der Schule', el verbo va antes del sujeto."
+    },
+    {
+      "id": "core_connect_101",
+      "de": "Kommst du mit?",
+      "es": "¿Te vienes?",
+      "en": "Are you coming along?",
+      "gloss": "vienes tú con",
+      "lemmas": [
+        "mit"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'mitkommen' es separable."
+    },
+    {
+      "id": "core_connect_102",
+      "de": "Ich bin bei meiner Oma.",
+      "es": "Estoy en casa de mi abuela.",
+      "en": "I'm at my grandma's.",
+      "gloss": "yo estoy en-casa-de mi abuela",
+      "lemmas": [
+        "bei"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_103",
+      "de": "Einen Kaffee ohne Zucker, bitte.",
+      "es": "Un café sin azúcar, por favor.",
+      "en": "A coffee without sugar, please.",
+      "gloss": "un café sin azúcar por-favor",
+      "lemmas": [
+        "ohne"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_104",
+      "de": "Ich habe nichts gegen ihn.",
+      "es": "No tengo nada contra él.",
+      "en": "I've got nothing against him.",
+      "gloss": "yo tengo nada contra él",
+      "lemmas": [
+        "gegen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_105",
+      "de": "Das bleibt zwischen uns.",
+      "es": "Esto queda entre nosotros.",
+      "en": "That stays between us.",
+      "gloss": "eso queda entre nosotros",
+      "lemmas": [
+        "zwischen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_106",
+      "de": "Zwischen zwei und drei.",
+      "es": "Entre las dos y las tres.",
+      "en": "Between two and three.",
+      "gloss": "entre dos y tres",
+      "lemmas": [
+        "zwischen",
+        "und"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_107",
+      "de": "Ich wohne seit einem Jahr hier.",
+      "es": "Vivo aquí desde hace un año.",
+      "en": "I've lived here for a year.",
+      "gloss": "yo vivo desde un año aquí",
+      "lemmas": [
+        "seit",
+        "hier"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con 'seit' el alemán usa presente donde el español dice 'desde hace'."
+    },
+    {
+      "id": "core_connect_108",
+      "de": "Das ist zu viel.",
+      "es": "Eso es demasiado.",
+      "en": "That's too much.",
+      "gloss": "eso es demasiado mucho",
+      "lemmas": [
+        "zu",
+        "viel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_109",
+      "de": "Vielen Dank!",
+      "es": "¡Muchas gracias!",
+      "en": "Thanks a lot!",
+      "gloss": "muchas gracias",
+      "lemmas": [
+        "viel"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_110",
+      "de": "Ich will mehr.",
+      "es": "Quiero más.",
+      "en": "I want more.",
+      "gloss": "yo quiero más",
+      "lemmas": [
+        "mehr",
+        "wollen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_111",
+      "de": "Ich habe keine Lust mehr.",
+      "es": "Ya no tengo ganas.",
+      "en": "I don't feel like it anymore.",
+      "gloss": "yo tengo ninguna gana más",
+      "lemmas": [
+        "mehr"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'nicht/kein ... mehr' es 'ya no'."
+    },
+    {
+      "id": "core_connect_112",
+      "de": "Kaffee oder Tee?",
+      "es": "¿Café o té?",
+      "en": "Coffee or tea?",
+      "gloss": "café o té",
+      "lemmas": [
+        "oder"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_113",
+      "de": "Das ist gut, aber teuer.",
+      "es": "Está bien, pero es caro.",
+      "en": "It's good but expensive.",
+      "gloss": "eso es bueno pero caro",
+      "lemmas": [
+        "aber"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_114",
+      "de": "Ja, aber nicht heute.",
+      "es": "Sí, pero hoy no.",
+      "en": "Yes, but not today.",
+      "gloss": "sí pero no hoy",
+      "lemmas": [
+        "aber",
+        "heute"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_115",
+      "de": "Was ist denn los?",
+      "es": "¿Pero qué pasa?",
+      "en": "What's going on?",
+      "gloss": "qué es pues suelto",
+      "lemmas": [
+        "denn"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'denn' en preguntas suena más natural y menos seco."
+    },
+    {
+      "id": "core_connect_116",
+      "de": "Wo bist du denn?",
+      "es": "Pero ¿dónde estás?",
+      "en": "Where are you, then?",
+      "gloss": "dónde estás tú pues",
+      "lemmas": [
+        "denn"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_117",
+      "de": "Sag mal, hast du Zeit?",
+      "es": "Oye, ¿tienes tiempo?",
+      "en": "Say, do you have time?",
+      "gloss": "di vez tienes tú tiempo",
+      "lemmas": [
+        "mal"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'Sag mal' es como el 'oye' español."
+    },
+    {
+      "id": "core_connect_118",
+      "de": "Komm doch mit!",
+      "es": "¡Anda, vente!",
+      "en": "Come along, why don't you!",
+      "gloss": "ven sí-que-sí con",
+      "lemmas": [
+        "doch",
+        "mit"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'doch' aquí hace la invitación más cálida."
+    },
+    {
+      "id": "core_connect_119",
+      "de": "Das ist doch klar!",
+      "es": "¡Pero si está clarísimo!",
+      "en": "That's obvious, isn't it!",
+      "gloss": "eso es sí-que-sí claro",
+      "lemmas": [
+        "doch",
+        "klar"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_120",
+      "de": "Das ist halt so.",
+      "es": "Es que es así.",
+      "en": "That's just how it is.",
+      "gloss": "eso es simplemente así",
+      "lemmas": [
+        "halt",
+        "so"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'halt' es muy del sur de Alemania; suena resignado."
+    },
+    {
+      "id": "core_connect_121",
+      "de": "Das ist eben so.",
+      "es": "Pues es así.",
+      "en": "That's just the way it is.",
+      "gloss": "eso es justamente así",
+      "lemmas": [
+        "eben",
+        "so"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Igual que 'halt', pero más del norte."
+    },
+    {
+      "id": "core_connect_122",
+      "de": "Na eben!",
+      "es": "¡Pues eso!",
+      "en": "Exactly!",
+      "gloss": "pues justamente",
+      "lemmas": [
+        "eben"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_123",
+      "de": "Ich war eben noch da.",
+      "es": "Acabo de estar ahí.",
+      "en": "I was just there.",
+      "gloss": "yo estaba justo todavía ahí",
+      "lemmas": [
+        "eben",
+        "noch",
+        "da"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Otro uso de 'eben': 'hace un momento'."
+    },
+    {
+      "id": "core_connect_124",
+      "de": "Das ist so teuer!",
+      "es": "¡Es tan caro!",
+      "en": "It's so expensive!",
+      "gloss": "eso es tan caro",
+      "lemmas": [
+        "so"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_125",
+      "de": "Ich bin ganz allein zu Hause.",
+      "es": "Estoy solo del todo en casa.",
+      "en": "I'm all alone at home.",
+      "gloss": "yo estoy del-todo solo a casa",
+      "lemmas": [
+        "ganz",
+        "allein",
+        "zu"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_126",
+      "de": "Das ist ganz einfach.",
+      "es": "Es muy fácil.",
+      "en": "That's really easy.",
+      "gloss": "eso es del-todo fácil",
+      "lemmas": [
+        "ganz",
+        "einfach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_127",
+      "de": "Mach es einfach!",
+      "es": "¡Hazlo y ya está!",
+      "en": "Just do it!",
+      "gloss": "haz ello simplemente",
+      "lemmas": [
+        "einfach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Aquí 'einfach' no es 'fácil' sino 'simplemente'."
+    },
+    {
+      "id": "core_connect_128",
+      "de": "Das ist richtig.",
+      "es": "Eso es correcto.",
+      "en": "That's right.",
+      "gloss": "eso es correcto",
+      "lemmas": [
+        "richtig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_129",
+      "de": "Das war richtig gut!",
+      "es": "¡Estuvo muy bien!",
+      "en": "That was really good!",
+      "gloss": "eso estaba correcto bueno",
+      "lemmas": [
+        "richtig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'richtig' delante de un adjetivo significa 'muy'."
+    },
+    {
+      "id": "core_connect_130",
+      "de": "Ich bin fast fertig.",
+      "es": "Casi he terminado.",
+      "en": "I'm almost done.",
+      "gloss": "yo estoy casi listo",
+      "lemmas": [
+        "fast"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_131",
+      "de": "Ich gehe fast nie aus.",
+      "es": "Casi nunca salgo.",
+      "en": "I almost never go out.",
+      "gloss": "yo voy casi nunca fuera",
+      "lemmas": [
+        "fast",
+        "nie"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_132",
+      "de": "Ich habe nie Zeit.",
+      "es": "Nunca tengo tiempo.",
+      "en": "I never have time.",
+      "gloss": "yo tengo nunca tiempo",
+      "lemmas": [
+        "nie"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_133",
+      "de": "Wie oft?",
+      "es": "¿Cuántas veces?",
+      "en": "How often?",
+      "gloss": "cómo a-menudo",
+      "lemmas": [
+        "oft"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_134",
+      "de": "Ich gehe oft ins Kino.",
+      "es": "Voy a menudo al cine.",
+      "en": "I often go to the cinema.",
+      "gloss": "yo voy a-menudo en-el cine",
+      "lemmas": [
+        "oft"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_135",
+      "de": "Manchmal ist das so.",
+      "es": "A veces es así.",
+      "en": "Sometimes it's like that.",
+      "gloss": "a-veces es eso así",
+      "lemmas": [
+        "manchmal",
+        "so"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_136",
+      "de": "Manchmal habe ich keine Lust.",
+      "es": "A veces no tengo ganas.",
+      "en": "Sometimes I don't feel like it.",
+      "gloss": "a-veces tengo yo ninguna gana",
+      "lemmas": [
+        "manchmal"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Al empezar con 'manchmal', el verbo va segundo y el sujeto detrás."
+    },
+    {
+      "id": "core_connect_137",
+      "de": "Sag das nochmal, bitte.",
+      "es": "Dilo otra vez, por favor.",
+      "en": "Say that again, please.",
+      "gloss": "di eso otra-vez por-favor",
+      "lemmas": [
+        "nochmal"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_138",
+      "de": "Wie lange noch?",
+      "es": "¿Cuánto queda?",
+      "en": "How much longer?",
+      "gloss": "cómo largo todavía",
+      "lemmas": [
+        "lange",
+        "noch"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_139",
+      "de": "Das dauert nicht lange.",
+      "es": "No tarda mucho.",
+      "en": "It won't take long.",
+      "gloss": "eso dura no largo",
+      "lemmas": [
+        "lange"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_140",
+      "de": "Er kommt bald.",
+      "es": "Viene pronto.",
+      "en": "He's coming soon.",
+      "gloss": "él viene pronto",
+      "lemmas": [
+        "bald"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_141",
+      "de": "Gestern war es besser.",
+      "es": "Ayer estaba mejor.",
+      "en": "It was better yesterday.",
+      "gloss": "ayer estaba ello mejor",
+      "lemmas": [
+        "gestern"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_142",
+      "de": "Morgen habe ich frei.",
+      "es": "Mañana tengo libre.",
+      "en": "Tomorrow I'm off.",
+      "gloss": "mañana tengo yo libre",
+      "lemmas": [
+        "morgen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Cuidado: 'morgen' es mañana (día) y 'Morgen' es la mañana."
+    },
+    {
+      "id": "core_connect_143",
+      "de": "Heute Abend, okay?",
+      "es": "Esta noche, ¿vale?",
+      "en": "Tonight, okay?",
+      "gloss": "hoy tarde vale",
+      "lemmas": [
+        "heute"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_144",
+      "de": "Alle sind schon da.",
+      "es": "Ya están todos.",
+      "en": "Everyone's here already.",
+      "gloss": "todos están ya ahí",
+      "lemmas": [
+        "alle",
+        "schon",
+        "da"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_145",
+      "de": "Ich habe mehrere Fragen.",
+      "es": "Tengo varias preguntas.",
+      "en": "I have several questions.",
+      "gloss": "yo tengo varias preguntas",
+      "lemmas": [
+        "mehrere"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_146",
+      "de": "Wir bleiben mehrere Tage.",
+      "es": "Nos quedamos varios días.",
+      "en": "We're staying several days.",
+      "gloss": "nosotros quedamos varios días",
+      "lemmas": [
+        "mehrere"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_147",
+      "de": "Ein anderes Mal.",
+      "es": "En otra ocasión.",
+      "en": "Another time.",
+      "gloss": "una otra vez",
+      "lemmas": [
+        "andere"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_148",
+      "de": "Die anderen kommen später.",
+      "es": "Los demás vienen luego.",
+      "en": "The others are coming later.",
+      "gloss": "los otros vienen más-tarde",
+      "lemmas": [
+        "andere"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_149",
+      "de": "Jeden Tag das Gleiche!",
+      "es": "¡Todos los días lo mismo!",
+      "en": "The same thing every day!",
+      "gloss": "cada día lo mismo",
+      "lemmas": [
+        "jeder"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_150",
+      "de": "Ist das genug?",
+      "es": "¿Es suficiente?",
+      "en": "Is that enough?",
+      "gloss": "es eso suficiente",
+      "lemmas": [
+        "genug"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_151",
+      "de": "Ich habe genug davon.",
+      "es": "Estoy harto de eso.",
+      "en": "I've had enough of it.",
+      "gloss": "yo tengo suficiente de-eso",
+      "lemmas": [
+        "genug"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_152",
+      "de": "Bist du sicher?",
+      "es": "¿Estás seguro?",
+      "en": "Are you sure?",
+      "gloss": "estás tú seguro",
+      "lemmas": [
+        "sicher"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_153",
+      "de": "Ist das möglich?",
+      "es": "¿Es posible?",
+      "en": "Is that possible?",
+      "gloss": "es eso posible",
+      "lemmas": [
+        "möglich"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_154",
+      "de": "So schnell wie möglich!",
+      "es": "¡Lo antes posible!",
+      "en": "As soon as possible!",
+      "gloss": "tan rápido como posible",
+      "lemmas": [
+        "so",
+        "möglich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_155",
+      "de": "Das ist ziemlich teuer.",
+      "es": "Es bastante caro.",
+      "en": "That's pretty expensive.",
+      "gloss": "eso es bastante caro",
+      "lemmas": [
+        "ziemlich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_156",
+      "de": "Ziemlich gut, oder?",
+      "es": "Bastante bien, ¿no?",
+      "en": "Pretty good, right?",
+      "gloss": "bastante bueno o",
+      "lemmas": [
+        "ziemlich",
+        "oder"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'oder?' al final es como el '¿no?' español."
+    },
+    {
+      "id": "core_connect_157",
+      "de": "Ich habe kaum Zeit.",
+      "es": "Apenas tengo tiempo.",
+      "en": "I barely have time.",
+      "gloss": "yo tengo apenas tiempo",
+      "lemmas": [
+        "kaum"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_158",
+      "de": "Das glaube ich kaum.",
+      "es": "Lo dudo mucho.",
+      "en": "I doubt that.",
+      "gloss": "eso creo yo apenas",
+      "lemmas": [
+        "kaum"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_159",
+      "de": "Das passiert ständig.",
+      "es": "Eso pasa constantemente.",
+      "en": "That happens all the time.",
+      "gloss": "eso pasa constantemente",
+      "lemmas": [
+        "ständig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_160",
+      "de": "Er schreibt mir ständig.",
+      "es": "Me escribe sin parar.",
+      "en": "He texts me nonstop.",
+      "gloss": "él escribe a-mí constantemente",
+      "lemmas": [
+        "ständig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_161",
+      "de": "Das passiert selten.",
+      "es": "Eso pasa rara vez.",
+      "en": "That rarely happens.",
+      "gloss": "eso pasa rara-vez",
+      "lemmas": [
+        "selten"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_162",
+      "de": "Ich sehe ihn nur selten.",
+      "es": "Lo veo pocas veces.",
+      "en": "I only rarely see him.",
+      "gloss": "yo veo a-él sólo rara-vez",
+      "lemmas": [
+        "nur",
+        "selten"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_163",
+      "de": "Das dauert ungefähr zehn Minuten.",
+      "es": "Tarda unos diez minutos.",
+      "en": "It takes about ten minutes.",
+      "gloss": "eso dura aproximadamente diez minutos",
+      "lemmas": [
+        "ungefähr"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_164",
+      "de": "Das kostet mindestens zwanzig Euro.",
+      "es": "Cuesta por lo menos veinte euros.",
+      "en": "That costs at least twenty euros.",
+      "gloss": "eso cuesta por-lo-menos veinte euros",
+      "lemmas": [
+        "mindestens"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_165",
+      "de": "Das dauert mindestens eine Stunde.",
+      "es": "Tarda como mínimo una hora.",
+      "en": "It takes at least an hour.",
+      "gloss": "eso dura por-lo-menos una hora",
+      "lemmas": [
+        "mindestens"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_166",
+      "de": "Ich habe bloß zehn Euro.",
+      "es": "Sólo tengo diez euros.",
+      "en": "I've only got ten euros.",
+      "gloss": "yo tengo sólo diez euros",
+      "lemmas": [
+        "bloß"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'bloß' es un 'nur' más coloquial."
+    },
+    {
+      "id": "core_connect_167",
+      "de": "Das gibt es überall.",
+      "es": "Eso hay en todas partes.",
+      "en": "You get that everywhere.",
+      "gloss": "eso hay ello en-todas-partes",
+      "lemmas": [
+        "überall"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_168",
+      "de": "Hier ist es überall voll.",
+      "es": "Aquí está lleno por todos lados.",
+      "en": "It's packed everywhere here.",
+      "gloss": "aquí está ello en-todas-partes lleno",
+      "lemmas": [
+        "hier",
+        "überall"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_169",
+      "de": "Das ist wohl so.",
+      "es": "Supongo que es así.",
+      "en": "I guess that's how it is.",
+      "gloss": "eso es seguramente así",
+      "lemmas": [
+        "wohl",
+        "so"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'wohl' expresa suposición, no 'bien'."
+    },
+    {
+      "id": "core_connect_170",
+      "de": "Damals war alles anders.",
+      "es": "Entonces todo era diferente.",
+      "en": "Back then everything was different.",
+      "gloss": "entonces era todo distinto",
+      "lemmas": [
+        "damals"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'damals' se refiere a un pasado lejano."
+    },
+    {
+      "id": "core_connect_171",
+      "de": "Ich kann nicht.",
+      "es": "No puedo.",
+      "en": "I can't.",
+      "gloss": "yo puedo no",
+      "lemmas": [
+        "können"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_172",
+      "de": "Kannst du mir helfen?",
+      "es": "¿Me puedes ayudar?",
+      "en": "Can you help me?",
+      "gloss": "puedes tú a-mí ayudar",
+      "lemmas": [
+        "können"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "El infinitivo va siempre al final."
+    },
+    {
+      "id": "core_connect_173",
+      "de": "Ich kann leider nicht kommen.",
+      "es": "Lo siento, no puedo ir.",
+      "en": "Unfortunately I can't come.",
+      "gloss": "yo puedo lamentablemente no venir",
+      "lemmas": [
+        "können",
+        "leider"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_174",
+      "de": "Ich will nach Hause.",
+      "es": "Quiero irme a casa.",
+      "en": "I want to go home.",
+      "gloss": "yo quiero hacia casa",
+      "lemmas": [
+        "wollen",
+        "nach"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con 'nach Hause' no hace falta poner 'gehen'."
+    },
+    {
+      "id": "core_connect_175",
+      "de": "Was willst du?",
+      "es": "¿Qué quieres?",
+      "en": "What do you want?",
+      "gloss": "qué quieres tú",
+      "lemmas": [
+        "wollen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_176",
+      "de": "Ich muss los.",
+      "es": "Me tengo que ir.",
+      "en": "I gotta go.",
+      "gloss": "yo debo fuera",
+      "lemmas": [
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'Ich muss los' es la forma más común de decir 'me voy ya'."
+    },
+    {
+      "id": "core_connect_177",
+      "de": "Musst du wirklich gehen?",
+      "es": "¿De verdad te tienes que ir?",
+      "en": "Do you really have to go?",
+      "gloss": "debes tú realmente ir",
+      "lemmas": [
+        "müssen",
+        "wirklich"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_178",
+      "de": "Du musst das unbedingt sehen!",
+      "es": "¡Tienes que ver esto sí o sí!",
+      "en": "You absolutely have to see this!",
+      "gloss": "tú debes eso sin-falta ver",
+      "lemmas": [
+        "müssen",
+        "unbedingt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_179",
+      "de": "Soll ich dir helfen?",
+      "es": "¿Te ayudo?",
+      "en": "Shall I help you?",
+      "gloss": "debo yo a-ti ayudar",
+      "lemmas": [
+        "sollen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'sollen' se usa para ofrecerse."
+    },
+    {
+      "id": "core_connect_180",
+      "de": "Du sollst das nicht machen.",
+      "es": "No deberías hacer eso.",
+      "en": "You're not supposed to do that.",
+      "gloss": "tú debes eso no hacer",
+      "lemmas": [
+        "sollen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'sollen' es un deber que viene de otra persona."
+    },
+    {
+      "id": "core_connect_181",
+      "de": "Ich mag das nicht.",
+      "es": "Eso no me gusta.",
+      "en": "I don't like that.",
+      "gloss": "yo gusto eso no",
+      "lemmas": [
+        "mögen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En alemán el sujeto es la persona: 'ich mag'."
+    },
+    {
+      "id": "core_connect_182",
+      "de": "Ich möchte einen Kaffee, bitte.",
+      "es": "Querría un café, por favor.",
+      "en": "I'd like a coffee, please.",
+      "gloss": "yo querría un café por-favor",
+      "lemmas": [
+        "mögen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'möchte' es la forma educada de 'mögen'."
+    },
+    {
+      "id": "core_connect_183",
+      "de": "Darf ich mal?",
+      "es": "¿Me dejas?",
+      "en": "May I?",
+      "gloss": "puedo yo vez",
+      "lemmas": [
+        "dürfen",
+        "mal"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'dürfen' es poder de permiso, no de capacidad."
+    },
+    {
+      "id": "core_connect_184",
+      "de": "Hier darf man nicht rauchen.",
+      "es": "Aquí no se puede fumar.",
+      "en": "You're not allowed to smoke here.",
+      "gloss": "aquí puede uno no fumar",
+      "lemmas": [
+        "dürfen",
+        "hier"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'man' es el 'se' impersonal."
+    },
+    {
+      "id": "core_connect_185",
+      "de": "Ich spiele gern Fußball.",
+      "es": "Me gusta jugar al fútbol.",
+      "en": "I like playing football.",
+      "gloss": "yo juego con-gusto fútbol",
+      "lemmas": [
+        "gern"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Para 'me gusta hacer algo' se usa verbo + 'gern'."
+    },
+    {
+      "id": "core_connect_186",
+      "de": "Ich hätte gern die Rechnung.",
+      "es": "Querría la cuenta.",
+      "en": "I'd like the bill.",
+      "gloss": "yo tendría con-gusto la cuenta",
+      "lemmas": [
+        "gern"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'Ich hätte gern' es la fórmula estándar para pedir."
+    },
+    {
+      "id": "core_connect_187",
+      "de": "Ich komme wahrscheinlich später.",
+      "es": "Probablemente llegue más tarde.",
+      "en": "I'll probably come later.",
+      "gloss": "yo vengo probablemente más-tarde",
+      "lemmas": [
+        "wahrscheinlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_188",
+      "de": "Das schaffst du bestimmt!",
+      "es": "¡Seguro que lo consigues!",
+      "en": "You'll definitely manage!",
+      "gloss": "eso logras tú seguro",
+      "lemmas": [
+        "bestimmt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_189",
+      "de": "Er kommt bestimmt zu spät.",
+      "es": "Seguro que llega tarde.",
+      "en": "He's bound to be late.",
+      "gloss": "él viene seguro demasiado tarde",
+      "lemmas": [
+        "bestimmt",
+        "zu",
+        "spät"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_190",
+      "de": "Hoffentlich klappt das!",
+      "es": "¡Ojalá salga bien!",
+      "en": "Hopefully it'll work!",
+      "gloss": "ojalá funciona eso",
+      "lemmas": [
+        "hoffentlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'hoffentlich' traduce 'ojalá' sin subjuntivo."
+    },
+    {
+      "id": "core_connect_191",
+      "de": "Hoffentlich bis bald!",
+      "es": "¡Ojalá nos veamos pronto!",
+      "en": "Hope to see you soon!",
+      "gloss": "ojalá hasta pronto",
+      "lemmas": [
+        "hoffentlich",
+        "bis",
+        "bald"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_192",
+      "de": "Plötzlich war er weg.",
+      "es": "De repente ya no estaba.",
+      "en": "Suddenly he was gone.",
+      "gloss": "de-repente estaba él fuera",
+      "lemmas": [
+        "plötzlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_193",
+      "de": "Ganz plötzlich ging das Licht aus.",
+      "es": "De repente se apagó la luz.",
+      "en": "All of a sudden the light went out.",
+      "gloss": "del-todo de-repente fue la luz apagada",
+      "lemmas": [
+        "plötzlich",
+        "ganz",
+        "aus"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_194",
+      "de": "Bist du endlich fertig?",
+      "es": "¿Ya has terminado por fin?",
+      "en": "Are you finally done?",
+      "gloss": "estás tú por-fin listo",
+      "lemmas": [
+        "endlich"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_195",
+      "de": "Eigentlich schon.",
+      "es": "En realidad sí.",
+      "en": "Actually, yes.",
+      "gloss": "en-realidad ya",
+      "lemmas": [
+        "eigentlich",
+        "schon"
+      ],
+      "level": 3,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_196",
+      "de": "Was machst du eigentlich?",
+      "es": "¿Y tú a qué te dedicas?",
+      "en": "So what do you actually do?",
+      "gloss": "qué haces tú en-realidad",
+      "lemmas": [
+        "eigentlich"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'eigentlich' hace la pregunta más casual."
+    },
+    {
+      "id": "core_connect_197",
+      "de": "Ich weiß es nicht genau.",
+      "es": "No lo sé exactamente.",
+      "en": "I don't know exactly.",
+      "gloss": "yo sé ello no exacto",
+      "lemmas": [
+        "genau"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_198",
+      "de": "Wir treffen uns genau um acht.",
+      "es": "Quedamos a las ocho en punto.",
+      "en": "We're meeting at eight sharp.",
+      "gloss": "nosotros encontramos nos exacto a las-ocho",
+      "lemmas": [
+        "genau",
+        "um"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_199",
+      "de": "Das geht überhaupt nicht.",
+      "es": "Eso no puede ser de ninguna manera.",
+      "en": "That's absolutely not on.",
+      "gloss": "eso va en-absoluto no",
+      "lemmas": [
+        "überhaupt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_200",
+      "de": "Hast du überhaupt Zeit?",
+      "es": "¿Pero tienes tiempo siquiera?",
+      "en": "Do you even have time?",
+      "gloss": "tienes tú en-general tiempo",
+      "lemmas": [
+        "überhaupt"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_201",
+      "de": "Beeil dich, sonst kommen wir zu spät.",
+      "es": "Date prisa, si no llegamos tarde.",
+      "en": "Hurry up, otherwise we'll be late.",
+      "gloss": "apura a-ti si-no venimos nosotros demasiado tarde",
+      "lemmas": [
+        "sonst",
+        "zu",
+        "spät"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'sonst' = 'si no', con el verbo en segunda posición."
+    },
+    {
+      "id": "core_connect_202",
+      "de": "Wir machen das zusammen.",
+      "es": "Lo hacemos juntos.",
+      "en": "We'll do it together.",
+      "gloss": "nosotros hacemos eso juntos",
+      "lemmas": [
+        "zusammen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_203",
+      "de": "Vielleicht hast du recht.",
+      "es": "Puede que tengas razón.",
+      "en": "Maybe you're right.",
+      "gloss": "quizás tienes tú razón",
+      "lemmas": [
+        "vielleicht"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Tras 'vielleicht' el verbo va antes del sujeto."
+    },
+    {
+      "id": "core_connect_204",
+      "de": "Natürlich helfe ich dir.",
+      "es": "Claro que te ayudo.",
+      "en": "Of course I'll help you.",
+      "gloss": "naturalmente ayudo yo a-ti",
+      "lemmas": [
+        "natürlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_205",
+      "de": "Das ist wirklich nett von dir.",
+      "es": "Es muy amable de tu parte.",
+      "en": "That's really nice of you.",
+      "gloss": "eso es realmente amable de ti",
+      "lemmas": [
+        "wirklich",
+        "von"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_206",
+      "de": "Deshalb frage ich.",
+      "es": "Por eso pregunto.",
+      "en": "That's why I'm asking.",
+      "gloss": "por-eso pregunto yo",
+      "lemmas": [
+        "deshalb"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_207",
+      "de": "Ich bin müde, deshalb bleibe ich zu Hause.",
+      "es": "Estoy cansado, por eso me quedo en casa.",
+      "en": "I'm tired, so I'm staying home.",
+      "gloss": "yo estoy cansado por-eso quedo yo a casa",
+      "lemmas": [
+        "deshalb",
+        "zu"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Tras 'deshalb' el verbo va inmediatamente después."
+    },
+    {
+      "id": "core_connect_208",
+      "de": "Genau deswegen frage ich.",
+      "es": "Justo por eso pregunto.",
+      "en": "That's exactly why I'm asking.",
+      "gloss": "exacto por-eso pregunto yo",
+      "lemmas": [
+        "deswegen",
+        "genau"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'deswegen' y 'deshalb' son intercambiables."
+    },
+    {
+      "id": "core_connect_209",
+      "de": "Außerdem habe ich keine Zeit.",
+      "es": "Además no tengo tiempo.",
+      "en": "Besides, I don't have time.",
+      "gloss": "además tengo yo ningún tiempo",
+      "lemmas": [
+        "außerdem"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_210",
+      "de": "Es ist teuer und außerdem hässlich.",
+      "es": "Es caro y además feo.",
+      "en": "It's expensive and ugly too.",
+      "gloss": "ello es caro y además feo",
+      "lemmas": [
+        "außerdem",
+        "und"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_211",
+      "de": "Er kommt sogar am Sonntag.",
+      "es": "Viene incluso el domingo.",
+      "en": "He's even coming on Sunday.",
+      "gloss": "él viene incluso en-el domingo",
+      "lemmas": [
+        "sogar"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_212",
+      "de": "Das ist sogar besser so.",
+      "es": "Incluso es mejor así.",
+      "en": "That's even better this way.",
+      "gloss": "eso es incluso mejor así",
+      "lemmas": [
+        "sogar",
+        "so"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_213",
+      "de": "Es regnet, trotzdem gehen wir raus.",
+      "es": "Llueve, aun así salimos.",
+      "en": "It's raining, but we're going out anyway.",
+      "gloss": "ello llueve aun-así vamos nosotros fuera",
+      "lemmas": [
+        "trotzdem"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_214",
+      "de": "Ich habe nämlich keine Zeit.",
+      "es": "Es que no tengo tiempo.",
+      "en": "The thing is, I don't have time.",
+      "gloss": "yo tengo es-que ningún tiempo",
+      "lemmas": [
+        "nämlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'nämlich' nunca va al principio de la frase."
+    },
+    {
+      "id": "core_connect_215",
+      "de": "Das ist nämlich das Problem.",
+      "es": "Es que ese es el problema.",
+      "en": "That's the problem, you see.",
+      "gloss": "eso es es-que el problema",
+      "lemmas": [
+        "nämlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_216",
+      "de": "Das ist allerdings teuer.",
+      "es": "Eso sí que es caro.",
+      "en": "That is expensive, though.",
+      "gloss": "eso es ciertamente caro",
+      "lemmas": [
+        "allerdings"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_217",
+      "de": "Ich muss sowieso in die Stadt.",
+      "es": "De todas formas tengo que ir al centro.",
+      "en": "I have to go into town anyway.",
+      "gloss": "yo debo de-todas-formas en la ciudad",
+      "lemmas": [
+        "sowieso",
+        "müssen",
+        "in"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_218",
+      "de": "Das mache ich sowieso.",
+      "es": "Eso lo hago igualmente.",
+      "en": "I'm doing that anyway.",
+      "gloss": "eso hago yo de-todas-formas",
+      "lemmas": [
+        "sowieso"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_219",
+      "de": "Meistens bin ich zu Hause.",
+      "es": "Casi siempre estoy en casa.",
+      "en": "I'm usually at home.",
+      "gloss": "casi-siempre estoy yo a casa",
+      "lemmas": [
+        "meistens",
+        "zu"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_220",
+      "de": "Meistens klappt das.",
+      "es": "Normalmente funciona.",
+      "en": "It usually works.",
+      "gloss": "casi-siempre funciona eso",
+      "lemmas": [
+        "meistens"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_221",
+      "de": "Normalerweise stehe ich um sieben auf.",
+      "es": "Normalmente me levanto a las siete.",
+      "en": "I normally get up at seven.",
+      "gloss": "normalmente estoy-de-pie yo a las-siete arriba",
+      "lemmas": [
+        "normalerweise",
+        "um",
+        "auf"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_222",
+      "de": "Normalerweise mache ich das nicht.",
+      "es": "Normalmente no hago eso.",
+      "en": "I don't normally do that.",
+      "gloss": "normalmente hago yo eso no",
+      "lemmas": [
+        "normalerweise"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_223",
+      "de": "Wir sind ungefähr um acht da.",
+      "es": "Estaremos allí sobre las ocho.",
+      "en": "We'll be there around eight.",
+      "gloss": "nosotros estamos aproximadamente a las-ocho ahí",
+      "lemmas": [
+        "ungefähr",
+        "um",
+        "da"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_224",
+      "de": "Es muss hier irgendwo sein.",
+      "es": "Tiene que estar por aquí en algún sitio.",
+      "en": "It must be somewhere here.",
+      "gloss": "ello debe aquí en-algún-sitio ser",
+      "lemmas": [
+        "irgendwo",
+        "hier",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_225",
+      "de": "Wir treffen uns irgendwo in der Stadt.",
+      "es": "Quedamos en algún sitio del centro.",
+      "en": "We'll meet somewhere in town.",
+      "gloss": "nosotros encontramos nos en-algún-sitio en la ciudad",
+      "lemmas": [
+        "irgendwo",
+        "in"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_226",
+      "de": "Irgendwann klappt das schon.",
+      "es": "Algún día saldrá bien.",
+      "en": "It'll work out at some point.",
+      "gloss": "en-algún-momento funciona eso ya",
+      "lemmas": [
+        "irgendwann",
+        "schon"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Aquí 'schon' significa 'tranquilo, ya verás'."
+    },
+    {
+      "id": "core_connect_227",
+      "de": "Wir sehen uns irgendwann.",
+      "es": "Ya nos veremos.",
+      "en": "We'll see each other sometime.",
+      "gloss": "nosotros vemos nos en-algún-momento",
+      "lemmas": [
+        "irgendwann"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_228",
+      "de": "Das schaffen wir schon irgendwie.",
+      "es": "De alguna manera lo conseguiremos.",
+      "en": "We'll manage somehow.",
+      "gloss": "eso logramos nosotros ya de-alguna-manera",
+      "lemmas": [
+        "irgendwie",
+        "schon"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_229",
+      "de": "Übrigens, danke nochmal!",
+      "es": "Por cierto, ¡gracias de nuevo!",
+      "en": "By the way, thanks again!",
+      "gloss": "por-cierto gracias otra-vez",
+      "lemmas": [
+        "übrigens",
+        "nochmal"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_230",
+      "de": "Ich komme übrigens etwas später.",
+      "es": "Por cierto, llego un poco más tarde.",
+      "en": "By the way, I'll come a bit later.",
+      "gloss": "yo vengo por-cierto algo más-tarde",
+      "lemmas": [
+        "übrigens",
+        "etwas"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'etwas' delante de un adverbio significa 'un poco'."
+    },
+    {
+      "id": "core_connect_231",
+      "de": "Möchtest du etwas trinken?",
+      "es": "¿Quieres beber algo?",
+      "en": "Would you like something to drink?",
+      "gloss": "querrías tú algo beber",
+      "lemmas": [
+        "etwas",
+        "mögen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_232",
+      "de": "Ich jedenfalls nicht.",
+      "es": "Yo desde luego no.",
+      "en": "Not me, anyway.",
+      "gloss": "yo en-todo-caso no",
+      "lemmas": [
+        "jedenfalls"
+      ],
+      "level": 3,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_233",
+      "de": "Jedenfalls danke für alles!",
+      "es": "En todo caso, ¡gracias por todo!",
+      "en": "Anyway, thanks for everything!",
+      "gloss": "en-todo-caso gracias para todo",
+      "lemmas": [
+        "jedenfalls",
+        "für"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_234",
+      "de": "Was machen wir zuerst?",
+      "es": "¿Qué hacemos primero?",
+      "en": "What do we do first?",
+      "gloss": "qué hacemos nosotros primero",
+      "lemmas": [
+        "zuerst"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_235",
+      "de": "Zuerst die Hausaufgaben, dann das Handy!",
+      "es": "Primero los deberes, luego el móvil.",
+      "en": "Homework first, then the phone!",
+      "gloss": "primero los deberes entonces el móvil",
+      "lemmas": [
+        "zuerst",
+        "dann"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_236",
+      "de": "Inzwischen ist es zu spät.",
+      "es": "A estas alturas ya es tarde.",
+      "en": "By now it's too late.",
+      "gloss": "mientras-tanto es ello demasiado tarde",
+      "lemmas": [
+        "inzwischen",
+        "zu",
+        "spät"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_237",
+      "de": "Inzwischen wohne ich in Berlin.",
+      "es": "Ahora ya vivo en Berlín.",
+      "en": "I live in Berlin now.",
+      "gloss": "mientras-tanto vivo yo en Berlín",
+      "lemmas": [
+        "inzwischen",
+        "in"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'inzwischen' marca un cambio respecto a antes."
+    },
+    {
+      "id": "core_connect_238",
+      "de": "Damals in der Schule war es besser.",
+      "es": "Entonces en el colegio era mejor.",
+      "en": "Back then at school it was better.",
+      "gloss": "entonces en la escuela era ello mejor",
+      "lemmas": [
+        "damals",
+        "in"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_239",
+      "de": "Wo sind bloß meine Schlüssel?",
+      "es": "¿Pero dónde están mis llaves?",
+      "en": "Where on earth are my keys?",
+      "gloss": "dónde están sólo mis llaves",
+      "lemmas": [
+        "bloß"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "En preguntas, 'bloß' expresa desesperación."
+    },
+    {
+      "id": "core_connect_240",
+      "de": "Sag mir wenigstens Bescheid!",
+      "es": "¡Avísame al menos!",
+      "en": "At least let me know!",
+      "gloss": "di a-mí al-menos aviso",
+      "lemmas": [
+        "wenigstens"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'Bescheid sagen' es 'avisar'."
+    },
+    {
+      "id": "core_connect_241",
+      "de": "Er hat wohl keine Zeit.",
+      "es": "Seguramente no tiene tiempo.",
+      "en": "He probably doesn't have time.",
+      "gloss": "él tiene seguramente ningún tiempo",
+      "lemmas": [
+        "wohl"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_242",
+      "de": "Dann muss ich halt warten.",
+      "es": "Pues tendré que esperar.",
+      "en": "Then I'll just have to wait.",
+      "gloss": "entonces debo yo simplemente esperar",
+      "lemmas": [
+        "dann",
+        "halt",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_243",
+      "de": "Gerade jetzt?",
+      "es": "¿Justo ahora?",
+      "en": "Right now?",
+      "gloss": "justo ahora",
+      "lemmas": [
+        "gerade",
+        "jetzt"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_244",
+      "de": "Ich bin gerade beschäftigt.",
+      "es": "Ahora mismo estoy ocupado.",
+      "en": "I'm busy right now.",
+      "gloss": "yo estoy justo ocupado",
+      "lemmas": [
+        "gerade"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'gerade' + presente equivale a 'estar + gerundio'."
+    },
+    {
+      "id": "core_connect_245",
+      "de": "Ich mache es wieder.",
+      "es": "Lo hago otra vez.",
+      "en": "I'm doing it again.",
+      "gloss": "yo hago ello otra-vez",
+      "lemmas": [
+        "wieder"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_246",
+      "de": "Aus welchem Grund?",
+      "es": "¿Por qué motivo?",
+      "en": "For what reason?",
+      "gloss": "de cuál razón",
+      "lemmas": [
+        "aus",
+        "Grund"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_247",
+      "de": "Der Grund ist ganz einfach.",
+      "es": "El motivo es muy sencillo.",
+      "en": "The reason is quite simple.",
+      "gloss": "la razón es del-todo fácil",
+      "lemmas": [
+        "Grund",
+        "ganz",
+        "einfach"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_248",
+      "de": "Gibt es eine andere Möglichkeit?",
+      "es": "¿Hay otra opción?",
+      "en": "Is there another option?",
+      "gloss": "hay ello una otra posibilidad",
+      "lemmas": [
+        "Möglichkeit",
+        "andere"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_249",
+      "de": "Das ist die einzige Möglichkeit.",
+      "es": "Es la única posibilidad.",
+      "en": "That's the only option.",
+      "gloss": "eso es la única posibilidad",
+      "lemmas": [
+        "Möglichkeit"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_250",
+      "de": "Also, ich muss los.",
+      "es": "Bueno, me tengo que ir.",
+      "en": "Right, I've got to go.",
+      "gloss": "o-sea yo debo fuera",
+      "lemmas": [
+        "also",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'also' al principio sirve para cerrar una conversación."
+    },
+    {
+      "id": "core_connect_251",
+      "de": "Wir sprechen über Musik.",
+      "es": "Hablamos de música.",
+      "en": "We're talking about music.",
+      "gloss": "nosotros hablamos sobre música",
+      "lemmas": [
+        "über"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'sprechen über' + acusativo para 'hablar de'."
+    },
+    {
+      "id": "core_connect_252",
+      "de": "Können wir nochmal anfangen?",
+      "es": "¿Podemos empezar otra vez?",
+      "en": "Can we start over?",
+      "gloss": "podemos nosotros otra-vez empezar",
+      "lemmas": [
+        "nochmal",
+        "können"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_253",
+      "de": "Das weiß doch jeder!",
+      "es": "¡Pero si eso lo sabe todo el mundo!",
+      "en": "Everyone knows that!",
+      "gloss": "eso sabe sí-que-sí cada-uno",
+      "lemmas": [
+        "doch",
+        "jeder"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_254",
+      "de": "Jeder macht mal Fehler.",
+      "es": "Todo el mundo comete errores alguna vez.",
+      "en": "Everyone makes mistakes sometimes.",
+      "gloss": "cada-uno hace vez errores",
+      "lemmas": [
+        "jeder",
+        "mal"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_255",
+      "de": "Ich habe viel zu tun.",
+      "es": "Tengo mucho que hacer.",
+      "en": "I have a lot to do.",
+      "gloss": "yo tengo mucho a hacer",
+      "lemmas": [
+        "viel",
+        "zu"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_256",
+      "de": "Das ist etwas teuer.",
+      "es": "Es un poco caro.",
+      "en": "That's a bit expensive.",
+      "gloss": "eso es algo caro",
+      "lemmas": [
+        "etwas"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_257",
+      "de": "Ich weiß, dass du recht hast.",
+      "es": "Sé que tienes razón.",
+      "en": "I know you're right.",
+      "gloss": "yo sé que tú razón tienes",
+      "lemmas": [
+        "dass"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Tras 'dass' el verbo se va al final."
+    },
+    {
+      "id": "core_connect_258",
+      "de": "Ich glaube, dass er kommt.",
+      "es": "Creo que viene.",
+      "en": "I think he's coming.",
+      "gloss": "yo creo que él viene",
+      "lemmas": [
+        "dass"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_259",
+      "de": "Ich komme, wenn ich Zeit habe.",
+      "es": "Voy si tengo tiempo.",
+      "en": "I'll come if I have time.",
+      "gloss": "yo vengo si yo tiempo tengo",
+      "lemmas": [
+        "wenn"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_260",
+      "de": "Wenn du willst, können wir zusammen lernen.",
+      "es": "Si quieres, podemos estudiar juntos.",
+      "en": "If you want, we can study together.",
+      "gloss": "si tú quieres podemos nosotros juntos estudiar",
+      "lemmas": [
+        "wenn",
+        "wollen",
+        "können",
+        "zusammen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_261",
+      "de": "Ich komme nicht, weil ich krank bin.",
+      "es": "No voy porque estoy enfermo.",
+      "en": "I'm not coming because I'm ill.",
+      "gloss": "yo vengo no porque yo enfermo estoy",
+      "lemmas": [
+        "weil"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Con 'weil' el verbo va al final de la subordinada."
+    },
+    {
+      "id": "core_connect_262",
+      "de": "Ich frage, weil ich neugierig bin.",
+      "es": "Pregunto porque soy curioso.",
+      "en": "I'm asking because I'm curious.",
+      "gloss": "yo pregunto porque yo curioso soy",
+      "lemmas": [
+        "weil"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_263",
+      "de": "Ich weiß nicht, ob das geht.",
+      "es": "No sé si eso se puede.",
+      "en": "I don't know if that works.",
+      "gloss": "yo sé no si eso va",
+      "lemmas": [
+        "ob"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'ob' es 'si' de duda; 'wenn' es 'si' de condición."
+    },
+    {
+      "id": "core_connect_264",
+      "de": "Frag mal, ob er noch kommt.",
+      "es": "Pregunta a ver si todavía viene.",
+      "en": "Ask whether he's still coming.",
+      "gloss": "pregunta vez si él todavía viene",
+      "lemmas": [
+        "ob",
+        "mal",
+        "noch"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_265",
+      "de": "Das ist besser als nichts.",
+      "es": "Es mejor que nada.",
+      "en": "That's better than nothing.",
+      "gloss": "eso es mejor que nada",
+      "lemmas": [
+        "als"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "En comparaciones se usa 'als', no 'wie'."
+    },
+    {
+      "id": "core_connect_266",
+      "de": "Ich bin älter als du.",
+      "es": "Soy mayor que tú.",
+      "en": "I'm older than you.",
+      "gloss": "yo soy mayor que tú",
+      "lemmas": [
+        "als"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_267",
+      "de": "Falls es regnet, bleiben wir zu Hause.",
+      "es": "Si llueve, nos quedamos en casa.",
+      "en": "If it rains, we'll stay home.",
+      "gloss": "en-caso-de-que ello llueve quedamos nosotros a casa",
+      "lemmas": [
+        "falls",
+        "zu"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'falls' es un 'wenn' para algo poco probable."
+    },
+    {
+      "id": "core_connect_268",
+      "de": "Ruf mich an, falls was ist.",
+      "es": "Llámame si pasa algo.",
+      "en": "Call me if anything comes up.",
+      "gloss": "llama a-mí a en-caso-de-que algo es",
+      "lemmas": [
+        "falls"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'was' aquí es la forma corta y hablada de 'etwas'."
+    },
+    {
+      "id": "core_connect_269",
+      "de": "Ich schreibe dir, sobald ich da bin.",
+      "es": "Te escribo en cuanto llegue.",
+      "en": "I'll text you as soon as I'm there.",
+      "gloss": "yo escribo a-ti en-cuanto yo ahí estoy",
+      "lemmas": [
+        "sobald",
+        "da"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_270",
+      "de": "Sobald ich fertig bin, komme ich.",
+      "es": "En cuanto termine, voy.",
+      "en": "As soon as I'm done, I'll come.",
+      "gloss": "en-cuanto yo listo estoy vengo yo",
+      "lemmas": [
+        "sobald"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_271",
+      "de": "Du kannst bleiben, solange du willst.",
+      "es": "Puedes quedarte todo el tiempo que quieras.",
+      "en": "You can stay as long as you like.",
+      "gloss": "tú puedes quedar mientras tú quieres",
+      "lemmas": [
+        "solange",
+        "können",
+        "wollen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_272",
+      "de": "Solange es nicht regnet, gehen wir raus.",
+      "es": "Mientras no llueva, salimos.",
+      "en": "As long as it's not raining, we'll go out.",
+      "gloss": "mientras ello no llueve vamos nosotros fuera",
+      "lemmas": [
+        "solange"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_273",
+      "de": "Entweder heute oder morgen.",
+      "es": "O hoy o mañana.",
+      "en": "Either today or tomorrow.",
+      "gloss": "o-bien hoy o mañana",
+      "lemmas": [
+        "entweder",
+        "oder",
+        "heute",
+        "morgen"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "'entweder' siempre va con 'oder'."
+    },
+    {
+      "id": "core_connect_274",
+      "de": "Entweder du kommst mit, oder du bleibst hier.",
+      "es": "O te vienes, o te quedas aquí.",
+      "en": "Either you come along or you stay here.",
+      "gloss": "o-bien tú vienes con o tú quedas aquí",
+      "lemmas": [
+        "entweder",
+        "oder",
+        "mit",
+        "hier"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_275",
+      "de": "Bevor ich gehe, trinke ich noch einen Kaffee.",
+      "es": "Antes de irme me tomo un café.",
+      "en": "Before I go I'll have another coffee.",
+      "gloss": "antes-de-que yo voy bebo yo todavía un café",
+      "lemmas": [
+        "bevor",
+        "noch"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_276",
+      "de": "Ruf mich an, bevor du kommst.",
+      "es": "Llámame antes de venir.",
+      "en": "Call me before you come.",
+      "gloss": "llama a-mí a antes-de-que tú vienes",
+      "lemmas": [
+        "bevor"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_277",
+      "de": "Ich sage es dir, damit du Bescheid weißt.",
+      "es": "Te lo digo para que lo sepas.",
+      "en": "I'm telling you so that you know.",
+      "gloss": "yo digo ello a-ti para-que tú aviso sabes",
+      "lemmas": [
+        "damit"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'damit' se usa cuando hay dos sujetos distintos."
+    },
+    {
+      "id": "core_connect_278",
+      "de": "Beeil dich, damit wir nicht zu spät kommen.",
+      "es": "Date prisa para que no lleguemos tarde.",
+      "en": "Hurry up so we're not late.",
+      "gloss": "apura a-ti para-que nosotros no demasiado tarde venimos",
+      "lemmas": [
+        "damit",
+        "zu",
+        "spät"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_279",
+      "de": "Während du kochst, decke ich den Tisch.",
+      "es": "Mientras cocinas, pongo la mesa.",
+      "en": "While you cook, I'll set the table.",
+      "gloss": "mientras tú cocinas pongo yo la mesa",
+      "lemmas": [
+        "während"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_280",
+      "de": "Während der Pause können wir reden.",
+      "es": "Durante el descanso podemos hablar.",
+      "en": "We can talk during the break.",
+      "gloss": "durante la pausa podemos nosotros hablar",
+      "lemmas": [
+        "während",
+        "können"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'während' + der/die/das también significa 'durante'."
+    },
+    {
+      "id": "core_connect_281",
+      "de": "Obwohl es regnet, gehe ich raus.",
+      "es": "Aunque llueve, salgo.",
+      "en": "Even though it's raining, I'm going out.",
+      "gloss": "aunque ello llueve voy yo fuera",
+      "lemmas": [
+        "obwohl"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_282",
+      "de": "Ich gehe hin, obwohl ich müde bin.",
+      "es": "Voy, aunque estoy cansado.",
+      "en": "I'm going, even though I'm tired.",
+      "gloss": "yo voy hacia-allá aunque yo cansado estoy",
+      "lemmas": [
+        "obwohl"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_283",
+      "de": "Wegen dir komme ich zu spät.",
+      "es": "Por tu culpa llego tarde.",
+      "en": "Because of you I'm late.",
+      "gloss": "por ti vengo yo demasiado tarde",
+      "lemmas": [
+        "wegen",
+        "zu",
+        "spät"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "En la lengua hablada 'wegen' va con dativo: 'wegen dir'."
+    },
+    {
+      "id": "core_connect_284",
+      "de": "Wegen des Wetters bleiben wir hier.",
+      "es": "Por el tiempo nos quedamos aquí.",
+      "en": "Because of the weather we're staying here.",
+      "gloss": "por del tiempo quedamos nosotros aquí",
+      "lemmas": [
+        "wegen",
+        "hier"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "En lengua escrita 'wegen' pide genitivo: 'des Wetters'."
+    },
+    {
+      "id": "core_connect_285",
+      "de": "Ich habe keine Zeit, denn ich muss lernen.",
+      "es": "No tengo tiempo, es que tengo que estudiar.",
+      "en": "I have no time, because I have to study.",
+      "gloss": "yo tengo ningún tiempo pues yo debo estudiar",
+      "lemmas": [
+        "denn",
+        "müssen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Con 'denn' el verbo NO se va al final, a diferencia de 'weil'."
+    },
+    {
+      "id": "core_connect_286",
+      "de": "Schließlich sind wir Freunde.",
+      "es": "Al fin y al cabo somos amigos.",
+      "en": "After all, we're friends.",
+      "gloss": "al-final somos nosotros amigos",
+      "lemmas": [
+        "schließlich"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_287",
+      "de": "Dennoch bleibe ich hier.",
+      "es": "Aun así me quedo aquí.",
+      "en": "Nevertheless I'm staying here.",
+      "gloss": "sin-embargo quedo yo aquí",
+      "lemmas": [
+        "dennoch",
+        "hier"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'dennoch' es la versión más culta de 'trotzdem'."
+    },
+    {
+      "id": "core_connect_288",
+      "de": "Es ist schwer, dennoch mache ich weiter.",
+      "es": "Es difícil, aun así sigo.",
+      "en": "It's hard, yet I'm carrying on.",
+      "gloss": "ello es difícil sin-embargo hago yo adelante",
+      "lemmas": [
+        "dennoch"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_289",
+      "de": "Ich habe keine Möglichkeit, dir zu helfen.",
+      "es": "No tengo forma de ayudarte.",
+      "en": "I have no way to help you.",
+      "gloss": "yo tengo ninguna posibilidad a-ti a ayudar",
+      "lemmas": [
+        "Möglichkeit",
+        "zu"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'zu' + infinitivo al final, como 'de ayudar'."
+    },
+    {
+      "id": "core_connect_290",
+      "de": "Es gibt keinen Grund, sauer zu sein.",
+      "es": "No hay motivo para enfadarse.",
+      "en": "There's no reason to be angry.",
+      "gloss": "hay ningún motivo enfadado a ser",
+      "lemmas": [
+        "Grund",
+        "zu"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_291",
+      "de": "Als ich klein war, habe ich hier gewohnt.",
+      "es": "Cuando era pequeño vivía aquí.",
+      "en": "When I was little, I lived here.",
+      "gloss": "cuando yo pequeño era he yo aquí vivido",
+      "lemmas": [
+        "als",
+        "hier"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Para 'cuando' en pasado único se usa 'als', no 'wenn'."
+    },
+    {
+      "id": "core_connect_292",
+      "de": "Sie hat gesagt, dass sie später kommt.",
+      "es": "Ha dicho que viene más tarde.",
+      "en": "She said she's coming later.",
+      "gloss": "ella ha dicho que ella más-tarde viene",
+      "lemmas": [
+        "dass"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_293",
+      "de": "Ich bin müde, obwohl ich lange geschlafen habe.",
+      "es": "Estoy cansado aunque he dormido mucho.",
+      "en": "I'm tired even though I slept a long time.",
+      "gloss": "yo estoy cansado aunque yo largo dormido he",
+      "lemmas": [
+        "obwohl",
+        "lange"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "En la subordinada el auxiliar 'habe' va del todo al final."
+    },
+    {
+      "id": "core_connect_294",
+      "de": "Er hat es tatsächlich geschafft.",
+      "es": "De hecho lo consiguió.",
+      "en": "He actually managed it.",
+      "gloss": "él ha ello efectivamente logrado",
+      "lemmas": [
+        "tatsächlich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_295",
+      "de": "Schließlich hat es doch geklappt.",
+      "es": "Al final sí que salió bien.",
+      "en": "In the end it worked out after all.",
+      "gloss": "al-final ha ello sí-que-sí funcionado",
+      "lemmas": [
+        "schließlich",
+        "doch"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_296",
+      "de": "Ich habe überall gesucht.",
+      "es": "He buscado por todas partes.",
+      "en": "I've looked everywhere.",
+      "gloss": "yo he en-todas-partes buscado",
+      "lemmas": [
+        "überall"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_297",
+      "de": "Wenigstens hast du es versucht.",
+      "es": "Al menos lo has intentado.",
+      "en": "At least you tried.",
+      "gloss": "al-menos has tú ello intentado",
+      "lemmas": [
+        "wenigstens"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_298",
+      "de": "Deswegen habe ich nichts gesagt.",
+      "es": "Por eso no he dicho nada.",
+      "en": "That's why I said nothing.",
+      "gloss": "por-eso he yo nada dicho",
+      "lemmas": [
+        "deswegen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_299",
+      "de": "Das ist der Grund, warum ich nicht komme.",
+      "es": "Ese es el motivo por el que no voy.",
+      "en": "That's the reason why I'm not coming.",
+      "gloss": "eso es la razón por-qué yo no vengo",
+      "lemmas": [
+        "Grund"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_300",
+      "de": "Ich habe seit gestern nichts gegessen.",
+      "es": "No he comido nada desde ayer.",
+      "en": "I haven't eaten since yesterday.",
+      "gloss": "yo he desde ayer nada comido",
+      "lemmas": [
+        "seit",
+        "gestern"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_301",
+      "de": "Vor zwei Jahren war ich in Berlin.",
+      "es": "Hace dos años estuve en Berlín.",
+      "en": "Two years ago I was in Berlin.",
+      "gloss": "hace dos años estaba yo en Berlín",
+      "lemmas": [
+        "vor",
+        "in"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "'vor' + tiempo significa 'hace', no 'antes de'."
+    },
+    {
+      "id": "core_connect_302",
+      "de": "Ich habe gestern lange geschlafen.",
+      "es": "Ayer dormí mucho.",
+      "en": "I slept for a long time yesterday.",
+      "gloss": "yo he ayer largo dormido",
+      "lemmas": [
+        "gestern",
+        "lange"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_303",
+      "de": "Es ist möglich, dass er später kommt.",
+      "es": "Es posible que venga más tarde.",
+      "en": "It's possible that he'll come later.",
+      "gloss": "ello es posible que él más-tarde viene",
+      "lemmas": [
+        "möglich",
+        "dass"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_304",
+      "de": "Bist du sicher, dass das richtig ist?",
+      "es": "¿Estás seguro de que eso es correcto?",
+      "en": "Are you sure that's right?",
+      "gloss": "estás tú seguro que eso correcto es",
+      "lemmas": [
+        "sicher",
+        "dass",
+        "richtig"
+      ],
+      "level": 5,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_305",
+      "de": "Ich bin nicht sicher, ob ich Zeit habe.",
+      "es": "No estoy seguro de si tendré tiempo.",
+      "en": "I'm not sure whether I'll have time.",
+      "gloss": "yo estoy no seguro si yo tiempo tengo",
+      "lemmas": [
+        "sicher",
+        "ob"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_306",
+      "de": "Ich habe zwischen den Häusern geparkt.",
+      "es": "He aparcado entre las casas.",
+      "en": "I parked between the houses.",
+      "gloss": "yo he entre las casas aparcado",
+      "lemmas": [
+        "zwischen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_307",
+      "de": "Wir sind durch die ganze Stadt gelaufen.",
+      "es": "Hemos andado por toda la ciudad.",
+      "en": "We walked through the whole city.",
+      "gloss": "nosotros somos por la entera ciudad andado",
+      "lemmas": [
+        "durch",
+        "ganz"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Los verbos de movimiento hacen el Perfekt con 'sein'."
+    },
+    {
+      "id": "core_connect_308",
+      "de": "Ich habe echt keine Lust mehr.",
+      "es": "De verdad que ya no tengo ganas.",
+      "en": "I really don't feel like it anymore.",
+      "gloss": "yo tengo de-verdad ninguna gana más",
+      "lemmas": [
+        "echt",
+        "mehr"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_309",
+      "de": "Eigentlich wollte ich früher kommen.",
+      "es": "En realidad quería venir antes.",
+      "en": "Actually I wanted to come earlier.",
+      "gloss": "en-realidad quería yo más-temprano venir",
+      "lemmas": [
+        "eigentlich",
+        "wollen",
+        "früh"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_310",
+      "de": "Ich musste gestern lange arbeiten.",
+      "es": "Ayer tuve que trabajar hasta tarde.",
+      "en": "I had to work late yesterday.",
+      "gloss": "yo debía ayer largo trabajar",
+      "lemmas": [
+        "müssen",
+        "gestern",
+        "lange"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_311",
+      "de": "Ich durfte gestern nicht raus.",
+      "es": "Ayer no me dejaron salir.",
+      "en": "I wasn't allowed out yesterday.",
+      "gloss": "yo podía ayer no fuera",
+      "lemmas": [
+        "dürfen",
+        "gestern"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_312",
+      "de": "Wir sollten früher aufstehen.",
+      "es": "Deberíamos levantarnos más temprano.",
+      "en": "We should get up earlier.",
+      "gloss": "nosotros deberíamos más-temprano levantar",
+      "lemmas": [
+        "sollen",
+        "früh"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_313",
+      "de": "Ich mag ihn, obwohl er manchmal nervt.",
+      "es": "Me cae bien, aunque a veces es pesado.",
+      "en": "I like him, even though he's annoying sometimes.",
+      "gloss": "yo gusto a-él aunque él a-veces molesta",
+      "lemmas": [
+        "mögen",
+        "obwohl",
+        "manchmal"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_314",
+      "de": "Es ist ziemlich spät geworden.",
+      "es": "Se ha hecho bastante tarde.",
+      "en": "It's got pretty late.",
+      "gloss": "ello es bastante tarde hecho",
+      "lemmas": [
+        "ziemlich",
+        "spät"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_315",
+      "de": "Ich habe mich sofort entschieden.",
+      "es": "Me decidí enseguida.",
+      "en": "I decided right away.",
+      "gloss": "yo he a-mí inmediatamente decidido",
+      "lemmas": [
+        "sofort"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_316",
+      "de": "Plötzlich hat es angefangen zu regnen.",
+      "es": "De repente empezó a llover.",
+      "en": "Suddenly it started raining.",
+      "gloss": "de-repente ha ello empezado a llover",
+      "lemmas": [
+        "plötzlich",
+        "zu"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_317",
+      "de": "Ich habe endlich einen Termin bekommen.",
+      "es": "Por fin he conseguido cita.",
+      "en": "I finally got an appointment.",
+      "gloss": "yo he por-fin una cita conseguido",
+      "lemmas": [
+        "endlich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_318",
+      "de": "Er ist wieder zu spät gekommen.",
+      "es": "Ha vuelto a llegar tarde.",
+      "en": "He turned up late again.",
+      "gloss": "él es otra-vez demasiado tarde venido",
+      "lemmas": [
+        "wieder",
+        "zu",
+        "spät"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_319",
+      "de": "Wir haben uns bei ihm getroffen.",
+      "es": "Quedamos en su casa.",
+      "en": "We met at his place.",
+      "gloss": "nosotros hemos nos en-casa-de él encontrado",
+      "lemmas": [
+        "bei"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_320",
+      "de": "Ich habe das für dich gemacht.",
+      "es": "Esto lo he hecho para ti.",
+      "en": "I made this for you.",
+      "gloss": "yo he eso para ti hecho",
+      "lemmas": [
+        "für"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_321",
+      "de": "Ohne dich wäre das nicht möglich.",
+      "es": "Sin ti esto no sería posible.",
+      "en": "Without you this wouldn't be possible.",
+      "gloss": "sin ti sería eso no posible",
+      "lemmas": [
+        "ohne",
+        "möglich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_322",
+      "de": "Wenn ich Geld hätte, würde ich mitkommen.",
+      "es": "Si tuviera dinero, iría contigo.",
+      "en": "If I had money, I'd come along.",
+      "gloss": "si yo dinero tendría iría yo con-venir",
+      "lemmas": [
+        "wenn",
+        "mit"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "'hätte/würde' es el condicional, como 'tuviera/iría'."
+    },
+    {
+      "id": "core_connect_323",
+      "de": "Er hat gesagt, er kommt später, aber ich glaube es nicht.",
+      "es": "Ha dicho que viene luego, pero no me lo creo.",
+      "en": "He said he's coming later, but I don't believe it.",
+      "gloss": "él ha dicho él viene más-tarde pero yo creo ello no",
+      "lemmas": [
+        "aber"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_324",
+      "de": "Nach dem Essen gehen wir spazieren.",
+      "es": "Después de comer vamos a pasear.",
+      "en": "After eating we'll go for a walk.",
+      "gloss": "después-de la comida vamos nosotros pasear",
+      "lemmas": [
+        "nach"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_325",
+      "de": "Ich habe an dich gedacht.",
+      "es": "He pensado en ti.",
+      "en": "I was thinking of you.",
+      "gloss": "yo he a ti pensado",
+      "lemmas": [
+        "an"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_326",
+      "de": "Auf dem Weg nach Hause habe ich sie gesehen.",
+      "es": "De camino a casa la vi.",
+      "en": "On the way home I saw her.",
+      "gloss": "sobre el camino hacia casa he yo a-ella visto",
+      "lemmas": [
+        "auf",
+        "nach"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_327",
+      "de": "Unter uns: das war nicht gut.",
+      "es": "Entre nosotros: eso no estuvo bien.",
+      "en": "Between us: that wasn't good.",
+      "gloss": "entre nosotros eso estaba no bueno",
+      "lemmas": [
+        "unter"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_328",
+      "de": "Hinter mir stand plötzlich jemand.",
+      "es": "De repente había alguien detrás de mí.",
+      "en": "Suddenly someone was standing behind me.",
+      "gloss": "detrás-de mí estaba de-repente alguien",
+      "lemmas": [
+        "hinter",
+        "plötzlich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_329",
+      "de": "Ich war gegen den Plan, aber alle anderen waren dafür.",
+      "es": "Yo estaba en contra del plan, pero todos los demás a favor.",
+      "en": "I was against the plan, but everyone else was for it.",
+      "gloss": "yo estaba contra el plan pero todos otros estaban a-favor",
+      "lemmas": [
+        "gegen",
+        "aber",
+        "alle",
+        "andere"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_330",
+      "de": "Ich möchte ___, bitte.",
+      "es": "Querría ___, por favor.",
+      "en": "I'd like ___, please.",
+      "gloss": "yo querría ___ por-favor",
+      "lemmas": [
+        "mögen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Kaffee",
+          "es": "un café"
+        },
+        {
+          "de": "ein Wasser",
+          "es": "un agua"
+        },
+        {
+          "de": "die Rechnung",
+          "es": "la cuenta"
+        },
+        {
+          "de": "ein Eis",
+          "es": "un helado"
+        },
+        {
+          "de": "zwei Brötchen",
+          "es": "dos panecillos"
+        }
+      ],
+      "note": "'möchte' es lo que se usa para pedir en un bar o tienda."
+    },
+    {
+      "id": "core_connect_331",
+      "de": "Kann ich bitte ___?",
+      "es": "¿Puedo ___, por favor?",
+      "en": "Can I ___, please?",
+      "gloss": "puedo yo por-favor ___",
+      "lemmas": [
+        "können"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "zahlen",
+          "es": "pagar"
+        },
+        {
+          "de": "hier sitzen",
+          "es": "sentarme aquí"
+        },
+        {
+          "de": "kurz telefonieren",
+          "es": "hacer una llamada rápida"
+        },
+        {
+          "de": "mal gucken",
+          "es": "echar un vistazo"
+        }
+      ],
+      "note": "El infinitivo va siempre al final."
+    },
+    {
+      "id": "core_connect_332",
+      "de": "Ich muss ___.",
+      "es": "Tengo que ___.",
+      "en": "I have to ___.",
+      "gloss": "yo debo ___",
+      "lemmas": [
+        "müssen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "los",
+          "es": "irme ya"
+        },
+        {
+          "de": "nach Hause",
+          "es": "ir a casa"
+        },
+        {
+          "de": "noch lernen",
+          "es": "estudiar todavía"
+        },
+        {
+          "de": "morgen früh aufstehen",
+          "es": "madrugar mañana"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_333",
+      "de": "Ich will nicht ___.",
+      "es": "No quiero ___.",
+      "en": "I don't want to ___.",
+      "gloss": "yo quiero no ___",
+      "lemmas": [
+        "wollen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "aufstehen",
+          "es": "levantarme"
+        },
+        {
+          "de": "warten",
+          "es": "esperar"
+        },
+        {
+          "de": "allein gehen",
+          "es": "ir solo"
+        },
+        {
+          "de": "darüber reden",
+          "es": "hablar de eso"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_334",
+      "de": "Wollen wir ___?",
+      "es": "¿Vamos a ___?",
+      "en": "Shall we ___?",
+      "gloss": "queremos nosotros ___",
+      "lemmas": [
+        "wollen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "zusammen essen",
+          "es": "comer juntos"
+        },
+        {
+          "de": "ins Kino gehen",
+          "es": "ir al cine"
+        },
+        {
+          "de": "uns morgen treffen",
+          "es": "vernos mañana"
+        },
+        {
+          "de": "gleich losgehen",
+          "es": "salir ya"
+        }
+      ],
+      "note": "Es la forma normal de proponer un plan."
+    },
+    {
+      "id": "core_connect_335",
+      "de": "Ich komme ___.",
+      "es": "Voy ___.",
+      "en": "I'm coming ___.",
+      "gloss": "yo vengo ___",
+      "lemmas": [
+        "gleich",
+        "sofort",
+        "morgen",
+        "bald"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "gleich",
+          "es": "enseguida"
+        },
+        {
+          "de": "sofort",
+          "es": "ahora mismo"
+        },
+        {
+          "de": "morgen",
+          "es": "mañana"
+        },
+        {
+          "de": "bald",
+          "es": "pronto"
+        },
+        {
+          "de": "später",
+          "es": "más tarde"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_336",
+      "de": "Ich habe ___ Zeit.",
+      "es": "Tengo ___ tiempo.",
+      "en": "I have ___ time.",
+      "gloss": "yo tengo ___ tiempo",
+      "lemmas": [
+        "viel",
+        "genug",
+        "kaum",
+        "nie"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "viel",
+          "es": "mucho"
+        },
+        {
+          "de": "genug",
+          "es": "suficiente"
+        },
+        {
+          "de": "kaum",
+          "es": "apenas"
+        },
+        {
+          "de": "keine",
+          "es": "nada de"
+        },
+        {
+          "de": "nie",
+          "es": "nunca"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_337",
+      "de": "Das ist ___ teuer.",
+      "es": "Es ___ caro.",
+      "en": "That's ___ expensive.",
+      "gloss": "eso es ___ caro",
+      "lemmas": [
+        "zu",
+        "ziemlich",
+        "echt",
+        "sehr"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "zu",
+          "es": "demasiado"
+        },
+        {
+          "de": "ziemlich",
+          "es": "bastante"
+        },
+        {
+          "de": "echt",
+          "es": "muy (de verdad)"
+        },
+        {
+          "de": "sehr",
+          "es": "muy"
+        },
+        {
+          "de": "viel zu",
+          "es": "muchísimo más de la cuenta"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_338",
+      "de": "Ich gehe ___.",
+      "es": "Voy ___.",
+      "en": "I'm going ___.",
+      "gloss": "yo voy ___",
+      "lemmas": [
+        "nach",
+        "in",
+        "zu"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "nach Hause",
+          "es": "a casa"
+        },
+        {
+          "de": "in die Stadt",
+          "es": "al centro"
+        },
+        {
+          "de": "zum Arzt",
+          "es": "al médico"
+        },
+        {
+          "de": "zu meinem Freund",
+          "es": "a casa de mi amigo"
+        }
+      ],
+      "note": "'nach' con ciudades, 'zu' con personas y sitios, 'in' con espacios cerrados."
+    },
+    {
+      "id": "core_connect_339",
+      "de": "Wir treffen uns um ___.",
+      "es": "Quedamos a ___.",
+      "en": "We're meeting at ___.",
+      "gloss": "nosotros encontramos nos a ___",
+      "lemmas": [
+        "um"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "acht",
+          "es": "las ocho"
+        },
+        {
+          "de": "halb neun",
+          "es": "las ocho y media"
+        },
+        {
+          "de": "kurz nach sechs",
+          "es": "un poco después de las seis"
+        },
+        {
+          "de": "Viertel vor drei",
+          "es": "las tres menos cuarto"
+        }
+      ],
+      "note": "Las horas siempre con 'um'."
+    },
+    {
+      "id": "core_connect_340",
+      "de": "___ habe ich keine Zeit.",
+      "es": "___ no tengo tiempo.",
+      "en": "___ I don't have time.",
+      "gloss": "___ tengo yo ningún tiempo",
+      "lemmas": [
+        "heute",
+        "morgen",
+        "gerade",
+        "leider",
+        "jetzt"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Heute",
+          "es": "Hoy"
+        },
+        {
+          "de": "Morgen",
+          "es": "Mañana"
+        },
+        {
+          "de": "Gerade",
+          "es": "Justo ahora"
+        },
+        {
+          "de": "Leider",
+          "es": "Por desgracia"
+        },
+        {
+          "de": "Jetzt",
+          "es": "Ahora"
+        }
+      ],
+      "note": "Al empezar con estas palabras, el verbo va antes del sujeto."
+    },
+    {
+      "id": "core_connect_341",
+      "de": "Ich komme nicht, weil ___.",
+      "es": "No voy porque ___.",
+      "en": "I'm not coming because ___.",
+      "gloss": "yo vengo no porque ___",
+      "lemmas": [
+        "weil"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ich krank bin",
+          "es": "estoy enfermo"
+        },
+        {
+          "de": "ich keine Zeit habe",
+          "es": "no tengo tiempo"
+        },
+        {
+          "de": "ich lernen muss",
+          "es": "tengo que estudiar"
+        },
+        {
+          "de": "es zu spät ist",
+          "es": "es demasiado tarde"
+        }
+      ],
+      "note": "Ojo: con 'weil' el verbo se coloca al final."
+    },
+    {
+      "id": "core_connect_342",
+      "de": "___ gehen wir ins Kino.",
+      "es": "___ vamos al cine.",
+      "en": "___ we're going to the cinema.",
+      "gloss": "___ vamos nosotros en-el cine",
+      "lemmas": [
+        "vielleicht",
+        "morgen",
+        "heute",
+        "bald"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Vielleicht",
+          "es": "Quizás"
+        },
+        {
+          "de": "Morgen",
+          "es": "Mañana"
+        },
+        {
+          "de": "Heute Abend",
+          "es": "Esta noche"
+        },
+        {
+          "de": "Bald",
+          "es": "Pronto"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_343",
+      "de": "Ich weiß nicht, ob ___.",
+      "es": "No sé si ___.",
+      "en": "I don't know whether ___.",
+      "gloss": "yo sé no si ___",
+      "lemmas": [
+        "ob"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "er kommt",
+          "es": "viene"
+        },
+        {
+          "de": "das geht",
+          "es": "se puede"
+        },
+        {
+          "de": "das richtig ist",
+          "es": "eso es correcto"
+        },
+        {
+          "de": "sie Zeit hat",
+          "es": "ella tiene tiempo"
+        }
+      ],
+      "note": "Tras 'ob' el verbo va al final."
+    },
+    {
+      "id": "core_connect_344",
+      "de": "Kannst du mir mal ___?",
+      "es": "¿Me puedes ___ un momento?",
+      "en": "Can you ___ me for a sec?",
+      "gloss": "puedes tú a-mí vez ___",
+      "lemmas": [
+        "können",
+        "mal"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "helfen",
+          "es": "ayudar"
+        },
+        {
+          "de": "das geben",
+          "es": "dar eso"
+        },
+        {
+          "de": "dein Handy leihen",
+          "es": "dejar tu móvil"
+        },
+        {
+          "de": "das erklären",
+          "es": "explicar eso"
+        }
+      ],
+      "note": "'mal' hace que la petición suene menos exigente."
+    },
+    {
+      "id": "core_connect_345",
+      "de": "Ich bin ___ müde.",
+      "es": "Estoy ___ cansado.",
+      "en": "I'm ___ tired.",
+      "gloss": "yo estoy ___ cansado",
+      "lemmas": [
+        "ziemlich",
+        "echt",
+        "so",
+        "ganz",
+        "richtig"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ziemlich",
+          "es": "bastante"
+        },
+        {
+          "de": "echt",
+          "es": "de verdad"
+        },
+        {
+          "de": "so",
+          "es": "tan"
+        },
+        {
+          "de": "ganz schön",
+          "es": "bastante"
+        },
+        {
+          "de": "richtig",
+          "es": "muy"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_346",
+      "de": "Das ist ___ so.",
+      "es": "Es que es así.",
+      "en": "That's just how it is.",
+      "gloss": "eso es ___ así",
+      "lemmas": [
+        "halt",
+        "eben",
+        "nun",
+        "wohl",
+        "einfach"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "halt",
+          "es": "pues (sur)"
+        },
+        {
+          "de": "eben",
+          "es": "pues (norte)"
+        },
+        {
+          "de": "nun mal",
+          "es": "pues (y no hay más)"
+        },
+        {
+          "de": "einfach",
+          "es": "simplemente"
+        },
+        {
+          "de": "wohl",
+          "es": "seguramente"
+        }
+      ],
+      "note": "Estas partículas suenan a resignación; no se traducen palabra por palabra."
+    },
+    {
+      "id": "core_connect_347",
+      "de": "Sonst ___?",
+      "es": "¿Algo más?",
+      "en": "Anything else?",
+      "gloss": "si-no ___",
+      "lemmas": [
+        "sonst"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "noch etwas",
+          "es": "algo más"
+        },
+        {
+          "de": "noch was",
+          "es": "algo más (coloquial)"
+        },
+        {
+          "de": "nichts",
+          "es": "nada"
+        }
+      ],
+      "note": "Fórmula de tienda."
+    },
+    {
+      "id": "core_connect_p001",
+      "de": "Was ist denn passiert?",
+      "es": "¿Pero qué ha pasado?",
+      "en": "So what happened?",
+      "gloss": "qué es pues pasado",
+      "lemmas": [
+        "passieren"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'passieren' forma el perfecto con 'sein', no con 'haben'."
+    },
+    {
+      "id": "core_connect_p002",
+      "de": "Mir ist nichts passiert.",
+      "es": "No me ha pasado nada.",
+      "en": "Nothing happened to me.",
+      "gloss": "a-mí es nada pasado",
+      "lemmas": [
+        "passieren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "La persona va en dativo: 'mir', no 'ich'."
+    },
+    {
+      "id": "core_connect_p003",
+      "de": "So was passiert eben.",
+      "es": "Esas cosas pasan.",
+      "en": "That kind of thing just happens.",
+      "gloss": "así algo pasa simplemente",
+      "lemmas": [
+        "passieren"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p004",
+      "de": "Genau das meine ich.",
+      "es": "Exactamente eso es lo que digo.",
+      "en": "That's exactly what I mean.",
+      "gloss": "exactamente eso quiero-decir yo",
+      "lemmas": [
+        "genau",
+        "meinen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p005",
+      "de": "Weißt du das genau?",
+      "es": "¿Estás seguro de eso?",
+      "en": "Are you sure about that?",
+      "gloss": "sabes tú eso exacto",
+      "lemmas": [
+        "genau"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p006",
+      "de": "Kannst du das genauer sagen?",
+      "es": "¿Puedes ser más concreto?",
+      "en": "Can you be more specific?",
+      "gloss": "puedes tú eso más-exacto decir",
+      "lemmas": [
+        "genau"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p007",
+      "de": "Was meinst du damit?",
+      "es": "¿Qué quieres decir con eso?",
+      "en": "What do you mean by that?",
+      "gloss": "qué quieres-decir tú con-ello",
+      "lemmas": [
+        "meinen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'meinen' es 'querer decir', no 'mean' de 'significar' para cosas."
+    },
+    {
+      "id": "core_connect_p008",
+      "de": "Ich meine das ernst.",
+      "es": "Lo digo en serio.",
+      "en": "I mean it seriously.",
+      "gloss": "yo quiero-decir eso en-serio",
+      "lemmas": [
+        "meinen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p009",
+      "de": "Meinst du wirklich?",
+      "es": "¿Tú crees?",
+      "en": "Do you really think so?",
+      "gloss": "opinas tú realmente",
+      "lemmas": [
+        "meinen"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p010",
+      "de": "Also gut, machen wir das.",
+      "es": "Bueno, vale, lo hacemos.",
+      "en": "Alright then, let's do it.",
+      "gloss": "así-que bien hacemos nosotros eso",
+      "lemmas": [
+        "also"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p011",
+      "de": "Also, was machen wir jetzt?",
+      "es": "Entonces, ¿qué hacemos ahora?",
+      "en": "So, what do we do now?",
+      "gloss": "así-que qué hacemos nosotros ahora",
+      "lemmas": [
+        "also"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'also' no es 'also' del inglés; significa 'entonces / o sea'."
+    },
+    {
+      "id": "core_connect_p012",
+      "de": "Du kommst also nicht mit?",
+      "es": "Entonces, ¿no vienes?",
+      "en": "So you're not coming along?",
+      "gloss": "tú vienes así-que no con",
+      "lemmas": [
+        "also"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p013",
+      "de": "Sag einfach Bescheid.",
+      "es": "Avísame y ya está.",
+      "en": "Just let me know.",
+      "gloss": "di simplemente aviso",
+      "lemmas": [
+        "einfach"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Aquí 'einfach' no es 'fácil', sino 'simplemente'."
+    },
+    {
+      "id": "core_connect_p014",
+      "de": "Das war einfacher als gedacht.",
+      "es": "Fue más fácil de lo que pensaba.",
+      "en": "That was easier than expected.",
+      "gloss": "eso fue más-fácil que pensado",
+      "lemmas": [
+        "einfach"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p015",
+      "de": "Ich habe einfach keine Lust.",
+      "es": "Es que simplemente no me apetece.",
+      "en": "I just don't feel like it.",
+      "gloss": "yo tengo simplemente ninguna gana",
+      "lemmas": [
+        "einfach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p016",
+      "de": "Das stimmt nicht.",
+      "es": "Eso no es cierto.",
+      "en": "That's not true.",
+      "gloss": "eso cuadra no",
+      "lemmas": [
+        "stimmen"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "'stimmen' = 'ser correcto'. Es lo más normal para corregir a alguien."
+    },
+    {
+      "id": "core_connect_p017",
+      "de": "Stimmt, das habe ich vergessen.",
+      "es": "Cierto, se me olvidó.",
+      "en": "True, I forgot that.",
+      "gloss": "cuadra eso he yo olvidado",
+      "lemmas": [
+        "stimmen"
+      ],
+      "level": 3,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p018",
+      "de": "Stimmt so, danke!",
+      "es": "Quédese con el cambio, gracias.",
+      "en": "Keep the change, thanks!",
+      "gloss": "cuadra así gracias",
+      "lemmas": [
+        "stimmen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Es lo que se dice al pagar para dejar propina."
+    },
+    {
+      "id": "core_connect_p019",
+      "de": "Stimmt das wirklich?",
+      "es": "¿De verdad es cierto?",
+      "en": "Is that really true?",
+      "gloss": "cuadra eso realmente",
+      "lemmas": [
+        "stimmen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p020",
+      "de": "Ist das klar?",
+      "es": "¿Queda claro?",
+      "en": "Is that clear?",
+      "gloss": "es eso claro",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p021",
+      "de": "Jetzt ist mir alles klar.",
+      "es": "Ahora lo entiendo todo.",
+      "en": "Now everything is clear to me.",
+      "gloss": "ahora es a-mí todo claro",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "La persona va en dativo: 'mir ist klar'."
+    },
+    {
+      "id": "core_connect_p022",
+      "de": "Klar mache ich das!",
+      "es": "¡Claro que lo hago!",
+      "en": "Sure, I'll do it!",
+      "gloss": "claro hago yo eso",
+      "lemmas": [
+        "klar"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": "Al empezar con 'Klar', el verbo pasa delante del sujeto."
+    },
+    {
+      "id": "core_connect_p023",
+      "de": "Nun ja, mal sehen.",
+      "es": "Bueno, ya veremos.",
+      "en": "Well, we'll see.",
+      "gloss": "pues sí una-vez ver",
+      "lemmas": [
+        "nun"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p024",
+      "de": "Was machen wir nun?",
+      "es": "¿Y ahora qué hacemos?",
+      "en": "So what do we do now?",
+      "gloss": "qué hacemos nosotros ahora",
+      "lemmas": [
+        "nun"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p025",
+      "de": "Nun bin ich dran.",
+      "es": "Ahora me toca a mí.",
+      "en": "Now it's my turn.",
+      "gloss": "ahora estoy yo en-turno",
+      "lemmas": [
+        "nun"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p026",
+      "de": "Warte ein bisschen!",
+      "es": "¡Espera un poco!",
+      "en": "Wait a bit!",
+      "gloss": "espera un poco",
+      "lemmas": [
+        "bisschen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p027",
+      "de": "Ich bin ein bisschen müde.",
+      "es": "Estoy un poco cansado.",
+      "en": "I'm a little tired.",
+      "gloss": "yo estoy un poco cansado",
+      "lemmas": [
+        "bisschen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p028",
+      "de": "Kannst du ein bisschen warten?",
+      "es": "¿Puedes esperar un poco?",
+      "en": "Can you wait a moment?",
+      "gloss": "puedes tú un poco esperar",
+      "lemmas": [
+        "bisschen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p029",
+      "de": "Das ist echt nett von dir.",
+      "es": "Eso es muy majo de tu parte.",
+      "en": "That's really nice of you.",
+      "gloss": "eso es de-verdad amable de ti",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p030",
+      "de": "Echt jetzt?",
+      "es": "¿En serio?",
+      "en": "Seriously?",
+      "gloss": "de-verdad ahora",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Muy común entre jóvenes; suena a incredulidad."
+    },
+    {
+      "id": "core_connect_p031",
+      "de": "Ist das echt?",
+      "es": "¿Es auténtico?",
+      "en": "Is that genuine?",
+      "gloss": "es eso auténtico",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p032",
+      "de": "Ich mache es trotzdem.",
+      "es": "Lo hago igualmente.",
+      "en": "I'm doing it anyway.",
+      "gloss": "yo hago ello a-pesar-de-eso",
+      "lemmas": [
+        "trotzdem"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p033",
+      "de": "Trotzdem hat es Spaß gemacht.",
+      "es": "Aun así fue divertido.",
+      "en": "It was fun anyway.",
+      "gloss": "a-pesar-de-eso ha ello diversión hecho",
+      "lemmas": [
+        "trotzdem"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'trotzdem' ocupa el primer puesto, así que el verbo va justo después."
+    },
+    {
+      "id": "core_connect_p034",
+      "de": "Außerdem ist es viel zu spät.",
+      "es": "Además es demasiado tarde.",
+      "en": "Besides, it's way too late.",
+      "gloss": "además es ello mucho demasiado tarde",
+      "lemmas": [
+        "außerdem"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p035",
+      "de": "Ich bin müde und außerdem hungrig.",
+      "es": "Estoy cansado y además con hambre.",
+      "en": "I'm tired and hungry on top of that.",
+      "gloss": "yo estoy cansado y además hambriento",
+      "lemmas": [
+        "außerdem"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p036",
+      "de": "Deshalb habe ich nicht angerufen.",
+      "es": "Por eso no llamé.",
+      "en": "That's why I didn't call.",
+      "gloss": "por-eso he yo no llamado",
+      "lemmas": [
+        "deshalb"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p037",
+      "de": "Es regnet, deshalb nehme ich den Bus.",
+      "es": "Llueve, por eso cojo el bus.",
+      "en": "It's raining, so I'm taking the bus.",
+      "gloss": "ello llueve por-eso tomo yo el bus",
+      "lemmas": [
+        "deshalb"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p038",
+      "de": "Das ist nicht wahr!",
+      "es": "¡Eso no es verdad!",
+      "en": "That's not true!",
+      "gloss": "eso es no verdadero",
+      "lemmas": [
+        "wahr"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p039",
+      "de": "Das kann doch nicht wahr sein!",
+      "es": "¡No puede ser!",
+      "en": "That can't be true!",
+      "gloss": "eso puede pues no verdadero ser",
+      "lemmas": [
+        "wahr"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "Frase hecha de sorpresa o enfado."
+    },
+    {
+      "id": "core_connect_p040",
+      "de": "Ist das wahr?",
+      "es": "¿Es verdad?",
+      "en": "Is that true?",
+      "gloss": "es eso verdadero",
+      "lemmas": [
+        "wahr"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p041",
+      "de": "Sonst noch Fragen?",
+      "es": "¿Alguna pregunta más?",
+      "en": "Any other questions?",
+      "gloss": "por-lo-demás aún preguntas",
+      "lemmas": [
+        "sonst"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p042",
+      "de": "Wie geht es dir sonst so?",
+      "es": "¿Y por lo demás, qué tal?",
+      "en": "How are things otherwise?",
+      "gloss": "cómo va ello a-ti por-lo-demás así",
+      "lemmas": [
+        "sonst"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p043",
+      "de": "Zieh eine Jacke an, sonst wird dir kalt.",
+      "es": "Ponte una chaqueta, si no vas a tener frío.",
+      "en": "Put on a jacket, or you'll get cold.",
+      "gloss": "ponte una chaqueta si-no se-vuelve a-ti frío",
+      "lemmas": [
+        "sonst"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'anziehen' es separable: 'Zieh ... an'."
+    },
+    {
+      "id": "core_connect_p044",
+      "de": "Ich habe zwar Zeit, aber keine Lust.",
+      "es": "Tiempo sí tengo, pero ganas no.",
+      "en": "I do have time, but I don't feel like it.",
+      "gloss": "yo tengo si-bien tiempo pero ninguna gana",
+      "lemmas": [
+        "zwar"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'zwar' casi siempre lleva un 'aber' detrás."
+    },
+    {
+      "id": "core_connect_p045",
+      "de": "Es ist zwar teuer, aber richtig gut.",
+      "es": "Es caro, sí, pero muy bueno.",
+      "en": "It's expensive, sure, but really good.",
+      "gloss": "ello es si-bien caro pero realmente bueno",
+      "lemmas": [
+        "zwar"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p046",
+      "de": "Du bist schließlich mein Freund.",
+      "es": "Al fin y al cabo eres mi amigo.",
+      "en": "You are my friend, after all.",
+      "gloss": "tú eres después-de-todo mi amigo",
+      "lemmas": [
+        "schließlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p047",
+      "de": "Schließlich habe ich es allein gemacht.",
+      "es": "Al final lo hice yo solo.",
+      "en": "In the end I did it alone.",
+      "gloss": "al-final he yo ello solo hecho",
+      "lemmas": [
+        "schließlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p048",
+      "de": "Er ist wohl krank.",
+      "es": "Seguramente está enfermo.",
+      "en": "He's probably ill.",
+      "gloss": "él está probablemente enfermo",
+      "lemmas": [
+        "wohl"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p049",
+      "de": "Das war wohl nichts.",
+      "es": "Pues parece que no ha salido.",
+      "en": "That didn't work out, apparently.",
+      "gloss": "eso fue probablemente nada",
+      "lemmas": [
+        "wohl"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p050",
+      "de": "Ich habe bereits bezahlt.",
+      "es": "Ya he pagado.",
+      "en": "I have already paid.",
+      "gloss": "yo he ya pagado",
+      "lemmas": [
+        "bereits"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'bereits' es la versión algo más formal de 'schon'."
+    },
+    {
+      "id": "core_connect_p051",
+      "de": "Er ist bereits weg.",
+      "es": "Ya se ha ido.",
+      "en": "He's already gone.",
+      "gloss": "él está ya fuera",
+      "lemmas": [
+        "bereits"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p052",
+      "de": "Das ist ganz normal.",
+      "es": "Eso es totalmente normal.",
+      "en": "That's completely normal.",
+      "gloss": "eso es del-todo normal",
+      "lemmas": [
+        "normal"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p053",
+      "de": "Ist das bei dir normal?",
+      "es": "¿Eso en tu caso es normal?",
+      "en": "Is that normal for you?",
+      "gloss": "es eso en ti normal",
+      "lemmas": [
+        "normal"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p054",
+      "de": "Ruf mich vorher an!",
+      "es": "¡Llámame antes!",
+      "en": "Call me beforehand!",
+      "gloss": "llama me antes en",
+      "lemmas": [
+        "vorher"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "'anrufen' es separable: 'Ruf ... an'."
+    },
+    {
+      "id": "core_connect_p055",
+      "de": "Das hättest du vorher sagen können.",
+      "es": "Eso lo podrías haber dicho antes.",
+      "en": "You could have said that earlier.",
+      "gloss": "eso habrías tú antes decir poder",
+      "lemmas": [
+        "vorher"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p056",
+      "de": "Wir sehen uns nachher.",
+      "es": "Nos vemos luego.",
+      "en": "See you later.",
+      "gloss": "nosotros vemos nos después",
+      "lemmas": [
+        "nachher"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p057",
+      "de": "Das mache ich nachher.",
+      "es": "Eso lo hago luego.",
+      "en": "I'll do that later.",
+      "gloss": "eso hago yo después",
+      "lemmas": [
+        "nachher"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p058",
+      "de": "Irgendwie klappt das nicht.",
+      "es": "No sé por qué, pero no funciona.",
+      "en": "Somehow it's not working.",
+      "gloss": "de-alguna-manera sale-bien eso no",
+      "lemmas": [
+        "irgendwie",
+        "klappen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p059",
+      "de": "Ich bin heute irgendwie müde.",
+      "es": "Hoy estoy como cansado.",
+      "en": "I'm kind of tired today.",
+      "gloss": "yo estoy hoy de-alguna-manera cansado",
+      "lemmas": [
+        "irgendwie"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p060",
+      "de": "Irgendwann erzähle ich dir das.",
+      "es": "En algún momento te lo cuento.",
+      "en": "I'll tell you about it sometime.",
+      "gloss": "en-algún-momento cuento yo a-ti eso",
+      "lemmas": [
+        "irgendwann"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p061",
+      "de": "Das musst du irgendwann lernen.",
+      "es": "Eso lo tienes que aprender en algún momento.",
+      "en": "You'll have to learn that at some point.",
+      "gloss": "eso debes tú en-algún-momento aprender",
+      "lemmas": [
+        "irgendwann"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p062",
+      "de": "Wegen der Arbeit kann ich nicht.",
+      "es": "Por el trabajo no puedo.",
+      "en": "I can't because of work.",
+      "gloss": "por el trabajo puedo yo no",
+      "lemmas": [
+        "wegen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'wegen' pide genitivo: 'wegen der Arbeit'."
+    },
+    {
+      "id": "core_connect_p063",
+      "de": "Nur wegen dir bin ich hier.",
+      "es": "Estoy aquí solo por ti.",
+      "en": "I'm only here because of you.",
+      "gloss": "solo por ti estoy yo aquí",
+      "lemmas": [
+        "wegen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En el habla diaria se dice 'wegen dir' (dativo)."
+    },
+    {
+      "id": "core_connect_p064",
+      "de": "Ab morgen mache ich Sport.",
+      "es": "A partir de mañana hago deporte.",
+      "en": "From tomorrow on I'll do sports.",
+      "gloss": "a-partir-de mañana hago yo deporte",
+      "lemmas": [
+        "ab"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p065",
+      "de": "Ab wann hast du Zeit?",
+      "es": "¿A partir de cuándo tienes tiempo?",
+      "en": "From when do you have time?",
+      "gloss": "a-partir-de cuándo tienes tú tiempo",
+      "lemmas": [
+        "ab"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p066",
+      "de": "Der Zug fährt ab Gleis drei.",
+      "es": "El tren sale desde la vía tres.",
+      "en": "The train leaves from platform three.",
+      "gloss": "el tren va desde vía tres",
+      "lemmas": [
+        "ab"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p067",
+      "de": "Der Termin passt mir perfekt.",
+      "es": "La cita me viene perfecta.",
+      "en": "That appointment suits me perfectly.",
+      "gloss": "la cita encaja a-mí perfecto",
+      "lemmas": [
+        "perfekt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'passen' pide dativo: 'passt mir'."
+    },
+    {
+      "id": "core_connect_p068",
+      "de": "Dein Deutsch ist schon fast perfekt.",
+      "es": "Tu alemán ya es casi perfecto.",
+      "en": "Your German is almost perfect already.",
+      "gloss": "tu alemán es ya casi perfecto",
+      "lemmas": [
+        "perfekt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p069",
+      "de": "Damals hatte ich kein Handy.",
+      "es": "En aquella época no tenía móvil.",
+      "en": "Back then I had no phone.",
+      "gloss": "entonces tenía yo ningún móvil",
+      "lemmas": [
+        "damals"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p070",
+      "de": "Wir kannten uns schon damals.",
+      "es": "Ya nos conocíamos entonces.",
+      "en": "We already knew each other back then.",
+      "gloss": "nosotros conocíamos nos ya entonces",
+      "lemmas": [
+        "damals"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p071",
+      "de": "Ich habe es jedenfalls versucht.",
+      "es": "Yo al menos lo he intentado.",
+      "en": "At any rate, I tried.",
+      "gloss": "yo he ello en-todo-caso intentado",
+      "lemmas": [
+        "jedenfalls"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p072",
+      "de": "Jedenfalls hat es geklappt.",
+      "es": "En todo caso, salió bien.",
+      "en": "Anyway, it worked out.",
+      "gloss": "en-todo-caso ha ello salido-bien",
+      "lemmas": [
+        "jedenfalls",
+        "klappen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p073",
+      "de": "Ruf wenigstens kurz an!",
+      "es": "¡Llama al menos un momento!",
+      "en": "At least give me a quick call!",
+      "gloss": "llama al-menos corto en",
+      "lemmas": [
+        "wenigstens"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p074",
+      "de": "Wenigstens ist das Wetter gut.",
+      "es": "Al menos hace buen tiempo.",
+      "en": "At least the weather is good.",
+      "gloss": "al-menos está el tiempo bueno",
+      "lemmas": [
+        "wenigstens"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p075",
+      "de": "Zumindest hat es nicht geregnet.",
+      "es": "Por lo menos no llovió.",
+      "en": "At least it didn't rain.",
+      "gloss": "por-lo-menos ha ello no llovido",
+      "lemmas": [
+        "zumindest"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p076",
+      "de": "Er hat sich zumindest entschuldigt.",
+      "es": "Por lo menos se disculpó.",
+      "en": "At least he apologised.",
+      "gloss": "él ha se por-lo-menos disculpado",
+      "lemmas": [
+        "zumindest"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'sich entschuldigen' es reflexivo."
+    },
+    {
+      "id": "core_connect_p077",
+      "de": "Ich brauche mindestens zwei Tage.",
+      "es": "Necesito como mínimo dos días.",
+      "en": "I need at least two days.",
+      "gloss": "yo necesito como-mínimo dos días",
+      "lemmas": [
+        "mindestens"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p078",
+      "de": "Wir warten schon mindestens eine halbe Stunde.",
+      "es": "Llevamos esperando como mínimo media hora.",
+      "en": "We've been waiting at least half an hour.",
+      "gloss": "nosotros esperamos ya como-mínimo una media hora",
+      "lemmas": [
+        "mindestens"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En alemán se usa el presente para algo que sigue pasando."
+    },
+    {
+      "id": "core_connect_p079",
+      "de": "Die Preise sind sehr verschieden.",
+      "es": "Los precios son muy distintos.",
+      "en": "The prices vary a lot.",
+      "gloss": "los precios son muy distintos",
+      "lemmas": [
+        "verschieden"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p080",
+      "de": "Wir sind einfach zu verschieden.",
+      "es": "Simplemente somos demasiado distintos.",
+      "en": "We're just too different.",
+      "gloss": "nosotros somos simplemente demasiado distintos",
+      "lemmas": [
+        "verschieden",
+        "einfach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p081",
+      "de": "Ich bin total kaputt.",
+      "es": "Estoy totalmente reventado.",
+      "en": "I'm completely wiped out.",
+      "gloss": "yo estoy total roto",
+      "lemmas": [
+        "total"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'kaputt sein' para personas = estar agotado."
+    },
+    {
+      "id": "core_connect_p082",
+      "de": "Das war total lustig!",
+      "es": "¡Fue superdivertido!",
+      "en": "That was so funny!",
+      "gloss": "eso fue total divertido",
+      "lemmas": [
+        "total"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p083",
+      "de": "Allerdings weiß ich das nicht genau.",
+      "es": "Eso sí, no lo sé con exactitud.",
+      "en": "Though I don't know that for sure.",
+      "gloss": "eso-sí sé yo eso no exacto",
+      "lemmas": [
+        "allerdings",
+        "genau"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p084",
+      "de": "Er hat allerdings recht.",
+      "es": "La verdad es que tiene razón.",
+      "en": "He is right, though.",
+      "gloss": "él tiene sin-embargo razón",
+      "lemmas": [
+        "allerdings"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'recht haben' va sin artículo."
+    },
+    {
+      "id": "core_connect_p085",
+      "de": "Ich muss nämlich früh raus.",
+      "es": "Es que tengo que madrugar.",
+      "en": "The thing is, I have to get up early.",
+      "gloss": "yo debo es-que temprano fuera",
+      "lemmas": [
+        "nämlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'nämlich' nunca va al principio de la frase."
+    },
+    {
+      "id": "core_connect_p086",
+      "de": "Sie kommt nämlich später.",
+      "es": "Es que ella viene más tarde.",
+      "en": "She's coming later, you see.",
+      "gloss": "ella viene es-que más-tarde",
+      "lemmas": [
+        "nämlich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p087",
+      "de": "Bisher hat alles gut geklappt.",
+      "es": "Hasta ahora todo ha salido bien.",
+      "en": "So far everything has worked out.",
+      "gloss": "hasta-ahora ha todo bien salido-bien",
+      "lemmas": [
+        "bisher",
+        "klappen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p088",
+      "de": "Ich habe bisher nichts gehört.",
+      "es": "Hasta ahora no he oído nada.",
+      "en": "I haven't heard anything so far.",
+      "gloss": "yo he hasta-ahora nada oído",
+      "lemmas": [
+        "bisher"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p089",
+      "de": "Ich wollte sowieso gehen.",
+      "es": "Igualmente me iba a ir.",
+      "en": "I was going to leave anyway.",
+      "gloss": "yo quería de-todas-formas ir",
+      "lemmas": [
+        "sowieso"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p090",
+      "de": "Das weiß er sowieso schon.",
+      "es": "Eso ya lo sabe de todas formas.",
+      "en": "He already knows that anyway.",
+      "gloss": "eso sabe él de-todas-formas ya",
+      "lemmas": [
+        "sowieso"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p091",
+      "de": "Inzwischen geht es mir besser.",
+      "es": "Ya me encuentro mejor.",
+      "en": "By now I'm feeling better.",
+      "gloss": "mientras-tanto va ello a-mí mejor",
+      "lemmas": [
+        "inzwischen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p092",
+      "de": "Kannst du inzwischen den Tisch decken?",
+      "es": "¿Puedes ir poniendo la mesa mientras tanto?",
+      "en": "Can you set the table in the meantime?",
+      "gloss": "puedes tú mientras-tanto la mesa poner",
+      "lemmas": [
+        "inzwischen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p093",
+      "de": "Alle waren da außer dir.",
+      "es": "Estaban todos menos tú.",
+      "en": "Everyone was there except you.",
+      "gloss": "todos estaban ahí excepto a-ti",
+      "lemmas": [
+        "außer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'außer' pide dativo: 'außer dir', no 'außer du'."
+    },
+    {
+      "id": "core_connect_p094",
+      "de": "Außer Wasser habe ich nichts getrunken.",
+      "es": "No he bebido nada salvo agua.",
+      "en": "I drank nothing but water.",
+      "gloss": "excepto agua he yo nada bebido",
+      "lemmas": [
+        "außer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p095",
+      "de": "Ich muss unbedingt mit dir reden.",
+      "es": "Necesito hablar contigo sin falta.",
+      "en": "I really need to talk to you.",
+      "gloss": "yo debo sin-falta con ti hablar",
+      "lemmas": [
+        "unbedingt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p096",
+      "de": "Muss das unbedingt jetzt sein?",
+      "es": "¿Tiene que ser justo ahora?",
+      "en": "Does it have to be right now?",
+      "gloss": "debe eso sin-falta ahora ser",
+      "lemmas": [
+        "unbedingt"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p097",
+      "de": "Das ist doch unmöglich!",
+      "es": "¡Pero si eso es imposible!",
+      "en": "That's just impossible!",
+      "gloss": "eso es pues imposible",
+      "lemmas": [
+        "unmöglich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p098",
+      "de": "Heute ist das leider unmöglich.",
+      "es": "Hoy eso es imposible, lo siento.",
+      "en": "Unfortunately that's impossible today.",
+      "gloss": "hoy es eso lamentablemente imposible",
+      "lemmas": [
+        "unmöglich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p099",
+      "de": "Das habe ich völlig vergessen.",
+      "es": "Se me olvidó por completo.",
+      "en": "I completely forgot that.",
+      "gloss": "eso he yo completamente olvidado",
+      "lemmas": [
+        "völlig"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p100",
+      "de": "Du hast völlig recht.",
+      "es": "Tienes toda la razón.",
+      "en": "You're absolutely right.",
+      "gloss": "tú tienes completamente razón",
+      "lemmas": [
+        "völlig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p101",
+      "de": "Falls du Zeit hast, komm vorbei.",
+      "es": "Si tienes tiempo, pásate.",
+      "en": "If you have time, drop by.",
+      "gloss": "en-caso-de-que tú tiempo tienes ven de-paso",
+      "lemmas": [
+        "falls"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Tras 'falls' el verbo va al final: '... Zeit hast'."
+    },
+    {
+      "id": "core_connect_p102",
+      "de": "Ich schreibe dir, falls sich was ändert.",
+      "es": "Te escribo si cambia algo.",
+      "en": "I'll text you if anything changes.",
+      "gloss": "yo escribo a-ti en-caso-de-que se algo cambia",
+      "lemmas": [
+        "falls"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p103",
+      "de": "Ungefähr so, ja.",
+      "es": "Más o menos así, sí.",
+      "en": "Roughly like that, yes.",
+      "gloss": "aproximadamente así sí",
+      "lemmas": [
+        "ungefähr"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p104",
+      "de": "Wie viel ungefähr?",
+      "es": "¿Cuánto más o menos?",
+      "en": "About how much?",
+      "gloss": "cuánto aproximadamente",
+      "lemmas": [
+        "ungefähr"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p105",
+      "de": "Ich habe es schon mehrere Male versucht.",
+      "es": "Ya lo he intentado varias veces.",
+      "en": "I've tried it several times already.",
+      "gloss": "yo he ello ya varias veces intentado",
+      "lemmas": [
+        "mehrere"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p106",
+      "de": "Dafür gibt es mehrere Gründe.",
+      "es": "Para eso hay varias razones.",
+      "en": "There are several reasons for that.",
+      "gloss": "para-eso da ello varias razones",
+      "lemmas": [
+        "mehrere"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p107",
+      "de": "Immerhin hat er sich gemeldet.",
+      "es": "Al menos dio señales de vida.",
+      "en": "At least he got in touch.",
+      "gloss": "al-menos ha él se avisado",
+      "lemmas": [
+        "immerhin"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'sich melden' = dar señales de vida, ponerse en contacto."
+    },
+    {
+      "id": "core_connect_p108",
+      "de": "Immerhin ist nichts kaputt.",
+      "es": "Después de todo, no se ha roto nada.",
+      "en": "At least nothing is broken.",
+      "gloss": "al-menos está nada roto",
+      "lemmas": [
+        "immerhin"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p109",
+      "de": "Das ist ja unglaublich!",
+      "es": "¡Es increíble!",
+      "en": "That's unbelievable!",
+      "gloss": "eso es pues increíble",
+      "lemmas": [
+        "unglaublich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p110",
+      "de": "Das Wetter war unglaublich schön.",
+      "es": "Hizo un tiempo increíblemente bueno.",
+      "en": "The weather was incredibly nice.",
+      "gloss": "el tiempo estuvo increíble bonito",
+      "lemmas": [
+        "unglaublich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Como adverbio no cambia de forma: 'unglaublich schön'."
+    },
+    {
+      "id": "core_connect_p111",
+      "de": "Manche Leute verstehen das nicht.",
+      "es": "Algunas personas no lo entienden.",
+      "en": "Some people don't get it.",
+      "gloss": "algunas personas entienden eso no",
+      "lemmas": [
+        "manche"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p112",
+      "de": "Manche Tage sind einfach so.",
+      "es": "Hay días que son así y ya.",
+      "en": "Some days are just like that.",
+      "gloss": "algunos días son simplemente así",
+      "lemmas": [
+        "manche",
+        "einfach"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p113",
+      "de": "Du bist ständig am Handy.",
+      "es": "Estás todo el rato con el móvil.",
+      "en": "You're on your phone all the time.",
+      "gloss": "tú estás constantemente en-el móvil",
+      "lemmas": [
+        "ständig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'am Handy sein' = estar con el móvil."
+    },
+    {
+      "id": "core_connect_p114",
+      "de": "Hier ist ständig was los.",
+      "es": "Aquí siempre hay movimiento.",
+      "en": "There's always something going on here.",
+      "gloss": "aquí está constantemente algo suelto",
+      "lemmas": [
+        "ständig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'was los sein' = estar pasando algo."
+    },
+    {
+      "id": "core_connect_p115",
+      "de": "Das kommt häufig vor.",
+      "es": "Eso pasa a menudo.",
+      "en": "That happens frequently.",
+      "gloss": "eso viene a-menudo delante",
+      "lemmas": [
+        "häufig"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'vorkommen' es separable: 'kommt ... vor'."
+    },
+    {
+      "id": "core_connect_p116",
+      "de": "Wie häufig machst du das?",
+      "es": "¿Con qué frecuencia haces eso?",
+      "en": "How often do you do that?",
+      "gloss": "cómo a-menudo haces tú eso",
+      "lemmas": [
+        "häufig"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p117",
+      "de": "Der Bäcker ist gegenüber vom Bahnhof.",
+      "es": "La panadería está enfrente de la estación.",
+      "en": "The bakery is opposite the station.",
+      "gloss": "el panadero está enfrente de-la estación",
+      "lemmas": [
+        "gegenüber"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En el habla diaria: 'gegenüber von' + dativo."
+    },
+    {
+      "id": "core_connect_p118",
+      "de": "Wir wohnen gegenüber der Schule.",
+      "es": "Vivimos enfrente del colegio.",
+      "en": "We live across from the school.",
+      "gloss": "nosotros vivimos enfrente de-la escuela",
+      "lemmas": [
+        "gegenüber"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'gegenüber' pide dativo."
+    },
+    {
+      "id": "core_connect_p119",
+      "de": "Hat es mit dem Termin geklappt?",
+      "es": "¿Salió bien lo de la cita?",
+      "en": "Did the appointment work out?",
+      "gloss": "ha ello con la cita salido-bien",
+      "lemmas": [
+        "klappen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p120",
+      "de": "Das hat leider nicht geklappt.",
+      "es": "Lamentablemente no salió bien.",
+      "en": "Unfortunately that didn't work out.",
+      "gloss": "eso ha lamentablemente no salido-bien",
+      "lemmas": [
+        "klappen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p121",
+      "de": "Das mache ich niemals wieder!",
+      "es": "¡Eso no lo hago nunca más!",
+      "en": "I'll never do that again!",
+      "gloss": "eso hago yo jamás otra-vez",
+      "lemmas": [
+        "niemals"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p122",
+      "de": "Niemals im Leben!",
+      "es": "¡Jamás en la vida!",
+      "en": "Never in my life!",
+      "gloss": "jamás en-la vida",
+      "lemmas": [
+        "niemals"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p123",
+      "de": "Also, nun mal ehrlich.",
+      "es": "A ver, siendo sinceros.",
+      "en": "Alright, let's be honest.",
+      "gloss": "así-que ahora una-vez honesto",
+      "lemmas": [
+        "also",
+        "nun"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p124",
+      "de": "Stimmt das genau so?",
+      "es": "¿Es exactamente así?",
+      "en": "Is that exactly right?",
+      "gloss": "cuadra eso exacto así",
+      "lemmas": [
+        "stimmen",
+        "genau"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p125",
+      "de": "Es ist zwar spät, aber ich komme trotzdem.",
+      "es": "Es tarde, sí, pero voy igualmente.",
+      "en": "It's late, sure, but I'm coming anyway.",
+      "gloss": "ello es si-bien tarde pero yo vengo a-pesar-de-eso",
+      "lemmas": [
+        "zwar",
+        "trotzdem"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p126",
+      "de": "Deshalb frage ich vorher.",
+      "es": "Por eso pregunto antes.",
+      "en": "That's why I'm asking beforehand.",
+      "gloss": "por-eso pregunto yo antes",
+      "lemmas": [
+        "deshalb",
+        "vorher"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p127",
+      "de": "Ab wann ist das normal?",
+      "es": "¿A partir de cuándo es eso normal?",
+      "en": "From when on is that normal?",
+      "gloss": "a-partir-de cuándo es eso normal",
+      "lemmas": [
+        "ab",
+        "normal"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p128",
+      "de": "Ich habe bereits mehrere E-Mails geschrieben.",
+      "es": "Ya he escrito varios correos.",
+      "en": "I've already written several emails.",
+      "gloss": "yo he ya varios correos escrito",
+      "lemmas": [
+        "bereits",
+        "mehrere"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p129",
+      "de": "Wenn das klappt, ist es perfekt.",
+      "es": "Si eso sale bien, es perfecto.",
+      "en": "If that works out, it's perfect.",
+      "gloss": "si eso sale-bien es ello perfecto",
+      "lemmas": [
+        "klappen",
+        "perfekt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_p130",
+      "de": "Ist das wirklich wahr, was du sagst?",
+      "es": "¿De verdad es cierto lo que dices?",
+      "en": "Is what you're saying really true?",
+      "gloss": "es eso realmente verdadero lo-que tú dices",
+      "lemmas": [
+        "wahr"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "En la parte con 'was' el verbo va al final."
+    },
+    {
+      "id": "core_connect_p131",
+      "de": "Was ist mit ___ passiert?",
+      "es": "¿Qué le ha pasado a ___?",
+      "en": "What happened to ___?",
+      "gloss": "qué es con ___ pasado",
+      "lemmas": [
+        "passieren"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "dir",
+          "es": "ti"
+        },
+        {
+          "de": "deinem Handy",
+          "es": "tu móvil"
+        },
+        {
+          "de": "dem Auto",
+          "es": "el coche"
+        },
+        {
+          "de": "ihm",
+          "es": "él"
+        },
+        {
+          "de": "der Tür",
+          "es": "la puerta"
+        }
+      ],
+      "note": "'mit' siempre con dativo."
+    },
+    {
+      "id": "core_connect_p132",
+      "de": "Ich muss unbedingt ___.",
+      "es": "Tengo que ___ sin falta.",
+      "en": "I really have to ___.",
+      "gloss": "yo debo sin-falta ___",
+      "lemmas": [
+        "unbedingt"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "schlafen",
+          "es": "dormir"
+        },
+        {
+          "de": "lernen",
+          "es": "estudiar"
+        },
+        {
+          "de": "einkaufen",
+          "es": "hacer la compra"
+        },
+        {
+          "de": "dich sehen",
+          "es": "verte"
+        },
+        {
+          "de": "aufs Klo",
+          "es": "ir al baño"
+        }
+      ],
+      "note": "El infinitivo va al final."
+    },
+    {
+      "id": "core_connect_p133",
+      "de": "Ab ___ habe ich Zeit.",
+      "es": "A partir de ___ tengo tiempo.",
+      "en": "From ___ on I have time.",
+      "gloss": "a-partir-de ___ tengo yo tiempo",
+      "lemmas": [
+        "ab"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "morgen",
+          "es": "mañana"
+        },
+        {
+          "de": "acht",
+          "es": "las ocho"
+        },
+        {
+          "de": "Montag",
+          "es": "el lunes"
+        },
+        {
+          "de": "nächster Woche",
+          "es": "la semana que viene"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p134",
+      "de": "Das ist echt ___.",
+      "es": "Eso es de verdad ___.",
+      "en": "That's really ___.",
+      "gloss": "eso es de-verdad ___",
+      "lemmas": [
+        "echt"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "nett",
+          "es": "majo"
+        },
+        {
+          "de": "blöd",
+          "es": "tonto"
+        },
+        {
+          "de": "teuer",
+          "es": "caro"
+        },
+        {
+          "de": "lustig",
+          "es": "divertido"
+        },
+        {
+          "de": "schade",
+          "es": "una pena"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p135",
+      "de": "Wegen ___ komme ich später.",
+      "es": "Por ___ llego más tarde.",
+      "en": "I'll be late because of ___.",
+      "gloss": "por ___ vengo yo más-tarde",
+      "lemmas": [
+        "wegen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "der Arbeit",
+          "es": "el trabajo"
+        },
+        {
+          "de": "dem Verkehr",
+          "es": "el tráfico"
+        },
+        {
+          "de": "dem Wetter",
+          "es": "el tiempo"
+        },
+        {
+          "de": "einem Termin",
+          "es": "una cita"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p136",
+      "de": "Irgendwie ist das ___.",
+      "es": "No sé por qué, pero eso es ___.",
+      "en": "Somehow that's ___.",
+      "gloss": "de-alguna-manera es eso ___",
+      "lemmas": [
+        "irgendwie"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "komisch",
+          "es": "raro"
+        },
+        {
+          "de": "unfair",
+          "es": "injusto"
+        },
+        {
+          "de": "schwer",
+          "es": "difícil"
+        },
+        {
+          "de": "anders",
+          "es": "distinto"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p137",
+      "de": "Manche ___ sind so.",
+      "es": "Algunos ___ son así.",
+      "en": "Some ___ are like that.",
+      "gloss": "algunos ___ son así",
+      "lemmas": [
+        "manche"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Leute",
+          "es": "personas"
+        },
+        {
+          "de": "Lehrer",
+          "es": "profesores"
+        },
+        {
+          "de": "Tage",
+          "es": "días"
+        },
+        {
+          "de": "Kinder",
+          "es": "niños"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p138",
+      "de": "Das dauert mindestens ___.",
+      "es": "Eso dura como mínimo ___.",
+      "en": "That takes at least ___.",
+      "gloss": "eso dura como-mínimo ___",
+      "lemmas": [
+        "mindestens"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "zehn Minuten",
+          "es": "diez minutos"
+        },
+        {
+          "de": "zwei Tage",
+          "es": "dos días"
+        },
+        {
+          "de": "eine Woche",
+          "es": "una semana"
+        },
+        {
+          "de": "drei Stunden",
+          "es": "tres horas"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_p139",
+      "de": "Falls ___, sag mir Bescheid.",
+      "es": "Si ___, avísame.",
+      "en": "If ___, let me know.",
+      "gloss": "en-caso-de-que ___ di a-mí aviso",
+      "lemmas": [
+        "falls"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "du nicht kannst",
+          "es": "no puedes"
+        },
+        {
+          "de": "es regnet",
+          "es": "llueve"
+        },
+        {
+          "de": "du später kommst",
+          "es": "llegas más tarde"
+        },
+        {
+          "de": "etwas ist",
+          "es": "pasa algo"
+        }
+      ],
+      "note": "Tras 'falls' el verbo va al final."
+    },
+    {
+      "id": "core_connect_p140",
+      "de": "Ich finde das total ___.",
+      "es": "Eso me parece totalmente ___.",
+      "en": "I find that totally ___.",
+      "gloss": "yo encuentro eso total ___",
+      "lemmas": [
+        "total"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "cool",
+          "es": "guay"
+        },
+        {
+          "de": "langweilig",
+          "es": "aburrido"
+        },
+        {
+          "de": "übertrieben",
+          "es": "exagerado"
+        },
+        {
+          "de": "nett",
+          "es": "majo"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r001",
+      "de": "Ich bin gleich zurück.",
+      "es": "Vuelvo enseguida.",
+      "en": "I'll be right back.",
+      "gloss": "yo estoy enseguida de-vuelta",
+      "lemmas": [
+        "zurück"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Lo dices al levantarte un momento de la mesa o del escritorio."
+    },
+    {
+      "id": "core_connect_r002",
+      "de": "Wann kommst du zurück?",
+      "es": "¿Cuándo vuelves?",
+      "en": "When are you coming back?",
+      "gloss": "cuándo vienes tú de-vuelta",
+      "lemmas": [
+        "zurück"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r003",
+      "de": "Ich gebe dir das Geld morgen zurück.",
+      "es": "Te devuelvo el dinero mañana.",
+      "en": "I'll give you the money back tomorrow.",
+      "gloss": "yo doy a-ti el dinero mañana de-vuelta",
+      "lemmas": [
+        "zurück"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'zurück' se separa del verbo y se va al final de la frase."
+    },
+    {
+      "id": "core_connect_r004",
+      "de": "Ich bin in ___ zurück.",
+      "es": "Vuelvo en ___.",
+      "en": "I'll be back in ___.",
+      "gloss": "yo estoy en ___ de-vuelta",
+      "lemmas": [
+        "zurück"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "fünf Minuten",
+          "es": "cinco minutos"
+        },
+        {
+          "de": "einer halben Stunde",
+          "es": "media hora"
+        },
+        {
+          "de": "zwei Stunden",
+          "es": "dos horas"
+        },
+        {
+          "de": "einer Woche",
+          "es": "una semana"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r005",
+      "de": "Machen wir später weiter.",
+      "es": "Seguimos más tarde.",
+      "en": "Let's continue later.",
+      "gloss": "hacemos nosotros más-tarde adelante",
+      "lemmas": [
+        "weiter"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'weitermachen' = seguir con lo que estabas haciendo."
+    },
+    {
+      "id": "core_connect_r006",
+      "de": "Und dann? Erzähl weiter!",
+      "es": "¿Y luego? ¡Sigue contando!",
+      "en": "And then? Keep going!",
+      "gloss": "y luego cuenta adelante",
+      "lemmas": [
+        "weiter"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r007",
+      "de": "Das geht so nicht weiter.",
+      "es": "Así no puede seguir.",
+      "en": "This can't go on like this.",
+      "gloss": "eso va así no adelante",
+      "lemmas": [
+        "weiter"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Frase típica cuando algo tiene que cambiar ya."
+    },
+    {
+      "id": "core_connect_r008",
+      "de": "Geh einfach ___ weiter.",
+      "es": "Simplemente sigue ___.",
+      "en": "Just keep going ___.",
+      "gloss": "ve simplemente ___ adelante",
+      "lemmas": [
+        "weiter"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "geradeaus",
+          "es": "recto"
+        },
+        {
+          "de": "bis zur Ampel",
+          "es": "hasta el semáforo"
+        },
+        {
+          "de": "ein Stück",
+          "es": "un trecho"
+        },
+        {
+          "de": "noch zehn Meter",
+          "es": "diez metros más"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r009",
+      "de": "Was machst du danach?",
+      "es": "¿Qué haces después?",
+      "en": "What are you doing afterwards?",
+      "gloss": "qué haces tú después",
+      "lemmas": [
+        "danach"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r010",
+      "de": "Erst esse ich, danach lerne ich.",
+      "es": "Primero como, después estudio.",
+      "en": "First I eat, then I study.",
+      "gloss": "primero como yo, después aprendo yo",
+      "lemmas": [
+        "danach"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Tras 'danach' el verbo va antes del sujeto: danach lerne ich."
+    },
+    {
+      "id": "core_connect_r011",
+      "de": "Danach war ich total müde.",
+      "es": "Después estaba totalmente cansado.",
+      "en": "Afterwards I was totally tired.",
+      "gloss": "después estaba yo total cansado",
+      "lemmas": [
+        "danach"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r012",
+      "de": "Danach gehen wir noch ___.",
+      "es": "Después nos vamos ___.",
+      "en": "Afterwards we're going ___.",
+      "gloss": "después vamos nosotros aún ___",
+      "lemmas": [
+        "danach"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Kaffee trinken",
+          "es": "a tomar un café"
+        },
+        {
+          "de": "ins Kino",
+          "es": "al cine"
+        },
+        {
+          "de": "kurz spazieren",
+          "es": "a pasear un rato"
+        },
+        {
+          "de": "zu mir",
+          "es": "a mi casa"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r013",
+      "de": "Heute war es besonders voll.",
+      "es": "Hoy estaba especialmente lleno.",
+      "en": "Today it was especially crowded.",
+      "gloss": "hoy estaba ello especialmente lleno",
+      "lemmas": [
+        "besonders"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r014",
+      "de": "Nicht besonders, ehrlich gesagt.",
+      "es": "No mucho, la verdad.",
+      "en": "Not really, to be honest.",
+      "gloss": "no especialmente, honestamente dicho",
+      "lemmas": [
+        "besonders"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": "'Nicht besonders' es la forma educada de decir que algo estuvo regular."
+    },
+    {
+      "id": "core_connect_r015",
+      "de": "Ich mag besonders ___.",
+      "es": "Me gusta especialmente ___.",
+      "en": "I especially like ___.",
+      "gloss": "yo gusto-de especialmente ___",
+      "lemmas": [
+        "besonders"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Musik hier",
+          "es": "la música de aquí"
+        },
+        {
+          "de": "deinen Stil",
+          "es": "tu estilo"
+        },
+        {
+          "de": "den Sommer",
+          "es": "el verano"
+        },
+        {
+          "de": "das Essen",
+          "es": "la comida"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r016",
+      "de": "Nein, eher nicht.",
+      "es": "No, más bien no.",
+      "en": "No, rather not.",
+      "gloss": "no, más-bien no",
+      "lemmas": [
+        "eher"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": "Suaviza el 'no' y suena menos tajante."
+    },
+    {
+      "id": "core_connect_r017",
+      "de": "Ich bin eher müde als hungrig.",
+      "es": "Estoy más cansado que hambriento.",
+      "en": "I'm more tired than hungry.",
+      "gloss": "yo estoy más-bien cansado que hambriento",
+      "lemmas": [
+        "eher"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'eher ... als' compara dos cosas: más bien A que B."
+    },
+    {
+      "id": "core_connect_r018",
+      "de": "Magst du eher Kaffee oder Tee?",
+      "es": "¿Qué prefieres, café o té?",
+      "en": "Do you prefer coffee or tea?",
+      "gloss": "gustas tú más-bien café o té",
+      "lemmas": [
+        "eher"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'eher A oder B' pregunta por la preferencia o la tendencia."
+    },
+    {
+      "id": "core_connect_r019",
+      "de": "Das ist eher ___.",
+      "es": "Eso es más bien ___.",
+      "en": "That's rather ___.",
+      "gloss": "eso es más-bien ___",
+      "lemmas": [
+        "eher"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "teuer",
+          "es": "caro"
+        },
+        {
+          "de": "langweilig",
+          "es": "aburrido"
+        },
+        {
+          "de": "kompliziert",
+          "es": "complicado"
+        },
+        {
+          "de": "selten",
+          "es": "poco frecuente"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r020",
+      "de": "Der Sommer ist schon vorbei.",
+      "es": "El verano ya se ha acabado.",
+      "en": "Summer is already over.",
+      "gloss": "el verano está ya pasado",
+      "lemmas": [
+        "vorbei"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r021",
+      "de": "Zum Glück ist das vorbei.",
+      "es": "Menos mal que ya ha pasado.",
+      "en": "Luckily that's over.",
+      "gloss": "para-la suerte está eso pasado",
+      "lemmas": [
+        "vorbei"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r022",
+      "de": "Ich komme später bei dir vorbei.",
+      "es": "Me paso luego por tu casa.",
+      "en": "I'll drop by your place later.",
+      "gloss": "yo vengo más-tarde en-casa-de ti de-paso",
+      "lemmas": [
+        "vorbei"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'bei jemandem vorbeikommen' = pasarse por casa de alguien."
+    },
+    {
+      "id": "core_connect_r023",
+      "de": "Ist ___ schon vorbei?",
+      "es": "¿Ya ha terminado ___?",
+      "en": "Is ___ over already?",
+      "gloss": "está ___ ya pasado",
+      "lemmas": [
+        "vorbei"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "der Film",
+          "es": "la película"
+        },
+        {
+          "de": "die Pause",
+          "es": "el descanso"
+        },
+        {
+          "de": "das Konzert",
+          "es": "el concierto"
+        },
+        {
+          "de": "der Regen",
+          "es": "la lluvia"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r024",
+      "de": "Mir geht es genauso.",
+      "es": "A mí me pasa lo mismo.",
+      "en": "I feel exactly the same.",
+      "gloss": "a-mí va ello igual-así",
+      "lemmas": [
+        "genauso"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Respuesta estándar para decir que te identificas con lo que cuentan."
+    },
+    {
+      "id": "core_connect_r025",
+      "de": "Das ist genauso teuer wie im Laden.",
+      "es": "Eso es igual de caro que en la tienda.",
+      "en": "That's just as expensive as in the shop.",
+      "gloss": "eso es igual-así caro como en-la tienda",
+      "lemmas": [
+        "genauso"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'genauso ... wie' = igual de ... que."
+    },
+    {
+      "id": "core_connect_r026",
+      "de": "Mach das genauso wie ich.",
+      "es": "Hazlo igual que yo.",
+      "en": "Do it exactly like me.",
+      "gloss": "haz eso igual-así como yo",
+      "lemmas": [
+        "genauso"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r027",
+      "de": "Das ist genauso ___ wie zu Hause.",
+      "es": "Eso es igual de ___ que en casa.",
+      "en": "That's just as ___ as at home.",
+      "gloss": "eso es igual-así ___ como en-casa",
+      "lemmas": [
+        "genauso"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "gut",
+          "es": "bueno"
+        },
+        {
+          "de": "laut",
+          "es": "ruidoso"
+        },
+        {
+          "de": "teuer",
+          "es": "caro"
+        },
+        {
+          "de": "schön",
+          "es": "bonito"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "core_connect_r028",
+      "de": "Danach fahren wir wieder zurück.",
+      "es": "Después volvemos otra vez.",
+      "en": "Afterwards we'll drive back again.",
+      "gloss": "después vamos nosotros otra-vez de-vuelta",
+      "lemmas": [
+        "danach",
+        "zurück"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "core_connect_r029",
+      "de": "Die Prüfung ist vorbei, jetzt geht es weiter.",
+      "es": "El examen ha terminado, ahora seguimos adelante.",
+      "en": "The exam is over, now we move on.",
+      "gloss": "el examen está pasado, ahora va ello adelante",
+      "lemmas": [
+        "vorbei",
+        "weiter"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    }
+  ]
+}

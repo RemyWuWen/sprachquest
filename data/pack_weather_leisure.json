@@ -1,0 +1,4688 @@
+{
+ "packId": "weather_leisure",
+ "title": "Wetter & Freizeit",
+ "titleDe": "Wie ist das Wetter?",
+ "desc": "Al terminar este pack podrás hablar del tiempo que hace, contar tus aficiones, proponer planes (cine, concierto, fiesta), dar tu opinión sobre una peli o una canción y cancelar un plan sin quedar mal.",
+ "chunks": [
+  {
+   "id": "weather_leisure_001",
+   "de": "Wie ist das Wetter?",
+   "es": "¿Qué tiempo hace?",
+   "en": "What's the weather like?",
+   "gloss": "cómo es el tiempo",
+   "lemmas": [
+    "Wetter"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "El alemán dice \"cómo ES el tiempo\", no \"qué tiempo hace\"."
+  },
+  {
+   "id": "weather_leisure_002",
+   "de": "Das Wetter ist schön.",
+   "es": "Hace buen tiempo.",
+   "en": "The weather is nice.",
+   "gloss": "el tiempo es bonito",
+   "lemmas": [
+    "Wetter",
+    "schön"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_003",
+   "de": "Oh nein, es regnet!",
+   "es": "¡Oh no, está lloviendo!",
+   "en": "Oh no, it's raining!",
+   "gloss": "oh no, ello llueve",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "\"regnen\" siempre lleva \"es\" delante."
+  },
+  {
+   "id": "weather_leisure_004",
+   "de": "Die Sonne scheint.",
+   "es": "Hace sol.",
+   "en": "The sun is shining.",
+   "gloss": "el sol brilla",
+   "lemmas": [
+    "Sonne"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_005",
+   "de": "Heute ist es kalt.",
+   "es": "Hoy hace frío.",
+   "en": "It's cold today.",
+   "gloss": "hoy es ello frío",
+   "lemmas": [
+    "kalt"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "Si empiezas por \"heute\", el verbo va justo detrás."
+  },
+  {
+   "id": "weather_leisure_006",
+   "de": "Es ist warm draußen.",
+   "es": "Fuera hace calor.",
+   "en": "It's warm outside.",
+   "gloss": "ello es cálido fuera",
+   "lemmas": [
+    "warm"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_007",
+   "de": "Schau mal, Schnee!",
+   "es": "¡Mira, nieve!",
+   "en": "Look, snow!",
+   "gloss": "mira una-vez, nieve",
+   "lemmas": [
+    "Schnee"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_008",
+   "de": "So ein Wind!",
+   "es": "¡Vaya viento!",
+   "en": "What a wind!",
+   "gloss": "así un viento",
+   "lemmas": [
+    "Wind"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "\"So ein ___!\" = ¡vaya ___!"
+  },
+  {
+   "id": "weather_leisure_009",
+   "de": "Ich bin ganz nass!",
+   "es": "¡Estoy empapado!",
+   "en": "I'm soaking wet!",
+   "gloss": "yo estoy todo mojado",
+   "lemmas": [
+    "nass"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_010",
+   "de": "Es sind zwanzig Grad.",
+   "es": "Estamos a veinte grados.",
+   "en": "It's twenty degrees.",
+   "gloss": "ello son veinte grados",
+   "lemmas": [
+    "Grad"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "\"Grad\" no lleva plural aquí."
+  },
+  {
+   "id": "weather_leisure_011",
+   "de": "Das ist echt toll!",
+   "es": "¡Eso es genial!",
+   "en": "That's really great!",
+   "gloss": "eso es de-verdad genial",
+   "lemmas": [
+    "toll"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_012",
+   "de": "Das ist langweilig.",
+   "es": "Eso es aburrido.",
+   "en": "That's boring.",
+   "gloss": "eso es aburrido",
+   "lemmas": [
+    "langweilig"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_013",
+   "de": "Ich spiele Fußball.",
+   "es": "Juego al fútbol.",
+   "en": "I play football.",
+   "gloss": "yo juego fútbol",
+   "lemmas": [
+    "spielen",
+    "Fußball"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "Sin artículo ni preposición: \"Fußball spielen\"."
+  },
+  {
+   "id": "weather_leisure_014",
+   "de": "Ich mache Sport.",
+   "es": "Hago deporte.",
+   "en": "I do sport.",
+   "gloss": "yo hago deporte",
+   "lemmas": [
+    "Sport"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_015",
+   "de": "Ich tanze gern.",
+   "es": "Me gusta bailar.",
+   "en": "I like dancing.",
+   "gloss": "yo bailo con-gusto",
+   "lemmas": [
+    "tanzen"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "\"gern\" + verbo = me gusta hacer algo."
+  },
+  {
+   "id": "weather_leisure_016",
+   "de": "Ich habe einen Hund.",
+   "es": "Tengo un perro.",
+   "en": "I have a dog.",
+   "gloss": "yo tengo un perro",
+   "lemmas": [
+    "Hund"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_017",
+   "de": "Ich mag Tiere.",
+   "es": "Me gustan los animales.",
+   "en": "I like animals.",
+   "gloss": "yo quiero animales",
+   "lemmas": [
+    "Tier"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_018",
+   "de": "Wir feiern heute!",
+   "es": "¡Hoy lo celebramos!",
+   "en": "We're celebrating today!",
+   "gloss": "nosotros celebramos hoy",
+   "lemmas": [
+    "feiern"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_019",
+   "de": "Hörst du das?",
+   "es": "¿Oyes eso?",
+   "en": "Do you hear that?",
+   "gloss": "oyes tú eso",
+   "lemmas": [
+    "hören"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_020",
+   "de": "Was denkst du?",
+   "es": "¿Tú qué piensas?",
+   "en": "What do you think?",
+   "gloss": "qué piensas tú",
+   "lemmas": [
+    "denken"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_021",
+   "de": "Schön hier, oder?",
+   "es": "Se está bien aquí, ¿no?",
+   "en": "Nice here, isn't it?",
+   "gloss": "bonito aquí, o",
+   "lemmas": [
+    "schön"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "\"oder?\" al final = ¿no?, ¿verdad?"
+  },
+  {
+   "id": "weather_leisure_022",
+   "de": "Es regnet schon wieder!",
+   "es": "¡Otra vez está lloviendo!",
+   "en": "It's raining again!",
+   "gloss": "ello llueve ya otra-vez",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_023",
+   "de": "Mir ist kalt.",
+   "es": "Tengo frío.",
+   "en": "I'm cold.",
+   "gloss": "a-mí es frío",
+   "lemmas": [
+    "kalt"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Para personas se usa dativo: \"mir\", nunca \"ich bin kalt\"."
+  },
+  {
+   "id": "weather_leisure_024",
+   "de": "Mir ist langweilig.",
+   "es": "Estoy aburrido.",
+   "en": "I'm bored.",
+   "gloss": "a-mí es aburrido",
+   "lemmas": [
+    "langweilig"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"Mir ist langweilig\" = yo me aburro; \"Das ist langweilig\" = la cosa es aburrida."
+  },
+  {
+   "id": "weather_leisure_025",
+   "de": "Der Wind ist stark.",
+   "es": "El viento es fuerte.",
+   "en": "The wind is strong.",
+   "gloss": "el viento es fuerte",
+   "lemmas": [
+    "Wind"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_026",
+   "de": "Meine Schuhe sind nass.",
+   "es": "Tengo los zapatos mojados.",
+   "en": "My shoes are wet.",
+   "gloss": "mis zapatos están mojados",
+   "lemmas": [
+    "nass"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_027",
+   "de": "Da kommen dunkle Wolken.",
+   "es": "Vienen nubes oscuras.",
+   "en": "Dark clouds are coming.",
+   "gloss": "ahí vienen oscuras nubes",
+   "lemmas": [
+    "Wolke"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_028",
+   "de": "Heute ist es richtig heiß.",
+   "es": "Hoy hace muchísimo calor.",
+   "en": "It's really hot today.",
+   "gloss": "hoy es ello correcto caliente",
+   "lemmas": [
+    "heiß",
+    "richtig"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Aquí \"richtig\" significa \"muy\", no \"correcto\"."
+  },
+  {
+   "id": "weather_leisure_029",
+   "de": "Im Sommer ist es hier sehr heiß.",
+   "es": "En verano aquí hace mucho calor.",
+   "en": "In summer it's very hot here.",
+   "gloss": "en-el verano es ello aquí muy caliente",
+   "lemmas": [
+    "Sommer",
+    "heiß"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"im\" = in dem, para meses y estaciones."
+  },
+  {
+   "id": "weather_leisure_030",
+   "de": "Der Frühling kommt bald.",
+   "es": "La primavera llega pronto.",
+   "en": "Spring is coming soon.",
+   "gloss": "la primavera viene pronto",
+   "lemmas": [
+    "Frühling"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_031",
+   "de": "Im Herbst regnet es viel.",
+   "es": "En otoño llueve mucho.",
+   "en": "It rains a lot in autumn.",
+   "gloss": "en-el otoño llueve ello mucho",
+   "lemmas": [
+    "Herbst",
+    "regnen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_032",
+   "de": "Im Winter haben wir viel Schnee.",
+   "es": "En invierno tenemos mucha nieve.",
+   "en": "In winter we get a lot of snow.",
+   "gloss": "en-el invierno tenemos nosotros mucha nieve",
+   "lemmas": [
+    "Winter",
+    "Schnee"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_033",
+   "de": "Das finde ich gut.",
+   "es": "Eso me parece bien.",
+   "en": "I think that's good.",
+   "gloss": "eso encuentro yo bueno",
+   "lemmas": [
+    "finden",
+    "gut"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"finden\" aquí es opinar, no encontrar un objeto."
+  },
+  {
+   "id": "weather_leisure_034",
+   "de": "Wie findest du das?",
+   "es": "¿Qué te parece?",
+   "en": "What do you think of that?",
+   "gloss": "cómo encuentras tú eso",
+   "lemmas": [
+    "finden"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Se pregunta con \"wie\" (cómo), no con \"was\"."
+  },
+  {
+   "id": "weather_leisure_035",
+   "de": "Das klingt gut!",
+   "es": "¡Suena bien!",
+   "en": "That sounds good!",
+   "gloss": "eso suena bueno",
+   "lemmas": [
+    "gut"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_036",
+   "de": "Das glaube ich nicht.",
+   "es": "No me lo creo.",
+   "en": "I don't believe that.",
+   "gloss": "eso creo yo no",
+   "lemmas": [
+    "glauben"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_037",
+   "de": "Ich glaube schon.",
+   "es": "Creo que sí.",
+   "en": "I think so.",
+   "gloss": "yo creo ya",
+   "lemmas": [
+    "glauben"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": "\"schon\" aquí no significa \"ya\", solo refuerza el sí."
+  },
+  {
+   "id": "weather_leisure_038",
+   "de": "Ich denke schon.",
+   "es": "Yo diría que sí.",
+   "en": "I think so.",
+   "gloss": "yo pienso ya",
+   "lemmas": [
+    "denken"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_039",
+   "de": "Das gefällt mir.",
+   "es": "Eso me gusta.",
+   "en": "I like that.",
+   "gloss": "eso gusta a-mí",
+   "lemmas": [
+    "gefallen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Lo que gusta es el sujeto y la persona va en dativo: \"mir\"."
+  },
+  {
+   "id": "weather_leisure_040",
+   "de": "Ich höre gern Musik.",
+   "es": "Me gusta escuchar música.",
+   "en": "I like listening to music.",
+   "gloss": "yo oigo con-gusto música",
+   "lemmas": [
+    "hören",
+    "Musik"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_041",
+   "de": "Mach mal die Musik lauter!",
+   "es": "¡Sube la música!",
+   "en": "Turn the music up!",
+   "gloss": "haz una-vez la música más-alta",
+   "lemmas": [
+    "Musik"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_042",
+   "de": "Gehen wir ins Kino?",
+   "es": "¿Vamos al cine?",
+   "en": "Shall we go to the cinema?",
+   "gloss": "vamos nosotros a-el cine",
+   "lemmas": [
+    "Kino"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "\"ins\" = in das, con movimiento."
+  },
+  {
+   "id": "weather_leisure_043",
+   "de": "Schaust du heute Fußball?",
+   "es": "¿Vas a ver el fútbol hoy?",
+   "en": "Are you watching the football today?",
+   "gloss": "miras tú hoy fútbol",
+   "lemmas": [
+    "Fußball"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_044",
+   "de": "Machst du viel Sport?",
+   "es": "¿Haces mucho deporte?",
+   "en": "Do you do a lot of sport?",
+   "gloss": "haces tú mucho deporte",
+   "lemmas": [
+    "Sport"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_045",
+   "de": "Spielst du ein Instrument?",
+   "es": "¿Tocas algún instrumento?",
+   "en": "Do you play an instrument?",
+   "gloss": "juegas tú un instrumento",
+   "lemmas": [
+    "spielen"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "\"spielen\" vale para jugar y para tocar música."
+  },
+  {
+   "id": "weather_leisure_046",
+   "de": "Wollen wir tanzen?",
+   "es": "¿Bailamos?",
+   "en": "Shall we dance?",
+   "gloss": "queremos nosotros bailar",
+   "lemmas": [
+    "tanzen"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "\"Wollen wir...?\" es la forma normal de proponer algo."
+  },
+  {
+   "id": "weather_leisure_047",
+   "de": "Sie singt sehr schön.",
+   "es": "Canta muy bien.",
+   "en": "She sings beautifully.",
+   "gloss": "ella canta muy bonito",
+   "lemmas": [
+    "singen",
+    "schön"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con cantar o bailar, \"schön\" equivale a \"bien\": Sie singt schön."
+  },
+  {
+   "id": "weather_leisure_048",
+   "de": "Wie heißt dieses Lied?",
+   "es": "¿Cómo se llama esta canción?",
+   "en": "What's this song called?",
+   "gloss": "cómo se-llama esta canción",
+   "lemmas": [
+    "Lied"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_049",
+   "de": "Kennst du diese Serie?",
+   "es": "¿Conoces esta serie?",
+   "en": "Do you know this series?",
+   "gloss": "conoces tú esta serie",
+   "lemmas": [
+    "Serie"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_050",
+   "de": "Wir machen eine Party.",
+   "es": "Vamos a hacer una fiesta.",
+   "en": "We're having a party.",
+   "gloss": "nosotros hacemos una fiesta",
+   "lemmas": [
+    "Party"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_051",
+   "de": "Wir planen eine Party.",
+   "es": "Estamos organizando una fiesta.",
+   "en": "We're planning a party.",
+   "gloss": "nosotros planeamos una fiesta",
+   "lemmas": [
+    "planen",
+    "Party"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_052",
+   "de": "Ich suche ein Geschenk.",
+   "es": "Estoy buscando un regalo.",
+   "en": "I'm looking for a present.",
+   "gloss": "yo busco un regalo",
+   "lemmas": [
+    "Geschenk"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_053",
+   "de": "Danke für das Geschenk!",
+   "es": "¡Gracias por el regalo!",
+   "en": "Thanks for the present!",
+   "gloss": "gracias por el regalo",
+   "lemmas": [
+    "Geschenk"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"für\" siempre con acusativo."
+  },
+  {
+   "id": "weather_leisure_054",
+   "de": "Was sind deine Hobbys?",
+   "es": "¿Cuáles son tus aficiones?",
+   "en": "What are your hobbies?",
+   "gloss": "qué son tus hobbies",
+   "lemmas": [
+    "Hobby"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_055",
+   "de": "Das ist nur ein Hobby.",
+   "es": "Es solo una afición.",
+   "en": "It's just a hobby.",
+   "gloss": "eso es solo un hobby",
+   "lemmas": [
+    "Hobby"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_056",
+   "de": "Welche Mannschaft magst du?",
+   "es": "¿De qué equipo eres?",
+   "en": "Which team do you support?",
+   "gloss": "cuál equipo quieres tú",
+   "lemmas": [
+    "Mannschaft"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_057",
+   "de": "Was ist deine Meinung?",
+   "es": "¿Cuál es tu opinión?",
+   "en": "What's your opinion?",
+   "gloss": "qué es tu opinión",
+   "lemmas": [
+    "Meinung"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_058",
+   "de": "Kann ich ein Foto machen?",
+   "es": "¿Puedo hacer una foto?",
+   "en": "Can I take a photo?",
+   "gloss": "puedo yo una foto hacer",
+   "lemmas": [
+    "Foto"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Las fotos se \"hacen\" (machen), no se \"toman\"."
+  },
+  {
+   "id": "weather_leisure_059",
+   "de": "Ich habe keine Lust.",
+   "es": "No tengo ganas.",
+   "en": "I don't feel like it.",
+   "gloss": "yo tengo ninguna gana",
+   "lemmas": [
+    "Lust"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"Lust\" es die, por eso \"keine\"."
+  },
+  {
+   "id": "weather_leisure_060",
+   "de": "Was feiert ihr?",
+   "es": "¿Qué celebráis?",
+   "en": "What are you celebrating?",
+   "gloss": "qué celebráis vosotros",
+   "lemmas": [
+    "feiern"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_061",
+   "de": "Ich kann gut schwimmen.",
+   "es": "Sé nadar bien.",
+   "en": "I can swim well.",
+   "gloss": "yo puedo bien nadar",
+   "lemmas": [
+    "gut",
+    "schwimmen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"können\" + verbo = saber hacer algo."
+  },
+  {
+   "id": "weather_leisure_062",
+   "de": "Ich laufe jeden Morgen.",
+   "es": "Salgo a correr cada mañana.",
+   "en": "I run every morning.",
+   "gloss": "yo corro cada mañana",
+   "lemmas": [
+    "laufen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_063",
+   "de": "Es sieht nach Regen aus.",
+   "es": "Parece que va a llover.",
+   "en": "It looks like rain.",
+   "gloss": "ello mira hacia lluvia fuera",
+   "lemmas": [
+    "Regen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"aussehen\" es separable: el \"aus\" se va al final."
+  },
+  {
+   "id": "weather_leisure_064",
+   "de": "Der Regen hört nicht auf.",
+   "es": "La lluvia no para.",
+   "en": "The rain won't stop.",
+   "gloss": "la lluvia oye no arriba",
+   "lemmas": [
+    "Regen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"aufhören\" (parar) es separable."
+  },
+  {
+   "id": "weather_leisure_065",
+   "de": "Am Himmel sind keine Wolken.",
+   "es": "No hay nubes en el cielo.",
+   "en": "There are no clouds in the sky.",
+   "gloss": "en-el cielo son ningunas nubes",
+   "lemmas": [
+    "Wolke"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_066",
+   "de": "Zieh dich warm an!",
+   "es": "¡Abrígate!",
+   "en": "Dress warmly!",
+   "gloss": "tira te cálido a",
+   "lemmas": [
+    "warm"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "\"anziehen\" es separable y aquí reflexivo: \"zieh ... an\"."
+  },
+  {
+   "id": "weather_leisure_067",
+   "de": "Der Winter ist mir zu kalt.",
+   "es": "El invierno es demasiado frío para mí.",
+   "en": "Winter is too cold for me.",
+   "gloss": "el invierno es a-mí demasiado frío",
+   "lemmas": [
+    "Winter",
+    "kalt"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"mir zu ___\" = demasiado ___ para mí."
+  },
+  {
+   "id": "weather_leisure_068",
+   "de": "Im Frühling wird alles grün.",
+   "es": "En primavera todo se pone verde.",
+   "en": "In spring everything turns green.",
+   "gloss": "en-la primavera se-vuelve todo verde",
+   "lemmas": [
+    "Frühling"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"werden\" = volverse, ponerse."
+  },
+  {
+   "id": "weather_leisure_069",
+   "de": "Im Herbst ist es oft nass und windig.",
+   "es": "En otoño suele estar húmedo y con viento.",
+   "en": "In autumn it's often wet and windy.",
+   "gloss": "en-el otoño es ello a-menudo mojado y ventoso",
+   "lemmas": [
+    "Herbst",
+    "nass"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_070",
+   "de": "Ich freue mich auf den Sommer.",
+   "es": "Tengo ganas de que llegue el verano.",
+   "en": "I'm looking forward to summer.",
+   "gloss": "yo alegro me sobre el verano",
+   "lemmas": [
+    "Sommer"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"sich freuen auf\" + acusativo = ilusionarse con algo futuro."
+  },
+  {
+   "id": "weather_leisure_071",
+   "de": "Komm, wir gehen in die Sonne!",
+   "es": "¡Venga, vamos a ponernos al sol!",
+   "en": "Come on, let's go into the sun!",
+   "gloss": "ven, nosotros vamos en el sol",
+   "lemmas": [
+    "Sonne"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_072",
+   "de": "Was läuft heute im Kino?",
+   "es": "¿Qué ponen hoy en el cine?",
+   "en": "What's on at the cinema today?",
+   "gloss": "qué corre hoy en-el cine",
+   "lemmas": [
+    "laufen",
+    "Kino"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "\"laufen\" también significa \"echar/poner\" una película."
+  },
+  {
+   "id": "weather_leisure_073",
+   "de": "Wollen wir einen Film schauen?",
+   "es": "¿Vemos una peli?",
+   "en": "Shall we watch a film?",
+   "gloss": "queremos nosotros una película mirar",
+   "lemmas": [
+    "Film"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_074",
+   "de": "Wie gefällt dir der Film?",
+   "es": "¿Qué te parece la película?",
+   "en": "How do you like the film?",
+   "gloss": "cómo gusta a-ti la película",
+   "lemmas": [
+    "gefallen",
+    "Film"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_075",
+   "de": "Mir gefällt die Musik hier.",
+   "es": "Me gusta la música de aquí.",
+   "en": "I like the music here.",
+   "gloss": "a-mí gusta la música aquí",
+   "lemmas": [
+    "gefallen",
+    "Musik"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_076",
+   "de": "Ich finde den Film langweilig.",
+   "es": "La película me parece aburrida.",
+   "en": "I find the film boring.",
+   "gloss": "yo encuentro la película aburrida",
+   "lemmas": [
+    "finden",
+    "Film",
+    "langweilig"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"finden\" + acusativo + adjetivo, sin \"ist\"."
+  },
+  {
+   "id": "weather_leisure_077",
+   "de": "Wir hören dieses Lied immer im Auto.",
+   "es": "Siempre escuchamos esta canción en el coche.",
+   "en": "We always listen to this song in the car.",
+   "gloss": "nosotros oímos esta canción siempre en-el coche",
+   "lemmas": [
+    "hören",
+    "Lied"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_078",
+   "de": "Wir singen zusammen ein Lied.",
+   "es": "Cantamos juntos una canción.",
+   "en": "We're singing a song together.",
+   "gloss": "nosotros cantamos juntos una canción",
+   "lemmas": [
+    "singen",
+    "Lied"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_079",
+   "de": "Ich schaue gerade eine Serie.",
+   "es": "Estoy viendo una serie.",
+   "en": "I'm watching a series right now.",
+   "gloss": "yo miro justo-ahora una serie",
+   "lemmas": [
+    "Serie"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"gerade\" es lo que convierte el presente en \"estoy viendo\"."
+  },
+  {
+   "id": "weather_leisure_080",
+   "de": "Wir gehen heute Abend auf ein Konzert.",
+   "es": "Esta noche vamos a un concierto.",
+   "en": "We're going to a concert tonight.",
+   "gloss": "nosotros vamos hoy tarde sobre un concierto",
+   "lemmas": [
+    "Konzert"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "A un concierto se va \"auf\", no \"zu\"."
+  },
+  {
+   "id": "weather_leisure_081",
+   "de": "Das Konzert war toll.",
+   "es": "El concierto estuvo genial.",
+   "en": "The concert was great.",
+   "gloss": "el concierto era genial",
+   "lemmas": [
+    "Konzert",
+    "toll"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_082",
+   "de": "Wollen wir uns morgen treffen?",
+   "es": "¿Quedamos mañana?",
+   "en": "Shall we meet tomorrow?",
+   "gloss": "queremos nosotros nos mañana encontrar",
+   "lemmas": [
+    "treffen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "\"sich treffen\" = quedar; siempre lleva \"uns\"."
+  },
+  {
+   "id": "weather_leisure_083",
+   "de": "Ich treffe mich mit Freunden.",
+   "es": "He quedado con amigos.",
+   "en": "I'm meeting friends.",
+   "gloss": "yo encuentro me con amigos",
+   "lemmas": [
+    "treffen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"mit\" siempre con dativo: \"mit Freunden\"."
+  },
+  {
+   "id": "weather_leisure_084",
+   "de": "Hast du Lust auf Kino?",
+   "es": "¿Te apetece ir al cine?",
+   "en": "Do you fancy the cinema?",
+   "gloss": "tienes tú gana sobre cine",
+   "lemmas": [
+    "Lust",
+    "Kino"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "\"Lust auf\" + acusativo = apetecer algo."
+  },
+  {
+   "id": "weather_leisure_085",
+   "de": "Was schlägst du vor?",
+   "es": "¿Qué propones?",
+   "en": "What do you suggest?",
+   "gloss": "qué golpeas tú delante",
+   "lemmas": [
+    "vorschlagen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "\"vorschlagen\" es separable: el \"vor\" va al final."
+  },
+  {
+   "id": "weather_leisure_086",
+   "de": "Ich muss leider absagen.",
+   "es": "Lo siento, tengo que cancelar.",
+   "en": "Unfortunately I have to cancel.",
+   "gloss": "yo debo lamentablemente cancelar",
+   "lemmas": [
+    "absagen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_087",
+   "de": "Was planst du fürs Wochenende?",
+   "es": "¿Qué planes tienes para el fin de semana?",
+   "en": "What are you planning for the weekend?",
+   "gloss": "qué planeas tú para-el fin-de-semana",
+   "lemmas": [
+    "planen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "\"fürs\" = für das, muy normal al hablar."
+  },
+  {
+   "id": "weather_leisure_088",
+   "de": "Kommst du auch auf die Party?",
+   "es": "¿Tú también vienes a la fiesta?",
+   "en": "Are you coming to the party too?",
+   "gloss": "vienes tú también sobre la fiesta",
+   "lemmas": [
+    "Party"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_089",
+   "de": "Schick mir mal das Foto!",
+   "es": "¡Mándame la foto!",
+   "en": "Send me the photo!",
+   "gloss": "manda a-mí una-vez la foto",
+   "lemmas": [
+    "Foto"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "\"mir\" en dativo: a quién se lo mandas."
+  },
+  {
+   "id": "weather_leisure_090",
+   "de": "Ich gehe mit dem Hund raus.",
+   "es": "Voy a sacar al perro.",
+   "en": "I'm taking the dog out.",
+   "gloss": "yo voy con el perro fuera",
+   "lemmas": [
+    "Hund"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_091",
+   "de": "Im Zoo gibt es viele Tiere.",
+   "es": "En el zoo hay muchos animales.",
+   "en": "There are lots of animals at the zoo.",
+   "gloss": "en-el zoo da ello muchos animales",
+   "lemmas": [
+    "Tier"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"es gibt\" = hay, y siempre con acusativo."
+  },
+  {
+   "id": "weather_leisure_092",
+   "de": "Wollen wir schwimmen gehen?",
+   "es": "¿Vamos a nadar?",
+   "en": "Shall we go swimming?",
+   "gloss": "queremos nosotros nadar ir",
+   "lemmas": [
+    "schwimmen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_093",
+   "de": "Bei dem Wetter bleibe ich zu Hause.",
+   "es": "Con este tiempo me quedo en casa.",
+   "en": "In this weather I'm staying home.",
+   "gloss": "con el tiempo quedo yo en casa",
+   "lemmas": [
+    "Wetter"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"bei\" + dativo; empezando por ahí, el verbo va en segundo lugar."
+  },
+  {
+   "id": "weather_leisure_094",
+   "de": "Meiner Meinung nach ist das falsch.",
+   "es": "En mi opinión eso está mal.",
+   "en": "In my opinion that's wrong.",
+   "gloss": "de-mi opinión según es eso equivocado",
+   "lemmas": [
+    "Meinung",
+    "falsch"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"nach\" va detrás: \"meiner Meinung nach\"."
+  },
+  {
+   "id": "weather_leisure_095",
+   "de": "Ich glaube, dass das eine gute Idee ist.",
+   "es": "Creo que es buena idea.",
+   "en": "I think that's a good idea.",
+   "gloss": "yo creo, que eso una buena idea es",
+   "lemmas": [
+    "glauben",
+    "gut"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Tras \"dass\" el verbo se va al final."
+  },
+  {
+   "id": "weather_leisure_096",
+   "de": "Unsere Mannschaft hat gewonnen.",
+   "es": "Nuestro equipo ha ganado.",
+   "en": "Our team won.",
+   "gloss": "nuestro equipo ha ganado",
+   "lemmas": [
+    "Mannschaft"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_097",
+   "de": "Ich habe gestern Geburtstag gefeiert.",
+   "es": "Ayer celebré mi cumpleaños.",
+   "en": "I celebrated my birthday yesterday.",
+   "gloss": "yo he ayer cumpleaños celebrado",
+   "lemmas": [
+    "feiern"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "El participio va al final de la frase."
+  },
+  {
+   "id": "weather_leisure_098",
+   "de": "Sie hat das Konzert abgesagt.",
+   "es": "Ha cancelado el concierto.",
+   "en": "She cancelled the concert.",
+   "gloss": "ella ha el concierto cancelado",
+   "lemmas": [
+    "absagen",
+    "Konzert"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "En separables el \"ge-\" va en medio: ab-ge-sagt."
+  },
+  {
+   "id": "weather_leisure_099",
+   "de": "Ich schlage etwas anderes vor.",
+   "es": "Propongo otra cosa.",
+   "en": "I suggest something else.",
+   "gloss": "yo golpeo algo otro delante",
+   "lemmas": [
+    "vorschlagen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_100",
+   "de": "Wir sind zwei Stunden gelaufen.",
+   "es": "Estuvimos andando dos horas.",
+   "en": "We walked for two hours.",
+   "gloss": "nosotros somos dos horas andado",
+   "lemmas": [
+    "laufen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Los verbos de movimiento hacen el perfecto con \"sein\"."
+  },
+  {
+   "id": "weather_leisure_101",
+   "de": "Es hat die ganze Nacht geregnet.",
+   "es": "Ha llovido toda la noche.",
+   "en": "It rained all night.",
+   "gloss": "ello ha la entera noche llovido",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_102",
+   "de": "Der Sommer war dieses Jahr sehr heiß.",
+   "es": "Este verano ha sido muy caluroso.",
+   "en": "Summer was very hot this year.",
+   "gloss": "el verano era este año muy caliente",
+   "lemmas": [
+    "Sommer",
+    "heiß"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_103",
+   "de": "Ich denke oft an meine Familie.",
+   "es": "Pienso a menudo en mi familia.",
+   "en": "I often think about my family.",
+   "gloss": "yo pienso a-menudo en mi familia",
+   "lemmas": [
+    "denken"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"denken an\" + acusativo, no \"denken in\"."
+  },
+  {
+   "id": "weather_leisure_104",
+   "de": "Wenn es morgen schön ist, gehen wir schwimmen.",
+   "es": "Si mañana hace bueno, vamos a nadar.",
+   "en": "If it's nice tomorrow, we'll go swimming.",
+   "gloss": "si ello mañana bonito es, vamos nosotros nadar",
+   "lemmas": [
+    "schön",
+    "schwimmen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Tras la frase con \"wenn\", la principal empieza por el verbo."
+  },
+  {
+   "id": "weather_leisure_105",
+   "de": "Ich hätte Lust, ins Kino zu gehen.",
+   "es": "Me apetecería ir al cine.",
+   "en": "I'd like to go to the cinema.",
+   "gloss": "yo tendría gana, a-el cine a ir",
+   "lemmas": [
+    "Lust",
+    "Kino"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "\"zu + infinitivo\" al final; \"hätte\" suena más suave que \"habe\"."
+  },
+  {
+   "id": "weather_leisure_106",
+   "de": "Ich glaube, es wird morgen regnen.",
+   "es": "Creo que mañana va a llover.",
+   "en": "I think it's going to rain tomorrow.",
+   "gloss": "yo creo, ello se-vuelve mañana llover",
+   "lemmas": [
+    "glauben",
+    "regnen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "\"werden\" + infinitivo = futuro."
+  },
+  {
+   "id": "weather_leisure_107",
+   "de": "Wenn das Wetter schlecht ist, sagen wir die Party ab.",
+   "es": "Si hace mal tiempo, cancelamos la fiesta.",
+   "en": "If the weather is bad, we'll cancel the party.",
+   "gloss": "si el tiempo malo es, decimos nosotros la fiesta fuera",
+   "lemmas": [
+    "Wetter",
+    "absagen",
+    "Party"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "\"absagen\" se parte: \"sagen ... ab\"."
+  },
+  {
+   "id": "weather_leisure_108",
+   "de": "Ich finde es toll, dass du auch kommst.",
+   "es": "Me parece genial que vengas tú también.",
+   "en": "I think it's great that you're coming too.",
+   "gloss": "yo encuentro ello genial, que tú también vienes",
+   "lemmas": [
+    "finden",
+    "toll"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_109",
+   "de": "Weil es geregnet hat, sind wir zu Hause geblieben.",
+   "es": "Como ha llovido, nos hemos quedado en casa.",
+   "en": "Because it rained, we stayed home.",
+   "gloss": "porque ello llovido ha, somos nosotros en casa quedado",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Con \"weil\" el verbo conjugado se va al final."
+  },
+  {
+   "id": "weather_leisure_110",
+   "de": "Ich höre gern Musik, wenn ich koche.",
+   "es": "Me gusta escuchar música cuando cocino.",
+   "en": "I like listening to music when I cook.",
+   "gloss": "yo oigo con-gusto música, cuando yo cocino",
+   "lemmas": [
+    "hören",
+    "Musik"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_111",
+   "de": "Er spielt seit zehn Jahren in einer Mannschaft.",
+   "es": "Lleva diez años jugando en un equipo.",
+   "en": "He's been playing in a team for ten years.",
+   "gloss": "él juega desde diez años en un equipo",
+   "lemmas": [
+    "spielen",
+    "Mannschaft"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "\"seit\" + presente donde el español usa \"lleva ... -ando\"."
+  },
+  {
+   "id": "weather_leisure_112",
+   "de": "Wir haben die ganze Nacht getanzt und gesungen.",
+   "es": "Estuvimos toda la noche bailando y cantando.",
+   "en": "We danced and sang all night.",
+   "gloss": "nosotros hemos la entera noche bailado y cantado",
+   "lemmas": [
+    "tanzen",
+    "singen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_113",
+   "de": "Ich habe schon ein Geschenk für dich gekauft.",
+   "es": "Ya te he comprado un regalo.",
+   "en": "I've already bought a present for you.",
+   "gloss": "yo he ya un regalo para ti comprado",
+   "lemmas": [
+    "Geschenk"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_114",
+   "de": "Sag mir Bescheid, wenn du das Foto hast.",
+   "es": "Avísame cuando tengas la foto.",
+   "en": "Let me know when you have the photo.",
+   "gloss": "di a-mí aviso, cuando tú la foto tienes",
+   "lemmas": [
+    "Foto"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "\"Bescheid sagen\" = avisar; se dice siempre así."
+  },
+  {
+   "id": "weather_leisure_115",
+   "de": "Mein Hund darf nicht ins Wasser, weil es zu kalt ist.",
+   "es": "Mi perro no puede meterse en el agua porque está demasiado fría.",
+   "en": "My dog can't go in the water because it's too cold.",
+   "gloss": "mi perro puede no a-el agua, porque ello demasiado frío es",
+   "lemmas": [
+    "Hund",
+    "kalt"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_116",
+   "de": "Heute sind es ___ Grad.",
+   "es": "Hoy estamos a ___ grados.",
+   "en": "It's ___ degrees today.",
+   "gloss": "hoy son ello ___ grados",
+   "lemmas": [
+    "Grad"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "null",
+     "es": "cero"
+    },
+    {
+     "de": "zehn",
+     "es": "diez"
+    },
+    {
+     "de": "zwanzig",
+     "es": "veinte"
+    },
+    {
+     "de": "dreißig",
+     "es": "treinta"
+    },
+    {
+     "de": "minus fünf",
+     "es": "menos cinco"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_117",
+   "de": "Es ist heute sehr ___.",
+   "es": "Hoy hace un tiempo muy ___.",
+   "en": "It's very ___ today.",
+   "gloss": "ello es hoy muy ___",
+   "lemmas": [
+    "warm",
+    "kalt",
+    "heiß",
+    "nass"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "kalt",
+     "es": "frío"
+    },
+    {
+     "de": "warm",
+     "es": "templado"
+    },
+    {
+     "de": "heiß",
+     "es": "caluroso"
+    },
+    {
+     "de": "nass",
+     "es": "húmedo"
+    },
+    {
+     "de": "windig",
+     "es": "ventoso"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_118",
+   "de": "Im ___ ist es hier schön.",
+   "es": "Aquí en ___ se está bien.",
+   "en": "It's nice here in ___.",
+   "gloss": "en-el ___ es ello aquí bonito",
+   "lemmas": [
+    "Frühling",
+    "Sommer",
+    "Herbst",
+    "Winter",
+    "schön"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Frühling",
+     "es": "primavera"
+    },
+    {
+     "de": "Sommer",
+     "es": "verano"
+    },
+    {
+     "de": "Herbst",
+     "es": "otoño"
+    },
+    {
+     "de": "Winter",
+     "es": "invierno"
+    }
+   ],
+   "note": "\"im\" para las cuatro estaciones."
+  },
+  {
+   "id": "weather_leisure_119",
+   "de": "Ich spiele gern ___.",
+   "es": "Me gusta jugar/tocar ___.",
+   "en": "I like playing ___.",
+   "gloss": "yo juego con-gusto ___",
+   "lemmas": [
+    "spielen",
+    "Fußball"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Fußball",
+     "es": "al fútbol"
+    },
+    {
+     "de": "Tennis",
+     "es": "al tenis"
+    },
+    {
+     "de": "Karten",
+     "es": "a las cartas"
+    },
+    {
+     "de": "Gitarre",
+     "es": "la guitarra"
+    },
+    {
+     "de": "Videospiele",
+     "es": "a videojuegos"
+    }
+   ],
+   "note": "Sin artículo: \"Fußball spielen\", \"Gitarre spielen\"."
+  },
+  {
+   "id": "weather_leisure_120",
+   "de": "Ich finde das ___.",
+   "es": "Eso me parece ___.",
+   "en": "I find that ___.",
+   "gloss": "yo encuentro eso ___",
+   "lemmas": [
+    "finden",
+    "gut",
+    "toll",
+    "schön",
+    "langweilig"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "gut",
+     "es": "bien"
+    },
+    {
+     "de": "toll",
+     "es": "genial"
+    },
+    {
+     "de": "schön",
+     "es": "bonito"
+    },
+    {
+     "de": "langweilig",
+     "es": "aburrido"
+    },
+    {
+     "de": "wichtig",
+     "es": "importante"
+    }
+   ],
+   "note": "El adjetivo va sin \"ist\" y sin terminación."
+  },
+  {
+   "id": "weather_leisure_121",
+   "de": "Mir gefällt ___.",
+   "es": "Me gusta ___.",
+   "en": "I like ___.",
+   "gloss": "a-mí gusta ___",
+   "lemmas": [
+    "gefallen",
+    "Musik",
+    "Film",
+    "Lied",
+    "Serie"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "die Musik",
+     "es": "la música"
+    },
+    {
+     "de": "der Film",
+     "es": "la película"
+    },
+    {
+     "de": "das Lied",
+     "es": "la canción"
+    },
+    {
+     "de": "die Serie",
+     "es": "la serie"
+    },
+    {
+     "de": "das Wetter hier",
+     "es": "el tiempo de aquí"
+    }
+   ],
+   "note": "Lo que gusta va en nominativo (der/die/das), no en acusativo."
+  },
+  {
+   "id": "weather_leisure_122",
+   "de": "Ich höre gern ___.",
+   "es": "Me gusta escuchar ___.",
+   "en": "I like listening to ___.",
+   "gloss": "yo oigo con-gusto ___",
+   "lemmas": [
+    "hören",
+    "Musik",
+    "Lied"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Musik",
+     "es": "música"
+    },
+    {
+     "de": "Rock",
+     "es": "rock"
+    },
+    {
+     "de": "dieses Lied",
+     "es": "esta canción"
+    },
+    {
+     "de": "Podcasts",
+     "es": "pódcasts"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_123",
+   "de": "Ich habe Lust auf ___.",
+   "es": "Me apetece ___.",
+   "en": "I fancy ___.",
+   "gloss": "yo tengo gana sobre ___",
+   "lemmas": [
+    "Lust",
+    "Film",
+    "Konzert",
+    "Party"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "einen Film",
+     "es": "una peli"
+    },
+    {
+     "de": "ein Konzert",
+     "es": "un concierto"
+    },
+    {
+     "de": "eine Party",
+     "es": "una fiesta"
+    },
+    {
+     "de": "ein Eis",
+     "es": "un helado"
+    }
+   ],
+   "note": "\"auf\" aquí pide acusativo: einen, ein, eine."
+  },
+  {
+   "id": "weather_leisure_124",
+   "de": "Mein Hobby ist ___.",
+   "es": "Mi afición es ___.",
+   "en": "My hobby is ___.",
+   "gloss": "mi hobby es ___",
+   "lemmas": [
+    "Hobby",
+    "Musik",
+    "Sport"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Musik",
+     "es": "la música"
+    },
+    {
+     "de": "Sport",
+     "es": "el deporte"
+    },
+    {
+     "de": "Fotografieren",
+     "es": "la fotografía"
+    },
+    {
+     "de": "Kochen",
+     "es": "cocinar"
+    },
+    {
+     "de": "Lesen",
+     "es": "leer"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_125",
+   "de": "Ich mache gern ___.",
+   "es": "Me gusta hacer ___.",
+   "en": "I like doing ___.",
+   "gloss": "yo hago con-gusto ___",
+   "lemmas": [
+    "Sport",
+    "Foto",
+    "Musik",
+    "Party"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Sport",
+     "es": "deporte"
+    },
+    {
+     "de": "Fotos",
+     "es": "fotos"
+    },
+    {
+     "de": "Musik",
+     "es": "música"
+    },
+    {
+     "de": "Partys",
+     "es": "fiestas"
+    },
+    {
+     "de": "Ausflüge",
+     "es": "excursiones"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_126",
+   "de": "Wollen wir ___ gehen?",
+   "es": "¿Vamos ___?",
+   "en": "Shall we go ___?",
+   "gloss": "queremos nosotros ___ ir",
+   "lemmas": [
+    "schwimmen",
+    "tanzen",
+    "Kino"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "schwimmen",
+     "es": "a nadar"
+    },
+    {
+     "de": "tanzen",
+     "es": "a bailar"
+    },
+    {
+     "de": "ins Kino",
+     "es": "al cine"
+    },
+    {
+     "de": "essen",
+     "es": "a comer"
+    },
+    {
+     "de": "spazieren",
+     "es": "a pasear"
+    }
+   ],
+   "note": "El segundo verbo va al final, en infinitivo."
+  },
+  {
+   "id": "weather_leisure_127",
+   "de": "Wir treffen uns ___.",
+   "es": "Quedamos ___.",
+   "en": "We're meeting ___.",
+   "gloss": "nosotros encontramos nos ___",
+   "lemmas": [
+    "treffen",
+    "Kino"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "um acht",
+     "es": "a las ocho"
+    },
+    {
+     "de": "am Samstag",
+     "es": "el sábado"
+    },
+    {
+     "de": "vor dem Kino",
+     "es": "delante del cine"
+    },
+    {
+     "de": "im Park",
+     "es": "en el parque"
+    }
+   ],
+   "note": "\"uns\" es obligatorio: sin él la frase no significa \"quedar\"."
+  },
+  {
+   "id": "weather_leisure_128",
+   "de": "Ich glaube, das ist ___.",
+   "es": "Creo que eso es ___.",
+   "en": "I think that's ___.",
+   "gloss": "yo creo, eso es ___",
+   "lemmas": [
+    "glauben",
+    "richtig",
+    "falsch",
+    "wichtig"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "richtig",
+     "es": "correcto"
+    },
+    {
+     "de": "falsch",
+     "es": "incorrecto"
+    },
+    {
+     "de": "wichtig",
+     "es": "importante"
+    },
+    {
+     "de": "eine gute Idee",
+     "es": "buena idea"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_129",
+   "de": "Ich denke oft an ___.",
+   "es": "Pienso a menudo en ___.",
+   "en": "I often think about ___.",
+   "gloss": "yo pienso a-menudo en ___",
+   "lemmas": [
+    "denken",
+    "Sommer"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "dich",
+     "es": "ti"
+    },
+    {
+     "de": "den Sommer",
+     "es": "el verano"
+    },
+    {
+     "de": "mein Zuhause",
+     "es": "mi casa"
+    },
+    {
+     "de": "die Ferien",
+     "es": "las vacaciones"
+    }
+   ],
+   "note": "\"an\" + acusativo: den, die, das."
+  },
+  {
+   "id": "weather_leisure_130",
+   "de": "Ich muss leider ___ absagen.",
+   "es": "Lo siento, tengo que cancelar ___.",
+   "en": "Unfortunately I have to cancel ___.",
+   "gloss": "yo debo lamentablemente ___ cancelar",
+   "lemmas": [
+    "absagen",
+    "Party",
+    "Konzert"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "das Treffen",
+     "es": "la quedada"
+    },
+    {
+     "de": "die Party",
+     "es": "la fiesta"
+    },
+    {
+     "de": "das Konzert",
+     "es": "el concierto"
+    },
+    {
+     "de": "den Termin",
+     "es": "la cita"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p001",
+   "de": "Toll gemacht!",
+   "es": "¡Bien hecho!",
+   "en": "Well done!",
+   "gloss": "genial hecho",
+   "lemmas": [
+    "toll"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p002",
+   "de": "Das war ein richtig toller Abend.",
+   "es": "Fue una noche genial de verdad.",
+   "en": "That was a really great evening.",
+   "gloss": "eso fue una realmente genial tarde",
+   "lemmas": [
+    "toll"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Delante del nombre \"toll\" se declina: ein tolleR Abend."
+  },
+  {
+   "id": "weather_leisure_p003",
+   "de": "Ich finde die Idee echt toll.",
+   "es": "La idea me parece genial.",
+   "en": "I think the idea is really great.",
+   "gloss": "yo encuentro la idea de-verdad genial",
+   "lemmas": [
+    "toll"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con \"finden\" el adjetivo va al final y sin \"ist\": Ich finde die Idee toll."
+  },
+  {
+   "id": "weather_leisure_p004",
+   "de": "Wir haben leider verloren.",
+   "es": "Hemos perdido, por desgracia.",
+   "en": "We lost, unfortunately.",
+   "gloss": "nosotros hemos lamentablemente perdido",
+   "lemmas": [
+    "verlieren"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Participio irregular: verlieren → verloren."
+  },
+  {
+   "id": "weather_leisure_p005",
+   "de": "Ich habe meinen Schlüssel verloren.",
+   "es": "He perdido mi llave.",
+   "en": "I lost my key.",
+   "gloss": "yo he mi llave perdido",
+   "lemmas": [
+    "verlieren"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p006",
+   "de": "Wer verliert, zahlt das Eis.",
+   "es": "El que pierda paga el helado.",
+   "en": "Whoever loses pays for the ice cream.",
+   "gloss": "quien pierde, paga el helado",
+   "lemmas": [
+    "verlieren"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p007",
+   "de": "Morgen soll die Sonne scheinen.",
+   "es": "Mañana dicen que hará sol.",
+   "en": "The sun is supposed to shine tomorrow.",
+   "gloss": "mañana debe el sol brillar",
+   "lemmas": [
+    "scheinen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"soll\" aquí significa \"según el pronóstico\", no una obligación."
+  },
+  {
+   "id": "weather_leisure_p008",
+   "de": "Du scheinst müde zu sein.",
+   "es": "Pareces cansado.",
+   "en": "You seem tired.",
+   "gloss": "tú pareces cansado a ser",
+   "lemmas": [
+    "scheinen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"scheinen\" con otro verbo exige \"zu\" + infinitivo al final."
+  },
+  {
+   "id": "weather_leisure_p009",
+   "de": "Die Sonne scheint mir ins Gesicht.",
+   "es": "El sol me da en la cara.",
+   "en": "The sun is shining in my face.",
+   "gloss": "el sol brilla a-mí en-la cara",
+   "lemmas": [
+    "scheinen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"ins Gesicht\" va en acusativo porque indica dirección."
+  },
+  {
+   "id": "weather_leisure_p010",
+   "de": "Wer hat gewonnen?",
+   "es": "¿Quién ha ganado?",
+   "en": "Who won?",
+   "gloss": "quién ha ganado",
+   "lemmas": [
+    "gewinnen"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p011",
+   "de": "Ich glaube, wir gewinnen heute.",
+   "es": "Creo que hoy ganamos.",
+   "en": "I think we'll win today.",
+   "gloss": "yo creo, nosotros ganamos hoy",
+   "lemmas": [
+    "gewinnen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "En alemán hablado el presente vale también para el futuro cercano."
+  },
+  {
+   "id": "weather_leisure_p012",
+   "de": "Sie gewinnt fast immer.",
+   "es": "Ella gana casi siempre.",
+   "en": "She almost always wins.",
+   "gloss": "ella gana casi siempre",
+   "lemmas": [
+    "gewinnen"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p013",
+   "de": "Viel Spaß!",
+   "es": "¡Que te diviertas!",
+   "en": "Have fun!",
+   "gloss": "mucha diversión",
+   "lemmas": [
+    "Spaß"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Se dice al despedir a alguien que va a hacer algo divertido."
+  },
+  {
+   "id": "weather_leisure_p014",
+   "de": "Das macht echt Spaß!",
+   "es": "¡Esto es superdivertido!",
+   "en": "This is really fun!",
+   "gloss": "eso hace de-verdad diversión",
+   "lemmas": [
+    "Spaß"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "\"Spaß machen\" = ser divertido, no \"hacer una broma\"."
+  },
+  {
+   "id": "weather_leisure_p015",
+   "de": "Das war doch nur Spaß!",
+   "es": "¡Que era broma!",
+   "en": "That was just a joke!",
+   "gloss": "eso era pues solo broma",
+   "lemmas": [
+    "Spaß"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"doch\" aquí suaviza y aclara; no se traduce."
+  },
+  {
+   "id": "weather_leisure_p016",
+   "de": "Hast du schon Pläne für morgen?",
+   "es": "¿Ya tienes planes para mañana?",
+   "en": "Do you already have plans for tomorrow?",
+   "gloss": "tienes tú ya planes para mañana",
+   "lemmas": [
+    "Plan"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Plural: der Plan → die Pläne."
+  },
+  {
+   "id": "weather_leisure_p017",
+   "de": "Kein Plan, ehrlich gesagt.",
+   "es": "Ni idea, la verdad.",
+   "en": "No clue, honestly.",
+   "gloss": "ningún plan, honestamente dicho",
+   "lemmas": [
+    "Plan"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"Kein Plan\" en habla informal significa \"ni idea\"."
+  },
+  {
+   "id": "weather_leisure_p018",
+   "de": "Der Plan steht.",
+   "es": "El plan está cerrado.",
+   "en": "The plan is set.",
+   "gloss": "el plan está-de-pie",
+   "lemmas": [
+    "Plan"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"stehen\" con planes o citas significa \"está fijado\"."
+  },
+  {
+   "id": "weather_leisure_p019",
+   "de": "Hast du Lust, mit ins Schwimmbad zu kommen?",
+   "es": "¿Te apetece venir a la piscina?",
+   "en": "Do you feel like coming to the pool?",
+   "gloss": "tienes tú ganas, con a-la piscina a venir",
+   "lemmas": [
+    "Lust"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "Tras \"Lust\" va una oración con \"zu\" + infinitivo al final."
+  },
+  {
+   "id": "weather_leisure_p020",
+   "de": "Wenn du Lust hast, komm einfach vorbei.",
+   "es": "Si te apetece, pásate sin más.",
+   "en": "If you feel like it, just drop by.",
+   "gloss": "si tú ganas tienes, ven simplemente por-delante",
+   "lemmas": [
+    "Lust"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"vorbeikommen\" es separable: komm ... vorbei."
+  },
+  {
+   "id": "weather_leisure_p021",
+   "de": "Klar, ich habe voll Lust!",
+   "es": "¡Claro, me apetece mucho!",
+   "en": "Sure, I really feel like it!",
+   "gloss": "claro, yo tengo lleno ganas",
+   "lemmas": [
+    "Lust"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": "\"voll\" en habla joven equivale a \"mucho\"."
+  },
+  {
+   "id": "weather_leisure_p022",
+   "de": "Da bin ich anderer Meinung.",
+   "es": "En eso opino distinto.",
+   "en": "I disagree there.",
+   "gloss": "ahí soy yo de-otra opinión",
+   "lemmas": [
+    "Meinung"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "\"anderer Meinung sein\" es un bloque fijo en genitivo; apréndelo entero."
+  },
+  {
+   "id": "weather_leisure_p023",
+   "de": "Meiner Meinung nach war das Konzert zu laut.",
+   "es": "En mi opinión el concierto estaba demasiado alto.",
+   "en": "In my opinion the concert was too loud.",
+   "gloss": "de-mi opinión según fue el concierto demasiado alto",
+   "lemmas": [
+    "Meinung",
+    "Konzert"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"nach\" va DETRÁS de \"meiner Meinung\"."
+  },
+  {
+   "id": "weather_leisure_p024",
+   "de": "Das Lied kenne ich!",
+   "es": "¡Esa canción la conozco!",
+   "en": "I know that song!",
+   "gloss": "la canción conozco yo",
+   "lemmas": [
+    "Lied"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "El objeto va delante para dar énfasis, pero el verbo sigue en 2ª posición."
+  },
+  {
+   "id": "weather_leisure_p025",
+   "de": "Mach das Lied nochmal an!",
+   "es": "¡Pon otra vez esa canción!",
+   "en": "Put that song on again!",
+   "gloss": "haz la canción otra-vez en",
+   "lemmas": [
+    "Lied"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"anmachen\" es separable: mach ... an."
+  },
+  {
+   "id": "weather_leisure_p026",
+   "de": "Du bist ja richtig sportlich!",
+   "es": "¡Pero si estás muy en forma!",
+   "en": "You're really athletic!",
+   "gloss": "tú eres pues realmente deportivo",
+   "lemmas": [
+    "sportlich"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"ja\" aquí expresa sorpresa, no significa \"sí\"."
+  },
+  {
+   "id": "weather_leisure_p027",
+   "de": "So sportlich bin ich nicht.",
+   "es": "Tan deportista no soy.",
+   "en": "I'm not that athletic.",
+   "gloss": "tan deportivo soy yo no",
+   "lemmas": [
+    "sportlich"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p028",
+   "de": "Meine Schwester ist sportlicher als ich.",
+   "es": "Mi hermana es más deportista que yo.",
+   "en": "My sister is more athletic than I am.",
+   "gloss": "mi hermana es más-deportiva que yo",
+   "lemmas": [
+    "sportlich"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El comparativo se hace con -er, no con \"mehr\"."
+  },
+  {
+   "id": "weather_leisure_p029",
+   "de": "Draußen sind es nur fünf Grad.",
+   "es": "Fuera solo hay cinco grados.",
+   "en": "It's only five degrees outside.",
+   "gloss": "fuera son ello solo cinco grados",
+   "lemmas": [
+    "Grad"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con temperaturas se dice \"es sind ... Grad\"."
+  },
+  {
+   "id": "weather_leisure_p030",
+   "de": "Bei dreißig Grad gehe ich nicht joggen.",
+   "es": "Con treinta grados no salgo a correr.",
+   "en": "I don't go jogging at thirty degrees.",
+   "gloss": "con treinta grados voy yo no correr",
+   "lemmas": [
+    "Grad"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"Grad\" no cambia en plural: dreißig Grad."
+  },
+  {
+   "id": "weather_leisure_p031",
+   "de": "Wirf mir den Ball!",
+   "es": "¡Tírame el balón!",
+   "en": "Throw me the ball!",
+   "gloss": "lanza a-mí el balón",
+   "lemmas": [
+    "Ball"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"mir\" en dativo (a quién) y \"den Ball\" en acusativo (qué)."
+  },
+  {
+   "id": "weather_leisure_p032",
+   "de": "Der Ball ist im Wasser.",
+   "es": "El balón está en el agua.",
+   "en": "The ball is in the water.",
+   "gloss": "el balón está en-el agua",
+   "lemmas": [
+    "Ball"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p033",
+   "de": "Wir spielen im Park mit dem Ball.",
+   "es": "Jugamos con el balón en el parque.",
+   "en": "We play with the ball in the park.",
+   "gloss": "nosotros jugamos en-el parque con el balón",
+   "lemmas": [
+    "Ball"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"mit\" siempre con dativo: mit dem Ball."
+  },
+  {
+   "id": "weather_leisure_p034",
+   "de": "Wir planen für Samstag einen Ausflug.",
+   "es": "Estamos planeando una excursión para el sábado.",
+   "en": "We're planning a trip for Saturday.",
+   "gloss": "nosotros planeamos para sábado una excursión",
+   "lemmas": [
+    "planen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p035",
+   "de": "Hast du für den Sommer schon was geplant?",
+   "es": "¿Ya has planeado algo para el verano?",
+   "en": "Have you already planned anything for the summer?",
+   "gloss": "tienes tú para el verano ya algo planeado",
+   "lemmas": [
+    "planen"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "\"was\" aquí es \"etwas\" abreviado, muy normal al hablar."
+  },
+  {
+   "id": "weather_leisure_p036",
+   "de": "Die Blätter werden schon gelb.",
+   "es": "Las hojas ya se están poniendo amarillas.",
+   "en": "The leaves are already turning yellow.",
+   "gloss": "las hojas se-vuelven ya amarillas",
+   "lemmas": [
+    "Blatt"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Plural irregular: das Blatt → die Blätter."
+  },
+  {
+   "id": "weather_leisure_p037",
+   "de": "Gib mir mal ein Blatt Papier.",
+   "es": "Dame una hoja de papel.",
+   "en": "Give me a sheet of paper.",
+   "gloss": "da a-mí una-vez una hoja papel",
+   "lemmas": [
+    "Blatt"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "No se pone \"von\": ein Blatt Papier."
+  },
+  {
+   "id": "weather_leisure_p038",
+   "de": "Überall liegen bunte Blätter.",
+   "es": "Por todas partes hay hojas de colores.",
+   "en": "There are colourful leaves everywhere.",
+   "gloss": "por-todas-partes yacen coloridas hojas",
+   "lemmas": [
+    "Blatt"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p039",
+   "de": "Hinter dem Haus ist ein großes Feld.",
+   "es": "Detrás de la casa hay un campo grande.",
+   "en": "There's a big field behind the house.",
+   "gloss": "detrás de-la casa está un grande campo",
+   "lemmas": [
+    "Feld"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p040",
+   "de": "Die Pferde stehen auf dem Feld.",
+   "es": "Los caballos están en el campo.",
+   "en": "The horses are standing in the field.",
+   "gloss": "los caballos están-de-pie sobre el campo",
+   "lemmas": [
+    "Feld",
+    "Pferd"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"auf dem\" en dativo porque dice dónde están, no adónde van."
+  },
+  {
+   "id": "weather_leisure_p041",
+   "de": "Wir gehen oft über die Felder spazieren.",
+   "es": "Solemos ir a pasear por los campos.",
+   "en": "We often go for walks across the fields.",
+   "gloss": "nosotros vamos a-menudo sobre los campos a-pasear",
+   "lemmas": [
+    "Feld"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"spazieren gehen\" va junto y el infinitivo cierra la frase."
+  },
+  {
+   "id": "weather_leisure_p042",
+   "de": "Sie hat ein eigenes Pferd.",
+   "es": "Tiene un caballo propio.",
+   "en": "She has her own horse.",
+   "gloss": "ella tiene un propio caballo",
+   "lemmas": [
+    "Pferd"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p043",
+   "de": "Schau mal, da drüben ist ein Pferd!",
+   "es": "¡Mira, ahí enfrente hay un caballo!",
+   "en": "Look, there's a horse over there!",
+   "gloss": "mira una-vez, ahí al-otro-lado está un caballo",
+   "lemmas": [
+    "Pferd"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p044",
+   "de": "Es hat aufgehört zu regnen.",
+   "es": "Ha dejado de llover.",
+   "en": "It stopped raining.",
+   "gloss": "ello ha parado a llover",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"aufhören\" es separable y su participio es \"aufgehört\"."
+  },
+  {
+   "id": "weather_leisure_p045",
+   "de": "Hoffentlich regnet es morgen nicht.",
+   "es": "Ojalá mañana no llueva.",
+   "en": "Hopefully it won't rain tomorrow.",
+   "gloss": "ojalá llueve ello mañana no",
+   "lemmas": [
+    "regnen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"hoffentlich\" no lleva subjuntivo: el verbo va normal."
+  },
+  {
+   "id": "weather_leisure_p046",
+   "de": "Danke für die Einladung!",
+   "es": "¡Gracias por la invitación!",
+   "en": "Thanks for the invitation!",
+   "gloss": "gracias por la invitación",
+   "lemmas": [
+    "Einladung"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"für\" siempre con acusativo: für die Einladung."
+  },
+  {
+   "id": "weather_leisure_p047",
+   "de": "Hast du die Einladung schon bekommen?",
+   "es": "¿Ya has recibido la invitación?",
+   "en": "Have you received the invitation yet?",
+   "gloss": "has tú la invitación ya recibido",
+   "lemmas": [
+    "Einladung"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "\"bekommen\" no lleva \"ge-\" en el participio."
+  },
+  {
+   "id": "weather_leisure_p048",
+   "de": "Schau dir das mal an!",
+   "es": "¡Mira esto!",
+   "en": "Take a look at this!",
+   "gloss": "mira a-ti eso una-vez en",
+   "lemmas": [
+    "anschauen"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"sich etwas anschauen\": el \"an\" va al final y \"dir\" es dativo."
+  },
+  {
+   "id": "weather_leisure_p049",
+   "de": "Wollen wir uns das Spiel anschauen?",
+   "es": "¿Vemos el partido?",
+   "en": "Shall we watch the game?",
+   "gloss": "queremos nosotros a-nosotros el partido mirar",
+   "lemmas": [
+    "anschauen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p050",
+   "de": "Ich schaue mir abends gern eine Serie an.",
+   "es": "Por las noches me gusta ver una serie.",
+   "en": "In the evenings I like watching a series.",
+   "gloss": "yo miro a-mí por-las-noches con-gusto una serie en",
+   "lemmas": [
+    "anschauen",
+    "Serie"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El prefijo \"an\" se va al final de la frase."
+  },
+  {
+   "id": "weather_leisure_p051",
+   "de": "Ich habe zwei Karten fürs Konzert.",
+   "es": "Tengo dos entradas para el concierto.",
+   "en": "I have two tickets for the concert.",
+   "gloss": "yo tengo dos entradas para-el concierto",
+   "lemmas": [
+    "Konzert"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"fürs\" es la fusión de \"für das\"."
+  },
+  {
+   "id": "weather_leisure_p052",
+   "de": "Wie war das Konzert gestern?",
+   "es": "¿Qué tal el concierto de ayer?",
+   "en": "How was the concert yesterday?",
+   "gloss": "cómo fue el concierto ayer",
+   "lemmas": [
+    "Konzert"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p053",
+   "de": "Heute Nacht kommt ein Sturm.",
+   "es": "Esta noche viene un temporal.",
+   "en": "A storm is coming tonight.",
+   "gloss": "hoy noche viene una tormenta",
+   "lemmas": [
+    "Sturm"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p054",
+   "de": "Bei so einem Sturm gehe ich nicht raus.",
+   "es": "Con semejante temporal no salgo.",
+   "en": "I'm not going out in a storm like that.",
+   "gloss": "con tal una tormenta voy yo no fuera",
+   "lemmas": [
+    "Sturm"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Al empezar con \"Bei ...\", el verbo va justo después: gehe ich."
+  },
+  {
+   "id": "weather_leisure_p055",
+   "de": "Welche Serie schaust du gerade?",
+   "es": "¿Qué serie estás viendo ahora?",
+   "en": "Which series are you watching right now?",
+   "gloss": "cuál serie miras tú ahora-mismo",
+   "lemmas": [
+    "Serie"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "\"gerade\" expresa lo que se hace ahora mismo; no hay gerundio."
+  },
+  {
+   "id": "weather_leisure_p056",
+   "de": "Die Serie ist echt spannend.",
+   "es": "La serie es muy emocionante.",
+   "en": "The series is really gripping.",
+   "gloss": "la serie es de-verdad emocionante",
+   "lemmas": [
+    "Serie",
+    "spannend"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p057",
+   "de": "Heute ist keine einzige Wolke am Himmel.",
+   "es": "Hoy no hay ni una nube en el cielo.",
+   "en": "There isn't a single cloud in the sky today.",
+   "gloss": "hoy está ninguna única nube en-el cielo",
+   "lemmas": [
+    "Wolke"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p058",
+   "de": "Die Wolke sieht aus wie ein Hund!",
+   "es": "¡Esa nube parece un perro!",
+   "en": "That cloud looks like a dog!",
+   "gloss": "la nube ve fuera como un perro",
+   "lemmas": [
+    "Wolke"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"aussehen wie\" = parecerse a; el \"aus\" se va al final."
+  },
+  {
+   "id": "weather_leisure_p059",
+   "de": "Heute bleibt es trocken.",
+   "es": "Hoy no va a llover.",
+   "en": "It'll stay dry today.",
+   "gloss": "hoy queda ello seco",
+   "lemmas": [
+    "trocken"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Del tiempo se dice \"es bleibt trocken\", no \"es regnet nicht\"."
+  },
+  {
+   "id": "weather_leisure_p060",
+   "de": "Meine Jacke ist endlich wieder trocken.",
+   "es": "Mi chaqueta por fin está seca otra vez.",
+   "en": "My jacket is finally dry again.",
+   "gloss": "mi chaqueta está finalmente otra-vez seca",
+   "lemmas": [
+    "trocken"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p061",
+   "de": "Der Sommer war ziemlich trocken.",
+   "es": "El verano fue bastante seco.",
+   "en": "The summer was pretty dry.",
+   "gloss": "el verano fue bastante seco",
+   "lemmas": [
+    "trocken"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p062",
+   "de": "Mach mal den Fernseher an!",
+   "es": "¡Enciende la tele!",
+   "en": "Turn the TV on!",
+   "gloss": "haz una-vez el televisor en",
+   "lemmas": [
+    "Fernseher"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "\"anmachen\" separable; \"mal\" suaviza la orden."
+  },
+  {
+   "id": "weather_leisure_p063",
+   "de": "Der Fernseher läuft den ganzen Tag.",
+   "es": "La tele está encendida todo el día.",
+   "en": "The TV is on all day long.",
+   "gloss": "el televisor corre el entero día",
+   "lemmas": [
+    "Fernseher"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"laufen\" con aparatos significa \"estar encendido\"."
+  },
+  {
+   "id": "weather_leisure_p064",
+   "de": "Wir haben einen neuen Fernseher.",
+   "es": "Tenemos un televisor nuevo.",
+   "en": "We have a new TV.",
+   "gloss": "nosotros tenemos un nuevo televisor",
+   "lemmas": [
+    "Fernseher"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p065",
+   "de": "Klingt spannend!",
+   "es": "¡Suena interesante!",
+   "en": "Sounds exciting!",
+   "gloss": "suena emocionante",
+   "lemmas": [
+    "spannend"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Se omite \"das\": forma corta muy habitual al hablar."
+  },
+  {
+   "id": "weather_leisure_p066",
+   "de": "Das Spiel war total spannend!",
+   "es": "¡El partido fue emocionantísimo!",
+   "en": "The game was totally exciting!",
+   "gloss": "el partido fue totalmente emocionante",
+   "lemmas": [
+    "spannend"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p067",
+   "de": "Mein Sohn ist im Verein.",
+   "es": "Mi hijo está apuntado a un club.",
+   "en": "My son is in a sports club.",
+   "gloss": "mi hijo está en-el club",
+   "lemmas": [
+    "Verein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "\"im Verein sein\" = estar federado o apuntado a un club."
+  },
+  {
+   "id": "weather_leisure_p068",
+   "de": "Ich spiele Handball in einem Verein.",
+   "es": "Juego a balonmano en un club.",
+   "en": "I play handball in a club.",
+   "gloss": "yo juego balonmano en un club",
+   "lemmas": [
+    "Verein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con deportes no se pone artículo: Handball spielen."
+  },
+  {
+   "id": "weather_leisure_p069",
+   "de": "In welchem Verein spielst du?",
+   "es": "¿En qué club juegas?",
+   "en": "Which club do you play for?",
+   "gloss": "en cuál club juegas tú",
+   "lemmas": [
+    "Verein"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Tras \"in\" con pregunta de lugar se usa dativo: welchem."
+  },
+  {
+   "id": "weather_leisure_p070",
+   "de": "Wollen wir uns ___ anschauen?",
+   "es": "¿Vemos ___?",
+   "en": "Shall we watch ___?",
+   "gloss": "queremos nosotros a-nosotros ___ mirar",
+   "lemmas": [
+    "anschauen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "den Film",
+     "es": "la película"
+    },
+    {
+     "de": "das Spiel",
+     "es": "el partido"
+    },
+    {
+     "de": "die neue Serie",
+     "es": "la serie nueva"
+    },
+    {
+     "de": "die Fotos",
+     "es": "las fotos"
+    }
+   ],
+   "note": "El \"an\" del verbo se queda al final de la pregunta."
+  },
+  {
+   "id": "weather_leisure_p071",
+   "de": "Hast du schon Pläne für ___?",
+   "es": "¿Ya tienes planes para ___?",
+   "en": "Do you already have plans for ___?",
+   "gloss": "tienes tú ya planes para ___",
+   "lemmas": [
+    "Plan"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "heute Abend",
+     "es": "esta noche"
+    },
+    {
+     "de": "nächste Woche",
+     "es": "la semana que viene"
+    },
+    {
+     "de": "das Wochenende",
+     "es": "el fin de semana"
+    },
+    {
+     "de": "den Sommer",
+     "es": "el verano"
+    }
+   ],
+   "note": "Tras \"für\" siempre acusativo: den Sommer, das Wochenende."
+  },
+  {
+   "id": "weather_leisure_p072",
+   "de": "Ich finde ___ richtig spannend.",
+   "es": "___ me parece muy emocionante.",
+   "en": "I find ___ really exciting.",
+   "gloss": "yo encuentro ___ realmente emocionante",
+   "lemmas": [
+    "spannend"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "diese Serie",
+     "es": "esta serie"
+    },
+    {
+     "de": "Fußball",
+     "es": "el fútbol"
+    },
+    {
+     "de": "das Buch",
+     "es": "el libro"
+    },
+    {
+     "de": "das Spiel",
+     "es": "el partido"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p073",
+   "de": "Danke für die ___!",
+   "es": "¡Gracias por ___!",
+   "en": "Thanks for the ___!",
+   "gloss": "gracias por la ___",
+   "lemmas": [
+    "Einladung"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Einladung",
+     "es": "la invitación"
+    },
+    {
+     "de": "Nachricht",
+     "es": "el mensaje"
+    },
+    {
+     "de": "Hilfe",
+     "es": "la ayuda"
+    },
+    {
+     "de": "Info",
+     "es": "la info"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_p074",
+   "de": "Mach mal ___ an!",
+   "es": "¡Enciende ___!",
+   "en": "Turn ___ on!",
+   "gloss": "haz una-vez ___ en",
+   "lemmas": [
+    "Fernseher"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "den Fernseher",
+     "es": "la tele"
+    },
+    {
+     "de": "die Musik",
+     "es": "la música"
+    },
+    {
+     "de": "das Licht",
+     "es": "la luz"
+    },
+    {
+     "de": "das Radio",
+     "es": "la radio"
+    }
+   ],
+   "note": "El prefijo \"an\" cierra siempre la frase."
+  },
+  {
+   "id": "weather_leisure_p075",
+   "de": "Morgen soll es ___ werden.",
+   "es": "Dicen que mañana el tiempo será ___.",
+   "en": "Tomorrow it's supposed to get ___.",
+   "gloss": "mañana debe ello ___ volverse",
+   "lemmas": [
+    "trocken"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "warm",
+     "es": "cálido"
+    },
+    {
+     "de": "trocken",
+     "es": "seco"
+    },
+    {
+     "de": "kalt",
+     "es": "frío"
+    },
+    {
+     "de": "windig",
+     "es": "ventoso"
+    }
+   ],
+   "note": "\"soll\" aquí = \"según dicen / según el pronóstico\"."
+  },
+  {
+   "id": "weather_leisure_p076",
+   "de": "Das Spiel haben wir ___.",
+   "es": "El partido lo hemos ___.",
+   "en": "We ___ the game.",
+   "gloss": "el partido hemos nosotros ___",
+   "lemmas": [
+    "gewinnen",
+    "verlieren"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "gewonnen",
+     "es": "ganado"
+    },
+    {
+     "de": "verloren",
+     "es": "perdido"
+    },
+    {
+     "de": "unentschieden gespielt",
+     "es": "empatado"
+    },
+    {
+     "de": "echt gut gespielt",
+     "es": "jugado muy bien"
+    }
+   ],
+   "note": "El objeto va delante, el verbo conjugado en segunda posición y el participio al final."
+  },
+  {
+   "id": "weather_leisure_q001",
+   "de": "Endlich wird es wieder wärmer.",
+   "es": "Por fin vuelve a hacer más calor.",
+   "en": "Finally it's getting warmer again.",
+   "gloss": "por-fin se-vuelve ello otra-vez más-cálido",
+   "lemmas": [
+    "warm"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El alemán usa 'werden' (volverse) para los cambios de tiempo."
+  },
+  {
+   "id": "weather_leisure_q002",
+   "de": "Im Auto ist es schön warm.",
+   "es": "En el coche se está calentito.",
+   "en": "It's nice and warm in the car.",
+   "gloss": "en-el coche es ello bonito cálido",
+   "lemmas": [
+    "warm",
+    "Auto"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'schön warm' es '(bien) calentito'; 'schön' aquí sólo refuerza."
+  },
+  {
+   "id": "weather_leisure_q003",
+   "de": "Das Wasser ist echt kalt.",
+   "es": "El agua está muy fría.",
+   "en": "The water is really cold.",
+   "gloss": "el agua es de-verdad fría",
+   "lemmas": [
+    "kalt",
+    "Wasser"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q004",
+   "de": "Mir sind die Hände kalt.",
+   "es": "Tengo las manos frías.",
+   "en": "My hands are cold.",
+   "gloss": "a-mí son las manos frías",
+   "lemmas": [
+    "kalt",
+    "Hand"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El alemán dice 'a mí están las manos frías', no 'yo tengo'."
+  },
+  {
+   "id": "weather_leisure_q005",
+   "de": "Hat es dir gefallen?",
+   "es": "¿Te ha gustado?",
+   "en": "Did you like it?",
+   "gloss": "ha ello a-ti gustado",
+   "lemmas": [
+    "gefallen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q006",
+   "de": "Das Lied gefällt mir überhaupt nicht.",
+   "es": "Esa canción no me gusta nada.",
+   "en": "I don't like that song at all.",
+   "gloss": "la canción gusta a-mí en-absoluto no",
+   "lemmas": [
+    "gefallen",
+    "Lied"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q007",
+   "de": "Wir haben zwei zu null verloren.",
+   "es": "Hemos perdido dos a cero.",
+   "en": "We lost two nil.",
+   "gloss": "nosotros hemos dos a cero perdido",
+   "lemmas": [
+    "verlieren"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q008",
+   "de": "Pass auf, dass du deine Jacke nicht verlierst.",
+   "es": "Ten cuidado de no perder la chaqueta.",
+   "en": "Careful you don't lose your jacket.",
+   "gloss": "presta atención, que tú tu chaqueta no pierdas",
+   "lemmas": [
+    "verlieren",
+    "Jacke"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Tras 'dass' el verbo se va al final."
+  },
+  {
+   "id": "weather_leisure_q009",
+   "de": "Hörst du die Vögel?",
+   "es": "¿Oyes los pájaros?",
+   "en": "Do you hear the birds?",
+   "gloss": "oyes tú los pájaros",
+   "lemmas": [
+    "Vogel"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q010",
+   "de": "Da sitzt ein Vogel auf dem Ast.",
+   "es": "Ahí hay un pájaro en la rama.",
+   "en": "There's a bird sitting on the branch.",
+   "gloss": "ahí está-sentado un pájaro sobre la rama",
+   "lemmas": [
+    "Vogel",
+    "Ast"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El alemán prefiere decir cómo está la cosa: 'sitzt' en vez de 'hay'."
+  },
+  {
+   "id": "weather_leisure_q011",
+   "de": "Die Vögel singen schon um fünf.",
+   "es": "Los pájaros ya cantan a las cinco.",
+   "en": "The birds are already singing at five.",
+   "gloss": "los pájaros cantan ya a-las cinco",
+   "lemmas": [
+    "Vogel",
+    "singen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q012",
+   "de": "Das Pferd rennt über das Feld.",
+   "es": "El caballo corre por el campo.",
+   "en": "The horse is running across the field.",
+   "gloss": "el caballo corre sobre el campo",
+   "lemmas": [
+    "Pferd",
+    "rennen",
+    "Feld"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q013",
+   "de": "Hast du keine Angst vor Pferden?",
+   "es": "¿No te dan miedo los caballos?",
+   "en": "Aren't you afraid of horses?",
+   "gloss": "tienes tú ningún miedo ante caballos",
+   "lemmas": [
+    "Pferd",
+    "Angst"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "'Angst vor' + dativo = 'miedo a'."
+  },
+  {
+   "id": "weather_leisure_q014",
+   "de": "Ich habe dir Blumen gekauft.",
+   "es": "Te he comprado flores.",
+   "en": "I bought you flowers.",
+   "gloss": "yo he a-ti flores comprado",
+   "lemmas": [
+    "Blume",
+    "kaufen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q015",
+   "de": "Die Blumen brauchen Wasser.",
+   "es": "Las flores necesitan agua.",
+   "en": "The flowers need water.",
+   "gloss": "las flores necesitan agua",
+   "lemmas": [
+    "Blume",
+    "Wasser"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q016",
+   "de": "Schau dir mal die Blumen an!",
+   "es": "¡Mira las flores!",
+   "en": "Take a look at these flowers!",
+   "gloss": "mira a-ti una-vez las flores en",
+   "lemmas": [
+    "anschauen",
+    "Blume"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "'anschauen' se parte: 'schau ... an'."
+  },
+  {
+   "id": "weather_leisure_q017",
+   "de": "Vorsicht, der Kaffee ist heiß!",
+   "es": "¡Cuidado, que el café está caliente!",
+   "en": "Careful, the coffee is hot!",
+   "gloss": "cuidado, el café es caliente",
+   "lemmas": [
+    "heiß",
+    "Kaffee"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q018",
+   "de": "Mir ist viel zu heiß.",
+   "es": "Tengo demasiado calor.",
+   "en": "I'm way too hot.",
+   "gloss": "a-mí es mucho demasiado caliente",
+   "lemmas": [
+    "heiß"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Para sensaciones se dice 'mir ist heiß/kalt', nunca 'ich bin heiß'."
+  },
+  {
+   "id": "weather_leisure_q019",
+   "de": "Hier gibt es keinen Schatten.",
+   "es": "Aquí no hay sombra.",
+   "en": "There's no shade here.",
+   "gloss": "aquí da ello ninguna sombra",
+   "lemmas": [
+    "Schatten"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q020",
+   "de": "Im Schatten ist es nicht so heiß.",
+   "es": "A la sombra no hace tanto calor.",
+   "en": "It's not so hot in the shade.",
+   "gloss": "en-la sombra es ello no tan caliente",
+   "lemmas": [
+    "Schatten",
+    "heiß"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q021",
+   "de": "Wie viel Grad haben wir heute?",
+   "es": "¿Cuántos grados hace hoy?",
+   "en": "How many degrees is it today?",
+   "gloss": "cuántos grados tenemos nosotros hoy",
+   "lemmas": [
+    "Grad"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Los alemanes dicen 'cuántos grados tenemos'."
+  },
+  {
+   "id": "weather_leisure_q022",
+   "de": "Morgen soll es fünfundzwanzig Grad werden.",
+   "es": "Mañana dicen que llegará a veinticinco grados.",
+   "en": "It's supposed to hit twenty-five degrees tomorrow.",
+   "gloss": "mañana debe ello veinticinco grados volverse",
+   "lemmas": [
+    "Grad",
+    "werden"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'soll' aquí significa 'está previsto / dicen que'."
+  },
+  {
+   "id": "weather_leisure_q023",
+   "de": "Wirf mir mal den Ball!",
+   "es": "¡Pásame la pelota!",
+   "en": "Throw me the ball!",
+   "gloss": "lanza a-mí una-vez la pelota",
+   "lemmas": [
+    "werfen",
+    "Ball"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q024",
+   "de": "Wirf das bitte nicht auf den Boden!",
+   "es": "¡No tires eso al suelo, por favor!",
+   "en": "Please don't throw that on the floor!",
+   "gloss": "lanza eso por-favor no sobre el suelo",
+   "lemmas": [
+    "werfen",
+    "Boden"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q025",
+   "de": "Er wirft dem Hund den Ball.",
+   "es": "Le lanza la pelota al perro.",
+   "en": "He throws the dog the ball.",
+   "gloss": "él lanza al perro la pelota",
+   "lemmas": [
+    "werfen",
+    "Ball",
+    "Hund"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Con dos objetos, primero el dativo (dem Hund) y después el acusativo (den Ball)."
+  },
+  {
+   "id": "weather_leisure_q026",
+   "de": "Ich habe im Garten eine Maus gesehen.",
+   "es": "He visto un ratón en el jardín.",
+   "en": "I saw a mouse in the garden.",
+   "gloss": "yo he en-el jardín un ratón visto",
+   "lemmas": [
+    "Maus",
+    "Garten"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q027",
+   "de": "Die Maus ist schnell weggerannt.",
+   "es": "El ratón salió corriendo rápido.",
+   "en": "The mouse ran off fast.",
+   "gloss": "el ratón es rápido lejos-corrido",
+   "lemmas": [
+    "Maus",
+    "rennen",
+    "schnell"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Los verbos de movimiento forman el perfecto con 'sein', no con 'haben'."
+  },
+  {
+   "id": "weather_leisure_q028",
+   "de": "Die Sonne ist hinter den Wolken.",
+   "es": "El sol está detrás de las nubes.",
+   "en": "The sun is behind the clouds.",
+   "gloss": "el sol es detrás-de las nubes",
+   "lemmas": [
+    "Wolke",
+    "Sonne"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q029",
+   "de": "Die Wolken werden immer dunkler.",
+   "es": "Las nubes están cada vez más oscuras.",
+   "en": "The clouds are getting darker and darker.",
+   "gloss": "las nubes se-vuelven siempre más-oscuras",
+   "lemmas": [
+    "Wolke",
+    "dunkel"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'immer' + comparativo = 'cada vez más'."
+  },
+  {
+   "id": "weather_leisure_q030",
+   "de": "Nach dem Sturm lagen Äste auf der Straße.",
+   "es": "Después del temporal había ramas en la calle.",
+   "en": "After the storm there were branches on the road.",
+   "gloss": "tras el temporal yacían ramas sobre la calle",
+   "lemmas": [
+    "Sturm",
+    "Ast",
+    "Straße"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q031",
+   "de": "Draußen ist ein richtiger Sturm.",
+   "es": "Fuera hay un temporal de verdad.",
+   "en": "There's a proper storm outside.",
+   "gloss": "fuera es un auténtico temporal",
+   "lemmas": [
+    "Sturm",
+    "draußen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q032",
+   "de": "Das Gras ist noch nass.",
+   "es": "La hierba todavía está mojada.",
+   "en": "The grass is still wet.",
+   "gloss": "la hierba es todavía mojada",
+   "lemmas": [
+    "Gras",
+    "nass"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q033",
+   "de": "Der Hund rennt durchs Gras.",
+   "es": "El perro corre por la hierba.",
+   "en": "The dog is running through the grass.",
+   "gloss": "el perro corre por-la hierba",
+   "lemmas": [
+    "Gras",
+    "rennen",
+    "Hund"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'durchs' es 'durch das' contraído."
+  },
+  {
+   "id": "weather_leisure_q034",
+   "de": "Die Kühe stehen im Gras.",
+   "es": "Las vacas están en la hierba.",
+   "en": "The cows are standing in the grass.",
+   "gloss": "las vacas están-de-pie en-la hierba",
+   "lemmas": [
+    "Kuh",
+    "Gras",
+    "stehen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q035",
+   "de": "Das musst du dir anschauen!",
+   "es": "¡Esto tienes que verlo!",
+   "en": "You've got to see this!",
+   "gloss": "eso debes tú a-ti mirar",
+   "lemmas": [
+    "anschauen"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q036",
+   "de": "Der Hund springt ins Wasser.",
+   "es": "El perro salta al agua.",
+   "en": "The dog jumps into the water.",
+   "gloss": "el perro salta en-el agua",
+   "lemmas": [
+    "springen",
+    "Hund",
+    "Wasser"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q037",
+   "de": "Spring nicht vom Stuhl!",
+   "es": "¡No saltes de la silla!",
+   "en": "Don't jump off the chair!",
+   "gloss": "salta no de-la silla",
+   "lemmas": [
+    "springen",
+    "Stuhl"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q038",
+   "de": "Die Kinder springen im Garten herum.",
+   "es": "Los niños andan saltando por el jardín.",
+   "en": "The kids are jumping around in the garden.",
+   "gloss": "los niños saltan en-el jardín alrededor",
+   "lemmas": [
+    "springen",
+    "Kind",
+    "Garten"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'herum' añade la idea de 'de un lado a otro'."
+  },
+  {
+   "id": "weather_leisure_q039",
+   "de": "Sing doch mal was!",
+   "es": "¡Venga, canta algo!",
+   "en": "Come on, sing something!",
+   "gloss": "canta pues una-vez algo",
+   "lemmas": [
+    "singen"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "'doch mal' suaviza el imperativo, como '¡venga, anda!'."
+  },
+  {
+   "id": "weather_leisure_q040",
+   "de": "Im Auto singe ich gern laut.",
+   "es": "En el coche me gusta cantar a voz en grito.",
+   "en": "In the car I like singing loudly.",
+   "gloss": "en-el coche canto yo con-gusto alto",
+   "lemmas": [
+    "singen",
+    "Auto",
+    "laut"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q041",
+   "de": "Auf dem Feld stehen zwei Kühe.",
+   "es": "Hay dos vacas en el campo.",
+   "en": "There are two cows in the field.",
+   "gloss": "sobre el campo están-de-pie dos vacas",
+   "lemmas": [
+    "Kuh",
+    "Feld"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q042",
+   "de": "Hast du schon mal eine Kuh gesehen?",
+   "es": "¿Has visto alguna vez una vaca?",
+   "en": "Have you ever seen a cow?",
+   "gloss": "has tú ya una-vez una vaca visto",
+   "lemmas": [
+    "Kuh"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'schon mal' = 'alguna vez'."
+  },
+  {
+   "id": "weather_leisure_q043",
+   "de": "Hast du den Blitz gesehen?",
+   "es": "¿Has visto el rayo?",
+   "en": "Did you see that lightning?",
+   "gloss": "has tú el rayo visto",
+   "lemmas": [
+    "Blitz"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q044",
+   "de": "Erst kommt der Blitz, dann der Donner.",
+   "es": "Primero viene el rayo y luego el trueno.",
+   "en": "First comes the lightning, then the thunder.",
+   "gloss": "primero viene el rayo, luego el trueno",
+   "lemmas": [
+    "Blitz",
+    "Donner"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q045",
+   "de": "Der Donner war richtig laut.",
+   "es": "El trueno sonó fortísimo.",
+   "en": "The thunder was really loud.",
+   "gloss": "el trueno era realmente alto",
+   "lemmas": [
+    "Donner",
+    "laut"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q046",
+   "de": "Hörst du den Donner?",
+   "es": "¿Oyes el trueno?",
+   "en": "Do you hear the thunder?",
+   "gloss": "oyes tú el trueno",
+   "lemmas": [
+    "Donner"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q047",
+   "de": "Er schwimmt jeden Morgen im See.",
+   "es": "Nada en el lago todas las mañanas.",
+   "en": "He swims in the lake every morning.",
+   "gloss": "él nada cada mañana en-el lago",
+   "lemmas": [
+    "schwimmen",
+    "See",
+    "Morgen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q048",
+   "de": "Meine Tochter lernt gerade schwimmen.",
+   "es": "Mi hija está aprendiendo a nadar.",
+   "en": "My daughter is learning to swim right now.",
+   "gloss": "mi hija aprende ahora-mismo nadar",
+   "lemmas": [
+    "schwimmen",
+    "Tochter",
+    "lernen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'lernen' no lleva 'zu' antes del infinitivo."
+  },
+  {
+   "id": "weather_leisure_q049",
+   "de": "Sie tanzt richtig gut.",
+   "es": "Baila muy bien.",
+   "en": "She dances really well.",
+   "gloss": "ella baila realmente bien",
+   "lemmas": [
+    "tanzen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q050",
+   "de": "Auf der Hochzeit haben alle getanzt.",
+   "es": "En la boda bailó todo el mundo.",
+   "en": "Everyone danced at the wedding.",
+   "gloss": "en la boda han todos bailado",
+   "lemmas": [
+    "tanzen",
+    "Hochzeit"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q051",
+   "de": "Zum Glück ist es trocken geblieben.",
+   "es": "Menos mal que no ha llovido.",
+   "en": "Luckily it stayed dry.",
+   "gloss": "para suerte es ello seco quedado",
+   "lemmas": [
+    "trocken"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'zum Glück' es 'menos mal'."
+  },
+  {
+   "id": "weather_leisure_q052",
+   "de": "Das Gras ist ganz trocken.",
+   "es": "La hierba está totalmente seca.",
+   "en": "The grass is completely dry.",
+   "gloss": "la hierba es completamente seca",
+   "lemmas": [
+    "Gras",
+    "trocken"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q053",
+   "de": "Heute Morgen war viel Nebel.",
+   "es": "Esta mañana había mucha niebla.",
+   "en": "There was a lot of fog this morning.",
+   "gloss": "hoy mañana era mucha niebla",
+   "lemmas": [
+    "Nebel",
+    "Morgen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q054",
+   "de": "Bei Nebel fahre ich lieber langsam.",
+   "es": "Con niebla prefiero ir despacio.",
+   "en": "In fog I'd rather drive slowly.",
+   "gloss": "con niebla conduzco yo preferiblemente lento",
+   "lemmas": [
+    "Nebel",
+    "fahren",
+    "langsam"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'bei' + tiempo atmosférico = 'con / cuando hay'."
+  },
+  {
+   "id": "weather_leisure_q055",
+   "de": "Renn nicht so schnell!",
+   "es": "¡No corras tan rápido!",
+   "en": "Don't run so fast!",
+   "gloss": "corre no tan rápido",
+   "lemmas": [
+    "rennen",
+    "schnell"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q056",
+   "de": "Ich bin zum Bus gerannt.",
+   "es": "He ido corriendo al autobús.",
+   "en": "I ran for the bus.",
+   "gloss": "yo soy al autobús corrido",
+   "lemmas": [
+    "rennen",
+    "Bus"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q057",
+   "de": "Zieh die nassen Schuhe aus!",
+   "es": "¡Quítate los zapatos mojados!",
+   "en": "Take off those wet shoes!",
+   "gloss": "quita los mojados zapatos fuera",
+   "lemmas": [
+    "nass",
+    "Schuh"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "'ausziehen' se parte: 'zieh ... aus'."
+  },
+  {
+   "id": "weather_leisure_q058",
+   "de": "Nach dem Regen ist alles nass.",
+   "es": "Después de la lluvia está todo mojado.",
+   "en": "After the rain everything is wet.",
+   "gloss": "tras la lluvia es todo mojado",
+   "lemmas": [
+    "nass",
+    "Regen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q059",
+   "de": "Das Spiel war ziemlich langweilig.",
+   "es": "El partido fue bastante aburrido.",
+   "en": "The game was pretty boring.",
+   "gloss": "el partido era bastante aburrido",
+   "lemmas": [
+    "langweilig"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q060",
+   "de": "Wird dir nie langweilig?",
+   "es": "¿No te aburres nunca?",
+   "en": "Don't you ever get bored?",
+   "gloss": "se-vuelve a-ti nunca aburrido",
+   "lemmas": [
+    "langweilig"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "El alemán dice 'a ti se te hace aburrido'."
+  },
+  {
+   "id": "weather_leisure_q061",
+   "de": "Da ist eine Spinne an der Wand!",
+   "es": "¡Hay una araña en la pared!",
+   "en": "There's a spider on the wall!",
+   "gloss": "ahí es una araña en la pared",
+   "lemmas": [
+    "Spinne",
+    "Wand"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q062",
+   "de": "Ich habe Angst vor Spinnen.",
+   "es": "Me dan miedo las arañas.",
+   "en": "I'm scared of spiders.",
+   "gloss": "yo tengo miedo ante arañas",
+   "lemmas": [
+    "Spinne",
+    "Angst"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q063",
+   "de": "Pass auf, da ist eine Wurzel!",
+   "es": "¡Cuidado, que hay una raíz!",
+   "en": "Watch out, there's a root!",
+   "gloss": "presta atención, ahí es una raíz",
+   "lemmas": [
+    "Wurzel"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q064",
+   "de": "Da hinten sind große Wurzeln im Gras.",
+   "es": "Ahí detrás hay raíces grandes en la hierba.",
+   "en": "There are big roots in the grass back there.",
+   "gloss": "ahí atrás son grandes raíces en-la hierba",
+   "lemmas": [
+    "Wurzel",
+    "Gras"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q065",
+   "de": "Heute Abend gibt es ein Gewitter.",
+   "es": "Esta noche hay tormenta.",
+   "en": "There's a thunderstorm tonight.",
+   "gloss": "hoy tarde da ello una tormenta",
+   "lemmas": [
+    "Gewitter",
+    "Abend"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q066",
+   "de": "Bei Gewitter gehe ich nicht raus.",
+   "es": "Cuando hay tormenta no salgo.",
+   "en": "I don't go out when there's a thunderstorm.",
+   "gloss": "con tormenta voy yo no fuera",
+   "lemmas": [
+    "Gewitter"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q067",
+   "de": "Eine Biene ist auf meiner Hand!",
+   "es": "¡Tengo una abeja en la mano!",
+   "en": "There's a bee on my hand!",
+   "gloss": "una abeja es sobre mi mano",
+   "lemmas": [
+    "Biene",
+    "Hand"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q068",
+   "de": "Auf den Blumen sind viele Bienen.",
+   "es": "En las flores hay muchas abejas.",
+   "en": "There are lots of bees on the flowers.",
+   "gloss": "sobre las flores son muchas abejas",
+   "lemmas": [
+    "Biene",
+    "Blume"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q069",
+   "de": "Da ist eine Fliege in meinem Essen!",
+   "es": "¡Hay una mosca en mi comida!",
+   "en": "There's a fly in my food!",
+   "gloss": "ahí es una mosca en mi comida",
+   "lemmas": [
+    "Fliege",
+    "Essen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q070",
+   "de": "Mach das Fenster zu, sonst kommen die Fliegen rein.",
+   "es": "Cierra la ventana, si no entran las moscas.",
+   "en": "Shut the window or the flies will get in.",
+   "gloss": "haz la ventana cerrada, si-no vienen las moscas dentro",
+   "lemmas": [
+    "Fliege",
+    "Fenster"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'zumachen' se parte: 'mach ... zu'."
+  },
+  {
+   "id": "weather_leisure_q071",
+   "de": "Der Ast ist ziemlich groß.",
+   "es": "La rama es bastante grande.",
+   "en": "That branch is pretty big.",
+   "gloss": "la rama es bastante grande",
+   "lemmas": [
+    "Ast",
+    "groß"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q072",
+   "de": "Vorsicht, der Ast fällt gleich runter!",
+   "es": "¡Cuidado, que la rama se va a caer!",
+   "en": "Watch out, that branch is about to come down!",
+   "gloss": "cuidado, la rama cae enseguida abajo",
+   "lemmas": [
+    "Ast"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "'gleich' aquí es 'dentro de nada', no 'igual'."
+  },
+  {
+   "id": "weather_leisure_q073",
+   "de": "Im Garten sind viele ___.",
+   "es": "En el jardín hay muchas ___.",
+   "en": "There are lots of ___ in the garden.",
+   "gloss": "en-el jardín son muchas ___",
+   "lemmas": [
+    "Biene",
+    "Fliege",
+    "Wurzel",
+    "Blume",
+    "Spinne",
+    "Garten"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Bienen",
+     "es": "abejas"
+    },
+    {
+     "de": "Fliegen",
+     "es": "moscas"
+    },
+    {
+     "de": "Wurzeln",
+     "es": "raíces"
+    },
+    {
+     "de": "Blumen",
+     "es": "flores"
+    },
+    {
+     "de": "Spinnen",
+     "es": "arañas"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q074",
+   "de": "Am Wochenende soll es ___ geben.",
+   "es": "El fin de semana dicen que va a haber ___.",
+   "en": "They say there'll be ___ at the weekend.",
+   "gloss": "en-el fin-de-semana debe ello ___ dar",
+   "lemmas": [
+    "Gewitter",
+    "Sturm",
+    "Nebel",
+    "Schnee",
+    "Regen"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "ein Gewitter",
+     "es": "tormenta"
+    },
+    {
+     "de": "einen Sturm",
+     "es": "temporal"
+    },
+    {
+     "de": "Nebel",
+     "es": "niebla"
+    },
+    {
+     "de": "Schnee",
+     "es": "nieve"
+    },
+    {
+     "de": "Regen",
+     "es": "lluvia"
+    }
+   ],
+   "note": "'soll' aquí es 'está previsto / dicen que'."
+  },
+  {
+   "id": "weather_leisure_q075",
+   "de": "Schau mal, da drüben ist ___!",
+   "es": "¡Mira, ahí enfrente hay ___!",
+   "en": "Look, there's ___ over there!",
+   "gloss": "mira una-vez, ahí enfrente es ___",
+   "lemmas": [
+    "anschauen",
+    "Kuh",
+    "Maus",
+    "Biene",
+    "Spinne",
+    "Pferd"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "eine Kuh",
+     "es": "una vaca"
+    },
+    {
+     "de": "eine Maus",
+     "es": "un ratón"
+    },
+    {
+     "de": "eine Biene",
+     "es": "una abeja"
+    },
+    {
+     "de": "eine Spinne",
+     "es": "una araña"
+    },
+    {
+     "de": "ein Pferd",
+     "es": "un caballo"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q076",
+   "de": "Die Kinder ___ im Garten.",
+   "es": "Los niños ___ en el jardín.",
+   "en": "The kids are ___ in the garden.",
+   "gloss": "los niños ___ en-el jardín",
+   "lemmas": [
+    "rennen",
+    "springen",
+    "singen",
+    "tanzen",
+    "Kind",
+    "Garten"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "rennen",
+     "es": "corren"
+    },
+    {
+     "de": "springen",
+     "es": "saltan"
+    },
+    {
+     "de": "singen",
+     "es": "cantan"
+    },
+    {
+     "de": "tanzen",
+     "es": "bailan"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_q077",
+   "de": "Der Boden ist noch ___.",
+   "es": "El suelo todavía está ___.",
+   "en": "The ground is still ___.",
+   "gloss": "el suelo es todavía ___",
+   "lemmas": [
+    "nass",
+    "trocken",
+    "warm",
+    "kalt",
+    "Boden"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "nass",
+     "es": "mojado"
+    },
+    {
+     "de": "trocken",
+     "es": "seco"
+    },
+    {
+     "de": "warm",
+     "es": "caliente"
+    },
+    {
+     "de": "kalt",
+     "es": "frío"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r001",
+   "de": "Der Himmel ist heute ganz blau.",
+   "es": "Hoy el cielo está completamente azul.",
+   "en": "The sky is completely blue today.",
+   "gloss": "el cielo es hoy completamente azul",
+   "lemmas": [
+    "Himmel",
+    "blau"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r002",
+   "de": "Schau mal, der Himmel wird schon rot!",
+   "es": "¡Mira, el cielo ya se está poniendo rojo!",
+   "en": "Look, the sky is already turning red!",
+   "gloss": "mira una-vez, el cielo se-vuelve ya rojo",
+   "lemmas": [
+    "Himmel",
+    "rot"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "\"Schau mal\" es el \"mira\" de cada día, con ese \"mal\" que no se traduce."
+  },
+  {
+   "id": "weather_leisure_r003",
+   "de": "Der Himmel ist heute ___.",
+   "es": "Hoy el cielo está ___.",
+   "en": "The sky is ___ today.",
+   "gloss": "el cielo es hoy ___",
+   "lemmas": [
+    "Himmel"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "blau",
+     "es": "azul"
+    },
+    {
+     "de": "grau",
+     "es": "gris"
+    },
+    {
+     "de": "dunkel",
+     "es": "oscuro"
+    },
+    {
+     "de": "klar",
+     "es": "despejado"
+    },
+    {
+     "de": "voller Wolken",
+     "es": "lleno de nubes"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r017",
+   "de": "Der Himmel sieht nach Regen aus.",
+   "es": "El cielo tiene pinta de lluvia.",
+   "en": "The sky looks like rain.",
+   "gloss": "el cielo ve hacia lluvia fuera",
+   "lemmas": [
+    "Himmel",
+    "Regen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r004",
+   "de": "Am Wochenende fahren wir in die Berge.",
+   "es": "El fin de semana nos vamos a la montaña.",
+   "en": "We're going to the mountains this weekend.",
+   "gloss": "en-el fin-de-semana vamos nosotros en las montañas",
+   "lemmas": [
+    "Berg",
+    "Wochenende",
+    "fahren"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"A la montaña\" en alemán es plural: \"in die Berge\"."
+  },
+  {
+   "id": "weather_leisure_r005",
+   "de": "Oben auf dem Berg ist es viel kälter.",
+   "es": "Arriba en la montaña hace mucho más frío.",
+   "en": "It's much colder up on the mountain.",
+   "gloss": "arriba sobre la montaña es ello mucho más-frío",
+   "lemmas": [
+    "Berg",
+    "kalt"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"auf dem Berg\" (dativo) = ya estás arriba; \"auf den Berg\" sería subir."
+  },
+  {
+   "id": "weather_leisure_r006",
+   "de": "Warst du schon mal in den Bergen?",
+   "es": "¿Has estado alguna vez en la montaña?",
+   "en": "Have you ever been to the mountains?",
+   "gloss": "estuviste tú ya una-vez en las montañas",
+   "lemmas": [
+    "Berg"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "\"schon mal\" = alguna vez; con \"sein\" los alemanes usan \"war\", no el perfecto."
+  },
+  {
+   "id": "weather_leisure_r015",
+   "de": "Ja, super, ich liebe die Berge!",
+   "es": "¡Sí, genial, me encanta la montaña!",
+   "en": "Yes, great, I love the mountains!",
+   "gloss": "sí, súper, yo amo las montañas",
+   "lemmas": [
+    "Berg",
+    "lieben"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r007",
+   "de": "Unter dem Baum ist es schön kühl.",
+   "es": "Debajo del árbol se está fresquito.",
+   "en": "It's nice and cool under the tree.",
+   "gloss": "debajo-de el árbol es ello agradablemente fresco",
+   "lemmas": [
+    "Baum",
+    "unter"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"schön\" delante de otro adjetivo significa \"agradablemente\"."
+  },
+  {
+   "id": "weather_leisure_r008",
+   "de": "Im Herbst werden die Bäume gelb.",
+   "es": "En otoño los árboles se ponen amarillos.",
+   "en": "In autumn the trees turn yellow.",
+   "gloss": "en-el otoño se-vuelven los árboles amarillos",
+   "lemmas": [
+    "Baum",
+    "Herbst"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El plural de \"Baum\" es \"Bäume\"."
+  },
+  {
+   "id": "weather_leisure_r009",
+   "de": "Auf dem Baum sitzt ein Vogel.",
+   "es": "En el árbol hay un pájaro.",
+   "en": "There's a bird sitting in the tree.",
+   "gloss": "sobre el árbol está-sentado un pájaro",
+   "lemmas": [
+    "Baum",
+    "Vogel",
+    "sitzen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El alemán dice dónde \"se sienta\" el pájaro; nosotros solo decimos que está."
+  },
+  {
+   "id": "weather_leisure_r010",
+   "de": "Wir gehen im Wald spazieren.",
+   "es": "Vamos a pasear por el bosque.",
+   "en": "We go for a walk in the forest.",
+   "gloss": "nosotros vamos en-el bosque a-pasear",
+   "lemmas": [
+    "Wald",
+    "gehen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "\"im Wald\" = dentro del bosque; si vas hacia allí, \"in den Wald\"."
+  },
+  {
+   "id": "weather_leisure_r011",
+   "de": "Wollen wir in den Wald gehen?",
+   "es": "¿Vamos al bosque?",
+   "en": "Shall we go to the forest?",
+   "gloss": "queremos nosotros en el bosque ir",
+   "lemmas": [
+    "Wald",
+    "wollen",
+    "gehen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r012",
+   "de": "Im Wald ist die Luft richtig frisch.",
+   "es": "En el bosque el aire está súper fresco.",
+   "en": "The air is really fresh in the forest.",
+   "gloss": "en-el bosque es el aire realmente fresco",
+   "lemmas": [
+    "Wald",
+    "frisch"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "weather_leisure_r016",
+   "de": "Von hier oben sieht man den ganzen Wald.",
+   "es": "Desde aquí arriba se ve todo el bosque.",
+   "en": "From up here you can see the whole forest.",
+   "gloss": "desde aquí arriba ve uno el entero bosque",
+   "lemmas": [
+    "Wald",
+    "sehen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "\"man\" es el \"se\" impersonal: \"sieht man\" = se ve."
+  },
+  {
+   "id": "weather_leisure_r013",
+   "de": "Am Wochenende gehen wir ___.",
+   "es": "El fin de semana vamos ___.",
+   "en": "On the weekend we go ___.",
+   "gloss": "en-el fin-de-semana vamos nosotros ___",
+   "lemmas": [
+    "Wald",
+    "Berg",
+    "Wochenende",
+    "gehen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "in den Wald",
+     "es": "al bosque"
+    },
+    {
+     "de": "in die Berge",
+     "es": "a la montaña"
+    },
+    {
+     "de": "in den Park",
+     "es": "al parque"
+    },
+    {
+     "de": "an den See",
+     "es": "al lago"
+    },
+    {
+     "de": "ins Kino",
+     "es": "al cine"
+    }
+   ],
+   "note": "Si hay movimiento (adónde), toca acusativo: den, die, ins."
+  },
+  {
+   "id": "weather_leisure_r014",
+   "de": "Im Wald kann man gut ___.",
+   "es": "En el bosque se puede ___ muy bien.",
+   "en": "In the forest you can ___ really well.",
+   "gloss": "en-el bosque puede uno bien ___",
+   "lemmas": [
+    "Wald",
+    "können"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "spazieren gehen",
+     "es": "pasear"
+    },
+    {
+     "de": "laufen",
+     "es": "correr"
+    },
+    {
+     "de": "Fahrrad fahren",
+     "es": "ir en bici"
+    },
+    {
+     "de": "Fotos machen",
+     "es": "hacer fotos"
+    },
+    {
+     "de": "Pilze suchen",
+     "es": "buscar setas"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

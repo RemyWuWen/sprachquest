@@ -1,0 +1,3702 @@
+{
+  "packId": "people_family",
+  "title": "Menschen & Familie",
+  "titleDe": "Meine Leute: Familie und Freunde",
+  "desc": "Después de este pack puedes presentar a tu familia y a tus amigos, decir cuántos años tienen, describir cómo son de carácter y de aspecto, y hablar de relaciones: parejas, bodas, peleas y a quién echas de menos.",
+  "chunks": [
+    {
+      "id": "people_family_001",
+      "de": "Das ist meine Mutter.",
+      "es": "Esta es mi madre.",
+      "en": "This is my mother.",
+      "gloss": "eso es mi madre",
+      "lemmas": [
+        "Mutter"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "Para presentar a alguien se dice «das ist», no «sie ist»."
+    },
+    {
+      "id": "people_family_002",
+      "de": "Das ist mein Vater.",
+      "es": "Este es mi padre.",
+      "en": "This is my father.",
+      "gloss": "eso es mi padre",
+      "lemmas": [
+        "Vater"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_003",
+      "de": "Das sind meine Eltern.",
+      "es": "Estos son mis padres.",
+      "en": "These are my parents.",
+      "gloss": "eso son mis padres",
+      "lemmas": [
+        "Eltern"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Eltern» solo existe en plural."
+    },
+    {
+      "id": "people_family_004",
+      "de": "Das ist mein ___.",
+      "es": "Este es mi ___.",
+      "en": "This is my ___.",
+      "gloss": "eso es mi ___",
+      "lemmas": [
+        "Vater",
+        "Bruder",
+        "Opa",
+        "Onkel",
+        "Sohn"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Bruder",
+          "es": "hermano"
+        },
+        {
+          "de": "Vater",
+          "es": "padre"
+        },
+        {
+          "de": "Opa",
+          "es": "abuelo"
+        },
+        {
+          "de": "Onkel",
+          "es": "tío"
+        },
+        {
+          "de": "Sohn",
+          "es": "hijo"
+        }
+      ],
+      "note": "«mein» sin -e para personas masculinas."
+    },
+    {
+      "id": "people_family_005",
+      "de": "Das ist meine ___.",
+      "es": "Esta es mi ___.",
+      "en": "This is my ___.",
+      "gloss": "eso es mi ___",
+      "lemmas": [
+        "Mutter",
+        "Schwester",
+        "Oma",
+        "Tante",
+        "Tochter"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Schwester",
+          "es": "hermana"
+        },
+        {
+          "de": "Mutter",
+          "es": "madre"
+        },
+        {
+          "de": "Oma",
+          "es": "abuela"
+        },
+        {
+          "de": "Tante",
+          "es": "tía"
+        },
+        {
+          "de": "Tochter",
+          "es": "hija"
+        }
+      ],
+      "note": "«meine» con -e para personas femeninas."
+    },
+    {
+      "id": "people_family_006",
+      "de": "Ich habe einen Bruder.",
+      "es": "Tengo un hermano.",
+      "en": "I have a brother.",
+      "gloss": "yo tengo un hermano",
+      "lemmas": [
+        "Bruder"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "Con «haben» el masculino cambia: ein → einen."
+    },
+    {
+      "id": "people_family_007",
+      "de": "Ich habe eine Schwester.",
+      "es": "Tengo una hermana.",
+      "en": "I have a sister.",
+      "gloss": "yo tengo una hermana",
+      "lemmas": [
+        "Schwester"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_008",
+      "de": "Ich habe einen ___.",
+      "es": "Tengo un ___.",
+      "en": "I have a ___.",
+      "gloss": "yo tengo un ___",
+      "lemmas": [
+        "Bruder",
+        "Sohn",
+        "Cousin",
+        "Enkel",
+        "Onkel"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Bruder",
+          "es": "hermano"
+        },
+        {
+          "de": "Sohn",
+          "es": "hijo"
+        },
+        {
+          "de": "Cousin",
+          "es": "primo"
+        },
+        {
+          "de": "Enkel",
+          "es": "nieto"
+        },
+        {
+          "de": "Onkel",
+          "es": "tío"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_009",
+      "de": "Ich habe keine Geschwister.",
+      "es": "No tengo hermanos.",
+      "en": "I don't have any siblings.",
+      "gloss": "yo tengo ningunos hermanos",
+      "lemmas": [
+        "Geschwister"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Geschwister» = hermanos y hermanas juntos; siempre plural."
+    },
+    {
+      "id": "people_family_010",
+      "de": "Hast du Geschwister?",
+      "es": "¿Tienes hermanos?",
+      "en": "Do you have siblings?",
+      "gloss": "tienes tú hermanos",
+      "lemmas": [
+        "Geschwister"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_011",
+      "de": "Meine Familie ist groß.",
+      "es": "Mi familia es grande.",
+      "en": "My family is big.",
+      "gloss": "mi familia es grande",
+      "lemmas": [
+        "Familie",
+        "groß"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_012",
+      "de": "Meine Eltern sind nett.",
+      "es": "Mis padres son majos.",
+      "en": "My parents are nice.",
+      "gloss": "mis padres son simpáticos",
+      "lemmas": [
+        "Eltern",
+        "nett"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_013",
+      "de": "Meine Schwester ist ___.",
+      "es": "Mi hermana es ___.",
+      "en": "My sister is ___.",
+      "gloss": "mi hermana es ___",
+      "lemmas": [
+        "Schwester",
+        "nett",
+        "lustig",
+        "hübsch",
+        "ehrlich",
+        "komisch"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "nett",
+          "es": "simpática"
+        },
+        {
+          "de": "lustig",
+          "es": "divertida"
+        },
+        {
+          "de": "hübsch",
+          "es": "guapa"
+        },
+        {
+          "de": "ehrlich",
+          "es": "sincera"
+        },
+        {
+          "de": "komisch",
+          "es": "rara"
+        }
+      ],
+      "note": "Detrás del verbo el adjetivo no cambia nunca."
+    },
+    {
+      "id": "people_family_014",
+      "de": "Sie ist sehr hübsch.",
+      "es": "Es muy guapa.",
+      "en": "She's very pretty.",
+      "gloss": "ella es muy guapa",
+      "lemmas": [
+        "hübsch"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_015",
+      "de": "Wie alt ist dein Bruder?",
+      "es": "¿Cuántos años tiene tu hermano?",
+      "en": "How old is your brother?",
+      "gloss": "cómo viejo es tu hermano",
+      "lemmas": [
+        "alt",
+        "Bruder"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "En alemán se «es» viejo, no se «tienen» años."
+    },
+    {
+      "id": "people_family_016",
+      "de": "Er ist zwölf Jahre alt.",
+      "es": "Tiene doce años.",
+      "en": "He's twelve years old.",
+      "gloss": "él es doce años viejo",
+      "lemmas": [
+        "alt"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "people_family_017",
+      "de": "Mein Opa ist schon alt.",
+      "es": "Mi abuelo ya es mayor.",
+      "en": "My grandpa is already old.",
+      "gloss": "mi abuelo es ya viejo",
+      "lemmas": [
+        "Opa",
+        "alt"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_018",
+      "de": "Ich liebe dich.",
+      "es": "Te quiero.",
+      "en": "I love you.",
+      "gloss": "yo amo a-ti",
+      "lemmas": [
+        "lieben"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_019",
+      "de": "Ich liebe meine Familie.",
+      "es": "Quiero mucho a mi familia.",
+      "en": "I love my family.",
+      "gloss": "yo amo mi familia",
+      "lemmas": [
+        "lieben",
+        "Familie"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_020",
+      "de": "Der Junge heißt Tim.",
+      "es": "El chico se llama Tim.",
+      "en": "The boy's name is Tim.",
+      "gloss": "el chico se-llama Tim",
+      "lemmas": [
+        "Junge"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_021",
+      "de": "Das Baby schläft.",
+      "es": "El bebé está durmiendo.",
+      "en": "The baby is sleeping.",
+      "gloss": "el bebé duerme",
+      "lemmas": [
+        "Baby"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Baby» es neutro: das Baby."
+    },
+    {
+      "id": "people_family_022",
+      "de": "Sie haben zwei Kinder.",
+      "es": "Tienen dos hijos.",
+      "en": "They have two children.",
+      "gloss": "ellos tienen dos niños",
+      "lemmas": [
+        "Kind"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "Plural irregular: das Kind → die Kinder."
+    },
+    {
+      "id": "people_family_023",
+      "de": "Mein Sohn ist drei.",
+      "es": "Mi hijo tiene tres años.",
+      "en": "My son is three.",
+      "gloss": "mi hijo es tres",
+      "lemmas": [
+        "Sohn"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_024",
+      "de": "Wir haben einen Sohn und eine Tochter.",
+      "es": "Tenemos un hijo y una hija.",
+      "en": "We have a son and a daughter.",
+      "gloss": "nosotros tenemos un hijo y una hija",
+      "lemmas": [
+        "Sohn",
+        "Tochter"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_025",
+      "de": "Wer ist der Mann?",
+      "es": "¿Quién es ese hombre?",
+      "en": "Who is that man?",
+      "gloss": "quién es el hombre",
+      "lemmas": [
+        "Mann"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_026",
+      "de": "Mein Mann heißt Paul.",
+      "es": "Mi marido se llama Paul.",
+      "en": "My husband's name is Paul.",
+      "gloss": "mi hombre se-llama Paul",
+      "lemmas": [
+        "Mann"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«mein Mann» significa mi marido, no «mi hombre»."
+    },
+    {
+      "id": "people_family_027",
+      "de": "Meine Frau heißt Anna.",
+      "es": "Mi mujer se llama Anna.",
+      "en": "My wife's name is Anna.",
+      "gloss": "mi mujer se-llama Anna",
+      "lemmas": [
+        "Frau"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Frau» sirve para mujer y para esposa."
+    },
+    {
+      "id": "people_family_028",
+      "de": "Mein Nachbar heißt Herr Weber.",
+      "es": "Mi vecino se llama señor Weber.",
+      "en": "My neighbour's name is Mr Weber.",
+      "gloss": "mi vecino se-llama señor Weber",
+      "lemmas": [
+        "Nachbar"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_029",
+      "de": "Meine Freundin heißt Lena.",
+      "es": "Mi amiga se llama Lena.",
+      "en": "My friend's name is Lena.",
+      "gloss": "mi amiga se-llama Lena",
+      "lemmas": [
+        "Freundin"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_030",
+      "de": "Mein Onkel wohnt in München.",
+      "es": "Mi tío vive en Múnich.",
+      "en": "My uncle lives in Munich.",
+      "gloss": "mi tío vive en Múnich",
+      "lemmas": [
+        "Onkel"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_031",
+      "de": "Meine Tante kommt aus Italien.",
+      "es": "Mi tía es de Italia.",
+      "en": "My aunt is from Italy.",
+      "gloss": "mi tía viene de Italia",
+      "lemmas": [
+        "Tante"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_032",
+      "de": "Ich vermisse dich.",
+      "es": "Te echo de menos.",
+      "en": "I miss you.",
+      "gloss": "yo echo-de-menos a-ti",
+      "lemmas": [
+        "vermissen"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_033",
+      "de": "Bist du verheiratet?",
+      "es": "¿Estás casado?",
+      "en": "Are you married?",
+      "gloss": "eres tú casado",
+      "lemmas": [
+        "verheiratet"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "«verheiratet sein»: el alemán usa el verbo «sein» — literalmente «ser casado»."
+    },
+    {
+      "id": "people_family_034",
+      "de": "Das ist mein Partner.",
+      "es": "Esta es mi pareja.",
+      "en": "This is my partner.",
+      "gloss": "eso es mi pareja",
+      "lemmas": [
+        "Partner"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Partner/Partnerin» sirve para pareja sin decir si es novio o marido."
+    },
+    {
+      "id": "people_family_035",
+      "de": "Mein Vater arbeitet viel.",
+      "es": "Mi padre trabaja mucho.",
+      "en": "My father works a lot.",
+      "gloss": "mi padre trabaja mucho",
+      "lemmas": [
+        "Vater"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_036",
+      "de": "Ich habe eine kleine Schwester.",
+      "es": "Tengo una hermana pequeña.",
+      "en": "I have a little sister.",
+      "gloss": "yo tengo una pequeña hermana",
+      "lemmas": [
+        "klein",
+        "Schwester"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Delante del nombre, «klein» añade -e: eine kleine Schwester."
+    },
+    {
+      "id": "people_family_037",
+      "de": "Er ist mein bester Freund.",
+      "es": "Es mi mejor amigo.",
+      "en": "He's my best friend.",
+      "gloss": "él es mi mejor amigo",
+      "lemmas": [
+        "Freund"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_038",
+      "de": "Sie ist meine beste Freundin.",
+      "es": "Es mi mejor amiga.",
+      "en": "She's my best friend.",
+      "gloss": "ella es mi mejor amiga",
+      "lemmas": [
+        "Freundin"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_039",
+      "de": "Ich habe einen Freund.",
+      "es": "Tengo novio.",
+      "en": "I have a boyfriend.",
+      "gloss": "yo tengo un amigo",
+      "lemmas": [
+        "Freund"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«einen Freund haben» se entiende como tener novio; para amigo se dice «ein Freund von mir»."
+    },
+    {
+      "id": "people_family_040",
+      "de": "Ich vermisse ___.",
+      "es": "Echo de menos a ___.",
+      "en": "I miss ___.",
+      "gloss": "yo echo-de-menos ___",
+      "lemmas": [
+        "vermissen",
+        "Familie",
+        "Oma",
+        "Freund",
+        "Bruder"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "meine Familie",
+          "es": "a mi familia"
+        },
+        {
+          "de": "meine Oma",
+          "es": "a mi abuela"
+        },
+        {
+          "de": "meinen Freund",
+          "es": "a mi novio"
+        },
+        {
+          "de": "meine Freunde",
+          "es": "a mis amigos"
+        },
+        {
+          "de": "meinen kleinen Bruder",
+          "es": "a mi hermano pequeño"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_041",
+      "de": "Wie viele ___ hast du?",
+      "es": "¿Cuántos ___ tienes?",
+      "en": "How many ___ do you have?",
+      "gloss": "cómo muchos ___ tienes tú",
+      "lemmas": [
+        "Geschwister",
+        "Kind",
+        "Enkel",
+        "Freund"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Geschwister",
+          "es": "hermanos"
+        },
+        {
+          "de": "Kinder",
+          "es": "hijos"
+        },
+        {
+          "de": "Enkel",
+          "es": "nietos"
+        },
+        {
+          "de": "Freunde",
+          "es": "amigos"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_042",
+      "de": "___ ist verheiratet.",
+      "es": "___ está casado/a.",
+      "en": "___ is married.",
+      "gloss": "___ es casado",
+      "lemmas": [
+        "verheiratet",
+        "Bruder",
+        "Schwester",
+        "Tante",
+        "Onkel"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Mein Bruder",
+          "es": "Mi hermano"
+        },
+        {
+          "de": "Meine Schwester",
+          "es": "Mi hermana"
+        },
+        {
+          "de": "Meine Tante",
+          "es": "Mi tía"
+        },
+        {
+          "de": "Mein Onkel",
+          "es": "Mi tío"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_043",
+      "de": "Meine ___ ist schon alt.",
+      "es": "Mi ___ ya es mayor.",
+      "en": "My ___ is already old.",
+      "gloss": "mi ___ es ya vieja",
+      "lemmas": [
+        "alt",
+        "Oma",
+        "Mutter",
+        "Tante",
+        "Freundin"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Oma",
+          "es": "abuela"
+        },
+        {
+          "de": "Mutter",
+          "es": "madre"
+        },
+        {
+          "de": "Tante",
+          "es": "tía"
+        },
+        {
+          "de": "Freundin Erika",
+          "es": "amiga Erika"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_044",
+      "de": "Die Leute hier sind sehr ___.",
+      "es": "La gente de aquí es muy ___.",
+      "en": "People here are very ___.",
+      "gloss": "la gente aquí son muy ___",
+      "lemmas": [
+        "Leute",
+        "nett",
+        "freundlich",
+        "komisch",
+        "lustig"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "nett",
+          "es": "maja"
+        },
+        {
+          "de": "freundlich",
+          "es": "amable"
+        },
+        {
+          "de": "lustig",
+          "es": "divertida"
+        },
+        {
+          "de": "komisch",
+          "es": "rara"
+        }
+      ],
+      "note": "«Leute» es plural: die Leute sind, nunca «ist»."
+    },
+    {
+      "id": "people_family_045",
+      "de": "Ich finde ihn ___.",
+      "es": "Me parece ___.",
+      "en": "I think he's ___.",
+      "gloss": "yo encuentro a-él ___",
+      "lemmas": [
+        "finden",
+        "nett",
+        "lustig",
+        "komisch",
+        "hübsch",
+        "ehrlich"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "nett",
+          "es": "simpático"
+        },
+        {
+          "de": "lustig",
+          "es": "gracioso"
+        },
+        {
+          "de": "komisch",
+          "es": "raro"
+        },
+        {
+          "de": "hübsch",
+          "es": "guapo"
+        },
+        {
+          "de": "sehr ehrlich",
+          "es": "muy sincero"
+        }
+      ],
+      "note": "«Ich finde ihn nett» = me parece simpático, no «lo encuentro»."
+    },
+    {
+      "id": "people_family_046",
+      "de": "Deine Familie ist echt nett.",
+      "es": "Tu familia es supermaja.",
+      "en": "Your family is really nice.",
+      "gloss": "tu familia es de-verdad maja",
+      "lemmas": [
+        "Familie",
+        "nett"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«echt» en lugar de «sehr» suena muy hablado."
+    },
+    {
+      "id": "people_family_047",
+      "de": "Unsere Nachbarn sind sehr nett.",
+      "es": "Nuestros vecinos son muy majos.",
+      "en": "Our neighbours are very nice.",
+      "gloss": "nuestros vecinos son muy simpáticos",
+      "lemmas": [
+        "Nachbar",
+        "nett"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_048",
+      "de": "Meine Oma ist total lustig.",
+      "es": "Mi abuela es supergraciosa.",
+      "en": "My grandma is really funny.",
+      "gloss": "mi abuela es total divertida",
+      "lemmas": [
+        "Oma",
+        "lustig"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_049",
+      "de": "Das war echt lustig!",
+      "es": "¡Fue muy divertido!",
+      "en": "That was really funny!",
+      "gloss": "eso fue de-verdad divertido",
+      "lemmas": [
+        "lustig"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_050",
+      "de": "Sei ehrlich!",
+      "es": "¡Sé sincero!",
+      "en": "Be honest!",
+      "gloss": "sé sincero",
+      "lemmas": [
+        "ehrlich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_051",
+      "de": "Er ist ein netter Mensch.",
+      "es": "Es buena persona.",
+      "en": "He's a nice person.",
+      "gloss": "él es una simpática persona",
+      "lemmas": [
+        "nett",
+        "Mensch"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Delante de un nombre masculino el adjetivo lleva -er: ein netter Mensch."
+    },
+    {
+      "id": "people_family_052",
+      "de": "Sie sind ein schönes Paar.",
+      "es": "Hacen buena pareja.",
+      "en": "They're a lovely couple.",
+      "gloss": "ellos son una bonita pareja",
+      "lemmas": [
+        "Paar",
+        "schön"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_053",
+      "de": "Meine Partnerin heißt Sara.",
+      "es": "Mi pareja se llama Sara.",
+      "en": "My partner's name is Sara.",
+      "gloss": "mi pareja se-llama Sara",
+      "lemmas": [
+        "Partnerin"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_054",
+      "de": "Wann ist die Hochzeit?",
+      "es": "¿Cuándo es la boda?",
+      "en": "When is the wedding?",
+      "gloss": "cuándo es la boda",
+      "lemmas": [
+        "Hochzeit"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_055",
+      "de": "Ich freue mich für euch!",
+      "es": "¡Me alegro mucho por vosotros!",
+      "en": "I'm so happy for you!",
+      "gloss": "yo alegro me por vosotros",
+      "lemmas": [
+        "sich freuen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "«sich für jemanden freuen» = alegrarse por alguien."
+    },
+    {
+      "id": "people_family_056",
+      "de": "Wo lebt deine Familie?",
+      "es": "¿Dónde vive tu familia?",
+      "en": "Where does your family live?",
+      "gloss": "dónde vive tu familia",
+      "lemmas": [
+        "leben",
+        "Familie"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_057",
+      "de": "Meine Oma lebt allein.",
+      "es": "Mi abuela vive sola.",
+      "en": "My grandma lives alone.",
+      "gloss": "mi abuela vive sola",
+      "lemmas": [
+        "Oma",
+        "leben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_058",
+      "de": "Er ist groß und schlank.",
+      "es": "Es alto y delgado.",
+      "en": "He's tall and slim.",
+      "gloss": "él es grande y delgado",
+      "lemmas": [
+        "groß"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«groß» vale para alto de estatura y para grande."
+    },
+    {
+      "id": "people_family_059",
+      "de": "Wer ist das Mädchen da?",
+      "es": "¿Quién es esa chica?",
+      "en": "Who is that girl?",
+      "gloss": "quién es la chica ahí",
+      "lemmas": [
+        "Mädchen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "«Mädchen» es neutro aunque signifique chica: das Mädchen."
+    },
+    {
+      "id": "people_family_060",
+      "de": "Der Junge da ist mein Cousin.",
+      "es": "Ese chico es mi primo.",
+      "en": "That boy is my cousin.",
+      "gloss": "el chico ahí es mi primo",
+      "lemmas": [
+        "Junge"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_061",
+      "de": "Wie viele Kinder habt ihr?",
+      "es": "¿Cuántos hijos tenéis?",
+      "en": "How many children do you have?",
+      "gloss": "cómo muchos niños tenéis vosotros",
+      "lemmas": [
+        "Kind"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_062",
+      "de": "Meine Schwester heiratet im Sommer.",
+      "es": "Mi hermana se casa en verano.",
+      "en": "My sister is getting married in the summer.",
+      "gloss": "mi hermana casa en-el verano",
+      "lemmas": [
+        "heiraten",
+        "Schwester"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«heiraten» no lleva pronombre: no se dice «sich heiraten»."
+    },
+    {
+      "id": "people_family_063",
+      "de": "Meine Oma liebt ihre Enkel.",
+      "es": "Mi abuela adora a sus nietos.",
+      "en": "My grandma loves her grandchildren.",
+      "gloss": "mi abuela ama sus nietos",
+      "lemmas": [
+        "Oma",
+        "lieben",
+        "Enkel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_064",
+      "de": "Danke, das ist sehr freundlich.",
+      "es": "Gracias, es muy amable.",
+      "en": "Thanks, that's very kind.",
+      "gloss": "gracias eso es muy amable",
+      "lemmas": [
+        "freundlich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_065",
+      "de": "Meine Mutter kocht das beste Essen.",
+      "es": "Mi madre hace la mejor comida.",
+      "en": "My mother cooks the best food.",
+      "gloss": "mi madre cocina la mejor comida",
+      "lemmas": [
+        "Mutter",
+        "kochen",
+        "Essen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_066",
+      "de": "Zu Hause sind wir vier.",
+      "es": "En casa somos cuatro.",
+      "en": "There are four of us at home.",
+      "gloss": "a casa somos nosotros cuatro",
+      "lemmas": [
+        "Haus"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«zu Hause» = en casa (sin movimiento); «nach Hause» = a casa."
+    },
+    {
+      "id": "people_family_067",
+      "de": "Der Mann da drüben ist mein Onkel.",
+      "es": "Ese hombre de allí es mi tío.",
+      "en": "That man over there is my uncle.",
+      "gloss": "el hombre ahí enfrente es mi tío",
+      "lemmas": [
+        "Mann",
+        "Onkel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_068",
+      "de": "Die Frau mit dem Hund ist meine Tante.",
+      "es": "La señora del perro es mi tía.",
+      "en": "The woman with the dog is my aunt.",
+      "gloss": "la mujer con el perro es mi tía",
+      "lemmas": [
+        "Frau",
+        "Tante"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Detrás de «mit» el artículo cambia: der Hund → mit dem Hund."
+    },
+    {
+      "id": "people_family_069",
+      "de": "Das Mädchen neben mir ist meine Schwester.",
+      "es": "La chica que está a mi lado es mi hermana.",
+      "en": "The girl next to me is my sister.",
+      "gloss": "la chica al-lado de-mí es mi hermana",
+      "lemmas": [
+        "Mädchen",
+        "Schwester"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_070",
+      "de": "Die Frau von meinem Bruder heißt Anna.",
+      "es": "La mujer de mi hermano se llama Anna.",
+      "en": "My brother's wife is called Anna.",
+      "gloss": "la mujer de mi hermano se-llama Anna",
+      "lemmas": [
+        "Frau",
+        "Bruder"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En el alemán hablado «von + persona» sustituye al genitivo."
+    },
+    {
+      "id": "people_family_071",
+      "de": "Meine Schwester ist größer als ich.",
+      "es": "Mi hermana es más alta que yo.",
+      "en": "My sister is taller than me.",
+      "gloss": "mi hermana es más-grande que yo",
+      "lemmas": [
+        "groß",
+        "Schwester"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«größer als», nunca «größer wie»."
+    },
+    {
+      "id": "people_family_072",
+      "de": "Ich bin der Kleinste in der Familie.",
+      "es": "Soy el más bajito de la familia.",
+      "en": "I'm the shortest one in the family.",
+      "gloss": "yo soy el más-pequeño en la familia",
+      "lemmas": [
+        "klein",
+        "Familie"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_073",
+      "de": "Ich bin das jüngste Kind.",
+      "es": "Soy el hijo menor.",
+      "en": "I'm the youngest child.",
+      "gloss": "yo soy el más-joven niño",
+      "lemmas": [
+        "Kind",
+        "jung"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_074",
+      "de": "Ich bin der älteste Enkel.",
+      "es": "Soy el nieto mayor.",
+      "en": "I'm the oldest grandchild.",
+      "gloss": "yo soy el más-viejo nieto",
+      "lemmas": [
+        "alt",
+        "Enkel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_075",
+      "de": "Meine Oma hat fünf Enkel.",
+      "es": "Mi abuela tiene cinco nietos.",
+      "en": "My grandma has five grandchildren.",
+      "gloss": "mi abuela tiene cinco nietos",
+      "lemmas": [
+        "Oma",
+        "Enkel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«Enkel» no cambia en plural: ein Enkel, fünf Enkel."
+    },
+    {
+      "id": "people_family_076",
+      "de": "Du siehst heute hübsch aus.",
+      "es": "Hoy estás guapa.",
+      "en": "You look pretty today.",
+      "gloss": "tú ves hoy guapa fuera",
+      "lemmas": [
+        "hübsch",
+        "aussehen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«aussehen» es separable: el «aus» se va al final."
+    },
+    {
+      "id": "people_family_077",
+      "de": "Ganz ehrlich, ich weiß es nicht.",
+      "es": "Sinceramente, no lo sé.",
+      "en": "Honestly, I don't know.",
+      "gloss": "del-todo sincero, yo sé ello no",
+      "lemmas": [
+        "ehrlich"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_078",
+      "de": "Sie ist ein ehrlicher Mensch.",
+      "es": "Es una persona sincera.",
+      "en": "She's an honest person.",
+      "gloss": "ella es una sincera persona",
+      "lemmas": [
+        "ehrlich",
+        "Mensch"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«Mensch» es masculino aunque hables de una mujer."
+    },
+    {
+      "id": "people_family_079",
+      "de": "Meine Tante ist ein bisschen komisch.",
+      "es": "Mi tía es un poco rara.",
+      "en": "My aunt is a bit odd.",
+      "gloss": "mi tía es un poquito rara",
+      "lemmas": [
+        "komisch",
+        "Tante"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«komisch» suele significar raro, no gracioso."
+    },
+    {
+      "id": "people_family_080",
+      "de": "Sie sind sehr freundlich zu mir.",
+      "es": "Son muy amables conmigo.",
+      "en": "They're very kind to me.",
+      "gloss": "ellos son muy amables a-mí",
+      "lemmas": [
+        "freundlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«freundlich zu + dativo»: zu mir, zu dir."
+    },
+    {
+      "id": "people_family_081",
+      "de": "Wie geht's deiner Familie?",
+      "es": "¿Qué tal tu familia?",
+      "en": "How's your family doing?",
+      "gloss": "cómo va-ello a-tu familia",
+      "lemmas": [
+        "Familie"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "«deiner Familie» va en dativo después de «wie geht's»."
+    },
+    {
+      "id": "people_family_082",
+      "de": "Grüß deine Eltern von mir!",
+      "es": "¡Saluda a tus padres de mi parte!",
+      "en": "Say hi to your parents from me!",
+      "gloss": "saluda tus padres de mí",
+      "lemmas": [
+        "Eltern",
+        "grüßen"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_083",
+      "de": "Meine Großeltern leben auf dem Land.",
+      "es": "Mis abuelos viven en el campo.",
+      "en": "My grandparents live in the countryside.",
+      "gloss": "mis abuelos viven sobre el campo",
+      "lemmas": [
+        "Großeltern",
+        "leben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«auf dem Land» = en el campo; «in dem Land» sería en el país."
+    },
+    {
+      "id": "people_family_084",
+      "de": "Wir sind seit zwei Jahren ein Paar.",
+      "es": "Llevamos dos años juntos.",
+      "en": "We've been a couple for two years.",
+      "gloss": "nosotros somos desde dos años una pareja",
+      "lemmas": [
+        "Paar"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con «seit» el alemán usa presente, no pasado."
+    },
+    {
+      "id": "people_family_085",
+      "de": "Ich kümmere mich um meine Oma.",
+      "es": "Cuido de mi abuela.",
+      "en": "I take care of my grandma.",
+      "gloss": "yo ocupo me alrededor-de mi abuela",
+      "lemmas": [
+        "sich kümmern",
+        "Oma"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Siempre «sich kümmern um» + acusativo."
+    },
+    {
+      "id": "people_family_086",
+      "de": "Wer kümmert sich um das Baby?",
+      "es": "¿Quién cuida del bebé?",
+      "en": "Who's looking after the baby?",
+      "gloss": "quién ocupa se alrededor-de el bebé",
+      "lemmas": [
+        "sich kümmern",
+        "Baby"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_087",
+      "de": "Meine Mutter kümmert sich um alles.",
+      "es": "Mi madre se ocupa de todo.",
+      "en": "My mother takes care of everything.",
+      "gloss": "mi madre ocupa se alrededor-de todo",
+      "lemmas": [
+        "sich kümmern",
+        "Mutter"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_088",
+      "de": "Ich kümmere mich um ___.",
+      "es": "Me ocupo de ___.",
+      "en": "I take care of ___.",
+      "gloss": "yo ocupo me alrededor-de ___",
+      "lemmas": [
+        "sich kümmern",
+        "Bruder",
+        "Oma",
+        "Baby",
+        "Eltern"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "meinen kleinen Bruder",
+          "es": "de mi hermano pequeño"
+        },
+        {
+          "de": "meine Oma",
+          "es": "de mi abuela"
+        },
+        {
+          "de": "das Baby",
+          "es": "del bebé"
+        },
+        {
+          "de": "meine Eltern",
+          "es": "de mis padres"
+        },
+        {
+          "de": "den Hund",
+          "es": "del perro"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_089",
+      "de": "Wir streiten uns nie.",
+      "es": "Nunca nos peleamos.",
+      "en": "We never argue.",
+      "gloss": "nosotros discutimos nos nunca",
+      "lemmas": [
+        "streiten"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«sich streiten» lleva pronombre: wir streiten uns."
+    },
+    {
+      "id": "people_family_090",
+      "de": "Ich streite mich oft mit meinem Bruder.",
+      "es": "Me peleo a menudo con mi hermano.",
+      "en": "I often argue with my brother.",
+      "gloss": "yo discuto me a-menudo con mi hermano",
+      "lemmas": [
+        "streiten",
+        "Bruder"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_091",
+      "de": "Mein kleiner Bruder nervt.",
+      "es": "Mi hermano pequeño es un pesado.",
+      "en": "My little brother is annoying.",
+      "gloss": "mi pequeño hermano molesta",
+      "lemmas": [
+        "klein",
+        "Bruder",
+        "nerven"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«nervt» solo, sin objeto, es muy típico del habla juvenil."
+    },
+    {
+      "id": "people_family_092",
+      "de": "Das ist eine alte Freundin von mir.",
+      "es": "Es una amiga de toda la vida.",
+      "en": "She's an old friend of mine.",
+      "gloss": "eso es una vieja amiga de mí",
+      "lemmas": [
+        "alt",
+        "Freundin"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«eine alte Freundin» = amiga desde hace mucho, no anciana."
+    },
+    {
+      "id": "people_family_093",
+      "de": "Meine Tochter geht schon in die Schule.",
+      "es": "Mi hija ya va al colegio.",
+      "en": "My daughter already goes to school.",
+      "gloss": "mi hija va ya en la escuela",
+      "lemmas": [
+        "Tochter",
+        "Schule"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_094",
+      "de": "Er ist ein sehr ___ Mensch.",
+      "es": "Es una persona muy ___.",
+      "en": "He's a very ___ person.",
+      "gloss": "él es una muy ___ persona",
+      "lemmas": [
+        "Mensch",
+        "nett",
+        "ehrlich",
+        "lustig",
+        "freundlich",
+        "komisch"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "netter",
+          "es": "maja"
+        },
+        {
+          "de": "ehrlicher",
+          "es": "sincera"
+        },
+        {
+          "de": "lustiger",
+          "es": "divertida"
+        },
+        {
+          "de": "freundlicher",
+          "es": "amable"
+        },
+        {
+          "de": "komischer",
+          "es": "rara"
+        }
+      ],
+      "note": "Delante de «Mensch» el adjetivo añade -er."
+    },
+    {
+      "id": "people_family_095",
+      "de": "Meine ___ heiratet nächstes Jahr.",
+      "es": "Mi ___ se casa el año que viene.",
+      "en": "My ___ is getting married next year.",
+      "gloss": "mi ___ casa próximo año",
+      "lemmas": [
+        "heiraten",
+        "Schwester",
+        "Tochter",
+        "Freundin",
+        "Cousine"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Schwester",
+          "es": "hermana"
+        },
+        {
+          "de": "Tochter",
+          "es": "hija"
+        },
+        {
+          "de": "Freundin",
+          "es": "amiga"
+        },
+        {
+          "de": "Cousine",
+          "es": "prima"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_096",
+      "de": "Sie küsst ihr Baby.",
+      "es": "Besa a su bebé.",
+      "en": "She kisses her baby.",
+      "gloss": "ella besa su bebé",
+      "lemmas": [
+        "küssen",
+        "Baby"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_097",
+      "de": "Ich lebe seit zehn Jahren in Spanien.",
+      "es": "Llevo diez años viviendo en España.",
+      "en": "I've been living in Spain for ten years.",
+      "gloss": "yo vivo desde diez años en España",
+      "lemmas": [
+        "leben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_098",
+      "de": "Meine Eltern sind seit zwanzig Jahren verheiratet.",
+      "es": "Mis padres llevan veinte años casados.",
+      "en": "My parents have been married for twenty years.",
+      "gloss": "mis padres son desde veinte años casados",
+      "lemmas": [
+        "Eltern",
+        "verheiratet"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_099",
+      "de": "Wir haben letztes Jahr geheiratet.",
+      "es": "Nos casamos el año pasado.",
+      "en": "We got married last year.",
+      "gloss": "nosotros hemos último año casado",
+      "lemmas": [
+        "heiraten"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Perfecto con «haben»: haben ... geheiratet."
+    },
+    {
+      "id": "people_family_100",
+      "de": "Ich bin zu einer Hochzeit eingeladen.",
+      "es": "Estoy invitado a una boda.",
+      "en": "I'm invited to a wedding.",
+      "gloss": "yo soy a una boda invitado",
+      "lemmas": [
+        "Hochzeit",
+        "einladen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_101",
+      "de": "Meine Schwester hat ein Baby bekommen.",
+      "es": "Mi hermana ha tenido un bebé.",
+      "en": "My sister had a baby.",
+      "gloss": "mi hermana ha un bebé recibido",
+      "lemmas": [
+        "Schwester",
+        "Baby"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«ein Baby bekommen», no «haben», para decir tener un hijo."
+    },
+    {
+      "id": "people_family_102",
+      "de": "Sie haben sich zur Begrüßung geküsst.",
+      "es": "Se dieron un beso al saludarse.",
+      "en": "They kissed each other hello.",
+      "gloss": "ellos han se a-la saludo besado",
+      "lemmas": [
+        "küssen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_103",
+      "de": "Mein Sohn sieht aus wie sein Vater.",
+      "es": "Mi hijo se parece a su padre.",
+      "en": "My son looks like his father.",
+      "gloss": "mi hijo ve fuera como su padre",
+      "lemmas": [
+        "Sohn",
+        "Vater",
+        "aussehen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«aussehen wie» = parecerse a."
+    },
+    {
+      "id": "people_family_104",
+      "de": "Ein alter Mann hat mir geholfen.",
+      "es": "Un señor mayor me ayudó.",
+      "en": "An old man helped me.",
+      "gloss": "un viejo hombre ha a-mí ayudado",
+      "lemmas": [
+        "alt",
+        "Mann",
+        "helfen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«helfen» pide dativo: er hilft mir."
+    },
+    {
+      "id": "people_family_105",
+      "de": "Mein Opa war früher Lehrer.",
+      "es": "Mi abuelo era profesor.",
+      "en": "My grandpa used to be a teacher.",
+      "gloss": "mi abuelo era antes profesor",
+      "lemmas": [
+        "Opa"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Con profesiones no se pone artículo: er war Lehrer."
+    },
+    {
+      "id": "people_family_106",
+      "de": "Er ist heute komisch drauf.",
+      "es": "Hoy está raro.",
+      "en": "He's in a weird mood today.",
+      "gloss": "él es hoy raro encima",
+      "lemmas": [
+        "komisch"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«gut/schlecht/komisch drauf sein» = estar de tal humor; muy hablado."
+    },
+    {
+      "id": "people_family_107",
+      "de": "Ich streite mich oft mit ___.",
+      "es": "Me peleo a menudo con ___.",
+      "en": "I often argue with ___.",
+      "gloss": "yo discuto me a-menudo con ___",
+      "lemmas": [
+        "streiten",
+        "Schwester",
+        "Bruder",
+        "Eltern",
+        "Nachbar"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "meiner Schwester",
+          "es": "con mi hermana"
+        },
+        {
+          "de": "meinem Bruder",
+          "es": "con mi hermano"
+        },
+        {
+          "de": "meinen Eltern",
+          "es": "con mis padres"
+        },
+        {
+          "de": "meinem Nachbarn",
+          "es": "con mi vecino"
+        }
+      ],
+      "note": "Después de «mit» todo va en dativo: meiner / meinem / meinen."
+    },
+    {
+      "id": "people_family_108",
+      "de": "Ich lebe mit ___ zusammen.",
+      "es": "Vivo con ___.",
+      "en": "I live together with ___.",
+      "gloss": "yo vivo con ___ juntos",
+      "lemmas": [
+        "leben",
+        "Eltern",
+        "Familie",
+        "Partner",
+        "Freundin"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "meinen Eltern",
+          "es": "con mis padres"
+        },
+        {
+          "de": "meiner Familie",
+          "es": "con mi familia"
+        },
+        {
+          "de": "meinem Partner",
+          "es": "con mi pareja"
+        },
+        {
+          "de": "meiner Freundin",
+          "es": "con mi novia"
+        }
+      ],
+      "note": "«zusammenleben» se parte: el «zusammen» va al final."
+    },
+    {
+      "id": "people_family_109",
+      "de": "Meine Eltern haben sich gestritten, aber jetzt ist alles gut.",
+      "es": "Mis padres se pelearon, pero ahora todo está bien.",
+      "en": "My parents had an argument, but everything's fine now.",
+      "gloss": "mis padres han se discutido pero ahora es todo bien",
+      "lemmas": [
+        "Eltern",
+        "streiten"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_110",
+      "de": "Komisch, dass er sich nicht meldet.",
+      "es": "Qué raro que no dé señales de vida.",
+      "en": "It's odd that he isn't getting in touch.",
+      "gloss": "raro que él se no anuncia",
+      "lemmas": [
+        "komisch",
+        "sich melden"
+      ],
+      "level": 5,
+      "type": "phrase",
+      "note": "Después de «dass» el verbo se va al final."
+    },
+    {
+      "id": "people_family_111",
+      "de": "Ich mag Leute, die ehrlich sind.",
+      "es": "Me gusta la gente que es sincera.",
+      "en": "I like people who are honest.",
+      "gloss": "yo gusto gente, que sinceros son",
+      "lemmas": [
+        "Leute",
+        "ehrlich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "En la frase de relativo el verbo va al final: die ehrlich sind."
+    },
+    {
+      "id": "people_family_112",
+      "de": "Meine Mutter sagt immer, dass Familie das Wichtigste ist.",
+      "es": "Mi madre siempre dice que la familia es lo más importante.",
+      "en": "My mother always says that family is the most important thing.",
+      "gloss": "mi madre dice siempre que familia lo más-importante es",
+      "lemmas": [
+        "Mutter",
+        "Familie"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_113",
+      "de": "Wenn ich meine Oma vermisse, rufe ich sie an.",
+      "es": "Cuando echo de menos a mi abuela, la llamo.",
+      "en": "When I miss my grandma, I call her.",
+      "gloss": "cuando yo mi abuela echo-de-menos llamo yo a-ella a",
+      "lemmas": [
+        "vermissen",
+        "Oma"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras la parte con «wenn», el verbo principal va primero: rufe ich."
+    },
+    {
+      "id": "people_family_114",
+      "de": "Mein Freund und ich kennen uns seit der Grundschule.",
+      "es": "Mi amigo y yo nos conocemos desde primaria.",
+      "en": "My friend and I have known each other since primary school.",
+      "gloss": "mi amigo y yo conocemos nos desde la escuela-primaria",
+      "lemmas": [
+        "Freund",
+        "kennen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_115",
+      "de": "Die meisten Menschen hier sind sehr freundlich.",
+      "es": "La mayoría de la gente de aquí es muy amable.",
+      "en": "Most people here are very friendly.",
+      "gloss": "la-mayoría personas aquí son muy amables",
+      "lemmas": [
+        "Mensch",
+        "freundlich"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_116",
+      "de": "Meine Nachbarin kümmert sich um meine Katze, wenn ich weg bin.",
+      "es": "Mi vecina cuida de mi gato cuando no estoy.",
+      "en": "My neighbour looks after my cat when I'm away.",
+      "gloss": "mi vecina ocupa se alrededor-de mi gato cuando yo fuera soy",
+      "lemmas": [
+        "Nachbar",
+        "sich kümmern"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "La forma femenina es «die Nachbarin»."
+    },
+    {
+      "id": "people_family_117",
+      "de": "Sie ist die Frau, die ich liebe.",
+      "es": "Es la mujer a la que quiero.",
+      "en": "She's the woman I love.",
+      "gloss": "ella es la mujer, que yo amo",
+      "lemmas": [
+        "Frau",
+        "lieben"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_118",
+      "de": "Wir haben uns auf der Hochzeit von meinem Bruder kennengelernt.",
+      "es": "Nos conocimos en la boda de mi hermano.",
+      "en": "We met at my brother's wedding.",
+      "gloss": "nosotros hemos nos sobre la boda de mi hermano conocido",
+      "lemmas": [
+        "Hochzeit",
+        "Bruder",
+        "kennenlernen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_119",
+      "de": "Mein kleiner Junge gibt mir jeden Abend einen Gute-Nacht-Kuss.",
+      "es": "Mi niño me da un beso de buenas noches cada noche.",
+      "en": "My little boy gives me a goodnight kiss every evening.",
+      "gloss": "mi pequeño chico da a-mí cada tarde un buenas-noches-beso",
+      "lemmas": [
+        "klein",
+        "Junge",
+        "Kuss"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "«jemanden gute Nacht küssen» no existe en alemán: se dice «einen Gute-Nacht-Kuss geben»."
+    },
+    {
+      "id": "people_family_120",
+      "de": "Das Mädchen, das da drüben steht, ist meine Tochter.",
+      "es": "La chica que está allí es mi hija.",
+      "en": "The girl standing over there is my daughter.",
+      "gloss": "la chica, que ahí enfrente está, es mi hija",
+      "lemmas": [
+        "Mädchen",
+        "Tochter"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_121",
+      "de": "Meine Eltern kommen am Wochenende zu Besuch.",
+      "es": "Mis padres vienen de visita el fin de semana.",
+      "en": "My parents are coming to visit at the weekend.",
+      "gloss": "mis padres vienen en-el fin-de-semana a visita",
+      "lemmas": [
+        "Eltern"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«zu Besuch kommen» es la forma normal de decir «venir de visita»."
+    },
+    {
+      "id": "people_family_122",
+      "de": "Was machen deine Eltern beruflich?",
+      "es": "¿A qué se dedican tus padres?",
+      "en": "What do your parents do for a living?",
+      "gloss": "qué hacen tus padres profesionalmente",
+      "lemmas": [
+        "Eltern"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Para preguntar por la profesión se añade «beruflich», no se traduce «trabajar de»."
+    },
+    {
+      "id": "people_family_123",
+      "de": "Ein Mädchen aus meiner Klasse heißt auch Lena.",
+      "es": "Una chica de mi clase también se llama Lena.",
+      "en": "A girl in my class is also called Lena.",
+      "gloss": "una chica de mi clase se-llama también Lena",
+      "lemmas": [
+        "Mädchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«Mädchen» es neutro (das), aunque signifique chica."
+    },
+    {
+      "id": "people_family_124",
+      "de": "Als kleines Mädchen wollte ich Tierärztin werden.",
+      "es": "De pequeña quería ser veterinaria.",
+      "en": "As a little girl I wanted to be a vet.",
+      "gloss": "como pequeña chica quería yo veterinaria llegar-a-ser",
+      "lemmas": [
+        "Mädchen",
+        "klein"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Tras «als ...» el verbo va en segunda posición: «wollte ich»."
+    },
+    {
+      "id": "people_family_125",
+      "de": "Du siehst müde aus.",
+      "es": "Tienes cara de cansado.",
+      "en": "You look tired.",
+      "gloss": "tú ves cansado fuera",
+      "lemmas": [
+        "aussehen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«aussehen» es separable: el «aus» se va al final."
+    },
+    {
+      "id": "people_family_126",
+      "de": "Wie sieht deine Schwester aus?",
+      "es": "¿Cómo es tu hermana físicamente?",
+      "en": "What does your sister look like?",
+      "gloss": "cómo ve tu hermana fuera",
+      "lemmas": [
+        "aussehen",
+        "Schwester"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "«Wie sieht ... aus?» pregunta por el aspecto, no por el carácter."
+    },
+    {
+      "id": "people_family_127",
+      "de": "Er sieht genau wie sein Opa aus.",
+      "es": "Es clavado a su abuelo.",
+      "en": "He looks exactly like his grandpa.",
+      "gloss": "él ve exactamente como su abuelo fuera",
+      "lemmas": [
+        "aussehen",
+        "Opa"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«genau wie ... aussehen» = ser clavado a alguien."
+    },
+    {
+      "id": "people_family_128",
+      "de": "Wir haben einen Jungen und ein Mädchen.",
+      "es": "Tenemos un niño y una niña.",
+      "en": "We have a boy and a girl.",
+      "gloss": "nosotros tenemos un chico y una chica",
+      "lemmas": [
+        "Junge",
+        "Mädchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«Junge» añade -n en acusativo: «einen Jungen»."
+    },
+    {
+      "id": "people_family_129",
+      "de": "Der Junge da drüben ist neu in der Klasse.",
+      "es": "El chico de allí es nuevo en la clase.",
+      "en": "The boy over there is new in the class.",
+      "gloss": "el chico ahí allá es nuevo en la clase",
+      "lemmas": [
+        "Junge"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_130",
+      "de": "Sie ist hier ziemlich bekannt.",
+      "es": "Aquí es bastante conocida.",
+      "en": "She's pretty well known around here.",
+      "gloss": "ella es aquí bastante conocida",
+      "lemmas": [
+        "bekannt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_131",
+      "de": "Kommt dir das Gesicht bekannt vor?",
+      "es": "¿Te suena esa cara?",
+      "en": "Does that face look familiar to you?",
+      "gloss": "viene a-ti la cara conocida delante",
+      "lemmas": [
+        "bekannt"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "«bekannt vorkommen» = «sonarle a uno»; el sujeto es la cosa, no la persona."
+    },
+    {
+      "id": "people_family_132",
+      "de": "Mein Onkel ist ein bekannter Musiker.",
+      "es": "Mi tío es un músico conocido.",
+      "en": "My uncle is a well-known musician.",
+      "gloss": "mi tío es un conocido músico",
+      "lemmas": [
+        "bekannt",
+        "Onkel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Delante del sustantivo el adjetivo lleva terminación: «ein bekannter Musiker»."
+    },
+    {
+      "id": "people_family_133",
+      "de": "Die beiden sind ein süßes Paar.",
+      "es": "Los dos hacen muy buena pareja.",
+      "en": "Those two are a cute couple.",
+      "gloss": "los ambos son una dulce pareja",
+      "lemmas": [
+        "Paar"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«ein Paar» con mayúscula es «una pareja»; «ein paar» en minúscula es «unos cuantos»."
+    },
+    {
+      "id": "people_family_134",
+      "de": "Wie lange seid ihr schon ein Paar?",
+      "es": "¿Cuánto lleváis juntos?",
+      "en": "How long have you two been a couple?",
+      "gloss": "cuán largo sois vosotros ya una pareja",
+      "lemmas": [
+        "Paar"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "El alemán usa presente + «schon» donde el español usa «llevar»."
+    },
+    {
+      "id": "people_family_135",
+      "de": "Ich erinnere mich nicht an seinen Namen.",
+      "es": "No me acuerdo de su nombre.",
+      "en": "I don't remember his name.",
+      "gloss": "yo recuerdo me no a su nombre",
+      "lemmas": [
+        "sich erinnern"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«sich erinnern an» va con acusativo, nunca con «von»."
+    },
+    {
+      "id": "people_family_136",
+      "de": "Erinnerst du dich noch an meine Schwester?",
+      "es": "¿Todavía te acuerdas de mi hermana?",
+      "en": "Do you still remember my sister?",
+      "gloss": "recuerdas tú te todavía a mi hermana",
+      "lemmas": [
+        "sich erinnern",
+        "Schwester"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_137",
+      "de": "Ich erinnere mich gut an ___.",
+      "es": "Me acuerdo bien de ___.",
+      "en": "I remember ___ well.",
+      "gloss": "yo recuerdo me bien a ___",
+      "lemmas": [
+        "sich erinnern",
+        "Bruder",
+        "Stimme",
+        "Hochzeit"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "meine Kindheit",
+          "es": "de mi infancia"
+        },
+        {
+          "de": "deinen Bruder",
+          "es": "de tu hermano"
+        },
+        {
+          "de": "diesen Tag",
+          "es": "de ese día"
+        },
+        {
+          "de": "ihre Stimme",
+          "es": "de su voz"
+        },
+        {
+          "de": "die Hochzeit",
+          "es": "de la boda"
+        }
+      ],
+      "note": "Todos los rellenos van en acusativo porque «an» aquí exige acusativo."
+    },
+    {
+      "id": "people_family_138",
+      "de": "Sie bekommt im Mai ein Baby.",
+      "es": "Va a tener un bebé en mayo.",
+      "en": "She's having a baby in May.",
+      "gloss": "ella recibe en-el mayo un bebé",
+      "lemmas": [
+        "Baby"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«ein Baby bekommen» es «tener un bebé»; «bekommen» no es «llegar a ser»."
+    },
+    {
+      "id": "people_family_139",
+      "de": "Das Baby hat die ganze Nacht geweint.",
+      "es": "El bebé ha llorado toda la noche.",
+      "en": "The baby cried all night.",
+      "gloss": "el bebé ha la entera noche llorado",
+      "lemmas": [
+        "Baby"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_140",
+      "de": "Mein Opa ist letztes Jahr gestorben.",
+      "es": "Mi abuelo murió el año pasado.",
+      "en": "My grandpa died last year.",
+      "gloss": "mi abuelo es último año muerto",
+      "lemmas": [
+        "sterben",
+        "Opa"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«sterben» forma el perfecto con «sein», no con «haben»."
+    },
+    {
+      "id": "people_family_141",
+      "de": "Ich sterbe vor Hunger!",
+      "es": "¡Me muero de hambre!",
+      "en": "I'm starving!",
+      "gloss": "yo muero ante hambre",
+      "lemmas": [
+        "sterben"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Se dice «vor Hunger», no «von Hunger»."
+    },
+    {
+      "id": "people_family_142",
+      "de": "Sie hat eine schöne Stimme.",
+      "es": "Tiene una voz bonita.",
+      "en": "She has a lovely voice.",
+      "gloss": "ella tiene una bonita voz",
+      "lemmas": [
+        "Stimme",
+        "schön"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_143",
+      "de": "An der Stimme habe ich ihn sofort erkannt.",
+      "es": "Lo reconocí enseguida por la voz.",
+      "en": "I recognised him straight away by his voice.",
+      "gloss": "en la voz he yo lo enseguida reconocido",
+      "lemmas": [
+        "Stimme",
+        "erkennen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«an» + dativo indica el rasgo por el que se reconoce a alguien."
+    },
+    {
+      "id": "people_family_144",
+      "de": "Ich habe dich fast nicht erkannt!",
+      "es": "¡Casi no te reconozco!",
+      "en": "I almost didn't recognise you!",
+      "gloss": "yo he te casi no reconocido",
+      "lemmas": [
+        "erkennen"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_145",
+      "de": "Erkennst du ihn auf dem Foto?",
+      "es": "¿Lo reconoces en la foto?",
+      "en": "Do you recognise him in the photo?",
+      "gloss": "reconoces tú lo en la foto",
+      "lemmas": [
+        "erkennen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "En alemán se está «auf» (sobre) una foto, no «en» ella."
+    },
+    {
+      "id": "people_family_146",
+      "de": "Das war echt dumm von mir.",
+      "es": "Ha sido una tontería por mi parte.",
+      "en": "That was really stupid of me.",
+      "gloss": "eso fue de-verdad tonto de mí",
+      "lemmas": [
+        "dumm"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«von mir» = «por mi parte» cuando se juzga una acción."
+    },
+    {
+      "id": "people_family_147",
+      "de": "Stell dich nicht dumm!",
+      "es": "¡No te hagas el tonto!",
+      "en": "Don't play dumb!",
+      "gloss": "pon te no tonto",
+      "lemmas": [
+        "dumm"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "«sich dumm stellen» es «hacerse el tonto»; el reflexivo va en acusativo."
+    },
+    {
+      "id": "people_family_148",
+      "de": "Der ist irgendwie komisch, oder?",
+      "es": "Ese es un poco raro, ¿no?",
+      "en": "That guy's a bit odd, isn't he?",
+      "gloss": "ese es de-algún-modo raro, o",
+      "lemmas": [
+        "komisch"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«der» al inicio funciona como «ese tío» en lengua hablada."
+    },
+    {
+      "id": "people_family_149",
+      "de": "Das kommt mir komisch vor.",
+      "es": "Eso me resulta raro.",
+      "en": "That seems odd to me.",
+      "gloss": "eso viene a-mí raro delante",
+      "lemmas": [
+        "komisch"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«vorkommen» es separable y la persona va en dativo: «mir»."
+    },
+    {
+      "id": "people_family_150",
+      "de": "Ehrlich gesagt finde ich ihn anstrengend.",
+      "es": "La verdad, me parece agotador.",
+      "en": "Honestly, I find him exhausting.",
+      "gloss": "honestamente dicho encuentro yo lo agotador",
+      "lemmas": [
+        "ehrlich",
+        "finden"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Tras «ehrlich gesagt» el verbo va antes del sujeto: «finde ich»."
+    },
+    {
+      "id": "people_family_151",
+      "de": "Er war immer ehrlich zu mir.",
+      "es": "Siempre fue sincero conmigo.",
+      "en": "He was always honest with me.",
+      "gloss": "él fue siempre honesto a mí",
+      "lemmas": [
+        "ehrlich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Se dice «ehrlich zu» + dativo, no «ehrlich mit»."
+    },
+    {
+      "id": "people_family_152",
+      "de": "Wir haben eine gute Beziehung.",
+      "es": "Tenemos buena relación.",
+      "en": "We have a good relationship.",
+      "gloss": "nosotros tenemos una buena relación",
+      "lemmas": [
+        "Beziehung"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_153",
+      "de": "Sie ist seit einem Jahr in einer festen Beziehung.",
+      "es": "Lleva un año en una relación estable.",
+      "en": "She's been in a steady relationship for a year.",
+      "gloss": "ella es desde un año en una fija relación",
+      "lemmas": [
+        "Beziehung"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«seit» va con dativo y se usa con presente, no con pasado."
+    },
+    {
+      "id": "people_family_154",
+      "de": "Meine Beziehung zu meinem Vater ist schwierig.",
+      "es": "Mi relación con mi padre es difícil.",
+      "en": "My relationship with my father is difficult.",
+      "gloss": "mi relación a mi padre es difícil",
+      "lemmas": [
+        "Beziehung",
+        "Vater"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«Beziehung zu» + dativo; con «mit» suena a otra cosa."
+    },
+    {
+      "id": "people_family_155",
+      "de": "Meine Familie ist total verrückt, aber ich liebe sie.",
+      "es": "Mi familia está como una cabra, pero la quiero.",
+      "en": "My family is completely crazy, but I love them.",
+      "gloss": "mi familia es totalmente loca, pero yo amo la",
+      "lemmas": [
+        "verrückt",
+        "Familie",
+        "lieben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_156",
+      "de": "Bist du verrückt geworden?",
+      "es": "¿Te has vuelto loco?",
+      "en": "Have you gone crazy?",
+      "gloss": "eres tú loco llegado-a-ser",
+      "lemmas": [
+        "verrückt"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "«werden» forma el perfecto con «sein»: «bist ... geworden»."
+    },
+    {
+      "id": "people_family_157",
+      "de": "Sie ist total verrückt nach ihm.",
+      "es": "Está loca por él.",
+      "en": "She's crazy about him.",
+      "gloss": "ella es totalmente loca detrás-de él",
+      "lemmas": [
+        "verrückt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«verrückt nach» + dativo; no se usa «für»."
+    },
+    {
+      "id": "people_family_158",
+      "de": "Auf der Hochzeit waren über hundert Leute.",
+      "es": "En la boda había más de cien personas.",
+      "en": "There were over a hundred people at the wedding.",
+      "gloss": "sobre la boda estaban por-encima-de cien gente",
+      "lemmas": [
+        "Hochzeit",
+        "Leute"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "En una boda se está «auf der Hochzeit», no «in»."
+    },
+    {
+      "id": "people_family_159",
+      "de": "Wir planen gerade unsere Hochzeit.",
+      "es": "Estamos organizando nuestra boda.",
+      "en": "We're planning our wedding right now.",
+      "gloss": "nosotros planeamos justo nuestra boda",
+      "lemmas": [
+        "Hochzeit"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«gerade» equivale al «estar + gerundio» español."
+    },
+    {
+      "id": "people_family_160",
+      "de": "Ihr seht euch echt ähnlich!",
+      "es": "¡Os parecéis un montón!",
+      "en": "You two really look alike!",
+      "gloss": "vosotros veis os de-verdad parecidos",
+      "lemmas": [
+        "ähnlich",
+        "aussehen"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "«ähnlich sehen» rige dativo: «Er sieht mir ähnlich», nunca «mich»."
+    },
+    {
+      "id": "people_family_161",
+      "de": "Meine Schwester und ich sind uns sehr ähnlich.",
+      "es": "Mi hermana y yo nos parecemos mucho.",
+      "en": "My sister and I are very similar.",
+      "gloss": "mi hermana y yo somos nos muy parecidos",
+      "lemmas": [
+        "ähnlich",
+        "Schwester"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«ähnlich sein» también lleva dativo: «uns»."
+    },
+    {
+      "id": "people_family_162",
+      "de": "Ich bin in Madrid geboren.",
+      "es": "Nací en Madrid.",
+      "en": "I was born in Madrid.",
+      "gloss": "yo soy en Madrid nacido",
+      "lemmas": [
+        "geboren"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Se usa «sein» + «geboren», nunca «haben»."
+    },
+    {
+      "id": "people_family_163",
+      "de": "Wann ist dein Sohn geboren?",
+      "es": "¿Cuándo nació tu hijo?",
+      "en": "When was your son born?",
+      "gloss": "cuándo es tu hijo nacido",
+      "lemmas": [
+        "geboren",
+        "Sohn"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_164",
+      "de": "Ich bin in ___ geboren.",
+      "es": "Nací en ___.",
+      "en": "I was born in ___.",
+      "gloss": "yo soy en ___ nacido",
+      "lemmas": [
+        "geboren"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Berlin",
+          "es": "Berlín"
+        },
+        {
+          "de": "einem kleinen Dorf",
+          "es": "un pueblo pequeño"
+        },
+        {
+          "de": "Spanien",
+          "es": "España"
+        },
+        {
+          "de": "der Nähe von Köln",
+          "es": "cerca de Colonia"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_165",
+      "de": "Wollt ihr irgendwann heiraten?",
+      "es": "¿Os queréis casar algún día?",
+      "en": "Do you want to get married at some point?",
+      "gloss": "queréis vosotros alguna-vez casarse",
+      "lemmas": [
+        "heiraten"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_166",
+      "de": "Sie hat einen Italiener geheiratet.",
+      "es": "Se casó con un italiano.",
+      "en": "She married an Italian guy.",
+      "gloss": "ella ha un italiano casado",
+      "lemmas": [
+        "heiraten"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«heiraten» lleva objeto directo: no se dice «mit jemandem heiraten»."
+    },
+    {
+      "id": "people_family_167",
+      "de": "Bringst du deinen Partner mit?",
+      "es": "¿Traes a tu pareja?",
+      "en": "Are you bringing your partner?",
+      "gloss": "traes tú tu pareja con",
+      "lemmas": [
+        "Partner"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "«mitbringen» es separable: el «mit» se va al final."
+    },
+    {
+      "id": "people_family_168",
+      "de": "Mein Partner und ich wohnen seit drei Jahren zusammen.",
+      "es": "Mi pareja y yo vivimos juntos desde hace tres años.",
+      "en": "My partner and I have been living together for three years.",
+      "gloss": "mi pareja y yo vivimos desde tres años juntos",
+      "lemmas": [
+        "Partner"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_169",
+      "de": "Mein Onkel ist der Bruder von meiner Mutter.",
+      "es": "Mi tío es el hermano de mi madre.",
+      "en": "My uncle is my mother's brother.",
+      "gloss": "mi tío es el hermano de mi madre",
+      "lemmas": [
+        "Onkel",
+        "Bruder",
+        "Mutter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«von» + dativo es la forma hablada normal para el posesivo."
+    },
+    {
+      "id": "people_family_170",
+      "de": "Am Wochenende fahren wir zu meinem Onkel.",
+      "es": "El fin de semana vamos a casa de mi tío.",
+      "en": "At the weekend we're going to my uncle's.",
+      "gloss": "en-el fin-de-semana vamos nosotros a mi tío",
+      "lemmas": [
+        "Onkel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«zu» + dativo ya significa «a casa de»."
+    },
+    {
+      "id": "people_family_171",
+      "de": "Das ist echt blöd gelaufen.",
+      "es": "La cosa salió fatal.",
+      "en": "That went really badly.",
+      "gloss": "eso es de-verdad tonto corrido",
+      "lemmas": [
+        "blöd"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "«laufen» aquí es «salir/ir» algo, no «correr»."
+    },
+    {
+      "id": "people_family_172",
+      "de": "Sei nicht so blöd!",
+      "es": "¡No seas tonto!",
+      "en": "Don't be so silly!",
+      "gloss": "sé no tan tonto",
+      "lemmas": [
+        "blöd"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "«sei» es el imperativo irregular de «sein»."
+    },
+    {
+      "id": "people_family_173",
+      "de": "Ich finde das total blöd.",
+      "es": "Me parece una tontería enorme.",
+      "en": "I think that's really stupid.",
+      "gloss": "yo encuentro eso totalmente tonto",
+      "lemmas": [
+        "blöd",
+        "finden"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_174",
+      "de": "Ich vermisse meine Familie sehr.",
+      "es": "Echo mucho de menos a mi familia.",
+      "en": "I miss my family a lot.",
+      "gloss": "yo echo-de-menos mi familia mucho",
+      "lemmas": [
+        "vermissen",
+        "Familie"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«vermissen» lleva objeto directo sin preposición."
+    },
+    {
+      "id": "people_family_175",
+      "de": "Wir vermissen dich hier alle.",
+      "es": "Aquí te echamos todos de menos.",
+      "en": "We all miss you here.",
+      "gloss": "nosotros echamos-de-menos te aquí todos",
+      "lemmas": [
+        "vermissen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_176",
+      "de": "Wir hatten gestern einen kleinen Streit.",
+      "es": "Ayer tuvimos una pequeña discusión.",
+      "en": "We had a bit of an argument yesterday.",
+      "gloss": "nosotros teníamos ayer una pequeña discusión",
+      "lemmas": [
+        "Streit",
+        "klein"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_177",
+      "de": "Ich habe keine Lust auf Streit.",
+      "es": "No tengo ganas de discutir.",
+      "en": "I'm not in the mood for an argument.",
+      "gloss": "yo tengo ninguna gana sobre discusión",
+      "lemmas": [
+        "Streit"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "«Lust auf» + acusativo; el sustantivo va sin artículo aquí."
+    },
+    {
+      "id": "people_family_178",
+      "de": "Sie ist ein kluges Mädchen.",
+      "es": "Es una niña lista.",
+      "en": "She's a smart girl.",
+      "gloss": "ella es una lista chica",
+      "lemmas": [
+        "klug",
+        "Mädchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con «Mädchen» (neutro) el adjetivo termina en -es: «kluges»."
+    },
+    {
+      "id": "people_family_179",
+      "de": "Das war eine kluge Entscheidung.",
+      "es": "Fue una decisión inteligente.",
+      "en": "That was a smart decision.",
+      "gloss": "eso fue una lista decisión",
+      "lemmas": [
+        "klug"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_180",
+      "de": "Du hast eine schöne Familie.",
+      "es": "Tienes una familia preciosa.",
+      "en": "You have a lovely family.",
+      "gloss": "tú tienes una bonita familia",
+      "lemmas": [
+        "schön",
+        "Familie"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "De una familia se dice «schön», no «hübsch»: «hübsch» solo describe el aspecto de una persona."
+    },
+    {
+      "id": "people_family_181",
+      "de": "Ich finde deinen Bruder ziemlich hübsch.",
+      "es": "Tu hermano me parece bastante guapo.",
+      "en": "I think your brother is pretty cute.",
+      "gloss": "yo encuentro tu hermano bastante guapo",
+      "lemmas": [
+        "hübsch",
+        "Bruder",
+        "finden"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Tras «finden» la persona va en acusativo: «deinen Bruder»."
+    },
+    {
+      "id": "people_family_182",
+      "de": "Darum kümmere ich mich.",
+      "es": "De eso me encargo yo.",
+      "en": "I'll take care of that.",
+      "gloss": "de-eso ocupo yo me",
+      "lemmas": [
+        "sich kümmern"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "«darum» sustituye a «um + cosa»; para personas se dice «um ihn/sie»."
+    },
+    {
+      "id": "people_family_183",
+      "de": "Mein Mann kümmert sich um die Kinder.",
+      "es": "Mi marido se ocupa de los niños.",
+      "en": "My husband looks after the kids.",
+      "gloss": "mi marido ocupa se alrededor-de los niños",
+      "lemmas": [
+        "sich kümmern",
+        "Mann",
+        "Kind"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«sich kümmern um» + acusativo."
+    },
+    {
+      "id": "people_family_184",
+      "de": "Meine Tante hat drei Kinder.",
+      "es": "Mi tía tiene tres hijos.",
+      "en": "My aunt has three children.",
+      "gloss": "mi tía tiene tres niños",
+      "lemmas": [
+        "Tante",
+        "Kind"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "«Kinder» sirve para «hijos» y para «niños»."
+    },
+    {
+      "id": "people_family_185",
+      "de": "Bei meiner Tante gibt es immer Kuchen.",
+      "es": "En casa de mi tía siempre hay tarta.",
+      "en": "There's always cake at my aunt's.",
+      "gloss": "junto-a mi tía da ello siempre pastel",
+      "lemmas": [
+        "Tante"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«bei» + dativo es «en casa de»; «es gibt» es «hay»."
+    },
+    {
+      "id": "people_family_186",
+      "de": "Das ist gelogen!",
+      "es": "¡Eso es mentira!",
+      "en": "That's a lie!",
+      "gloss": "eso es mentido",
+      "lemmas": [
+        "lügen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "El alemán usa el participio de «lügen» donde el español usa el sustantivo «mentira»."
+    },
+    {
+      "id": "people_family_187",
+      "de": "Er lügt doch die ganze Zeit.",
+      "es": "Pero si miente todo el rato.",
+      "en": "He lies all the time, though.",
+      "gloss": "él miente pues el entero tiempo",
+      "lemmas": [
+        "lügen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«doch» aquí marca protesta o evidencia, no se traduce literalmente."
+    },
+    {
+      "id": "people_family_188",
+      "de": "Streitet euch nicht!",
+      "es": "¡No os peleéis!",
+      "en": "Don't fight!",
+      "gloss": "discutid os no",
+      "lemmas": [
+        "streiten"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "«sich streiten» es reflexivo: no se puede omitir el «euch»."
+    },
+    {
+      "id": "people_family_189",
+      "de": "Meine Eltern streiten sich ständig.",
+      "es": "Mis padres se pelean constantemente.",
+      "en": "My parents argue all the time.",
+      "gloss": "mis padres discuten se constantemente",
+      "lemmas": [
+        "streiten",
+        "Eltern"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_190",
+      "de": "Das war echt ___ von dir.",
+      "es": "Eso ha sido muy ___ por tu parte.",
+      "en": "That was really ___ of you.",
+      "gloss": "eso fue de-verdad ___ de ti",
+      "lemmas": [
+        "dumm",
+        "blöd",
+        "ehrlich",
+        "nett"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "dumm",
+          "es": "tonto"
+        },
+        {
+          "de": "blöd",
+          "es": "estúpido"
+        },
+        {
+          "de": "ehrlich",
+          "es": "sincero"
+        },
+        {
+          "de": "nett",
+          "es": "amable"
+        },
+        {
+          "de": "lieb",
+          "es": "majo"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_191",
+      "de": "Du siehst heute ___ aus.",
+      "es": "Hoy se te ve ___.",
+      "en": "You look ___ today.",
+      "gloss": "tú ves hoy ___ fuera",
+      "lemmas": [
+        "aussehen",
+        "hübsch"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "müde",
+          "es": "cansado"
+        },
+        {
+          "de": "gut",
+          "es": "bien"
+        },
+        {
+          "de": "glücklich",
+          "es": "feliz"
+        },
+        {
+          "de": "traurig",
+          "es": "triste"
+        },
+        {
+          "de": "hübsch",
+          "es": "guapo"
+        }
+      ],
+      "note": "El adjetivo va sin terminación porque está detrás del verbo."
+    },
+    {
+      "id": "people_family_192",
+      "de": "Er kann manchmal echt ___ sein.",
+      "es": "A veces puede ser muy ___.",
+      "en": "He can be really ___ sometimes.",
+      "gloss": "él puede a-veces de-verdad ___ ser",
+      "lemmas": [
+        "komisch",
+        "verrückt",
+        "blöd"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "komisch",
+          "es": "raro"
+        },
+        {
+          "de": "verrückt",
+          "es": "loco"
+        },
+        {
+          "de": "blöd",
+          "es": "idiota"
+        },
+        {
+          "de": "nett",
+          "es": "amable"
+        },
+        {
+          "de": "ehrlich",
+          "es": "sincero"
+        }
+      ],
+      "note": "Con verbo modal el infinitivo «sein» va al final."
+    },
+    {
+      "id": "people_family_193",
+      "de": "Sei einfach freundlich zu ihnen.",
+      "es": "Simplemente sé amable con ellos.",
+      "en": "Just be friendly to them.",
+      "gloss": "sé simplemente amable a ellos",
+      "lemmas": [
+        "freundlich"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "«freundlich zu» + dativo: zu ihnen, zu mir."
+    },
+    {
+      "id": "people_family_194",
+      "de": "Der Typ an der Kasse war voll freundlich.",
+      "es": "El tío de la caja fue superamable.",
+      "en": "The guy at the till was really friendly.",
+      "gloss": "el tipo en la caja fue lleno amable",
+      "lemmas": [
+        "freundlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«voll» delante de un adjetivo es jerga joven para «súper»."
+    },
+    {
+      "id": "people_family_195",
+      "de": "Findest du sie freundlich?",
+      "es": "¿Te parece amable?",
+      "en": "Do you find her friendly?",
+      "gloss": "encuentras tú ella amable",
+      "lemmas": [
+        "freundlich",
+        "finden"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_196",
+      "de": "Versprich mir, dass du aufpasst.",
+      "es": "Prométeme que tendrás cuidado.",
+      "en": "Promise me you'll be careful.",
+      "gloss": "promete a-mí, que tú cuidas",
+      "lemmas": [
+        "versprechen",
+        "aufpassen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras «dass» el verbo va al final y el prefijo «auf-» se queda pegado: aufpasst."
+    },
+    {
+      "id": "people_family_197",
+      "de": "Du hast es mir versprochen!",
+      "es": "¡Me lo prometiste!",
+      "en": "You promised me!",
+      "gloss": "tú has ello a-mí prometido",
+      "lemmas": [
+        "versprechen"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "Participio irregular sin -t: versprochen."
+    },
+    {
+      "id": "people_family_198",
+      "de": "Ich verspreche dir, das bleibt unter uns.",
+      "es": "Te prometo que esto queda entre nosotros.",
+      "en": "I promise you, this stays between us.",
+      "gloss": "yo prometo a-ti, eso queda bajo nosotros",
+      "lemmas": [
+        "versprechen",
+        "bleiben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«unter uns» es la expresión fija para «entre nosotros»."
+    },
+    {
+      "id": "people_family_199",
+      "de": "Ich fühle mich zu dick.",
+      "es": "Me siento demasiado gordo.",
+      "en": "I feel too fat.",
+      "gloss": "yo siento me demasiado gordo",
+      "lemmas": [
+        "dick",
+        "sich fühlen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«sich fühlen» siempre lleva el pronombre reflexivo: ich fühle mich."
+    },
+    {
+      "id": "people_family_200",
+      "de": "Er ist ein bisschen dicker geworden.",
+      "es": "Ha engordado un poco.",
+      "en": "He's put on a bit of weight.",
+      "gloss": "él es un poquito más-gordo vuelto",
+      "lemmas": [
+        "dick",
+        "werden"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«dicker werden» es lo normal para «engordar»."
+    },
+    {
+      "id": "people_family_201",
+      "de": "Mein Bruder war früher ziemlich dick.",
+      "es": "Mi hermano antes estaba bastante gordo.",
+      "en": "My brother used to be quite fat.",
+      "gloss": "mi hermano era antes bastante gordo",
+      "lemmas": [
+        "dick",
+        "Bruder"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«früher» significa «antes, en otra época»."
+    },
+    {
+      "id": "people_family_202",
+      "de": "Kannst du mal ehrlich zu mir sein?",
+      "es": "¿Puedes ser sincero conmigo?",
+      "en": "Can you just be honest with me?",
+      "gloss": "puedes tú una-vez honesto a mí ser",
+      "lemmas": [
+        "ehrlich",
+        "können"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "«ehrlich zu jemandem» lleva dativo, no «mit»."
+    },
+    {
+      "id": "people_family_203",
+      "de": "Ehrlich? Das glaube ich dir nicht.",
+      "es": "¿En serio? No te lo creo.",
+      "en": "Really? I don't believe you.",
+      "gloss": "¿honesto? eso creo yo a-ti no",
+      "lemmas": [
+        "ehrlich",
+        "glauben"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "«Ehrlich?» suelto significa «¿en serio?»."
+    },
+    {
+      "id": "people_family_204",
+      "de": "Ich will mich nicht mit dir streiten.",
+      "es": "No quiero discutir contigo.",
+      "en": "I don't want to argue with you.",
+      "gloss": "yo quiero me no con ti pelear",
+      "lemmas": [
+        "streiten",
+        "wollen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«sich streiten mit» + dativo: mit dir, mit ihm."
+    },
+    {
+      "id": "people_family_205",
+      "de": "Worüber habt ihr euch gestritten?",
+      "es": "¿Sobre qué os habéis peleado?",
+      "en": "What did you two argue about?",
+      "gloss": "sobre-qué habéis vosotros os peleado",
+      "lemmas": [
+        "streiten"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Para cosas se dice «worüber», no «über was»."
+    },
+    {
+      "id": "people_family_206",
+      "de": "Sie streiten sich schon wieder.",
+      "es": "Ya están discutiendo otra vez.",
+      "en": "They're arguing again.",
+      "gloss": "ellos pelean se ya otra-vez",
+      "lemmas": [
+        "streiten"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_207",
+      "de": "Pass auf dich auf!",
+      "es": "¡Cuídate!",
+      "en": "Take care of yourself!",
+      "gloss": "cuida sobre ti sobre",
+      "lemmas": [
+        "aufpassen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Despedida muy usada entre gente cercana."
+    },
+    {
+      "id": "people_family_208",
+      "de": "Meine Schwester passt heute auf die Kinder auf.",
+      "es": "Hoy mi hermana cuida a los niños.",
+      "en": "My sister is watching the kids today.",
+      "gloss": "mi hermana cuida hoy sobre los niños sobre",
+      "lemmas": [
+        "aufpassen",
+        "Schwester",
+        "Kind"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«aufpassen auf» + acusativo, y el prefijo «auf» se repite al final."
+    },
+    {
+      "id": "people_family_209",
+      "de": "Pass auf ___ auf!",
+      "es": "¡Cuida de ___!",
+      "en": "Look after ___!",
+      "gloss": "cuida sobre ___ sobre",
+      "lemmas": [
+        "aufpassen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "dich",
+          "es": "ti"
+        },
+        {
+          "de": "die Kinder",
+          "es": "los niños"
+        },
+        {
+          "de": "meine Tasche",
+          "es": "mi bolso"
+        },
+        {
+          "de": "den Hund",
+          "es": "el perro"
+        },
+        {
+          "de": "deine Schwester",
+          "es": "tu hermana"
+        }
+      ],
+      "note": "Lo que cuidas va en acusativo detrás de «auf»."
+    },
+    {
+      "id": "people_family_210",
+      "de": "Findest du das lustig?",
+      "es": "¿Te hace gracia?",
+      "en": "Do you think that's funny?",
+      "gloss": "encuentras tú eso divertido",
+      "lemmas": [
+        "lustig",
+        "finden"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_211",
+      "de": "Wir hatten einen richtig lustigen Abend.",
+      "es": "Tuvimos una noche muy divertida.",
+      "en": "We had a really fun evening.",
+      "gloss": "nosotros teníamos una realmente divertida noche",
+      "lemmas": [
+        "lustig",
+        "Abend"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«lustigen» lleva -en por ir tras «einen» en acusativo masculino."
+    },
+    {
+      "id": "people_family_212",
+      "de": "Dein Bruder ist echt lustig.",
+      "es": "Tu hermano es muy divertido.",
+      "en": "Your brother is really funny.",
+      "gloss": "tu hermano es de-verdad divertido",
+      "lemmas": [
+        "lustig",
+        "Bruder"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_213",
+      "de": "Du bist ganz schön dünn geworden.",
+      "es": "Has adelgazado bastante.",
+      "en": "You've got pretty thin.",
+      "gloss": "tú eres del-todo bonito delgado vuelto",
+      "lemmas": [
+        "dünn",
+        "werden"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "«ganz schön» significa «bastante», no tiene que ver con «bonito»."
+    },
+    {
+      "id": "people_family_214",
+      "de": "Meine Mutter war immer sehr dünn.",
+      "es": "Mi madre siempre fue muy delgada.",
+      "en": "My mother was always very thin.",
+      "gloss": "mi madre era siempre muy delgada",
+      "lemmas": [
+        "dünn",
+        "Mutter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "people_family_215",
+      "de": "Sie ist ziemlich ___.",
+      "es": "Ella es bastante ___.",
+      "en": "She's fairly ___.",
+      "gloss": "ella es bastante ___",
+      "lemmas": [
+        "dünn",
+        "dick",
+        "faul",
+        "lustig",
+        "freundlich"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "dünn",
+          "es": "delgada"
+        },
+        {
+          "de": "dick",
+          "es": "gorda"
+        },
+        {
+          "de": "faul",
+          "es": "vaga"
+        },
+        {
+          "de": "lustig",
+          "es": "divertida"
+        },
+        {
+          "de": "freundlich",
+          "es": "amable"
+        }
+      ],
+      "note": "Detrás de «sein» el adjetivo no cambia nunca."
+    },
+    {
+      "id": "people_family_216",
+      "de": "Sind die beiden verheiratet?",
+      "es": "¿Están casados los dos?",
+      "en": "Are those two married?",
+      "gloss": "son los dos casados",
+      "lemmas": [
+        "verheiratet"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "«die beiden» es «los dos, la pareja»."
+    },
+    {
+      "id": "people_family_217",
+      "de": "Wir sind seit drei Jahren verheiratet.",
+      "es": "Llevamos tres años casados.",
+      "en": "We've been married for three years.",
+      "gloss": "nosotros somos desde tres años casados",
+      "lemmas": [
+        "verheiratet",
+        "Jahr"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con «seit» el alemán usa presente, aunque en español digas «llevamos»."
+    },
+    {
+      "id": "people_family_218",
+      "de": "Er ist verheiratet und hat zwei Kinder.",
+      "es": "Está casado y tiene dos hijos.",
+      "en": "He's married and has two kids.",
+      "gloss": "él es casado y tiene dos niños",
+      "lemmas": [
+        "verheiratet",
+        "Kind"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Se dice «ist verheiratet» con sein, nunca con haben."
+    },
+    {
+      "id": "people_family_219",
+      "de": "Ich glaube, er lügt.",
+      "es": "Creo que miente.",
+      "en": "I think he's lying.",
+      "gloss": "yo creo, él miente",
+      "lemmas": [
+        "lügen",
+        "glauben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Aquí se puede omitir «dass»; entonces el verbo va en segunda posición."
+    },
+    {
+      "id": "people_family_220",
+      "de": "Warum hast du gelogen?",
+      "es": "¿Por qué mentiste?",
+      "en": "Why did you lie?",
+      "gloss": "por-qué has tú mentido",
+      "lemmas": [
+        "lügen"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Participio irregular: lügen - gelogen."
+    },
+    {
+      "id": "people_family_221",
+      "de": "Meine Schwester lügt nie.",
+      "es": "Mi hermana nunca miente.",
+      "en": "My sister never lies.",
+      "gloss": "mi hermana miente nunca",
+      "lemmas": [
+        "lügen",
+        "Schwester"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«nie» ya es negativo, no se añade «nicht»."
+    },
+    {
+      "id": "people_family_222",
+      "de": "Darf ich dich küssen?",
+      "es": "¿Puedo besarte?",
+      "en": "Can I kiss you?",
+      "gloss": "puedo yo te besar",
+      "lemmas": [
+        "küssen",
+        "dürfen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "people_family_223",
+      "de": "Meine Oma küsst mich immer auf die Wange.",
+      "es": "Mi abuela siempre me besa en la mejilla.",
+      "en": "My grandma always kisses me on the cheek.",
+      "gloss": "mi abuela besa me siempre en la mejilla",
+      "lemmas": [
+        "küssen",
+        "Oma"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con movimiento hacia un sitio, «auf» lleva acusativo: auf die Wange."
+    },
+    {
+      "id": "people_family_224",
+      "de": "Die zwei küssen sich ständig.",
+      "es": "Esos dos se besan todo el rato.",
+      "en": "Those two are kissing all the time.",
+      "gloss": "los dos besan se constantemente",
+      "lemmas": [
+        "küssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "«sich küssen» recíproco: se besan el uno al otro."
+    },
+    {
+      "id": "people_family_225",
+      "de": "Ich bin heute einfach faul.",
+      "es": "Hoy simplemente estoy vago.",
+      "en": "I'm just being lazy today.",
+      "gloss": "yo soy hoy simplemente vago",
+      "lemmas": [
+        "faul"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "«faul» también significa «podrido» hablando de comida."
+    },
+    {
+      "id": "people_family_226",
+      "de": "Sei nicht so ___!",
+      "es": "¡No seas tan ___!",
+      "en": "Don't be so ___!",
+      "gloss": "sé no tan ___",
+      "lemmas": [
+        "faul"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "faul",
+          "es": "vago"
+        },
+        {
+          "de": "laut",
+          "es": "ruidoso"
+        },
+        {
+          "de": "gemein",
+          "es": "malo"
+        },
+        {
+          "de": "streng",
+          "es": "estricto"
+        },
+        {
+          "de": "frech",
+          "es": "descarado"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "people_family_227",
+      "de": "Am Wochenende bin ich total faul.",
+      "es": "El fin de semana soy un vago total.",
+      "en": "At the weekend I'm totally lazy.",
+      "gloss": "en-el fin-de-semana soy yo total vago",
+      "lemmas": [
+        "faul",
+        "Wochenende"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Al empezar por «am Wochenende», el verbo pasa delante del sujeto."
+    },
+    {
+      "id": "people_family_228",
+      "de": "Das war nicht sehr höflich.",
+      "es": "Eso no ha sido muy educado.",
+      "en": "That wasn't very polite.",
+      "gloss": "eso fue no muy cortés",
+      "lemmas": [
+        "höflich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "people_family_229",
+      "de": "Sei bitte höflich zu ihr.",
+      "es": "Por favor, sé educado con ella.",
+      "en": "Please be polite to her.",
+      "gloss": "sé por-favor cortés a ella",
+      "lemmas": [
+        "höflich"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "«zu ihr» en dativo, igual que con «freundlich zu»."
+    },
+    {
+      "id": "people_family_230",
+      "de": "Sie hat sehr höflich gefragt.",
+      "es": "Preguntó de forma muy educada.",
+      "en": "She asked very politely.",
+      "gloss": "ella ha muy cortés preguntado",
+      "lemmas": [
+        "höflich",
+        "fragen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "El adjetivo vale también como adverbio, sin cambiar nada."
+    },
+    {
+      "id": "people_family_231",
+      "de": "Alle sagen, sie ist sehr ___.",
+      "es": "Todos dicen que es muy ___.",
+      "en": "Everyone says she's very ___.",
+      "gloss": "todos dicen, ella es muy ___",
+      "lemmas": [
+        "freundlich",
+        "höflich",
+        "ehrlich",
+        "lustig"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "freundlich",
+          "es": "amable"
+        },
+        {
+          "de": "höflich",
+          "es": "educada"
+        },
+        {
+          "de": "ehrlich",
+          "es": "sincera"
+        },
+        {
+          "de": "lustig",
+          "es": "divertida"
+        },
+        {
+          "de": "nett",
+          "es": "maja"
+        }
+      ],
+      "note": ""
+    }
+  ]
+}

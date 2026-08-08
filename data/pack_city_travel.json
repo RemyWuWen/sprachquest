@@ -1,0 +1,4706 @@
+{
+  "packId": "city_travel",
+  "title": "Stadt & Reisen",
+  "titleDe": "In der Stadt und unterwegs",
+  "desc": "Al terminar este pack podrás moverte por una ciudad alemana: preguntar el camino, comprar billetes, coger el bus o el tren, entender los retrasos y hablar de tus vacaciones y viajes.",
+  "chunks": [
+    {
+      "id": "city_travel_001",
+      "de": "Ich gehe zu Fuß.",
+      "es": "Voy andando.",
+      "en": "I'm walking / I'll go on foot.",
+      "gloss": "yo voy a pie",
+      "lemmas": [
+        "gehen",
+        "Fuß"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "\"gehen\" solo = ir andando; para vehículos se usa \"fahren\"."
+    },
+    {
+      "id": "city_travel_002",
+      "de": "Gehen wir!",
+      "es": "¡Vamos!",
+      "en": "Let's go!",
+      "gloss": "vamos nosotros",
+      "lemmas": [
+        "gehen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Verbo delante del sujeto = propuesta ('vamos')."
+    },
+    {
+      "id": "city_travel_003",
+      "de": "Zeig mal!",
+      "es": "¡A ver! / ¡Enséñamelo!",
+      "en": "Show me!",
+      "gloss": "muestra una-vez",
+      "lemmas": [
+        "zeigen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"mal\" suaviza la orden, no se traduce."
+    },
+    {
+      "id": "city_travel_004",
+      "de": "Ich komme gleich!",
+      "es": "¡Ya voy!",
+      "en": "I'll be right there!",
+      "gloss": "yo vengo enseguida",
+      "lemmas": [
+        "kommen"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "En alemán se dice \"vengo\" donde el español dice \"ya voy\"."
+    },
+    {
+      "id": "city_travel_005",
+      "de": "Wo sind wir?",
+      "es": "¿Dónde estamos?",
+      "en": "Where are we?",
+      "gloss": "dónde estamos nosotros",
+      "lemmas": [
+        "sein"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Con \"wir\" el verbo es \"sind\"."
+    },
+    {
+      "id": "city_travel_006",
+      "de": "Nicht so schnell!",
+      "es": "¡No tan rápido!",
+      "en": "Not so fast!",
+      "gloss": "no tan rápido",
+      "lemmas": [
+        "schnell"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_007",
+      "de": "Langsam, bitte!",
+      "es": "¡Despacio, por favor!",
+      "en": "Slowly, please!",
+      "gloss": "lento por-favor",
+      "lemmas": [
+        "langsam"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_008",
+      "de": "Warte auf mich!",
+      "es": "¡Espérame!",
+      "en": "Wait for me!",
+      "gloss": "espera sobre mí",
+      "lemmas": [
+        "warten"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Imperativo de tú: verbo sin -st y sin sujeto."
+    },
+    {
+      "id": "city_travel_009",
+      "de": "Bitte einsteigen!",
+      "es": "¡Suban, por favor!",
+      "en": "All aboard, please!",
+      "gloss": "por-favor subir",
+      "lemmas": [
+        "einsteigen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Lo oirás en el andén justo antes de que salga el tren."
+    },
+    {
+      "id": "city_travel_010",
+      "de": "Links oder rechts?",
+      "es": "¿A la izquierda o a la derecha?",
+      "en": "Left or right?",
+      "gloss": "izquierda o derecha",
+      "lemmas": [
+        "links",
+        "rechts"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_011",
+      "de": "Immer geradeaus!",
+      "es": "¡Todo recto!",
+      "en": "Straight ahead!",
+      "gloss": "siempre todo-recto",
+      "lemmas": [
+        "geradeaus"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_012",
+      "de": "Vorne oder hinten?",
+      "es": "¿Delante o detrás?",
+      "en": "At the front or at the back?",
+      "gloss": "delante o detrás",
+      "lemmas": [
+        "vorne",
+        "hinten"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Típico al buscar sitio en el bus o el tren."
+    },
+    {
+      "id": "city_travel_013",
+      "de": "Wo ist der Ausgang?",
+      "es": "¿Dónde está la salida?",
+      "en": "Where is the exit?",
+      "gloss": "dónde está la salida",
+      "lemmas": [
+        "Ausgang"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_014",
+      "de": "Wo ist der Eingang?",
+      "es": "¿Dónde está la entrada?",
+      "en": "Where is the entrance?",
+      "gloss": "dónde está la entrada",
+      "lemmas": [
+        "Eingang"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_015",
+      "de": "Schöne Ferien!",
+      "es": "¡Felices vacaciones!",
+      "en": "Have a nice holiday!",
+      "gloss": "bonitas vacaciones",
+      "lemmas": [
+        "Ferien"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"Ferien\" son las vacaciones del cole; siempre en plural."
+    },
+    {
+      "id": "city_travel_016",
+      "de": "Gute Reise!",
+      "es": "¡Buen viaje!",
+      "en": "Have a good trip!",
+      "gloss": "buen viaje",
+      "lemmas": [
+        "Reise"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_017",
+      "de": "Schönen Urlaub!",
+      "es": "¡Buenas vacaciones!",
+      "en": "Enjoy your holiday!",
+      "gloss": "bonito vacaciones(-del-trabajo)",
+      "lemmas": [
+        "Urlaub"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"Urlaub\" son las vacaciones del trabajo, \"Ferien\" las del cole."
+    },
+    {
+      "id": "city_travel_018",
+      "de": "Ich bin unterwegs.",
+      "es": "Estoy de camino.",
+      "en": "I'm on my way.",
+      "gloss": "yo estoy de-camino",
+      "lemmas": [
+        "unterwegs"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "Se escribe muchísimo por WhatsApp."
+    },
+    {
+      "id": "city_travel_019",
+      "de": "Das Auto ist kaputt.",
+      "es": "El coche está roto.",
+      "en": "The car is broken.",
+      "gloss": "el coche está roto",
+      "lemmas": [
+        "Auto"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_020",
+      "de": "Mein Koffer ist weg!",
+      "es": "¡Mi maleta ha desaparecido!",
+      "en": "My suitcase is gone!",
+      "gloss": "mi maleta está fuera",
+      "lemmas": [
+        "Koffer"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "\"weg\" = que ya no está ahí."
+    },
+    {
+      "id": "city_travel_021",
+      "de": "Der Bus kommt in fünf Minuten.",
+      "es": "El bus llega en cinco minutos.",
+      "en": "The bus is coming in five minutes.",
+      "gloss": "el bus viene en cinco minutos",
+      "lemmas": [
+        "Bus",
+        "kommen",
+        "Minute"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"in\" + tiempo = dentro de."
+    },
+    {
+      "id": "city_travel_022",
+      "de": "Die Stadt ist schön.",
+      "es": "La ciudad es bonita.",
+      "en": "The city is beautiful.",
+      "gloss": "la ciudad es bonita",
+      "lemmas": [
+        "Stadt"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_023",
+      "de": "Die Kirche ist sehr alt.",
+      "es": "La iglesia es muy antigua.",
+      "en": "The church is very old.",
+      "gloss": "la iglesia es muy vieja",
+      "lemmas": [
+        "Kirche"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_024",
+      "de": "Das Meer ist warm.",
+      "es": "El mar está caliente.",
+      "en": "The sea is warm.",
+      "gloss": "el mar está caliente",
+      "lemmas": [
+        "Meer"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_025",
+      "de": "Wann geht der Zug?",
+      "es": "¿Cuándo sale el tren?",
+      "en": "When does the train leave?",
+      "gloss": "cuándo va el tren",
+      "lemmas": [
+        "gehen",
+        "Zug"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Con transportes, \"gehen\" significa salir."
+    },
+    {
+      "id": "city_travel_026",
+      "de": "Der Zug fährt sehr schnell.",
+      "es": "El tren va muy rápido.",
+      "en": "The train goes very fast.",
+      "gloss": "el tren va muy rápido",
+      "lemmas": [
+        "Zug",
+        "fahren",
+        "schnell"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_027",
+      "de": "Wie komme ich zum Bahnhof?",
+      "es": "¿Cómo llego a la estación?",
+      "en": "How do I get to the station?",
+      "gloss": "cómo vengo yo a-la estación",
+      "lemmas": [
+        "kommen",
+        "Bahnhof"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Ésta es LA pregunta para pedir direcciones en Alemania."
+    },
+    {
+      "id": "city_travel_028",
+      "de": "Wie komme ich zum ___?",
+      "es": "¿Cómo llego al ___?",
+      "en": "How do I get to the ___?",
+      "gloss": "cómo vengo yo a-el ___",
+      "lemmas": [
+        "kommen",
+        "Bahnhof",
+        "Flughafen",
+        "Park",
+        "Hotel",
+        "Parkplatz",
+        "Strand"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Bahnhof",
+          "es": "estación de tren"
+        },
+        {
+          "de": "Flughafen",
+          "es": "aeropuerto"
+        },
+        {
+          "de": "Park",
+          "es": "parque"
+        },
+        {
+          "de": "Hotel",
+          "es": "hotel"
+        },
+        {
+          "de": "Parkplatz",
+          "es": "aparcamiento"
+        },
+        {
+          "de": "Strand",
+          "es": "playa"
+        }
+      ],
+      "note": "\"zum\" para palabras con der/das."
+    },
+    {
+      "id": "city_travel_029",
+      "de": "Wie komme ich zur ___?",
+      "es": "¿Cómo llego a la ___?",
+      "en": "How do I get to the ___?",
+      "gloss": "cómo vengo yo a-la ___",
+      "lemmas": [
+        "kommen",
+        "Haltestelle",
+        "Kirche",
+        "Post",
+        "Altstadt"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Haltestelle",
+          "es": "parada"
+        },
+        {
+          "de": "Kirche",
+          "es": "iglesia"
+        },
+        {
+          "de": "Post",
+          "es": "oficina de correos"
+        },
+        {
+          "de": "Altstadt",
+          "es": "casco antiguo"
+        }
+      ],
+      "note": "\"zur\" para palabras con die."
+    },
+    {
+      "id": "city_travel_030",
+      "de": "Ich fahre mit ___.",
+      "es": "Voy en ___.",
+      "en": "I go by ___.",
+      "gloss": "yo voy con ___",
+      "lemmas": [
+        "fahren",
+        "Bus",
+        "Zug",
+        "Auto",
+        "Fahrrad",
+        "U-Bahn"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "dem Bus",
+          "es": "el autobús"
+        },
+        {
+          "de": "dem Zug",
+          "es": "el tren"
+        },
+        {
+          "de": "dem Auto",
+          "es": "el coche"
+        },
+        {
+          "de": "dem Fahrrad",
+          "es": "la bici"
+        },
+        {
+          "de": "der U-Bahn",
+          "es": "el metro"
+        }
+      ],
+      "note": "\"mit\" siempre pide dativo: der→dem, die→der."
+    },
+    {
+      "id": "city_travel_031",
+      "de": "Ich fahre gern Fahrrad.",
+      "es": "Me gusta ir en bici.",
+      "en": "I like riding my bike.",
+      "gloss": "yo voy con-gusto bicicleta",
+      "lemmas": [
+        "fahren",
+        "Fahrrad"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Fahrrad fahren\" va sin artículo, como \"montar en bici\"."
+    },
+    {
+      "id": "city_travel_032",
+      "de": "Ich fahre mit dem Fahrrad in die Stadt.",
+      "es": "Voy en bici al centro.",
+      "en": "I'm cycling into town.",
+      "gloss": "yo voy con la bicicleta en la ciudad",
+      "lemmas": [
+        "fahren",
+        "Fahrrad",
+        "Stadt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"in die Stadt\" = al centro (con movimiento, acusativo)."
+    },
+    {
+      "id": "city_travel_033",
+      "de": "Eine Fahrkarte nach Berlin, bitte.",
+      "es": "Un billete a Berlín, por favor.",
+      "en": "One ticket to Berlin, please.",
+      "gloss": "un billete hacia Berlín por-favor",
+      "lemmas": [
+        "Fahrkarte"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_034",
+      "de": "Eine Fahrkarte nach ___, bitte.",
+      "es": "Un billete a ___, por favor.",
+      "en": "One ticket to ___, please.",
+      "gloss": "un billete hacia ___ por-favor",
+      "lemmas": [
+        "Fahrkarte"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Hamburg",
+          "es": "Hamburgo"
+        },
+        {
+          "de": "München",
+          "es": "Múnich"
+        },
+        {
+          "de": "Köln",
+          "es": "Colonia"
+        },
+        {
+          "de": "Wien",
+          "es": "Viena"
+        }
+      ],
+      "note": "\"nach\" para ciudades y países sin artículo."
+    },
+    {
+      "id": "city_travel_035",
+      "de": "Hast du deine Fahrkarte?",
+      "es": "¿Tienes tu billete?",
+      "en": "Do you have your ticket?",
+      "gloss": "tienes tú tu billete",
+      "lemmas": [
+        "Fahrkarte"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_036",
+      "de": "Wo ist die Haltestelle?",
+      "es": "¿Dónde está la parada?",
+      "en": "Where's the bus stop?",
+      "gloss": "dónde está la parada",
+      "lemmas": [
+        "Haltestelle"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_037",
+      "de": "Wir warten an der Haltestelle.",
+      "es": "Esperamos en la parada.",
+      "en": "We're waiting at the stop.",
+      "gloss": "nosotros esperamos en la parada",
+      "lemmas": [
+        "warten",
+        "Haltestelle"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_038",
+      "de": "Ich warte auf dich.",
+      "es": "Te espero.",
+      "en": "I'm waiting for you.",
+      "gloss": "yo espero sobre ti",
+      "lemmas": [
+        "warten"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Se dice \"warten auf\" + acusativo, nunca \"warten für\"."
+    },
+    {
+      "id": "city_travel_039",
+      "de": "Wir warten auf ___.",
+      "es": "Estamos esperando ___.",
+      "en": "We're waiting for ___.",
+      "gloss": "nosotros esperamos sobre ___",
+      "lemmas": [
+        "warten",
+        "Bus",
+        "Zug",
+        "Taxi"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "den Bus",
+          "es": "el autobús"
+        },
+        {
+          "de": "den Zug",
+          "es": "el tren"
+        },
+        {
+          "de": "dich",
+          "es": "a ti"
+        },
+        {
+          "de": "das Taxi",
+          "es": "el taxi"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_040",
+      "de": "Steig ein!",
+      "es": "¡Sube!",
+      "en": "Get in!",
+      "gloss": "sube dentro",
+      "lemmas": [
+        "einsteigen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Verbo separable: el \"ein\" se va al final."
+    },
+    {
+      "id": "city_travel_041",
+      "de": "Wo steigen wir ein?",
+      "es": "¿Dónde subimos?",
+      "en": "Where do we get on?",
+      "gloss": "dónde subimos nosotros dentro",
+      "lemmas": [
+        "einsteigen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_042",
+      "de": "Wir fliegen nach Berlin.",
+      "es": "Volamos a Berlín.",
+      "en": "We're flying to Berlin.",
+      "gloss": "nosotros volamos hacia Berlín",
+      "lemmas": [
+        "fliegen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_043",
+      "de": "Ich möchte nach ___ fliegen.",
+      "es": "Quiero volar a ___.",
+      "en": "I'd like to fly to ___.",
+      "gloss": "yo quisiera hacia ___ volar",
+      "lemmas": [
+        "fliegen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Berlin",
+          "es": "Berlín"
+        },
+        {
+          "de": "Spanien",
+          "es": "España"
+        },
+        {
+          "de": "Japan",
+          "es": "Japón"
+        },
+        {
+          "de": "New York",
+          "es": "Nueva York"
+        }
+      ],
+      "note": "Con \"möchte\", el segundo verbo va al final."
+    },
+    {
+      "id": "city_travel_044",
+      "de": "Ich fliege nicht so gern.",
+      "es": "No me gusta mucho volar.",
+      "en": "I'm not a big fan of flying.",
+      "gloss": "yo vuelo no tan con-gusto",
+      "lemmas": [
+        "fliegen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"nicht so gern\" = no me gusta mucho. Ojo: \"mit dem Flugzeug fliegen\" suena redundante."
+    },
+    {
+      "id": "city_travel_045",
+      "de": "Das Flugzeug hat Verspätung.",
+      "es": "El avión lleva retraso.",
+      "en": "The plane is delayed.",
+      "gloss": "el avión tiene retraso",
+      "lemmas": [
+        "Flugzeug",
+        "Verspätung"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "En alemán se \"tiene\" retraso: haben + Verspätung."
+    },
+    {
+      "id": "city_travel_046",
+      "de": "Der Flughafen ist weit weg.",
+      "es": "El aeropuerto está lejos.",
+      "en": "The airport is far away.",
+      "gloss": "el aeropuerto está lejos fuera",
+      "lemmas": [
+        "Flughafen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_047",
+      "de": "Ich hole dich am Flughafen ab.",
+      "es": "Te recojo en el aeropuerto.",
+      "en": "I'll pick you up at the airport.",
+      "gloss": "yo recojo a-ti en-el aeropuerto (parte-separable)",
+      "lemmas": [
+        "abholen",
+        "Flughafen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"abholen\" es separable: el \"ab\" se va al final de la frase."
+    },
+    {
+      "id": "city_travel_048",
+      "de": "Ich hole dich ___ ab.",
+      "es": "Te recojo ___.",
+      "en": "I'll pick you up ___.",
+      "gloss": "yo recojo a-ti ___ (parte-separable)",
+      "lemmas": [
+        "abholen",
+        "Bahnhof",
+        "Flughafen",
+        "Haltestelle",
+        "Hotel"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "am Bahnhof",
+          "es": "en la estación"
+        },
+        {
+          "de": "am Flughafen",
+          "es": "en el aeropuerto"
+        },
+        {
+          "de": "an der Haltestelle",
+          "es": "en la parada"
+        },
+        {
+          "de": "am Hotel",
+          "es": "en el hotel"
+        },
+        {
+          "de": "um acht",
+          "es": "a las ocho"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_049",
+      "de": "Kannst du mir den Weg zeigen?",
+      "es": "¿Me puedes indicar el camino?",
+      "en": "Can you show me the way?",
+      "gloss": "puedes tú a-mí el camino mostrar",
+      "lemmas": [
+        "zeigen",
+        "Weg"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Con \"kannst\", el verbo principal va al final."
+    },
+    {
+      "id": "city_travel_050",
+      "de": "Ich kenne den Weg nicht.",
+      "es": "No conozco el camino.",
+      "en": "I don't know the way.",
+      "gloss": "yo conozco el camino no",
+      "lemmas": [
+        "kennen",
+        "Weg"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "El \"nicht\" va al final."
+    },
+    {
+      "id": "city_travel_051",
+      "de": "Ich zeige dir die Stadt.",
+      "es": "Te enseño la ciudad.",
+      "en": "I'll show you the city.",
+      "gloss": "yo muestro a-ti la ciudad",
+      "lemmas": [
+        "zeigen",
+        "Stadt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_052",
+      "de": "In welche Richtung muss ich?",
+      "es": "¿En qué dirección tengo que ir?",
+      "en": "Which way do I have to go?",
+      "gloss": "en cuál dirección debo yo",
+      "lemmas": [
+        "Richtung",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Con \"müssen\" se puede omitir \"gehen\": ya se entiende."
+    },
+    {
+      "id": "city_travel_053",
+      "de": "Der Bus fährt Richtung Zentrum.",
+      "es": "El bus va en dirección al centro.",
+      "en": "The bus goes towards the city centre.",
+      "gloss": "el bus va dirección centro",
+      "lemmas": [
+        "Bus",
+        "fahren",
+        "Richtung"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"Richtung + lugar\" va sin preposición."
+    },
+    {
+      "id": "city_travel_054",
+      "de": "Geh geradeaus die Straße entlang.",
+      "es": "Sigue la calle todo recto.",
+      "en": "Go straight along the street.",
+      "gloss": "ve todo-recto la calle a-lo-largo",
+      "lemmas": [
+        "gehen",
+        "geradeaus",
+        "Straße",
+        "entlang"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"entlang\" va detrás del sustantivo: die Straße entlang."
+    },
+    {
+      "id": "city_travel_055",
+      "de": "Geh ___.",
+      "es": "Ve ___.",
+      "en": "Go ___.",
+      "gloss": "ve ___",
+      "lemmas": [
+        "gehen",
+        "links",
+        "rechts",
+        "geradeaus",
+        "Ecke",
+        "weiter"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "geradeaus",
+          "es": "todo recto"
+        },
+        {
+          "de": "nach links",
+          "es": "a la izquierda"
+        },
+        {
+          "de": "nach rechts",
+          "es": "a la derecha"
+        },
+        {
+          "de": "um die Ecke",
+          "es": "por la esquina"
+        },
+        {
+          "de": "weiter",
+          "es": "sigue / continúa"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_056",
+      "de": "An der Ecke rechts.",
+      "es": "En la esquina, a la derecha.",
+      "en": "Right at the corner.",
+      "gloss": "en la esquina derecha",
+      "lemmas": [
+        "Ecke",
+        "rechts"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_057",
+      "de": "Das Hotel ist gleich um die Ecke.",
+      "es": "El hotel está justo a la vuelta de la esquina.",
+      "en": "The hotel is just around the corner.",
+      "gloss": "el hotel está justo por la esquina",
+      "lemmas": [
+        "Hotel",
+        "Ecke"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_058",
+      "de": "Das Hotel ist ___.",
+      "es": "El hotel está ___.",
+      "en": "The hotel is ___.",
+      "gloss": "el hotel está ___",
+      "lemmas": [
+        "Hotel",
+        "vorne",
+        "hinten",
+        "Ecke",
+        "Stadt",
+        "Strand"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ganz vorne",
+          "es": "justo delante"
+        },
+        {
+          "de": "da hinten",
+          "es": "ahí al fondo"
+        },
+        {
+          "de": "an der Ecke",
+          "es": "en la esquina"
+        },
+        {
+          "de": "in der Stadt",
+          "es": "en el centro"
+        },
+        {
+          "de": "direkt am Strand",
+          "es": "justo en la playa"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_059",
+      "de": "Wir haben ein Hotel gebucht.",
+      "es": "Hemos reservado un hotel.",
+      "en": "We've booked a hotel.",
+      "gloss": "nosotros hemos un hotel reservado",
+      "lemmas": [
+        "buchen",
+        "Hotel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Perfekt: el participio se va al final."
+    },
+    {
+      "id": "city_travel_060",
+      "de": "Ist hier noch ein Platz frei?",
+      "es": "¿Queda algún sitio libre aquí?",
+      "en": "Is there a free seat here?",
+      "gloss": "está aquí todavía un sitio libre",
+      "lemmas": [
+        "Platz",
+        "frei"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Lo dirás al buscar asiento en el tren."
+    },
+    {
+      "id": "city_travel_061",
+      "de": "Der Platz vor der Kirche ist schön.",
+      "es": "La plaza delante de la iglesia es bonita.",
+      "en": "The square in front of the church is lovely.",
+      "gloss": "la plaza delante-de la iglesia es bonita",
+      "lemmas": [
+        "Platz",
+        "Kirche"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"Platz\" es sitio y también plaza."
+    },
+    {
+      "id": "city_travel_062",
+      "de": "Ich gehe in ___.",
+      "es": "Voy a ___.",
+      "en": "I'm going to ___.",
+      "gloss": "yo voy en ___",
+      "lemmas": [
+        "gehen",
+        "Park",
+        "Stadt",
+        "Kirche",
+        "Supermarkt"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "den Park",
+          "es": "el parque"
+        },
+        {
+          "de": "die Stadt",
+          "es": "el centro"
+        },
+        {
+          "de": "die Kirche",
+          "es": "la iglesia"
+        },
+        {
+          "de": "den Supermarkt",
+          "es": "el supermercado"
+        }
+      ],
+      "note": "Con movimiento, \"in\" pide acusativo: den / die."
+    },
+    {
+      "id": "city_travel_063",
+      "de": "Wir gehen in den Park.",
+      "es": "Vamos al parque.",
+      "en": "We're going to the park.",
+      "gloss": "nosotros vamos en el parque",
+      "lemmas": [
+        "gehen",
+        "Park"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_064",
+      "de": "Im Park ist ein See.",
+      "es": "En el parque hay un lago.",
+      "en": "There's a lake in the park.",
+      "gloss": "en-el parque está un lago",
+      "lemmas": [
+        "Park",
+        "See"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"der See\" es el lago; \"die See\" es el mar."
+    },
+    {
+      "id": "city_travel_065",
+      "de": "Wir fahren an den See.",
+      "es": "Vamos al lago.",
+      "en": "We're driving to the lake.",
+      "gloss": "nosotros vamos a el lago",
+      "lemmas": [
+        "fahren",
+        "See"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_066",
+      "de": "Wir fahren ans Meer.",
+      "es": "Nos vamos a la playa / al mar.",
+      "en": "We're going to the seaside.",
+      "gloss": "nosotros vamos a-el mar",
+      "lemmas": [
+        "fahren",
+        "Meer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"ans\" = an + das."
+    },
+    {
+      "id": "city_travel_067",
+      "de": "Am Strand ist es super.",
+      "es": "En la playa se está genial.",
+      "en": "It's great at the beach.",
+      "gloss": "en-la playa está ello súper",
+      "lemmas": [
+        "Strand"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_068",
+      "de": "Ich gehe an den Strand.",
+      "es": "Me voy a la playa.",
+      "en": "I'm going to the beach.",
+      "gloss": "yo voy a la playa",
+      "lemmas": [
+        "gehen",
+        "Strand"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_069",
+      "de": "Der Strand ist nicht weit.",
+      "es": "La playa no está lejos.",
+      "en": "The beach isn't far.",
+      "gloss": "la playa está no lejos",
+      "lemmas": [
+        "Strand"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_070",
+      "de": "In den Ferien fahren wir ___.",
+      "es": "En vacaciones vamos ___.",
+      "en": "In the holidays we go ___.",
+      "gloss": "en las vacaciones vamos nosotros ___",
+      "lemmas": [
+        "Ferien",
+        "fahren",
+        "Meer",
+        "See",
+        "Ausland",
+        "Berg"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ans Meer",
+          "es": "al mar"
+        },
+        {
+          "de": "an den See",
+          "es": "al lago"
+        },
+        {
+          "de": "ins Ausland",
+          "es": "al extranjero"
+        },
+        {
+          "de": "in die Berge",
+          "es": "a la montaña"
+        },
+        {
+          "de": "nach Italien",
+          "es": "a Italia"
+        }
+      ],
+      "note": "Si la frase empieza por otra cosa, el verbo va segundo y el sujeto detrás."
+    },
+    {
+      "id": "city_travel_071",
+      "de": "Wann hast du Ferien?",
+      "es": "¿Cuándo tienes vacaciones?",
+      "en": "When are your school holidays?",
+      "gloss": "cuándo tienes tú vacaciones",
+      "lemmas": [
+        "Ferien"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_072",
+      "de": "Mein Vater hat Urlaub.",
+      "es": "Mi padre está de vacaciones.",
+      "en": "My dad is on holiday (from work).",
+      "gloss": "mi padre tiene vacaciones",
+      "lemmas": [
+        "Urlaub"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_073",
+      "de": "Im Urlaub fahren wir immer ans Meer.",
+      "es": "En vacaciones siempre vamos al mar.",
+      "en": "On holiday we always go to the sea.",
+      "gloss": "en-las vacaciones vamos nosotros siempre a-el mar",
+      "lemmas": [
+        "Urlaub",
+        "fahren",
+        "Meer"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_074",
+      "de": "Wir machen einen Ausflug.",
+      "es": "Vamos de excursión.",
+      "en": "We're going on a day trip.",
+      "gloss": "nosotros hacemos una excursión",
+      "lemmas": [
+        "machen",
+        "Ausflug"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Excursión se \"hace\": einen Ausflug machen."
+    },
+    {
+      "id": "city_travel_075",
+      "de": "Der Ausflug war echt super.",
+      "es": "La excursión estuvo genial.",
+      "en": "The trip was really great.",
+      "gloss": "la excursión fue de-verdad súper",
+      "lemmas": [
+        "Ausflug"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_076",
+      "de": "Wir machen einen Ausflug ans Meer.",
+      "es": "Hacemos una excursión al mar.",
+      "en": "We're going on a trip to the sea.",
+      "gloss": "nosotros hacemos una excursión a-el mar",
+      "lemmas": [
+        "Ausflug",
+        "Meer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_077",
+      "de": "Wir fahren ins Ausland.",
+      "es": "Nos vamos al extranjero.",
+      "en": "We're going abroad.",
+      "gloss": "nosotros vamos en-el extranjero",
+      "lemmas": [
+        "fahren",
+        "Ausland"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_078",
+      "de": "Warst du schon mal im Ausland?",
+      "es": "¿Has estado alguna vez en el extranjero?",
+      "en": "Have you ever been abroad?",
+      "gloss": "estuviste tú ya una-vez en-el extranjero",
+      "lemmas": [
+        "Ausland"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Con \"sein\" se prefiere el pasado corto: \"warst\" mejor que \"bist gewesen\"."
+    },
+    {
+      "id": "city_travel_079",
+      "de": "Aus welchem Land kommst du?",
+      "es": "¿De qué país eres?",
+      "en": "Which country are you from?",
+      "gloss": "de cuál país vienes tú",
+      "lemmas": [
+        "Land",
+        "kommen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_080",
+      "de": "Auf dem Land ist es ruhig.",
+      "es": "En el campo se está tranquilo.",
+      "en": "It's quiet in the countryside.",
+      "gloss": "sobre el campo está ello tranquilo",
+      "lemmas": [
+        "Land"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"Land\" es país, pero \"auf dem Land\" es en el campo."
+    },
+    {
+      "id": "city_travel_081",
+      "de": "Wir wohnen in einer kleinen Stadt.",
+      "es": "Vivimos en una ciudad pequeña.",
+      "en": "We live in a small town.",
+      "gloss": "nosotros vivimos en una pequeña ciudad",
+      "lemmas": [
+        "wohnen",
+        "Stadt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_082",
+      "de": "Gibt es hier einen Parkplatz?",
+      "es": "¿Hay aparcamiento por aquí?",
+      "en": "Is there a car park here?",
+      "gloss": "da ello aquí un aparcamiento",
+      "lemmas": [
+        "Parkplatz"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"es gibt\" = hay; lo que sigue va en acusativo."
+    },
+    {
+      "id": "city_travel_083",
+      "de": "Der Parkplatz ist voll.",
+      "es": "El aparcamiento está lleno.",
+      "en": "The car park is full.",
+      "gloss": "el aparcamiento está lleno",
+      "lemmas": [
+        "Parkplatz"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_084",
+      "de": "Das Auto steht auf dem Parkplatz.",
+      "es": "El coche está en el aparcamiento.",
+      "en": "The car is in the car park.",
+      "gloss": "el coche está-de-pie sobre el aparcamiento",
+      "lemmas": [
+        "stehen",
+        "Auto",
+        "Parkplatz"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Para vehículos aparcados se usa \"stehen\", no \"sein\"."
+    },
+    {
+      "id": "city_travel_085",
+      "de": "Wo ist der ___?",
+      "es": "¿Dónde está el ___?",
+      "en": "Where is the ___?",
+      "gloss": "dónde está el ___",
+      "lemmas": [
+        "Ausgang",
+        "Eingang",
+        "Bahnhof",
+        "Parkplatz",
+        "Koffer",
+        "Bus"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Ausgang",
+          "es": "salida"
+        },
+        {
+          "de": "Eingang",
+          "es": "entrada"
+        },
+        {
+          "de": "Bahnhof",
+          "es": "estación"
+        },
+        {
+          "de": "Parkplatz",
+          "es": "aparcamiento"
+        },
+        {
+          "de": "Koffer",
+          "es": "maleta"
+        },
+        {
+          "de": "Bus",
+          "es": "autobús"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_086",
+      "de": "Der Ausgang ist da hinten.",
+      "es": "La salida está ahí al fondo.",
+      "en": "The exit is back there.",
+      "gloss": "la salida está ahí detrás",
+      "lemmas": [
+        "Ausgang",
+        "hinten"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_087",
+      "de": "Der Eingang ist vorne links.",
+      "es": "La entrada está delante, a la izquierda.",
+      "en": "The entrance is at the front on the left.",
+      "gloss": "la entrada está delante izquierda",
+      "lemmas": [
+        "Eingang",
+        "vorne",
+        "links"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_088",
+      "de": "Wir treffen uns am Eingang.",
+      "es": "Quedamos en la entrada.",
+      "en": "Let's meet at the entrance.",
+      "gloss": "nosotros encontramos nos en-la entrada",
+      "lemmas": [
+        "treffen",
+        "Eingang"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_089",
+      "de": "Nimmst du mich mit?",
+      "es": "¿Me llevas?",
+      "en": "Can you give me a lift?",
+      "gloss": "llevas tú a-mí con",
+      "lemmas": [
+        "mitnehmen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Separable: el \"mit\" se va al final."
+    },
+    {
+      "id": "city_travel_090",
+      "de": "Nimmst du ___ mit?",
+      "es": "¿Te llevas ___?",
+      "en": "Are you taking ___ with you?",
+      "gloss": "llevas tú ___ con",
+      "lemmas": [
+        "mitnehmen",
+        "Koffer",
+        "Fahrrad",
+        "Fahrkarte"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "den Koffer",
+          "es": "la maleta"
+        },
+        {
+          "de": "dein Fahrrad",
+          "es": "tu bici"
+        },
+        {
+          "de": "die Fahrkarten",
+          "es": "los billetes"
+        },
+        {
+          "de": "genug Wasser",
+          "es": "suficiente agua"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_091",
+      "de": "Ich nehme nur einen Koffer mit.",
+      "es": "Solo me llevo una maleta.",
+      "en": "I'm only taking one suitcase.",
+      "gloss": "yo llevo solo una maleta con",
+      "lemmas": [
+        "mitnehmen",
+        "Koffer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_092",
+      "de": "Mein Koffer ist zu schwer.",
+      "es": "Mi maleta pesa demasiado.",
+      "en": "My suitcase is too heavy.",
+      "gloss": "mi maleta está demasiado pesada",
+      "lemmas": [
+        "Koffer"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_093",
+      "de": "Wann kommt der Zug an?",
+      "es": "¿Cuándo llega el tren?",
+      "en": "When does the train arrive?",
+      "gloss": "cuándo viene el tren a",
+      "lemmas": [
+        "ankommen",
+        "Zug"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"ankommen\" es separable: el \"an\" se va al final."
+    },
+    {
+      "id": "city_travel_094",
+      "de": "Der Zug kommt um ___ an.",
+      "es": "El tren llega a las ___.",
+      "en": "The train arrives at ___.",
+      "gloss": "el tren viene a-las ___ a",
+      "lemmas": [
+        "ankommen",
+        "Zug"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "acht Uhr",
+          "es": "las ocho"
+        },
+        {
+          "de": "halb neun",
+          "es": "las ocho y media"
+        },
+        {
+          "de": "Mitternacht",
+          "es": "medianoche"
+        },
+        {
+          "de": "14 Uhr",
+          "es": "las dos de la tarde"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_095",
+      "de": "Wir sind gut angekommen.",
+      "es": "Hemos llegado bien.",
+      "en": "We arrived safely.",
+      "gloss": "nosotros somos bien llegados",
+      "lemmas": [
+        "ankommen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Los verbos de movimiento hacen el Perfekt con \"sein\"."
+    },
+    {
+      "id": "city_travel_096",
+      "de": "Der Zug hat zehn Minuten Verspätung.",
+      "es": "El tren lleva diez minutos de retraso.",
+      "en": "The train is ten minutes late.",
+      "gloss": "el tren tiene diez minutos retraso",
+      "lemmas": [
+        "Zug",
+        "Verspätung"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_097",
+      "de": "Der ___ hat Verspätung.",
+      "es": "El ___ lleva retraso.",
+      "en": "The ___ is delayed.",
+      "gloss": "el ___ tiene retraso",
+      "lemmas": [
+        "Verspätung",
+        "Zug",
+        "Bus",
+        "Flug"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Zug",
+          "es": "tren"
+        },
+        {
+          "de": "Bus",
+          "es": "autobús"
+        },
+        {
+          "de": "Flug",
+          "es": "vuelo"
+        },
+        {
+          "de": "ICE",
+          "es": "tren de alta velocidad"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_098",
+      "de": "Sorry, ich habe Verspätung!",
+      "es": "¡Perdona, llego tarde!",
+      "en": "Sorry, I'm running late!",
+      "gloss": "perdón yo tengo retraso",
+      "lemmas": [
+        "Verspätung"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Sorry\" se usa muchísimo entre jóvenes en Alemania."
+    },
+    {
+      "id": "city_travel_099",
+      "de": "Es gab einen Unfall.",
+      "es": "Ha habido un accidente.",
+      "en": "There was an accident.",
+      "gloss": "ello dio un accidente",
+      "lemmas": [
+        "Unfall"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"es gab\" es el pasado de \"es gibt\" (hay)."
+    },
+    {
+      "id": "city_travel_100",
+      "de": "Auf der Straße war ein Unfall.",
+      "es": "Hubo un accidente en la carretera.",
+      "en": "There was an accident on the road.",
+      "gloss": "sobre la calle estuvo un accidente",
+      "lemmas": [
+        "Unfall",
+        "Straße"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_101",
+      "de": "Wir sind mit dem Zug gefahren.",
+      "es": "Fuimos en tren.",
+      "en": "We went by train.",
+      "gloss": "nosotros somos con el tren ido",
+      "lemmas": [
+        "fahren",
+        "Zug"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_102",
+      "de": "Wir sind nach Italien geflogen.",
+      "es": "Volamos a Italia.",
+      "en": "We flew to Italy.",
+      "gloss": "nosotros somos hacia Italia volado",
+      "lemmas": [
+        "fliegen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_103",
+      "de": "Ich bin noch unterwegs, ich komme etwas später.",
+      "es": "Todavía estoy de camino, llego un poco más tarde.",
+      "en": "I'm still on my way, I'll be a bit late.",
+      "gloss": "yo estoy todavía de-camino yo vengo algo más-tarde",
+      "lemmas": [
+        "unterwegs",
+        "kommen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_104",
+      "de": "Fahr bitte langsam!",
+      "es": "¡Conduce despacio, por favor!",
+      "en": "Please drive slowly!",
+      "gloss": "conduce por-favor lento",
+      "lemmas": [
+        "fahren",
+        "langsam"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_105",
+      "de": "Der Bus fährt heute sehr langsam.",
+      "es": "Hoy el bus va muy lento.",
+      "en": "The bus is going really slowly today.",
+      "gloss": "el bus va hoy muy lento",
+      "lemmas": [
+        "Bus",
+        "fahren",
+        "langsam"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_106",
+      "de": "Der Zug ist schneller als der Bus.",
+      "es": "El tren es más rápido que el bus.",
+      "en": "The train is faster than the bus.",
+      "gloss": "el tren es más-rápido que el bus",
+      "lemmas": [
+        "Zug",
+        "Bus",
+        "schnell"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Comparativo: adjetivo + -er + als."
+    },
+    {
+      "id": "city_travel_107",
+      "de": "Ich muss schnell zum Bahnhof.",
+      "es": "Tengo que ir rápido a la estación.",
+      "en": "I have to get to the station quickly.",
+      "gloss": "yo debo rápido a-la estación",
+      "lemmas": [
+        "müssen",
+        "schnell",
+        "Bahnhof"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con \"müssen\" se puede dejar fuera \"gehen/fahren\"."
+    },
+    {
+      "id": "city_travel_108",
+      "de": "Die Straße ist gesperrt.",
+      "es": "La calle está cortada.",
+      "en": "The road is closed.",
+      "gloss": "la calle está cerrada",
+      "lemmas": [
+        "Straße",
+        "sperren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_109",
+      "de": "Wie war die Reise?",
+      "es": "¿Qué tal el viaje?",
+      "en": "How was the trip?",
+      "gloss": "cómo fue el viaje",
+      "lemmas": [
+        "Reise"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_110",
+      "de": "Die Reise war ziemlich lang.",
+      "es": "El viaje fue bastante largo.",
+      "en": "The journey was pretty long.",
+      "gloss": "el viaje fue bastante largo",
+      "lemmas": [
+        "Reise"
+      ],
+      "level": 3,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "city_travel_111",
+      "de": "Ich bin viel unterwegs.",
+      "es": "Paso mucho tiempo fuera de casa.",
+      "en": "I'm out and about a lot.",
+      "gloss": "yo estoy mucho de-camino",
+      "lemmas": [
+        "unterwegs"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_112",
+      "de": "Können Sie mir zeigen, wo der Bahnhof ist?",
+      "es": "¿Me puede enseñar dónde está la estación?",
+      "en": "Could you show me where the station is?",
+      "gloss": "puede usted a-mí mostrar dónde la estación está",
+      "lemmas": [
+        "können",
+        "zeigen",
+        "Bahnhof"
+      ],
+      "level": 5,
+      "type": "question",
+      "note": "En la frase con \"wo\", el verbo se va al final."
+    },
+    {
+      "id": "city_travel_113",
+      "de": "Ich weiß nicht, wo die Haltestelle ist.",
+      "es": "No sé dónde está la parada.",
+      "en": "I don't know where the stop is.",
+      "gloss": "yo sé no dónde la parada está",
+      "lemmas": [
+        "wissen",
+        "Haltestelle"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_114",
+      "de": "Wenn der Zug Verspätung hat, schreib mir.",
+      "es": "Si el tren lleva retraso, escríbeme.",
+      "en": "If the train is late, text me.",
+      "gloss": "si el tren retraso tiene escribe a-mí",
+      "lemmas": [
+        "Zug",
+        "Verspätung",
+        "schreiben"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras \"wenn\", el verbo va al final de esa parte."
+    },
+    {
+      "id": "city_travel_115",
+      "de": "Ich kann dich abholen, wenn du willst.",
+      "es": "Puedo ir a buscarte si quieres.",
+      "en": "I can pick you up if you want.",
+      "gloss": "yo puedo a-ti recoger si tú quieres",
+      "lemmas": [
+        "können",
+        "abholen",
+        "wollen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_116",
+      "de": "Weil es einen Unfall gab, ist die Straße gesperrt.",
+      "es": "Como ha habido un accidente, la calle está cortada.",
+      "en": "Because there was an accident, the road is closed.",
+      "gloss": "porque ello un accidente dio está la calle cerrada",
+      "lemmas": [
+        "Unfall",
+        "Straße"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras \"weil\" el verbo va al final."
+    },
+    {
+      "id": "city_travel_117",
+      "de": "Als wir angekommen sind, hat es geregnet.",
+      "es": "Cuando llegamos, estaba lloviendo.",
+      "en": "When we arrived, it was raining.",
+      "gloss": "cuando nosotros llegados somos ha ello llovido",
+      "lemmas": [
+        "ankommen",
+        "regnen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "\"als\" para una vez en el pasado; \"wenn\" para cosas repetidas."
+    },
+    {
+      "id": "city_travel_118",
+      "de": "Ich zeige dir den Weg zum Hotel.",
+      "es": "Te enseño el camino al hotel.",
+      "en": "I'll show you the way to the hotel.",
+      "gloss": "yo muestro a-ti el camino a-el hotel",
+      "lemmas": [
+        "zeigen",
+        "Weg",
+        "Hotel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_119",
+      "de": "In welche Richtung fährt der Bus?",
+      "es": "¿En qué dirección va el bus?",
+      "en": "Which direction is the bus going?",
+      "gloss": "en cuál dirección va el bus",
+      "lemmas": [
+        "Richtung",
+        "fahren",
+        "Bus"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_120",
+      "de": "Der Platz ist schon besetzt.",
+      "es": "El sitio ya está ocupado.",
+      "en": "This seat is already taken.",
+      "gloss": "el sitio está ya ocupado",
+      "lemmas": [
+        "Platz",
+        "besetzt"
+      ],
+      "level": 2,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "city_travel_121",
+      "de": "Wann geht das Flugzeug?",
+      "es": "¿A qué hora sale el avión?",
+      "en": "When does the plane leave?",
+      "gloss": "cuándo va el avión",
+      "lemmas": [
+        "Flugzeug"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Para salidas de transportes se usa \"gehen\"; también se oye \"Wann geht der Flug?\"."
+    },
+    {
+      "id": "city_travel_122",
+      "de": "Wir nehmen das Flugzeug, das geht schneller.",
+      "es": "Cogemos el avión, es más rápido.",
+      "en": "We'll take the plane, it's faster.",
+      "gloss": "nosotros tomamos el avión eso va más-rápido",
+      "lemmas": [
+        "Flugzeug",
+        "schnell"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"das Flugzeug nehmen\" es lo normal para \"coger el avión\"."
+    },
+    {
+      "id": "city_travel_123",
+      "de": "Das Flugzeug ist gerade gelandet.",
+      "es": "El avión acaba de aterrizar.",
+      "en": "The plane has just landed.",
+      "gloss": "el avión está justo aterrizado",
+      "lemmas": [
+        "Flugzeug"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"gerade\" + Perfekt = acabar de."
+    },
+    {
+      "id": "city_travel_p001",
+      "de": "Ruf die Polizei!",
+      "es": "¡Llama a la policía!",
+      "en": "Call the police!",
+      "gloss": "llama a-la policía",
+      "lemmas": [
+        "rufen",
+        "Polizei"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p002",
+      "de": "Die Polizei war schon da.",
+      "es": "La policía ya ha estado aquí.",
+      "en": "The police were already here.",
+      "gloss": "la policía estaba ya ahí",
+      "lemmas": [
+        "Polizei",
+        "sein"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Polizei\" es singular en alemán: die Polizei war."
+    },
+    {
+      "id": "city_travel_p003",
+      "de": "Das musst du bei der Polizei melden.",
+      "es": "Eso tienes que denunciarlo a la policía.",
+      "en": "You have to report that to the police.",
+      "gloss": "eso debes tú en la policía denunciar",
+      "lemmas": [
+        "müssen",
+        "Polizei",
+        "melden"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"bei der Polizei\" (dativo), no \"zu der\"."
+    },
+    {
+      "id": "city_travel_p004",
+      "de": "Ich hatte einen kleinen Unfall mit dem Fahrrad.",
+      "es": "Tuve un pequeño accidente con la bici.",
+      "en": "I had a small accident on my bike.",
+      "gloss": "yo tenía un pequeño accidente con la bicicleta",
+      "lemmas": [
+        "haben",
+        "Unfall",
+        "Fahrrad"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p005",
+      "de": "Bei dem Unfall ist zum Glück nichts passiert.",
+      "es": "Por suerte en el accidente no pasó nada.",
+      "en": "Luckily nothing happened in the accident.",
+      "gloss": "en el accidente es por suerte nada pasado",
+      "lemmas": [
+        "Unfall",
+        "passieren",
+        "Glück"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p006",
+      "de": "Nach dem Unfall war die Brücke gesperrt.",
+      "es": "Después del accidente el puente estuvo cortado.",
+      "en": "After the accident the bridge was closed.",
+      "gloss": "después del accidente estaba el puente cortado",
+      "lemmas": [
+        "Unfall",
+        "Brücke",
+        "sperren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p007",
+      "de": "Wir verlassen das Hotel um zehn.",
+      "es": "Salimos del hotel a las diez.",
+      "en": "We're leaving the hotel at ten.",
+      "gloss": "nosotros abandonamos el hotel a las diez",
+      "lemmas": [
+        "verlassen",
+        "Hotel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"verlassen\" lleva acusativo directo: sin \"aus\" ni \"von\"."
+    },
+    {
+      "id": "city_travel_p008",
+      "de": "Er hat die Stadt nie verlassen.",
+      "es": "Nunca se ha ido de la ciudad.",
+      "en": "He has never left the city.",
+      "gloss": "él ha la ciudad nunca abandonado",
+      "lemmas": [
+        "verlassen",
+        "Stadt"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Participio igual al infinitivo: verlassen - verlassen."
+    },
+    {
+      "id": "city_travel_p009",
+      "de": "Auf ihn kannst du dich verlassen.",
+      "es": "Puedes confiar en él.",
+      "en": "You can rely on him.",
+      "gloss": "en él puedes tú te fiar",
+      "lemmas": [
+        "verlassen",
+        "können"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"sich verlassen auf\" = fiarse de; sin \"sich\" significa abandonar."
+    },
+    {
+      "id": "city_travel_p010",
+      "de": "Nach den Ferien geht die Schule wieder los.",
+      "es": "Después de las vacaciones vuelve a empezar el cole.",
+      "en": "School starts again after the holidays.",
+      "gloss": "después de-las vacaciones va la escuela otra-vez en-marcha",
+      "lemmas": [
+        "Ferien",
+        "Schule",
+        "losgehen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"Ferien\" solo existe en plural."
+    },
+    {
+      "id": "city_travel_p011",
+      "de": "In den Ferien haben wir nichts vor.",
+      "es": "En vacaciones no tenemos ningún plan.",
+      "en": "We have no plans for the holidays.",
+      "gloss": "en las vacaciones tenemos nosotros nada delante",
+      "lemmas": [
+        "Ferien",
+        "vorhaben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"vorhaben\" es separable: haben ... vor."
+    },
+    {
+      "id": "city_travel_p012",
+      "de": "Ich habe ihn nicht erreicht.",
+      "es": "No he podido localizarlo.",
+      "en": "I couldn't reach him.",
+      "gloss": "yo he a-él no alcanzado",
+      "lemmas": [
+        "erreichen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"erreichen\" también significa localizar a alguien por teléfono."
+    },
+    {
+      "id": "city_travel_p013",
+      "de": "Unter dieser Nummer erreichst du mich immer.",
+      "es": "En este número me localizas siempre.",
+      "en": "You can always reach me at this number.",
+      "gloss": "bajo este número alcanzas tú a-mí siempre",
+      "lemmas": [
+        "erreichen",
+        "Nummer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con números de teléfono se dice \"unter\", no \"in\"."
+    },
+    {
+      "id": "city_travel_p014",
+      "de": "Wie erreiche ich das Museum am schnellsten?",
+      "es": "¿Cómo llego al museo lo más rápido posible?",
+      "en": "What's the quickest way to the museum?",
+      "gloss": "cómo alcanzo yo el museo al más-rápido",
+      "lemmas": [
+        "erreichen",
+        "Museum",
+        "schnell"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p015",
+      "de": "Das Kino ist gleich neben dem Museum.",
+      "es": "El cine está justo al lado del museo.",
+      "en": "The cinema is right next to the museum.",
+      "gloss": "el cine está justo al-lado del museo",
+      "lemmas": [
+        "Kino",
+        "Museum",
+        "neben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"neben\" + dativo cuando no hay movimiento."
+    },
+    {
+      "id": "city_travel_p016",
+      "de": "Nach dem Kino gehen wir noch ins Café.",
+      "es": "Después del cine nos vamos a la cafetería.",
+      "en": "After the cinema we'll go to a café.",
+      "gloss": "después del cine vamos nosotros aún al café",
+      "lemmas": [
+        "Kino",
+        "Café",
+        "gehen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"noch\" añade la idea de \"además, después de eso\"."
+    },
+    {
+      "id": "city_travel_p017",
+      "de": "Der Kiosk ist an der nächsten Ecke.",
+      "es": "El quiosco está en la siguiente esquina.",
+      "en": "The kiosk is at the next corner.",
+      "gloss": "el quiosco está en la próxima esquina",
+      "lemmas": [
+        "Ecke",
+        "Kiosk"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p018",
+      "de": "Bieg an der Ecke links ab!",
+      "es": "¡Gira a la izquierda en la esquina!",
+      "en": "Turn left at the corner!",
+      "gloss": "gira en la esquina a-la-izquierda (parte-separable)",
+      "lemmas": [
+        "abbiegen",
+        "Ecke",
+        "links"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "\"abbiegen\" es separable: bieg ... ab."
+    },
+    {
+      "id": "city_travel_p019",
+      "de": "Wir treffen uns vor der Kirche.",
+      "es": "Quedamos delante de la iglesia.",
+      "en": "Let's meet in front of the church.",
+      "gloss": "nosotros encontramos nos delante de-la iglesia",
+      "lemmas": [
+        "treffen",
+        "Kirche"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p020",
+      "de": "Neben der Kirche gibt es ein kleines Café.",
+      "es": "Al lado de la iglesia hay una cafetería pequeña.",
+      "en": "There's a small café next to the church.",
+      "gloss": "al-lado de-la iglesia da ello un pequeño café",
+      "lemmas": [
+        "Kirche",
+        "Café",
+        "geben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p021",
+      "de": "Soll ich was zu trinken mitnehmen?",
+      "es": "¿Llevo algo de beber?",
+      "en": "Should I bring something to drink?",
+      "gloss": "debo yo algo de beber con-llevar",
+      "lemmas": [
+        "sollen",
+        "mitnehmen",
+        "trinken"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"was\" hablado = \"etwas\"."
+    },
+    {
+      "id": "city_travel_p022",
+      "de": "Kannst du mich bis zum Bahnhof mitnehmen?",
+      "es": "¿Me puedes acercar hasta la estación?",
+      "en": "Can you give me a lift to the station?",
+      "gloss": "puedes tú a-mí hasta a-la estación con-llevar",
+      "lemmas": [
+        "können",
+        "mitnehmen",
+        "Bahnhof"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"mitnehmen\" con personas = llevar en coche."
+    },
+    {
+      "id": "city_travel_p023",
+      "de": "Vergiss nicht, den Pass mitzunehmen!",
+      "es": "¡No olvides llevarte el pasaporte!",
+      "en": "Don't forget to take your passport!",
+      "gloss": "olvida no, el pasaporte con-a-llevar",
+      "lemmas": [
+        "vergessen",
+        "mitnehmen",
+        "Pass"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "En verbos separables el \"zu\" va en medio: mitzunehmen."
+    },
+    {
+      "id": "city_travel_p024",
+      "de": "Wann soll ich dich abholen?",
+      "es": "¿A qué hora te recojo?",
+      "en": "When should I pick you up?",
+      "gloss": "cuándo debo yo a-ti recoger",
+      "lemmas": [
+        "abholen",
+        "sollen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p025",
+      "de": "Meine Mutter holt uns vom Flughafen ab.",
+      "es": "Mi madre nos recoge en el aeropuerto.",
+      "en": "My mum is picking us up from the airport.",
+      "gloss": "mi madre recoge a-nosotros del aeropuerto (parte-separable)",
+      "lemmas": [
+        "abholen",
+        "Mutter",
+        "Flughafen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Separable: holt ... ab, con el prefijo al final."
+    },
+    {
+      "id": "city_travel_p026",
+      "de": "Ich hole die Fahrkarten am Schalter ab.",
+      "es": "Recojo los billetes en la ventanilla.",
+      "en": "I'll pick up the tickets at the counter.",
+      "gloss": "yo recojo los billetes en-el mostrador (parte-separable)",
+      "lemmas": [
+        "abholen",
+        "Fahrkarte",
+        "Schalter"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p027",
+      "de": "Hinter der Kirche ist ein großer Park.",
+      "es": "Detrás de la iglesia hay un parque grande.",
+      "en": "There's a big park behind the church.",
+      "gloss": "detrás de-la iglesia está un grande parque",
+      "lemmas": [
+        "Park",
+        "Kirche",
+        "hinter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p028",
+      "de": "Lass uns durch den Park zum Museum laufen.",
+      "es": "Vamos andando al museo por el parque.",
+      "en": "Let's walk to the museum through the park.",
+      "gloss": "deja a-nosotros por el parque a-el museo caminar",
+      "lemmas": [
+        "Park",
+        "Museum",
+        "laufen"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "\"durch\" siempre con acusativo: durch den Park."
+    },
+    {
+      "id": "city_travel_p029",
+      "de": "Sollen wir ein Taxi nehmen?",
+      "es": "¿Cogemos un taxi?",
+      "en": "Shall we take a taxi?",
+      "gloss": "debemos nosotros un taxi tomar",
+      "lemmas": [
+        "sollen",
+        "Taxi",
+        "nehmen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p030",
+      "de": "Ich rufe uns ein Taxi.",
+      "es": "Nos pido un taxi.",
+      "en": "I'll call us a taxi.",
+      "gloss": "yo llamo a-nosotros un taxi",
+      "lemmas": [
+        "rufen",
+        "Taxi"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p031",
+      "de": "Mit dem Taxi sind wir in zehn Minuten da.",
+      "es": "En taxi estamos allí en diez minutos.",
+      "en": "We'll be there in ten minutes by taxi.",
+      "gloss": "con el taxi somos nosotros en diez minutos ahí",
+      "lemmas": [
+        "Taxi",
+        "Minute"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Medios de transporte: \"mit dem\" + dativo."
+    },
+    {
+      "id": "city_travel_p032",
+      "de": "Heute ist viel Verkehr.",
+      "es": "Hoy hay mucho tráfico.",
+      "en": "There's a lot of traffic today.",
+      "gloss": "hoy está mucho tráfico",
+      "lemmas": [
+        "Verkehr",
+        "viel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Verkehr\" no tiene plural."
+    },
+    {
+      "id": "city_travel_p033",
+      "de": "Wegen dem Verkehr komme ich später.",
+      "es": "Por el tráfico llego más tarde.",
+      "en": "I'll be late because of the traffic.",
+      "gloss": "por el tráfico vengo yo más-tarde",
+      "lemmas": [
+        "Verkehr",
+        "kommen",
+        "spät"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Hablando se usa \"wegen dem\"; en escrito formal sería \"wegen des\"."
+    },
+    {
+      "id": "city_travel_p034",
+      "de": "Wohnst du hier in der Nähe?",
+      "es": "¿Vives por aquí cerca?",
+      "en": "Do you live nearby?",
+      "gloss": "vives tú aquí en la cercanía",
+      "lemmas": [
+        "wohnen",
+        "Nähe"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "\"in der Nähe\" es fijo: no se dice \"nah hier\"."
+    },
+    {
+      "id": "city_travel_p035",
+      "de": "Das Hotel ist ganz in der Nähe vom Strand.",
+      "es": "El hotel está muy cerca de la playa.",
+      "en": "The hotel is very close to the beach.",
+      "gloss": "el hotel está muy en la cercanía de-la playa",
+      "lemmas": [
+        "Nähe",
+        "Hotel",
+        "Strand"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p036",
+      "de": "Das ist viel zu gefährlich!",
+      "es": "¡Eso es demasiado peligroso!",
+      "en": "That's way too dangerous!",
+      "gloss": "eso es mucho demasiado peligroso",
+      "lemmas": [
+        "gefährlich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p037",
+      "de": "Ist es da nachts gefährlich?",
+      "es": "¿Es peligroso allí de noche?",
+      "en": "Is it dangerous there at night?",
+      "gloss": "es ello ahí de-noche peligroso",
+      "lemmas": [
+        "gefährlich",
+        "nachts"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p038",
+      "de": "Mit dem Fahrrad ist die Straße gefährlich.",
+      "es": "En bici la calle es peligrosa.",
+      "en": "The street is dangerous on a bike.",
+      "gloss": "con la bicicleta es la calle peligrosa",
+      "lemmas": [
+        "gefährlich",
+        "Fahrrad",
+        "Straße"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p039",
+      "de": "Vom Hotel bis zum Strand sind es fünf Minuten.",
+      "es": "Del hotel a la playa hay cinco minutos.",
+      "en": "It's five minutes from the hotel to the beach.",
+      "gloss": "del hotel hasta a-la playa son ello cinco minutos",
+      "lemmas": [
+        "Strand",
+        "Hotel",
+        "Minute"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p040",
+      "de": "Wir liegen den ganzen Tag am Strand.",
+      "es": "Estamos todo el día en la playa.",
+      "en": "We lie on the beach all day.",
+      "gloss": "nosotros yacemos el entero día en-la playa",
+      "lemmas": [
+        "liegen",
+        "Strand",
+        "Tag"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"am Strand\" (dativo) porque no hay movimiento."
+    },
+    {
+      "id": "city_travel_p041",
+      "de": "Ich bin hier fremd.",
+      "es": "No soy de aquí.",
+      "en": "I'm not from around here.",
+      "gloss": "yo soy aquí extraño",
+      "lemmas": [
+        "fremd"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Frase hecha para decir que no conoces la zona."
+    },
+    {
+      "id": "city_travel_p042",
+      "de": "Sprich nicht mit fremden Leuten!",
+      "es": "¡No hables con desconocidos!",
+      "en": "Don't talk to strangers!",
+      "gloss": "habla no con extraña gente",
+      "lemmas": [
+        "sprechen",
+        "fremd",
+        "Leute"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "Adjetivo en dativo plural: fremden Leuten."
+    },
+    {
+      "id": "city_travel_p043",
+      "de": "In einer fremden Stadt bin ich vorsichtig.",
+      "es": "En una ciudad desconocida voy con cuidado.",
+      "en": "I'm careful in a city I don't know.",
+      "gloss": "en una extraña ciudad soy yo cuidadoso",
+      "lemmas": [
+        "fremd",
+        "Stadt",
+        "vorsichtig"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p044",
+      "de": "Wir treffen uns am Ausgang.",
+      "es": "Nos vemos en la salida.",
+      "en": "Let's meet at the exit.",
+      "gloss": "nosotros encontramos nos en-la salida",
+      "lemmas": [
+        "treffen",
+        "Ausgang"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p045",
+      "de": "Der Ausgang ist auf der anderen Seite.",
+      "es": "La salida está al otro lado.",
+      "en": "The exit is on the other side.",
+      "gloss": "la salida está en el otro lado",
+      "lemmas": [
+        "Ausgang",
+        "Seite"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p046",
+      "de": "Fahr über die Brücke und dann rechts!",
+      "es": "¡Cruza el puente y luego a la derecha!",
+      "en": "Drive over the bridge and then right!",
+      "gloss": "conduce sobre el puente y luego derecha",
+      "lemmas": [
+        "fahren",
+        "Brücke",
+        "rechts"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "\"über\" + acusativo porque hay movimiento."
+    },
+    {
+      "id": "city_travel_p047",
+      "de": "Hinter der Brücke ist der Bahnhof.",
+      "es": "Después del puente está la estación.",
+      "en": "The station is just past the bridge.",
+      "gloss": "detrás de-el puente está la estación",
+      "lemmas": [
+        "Brücke",
+        "Bahnhof"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p048",
+      "de": "Hast du deinen Koffer schon gepackt?",
+      "es": "¿Ya has hecho la maleta?",
+      "en": "Have you packed your suitcase yet?",
+      "gloss": "has tú tu maleta ya empacada",
+      "lemmas": [
+        "Koffer",
+        "packen"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "En alemán se dice \"den Koffer packen\", no \"machen\"."
+    },
+    {
+      "id": "city_travel_p049",
+      "de": "Der Koffer passt nicht ins Auto.",
+      "es": "La maleta no cabe en el coche.",
+      "en": "The suitcase doesn't fit in the car.",
+      "gloss": "la maleta cabe no en-el coche",
+      "lemmas": [
+        "Koffer",
+        "passen",
+        "Auto"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p050",
+      "de": "Der Eingang ist um die Ecke.",
+      "es": "La entrada está a la vuelta de la esquina.",
+      "en": "The entrance is around the corner.",
+      "gloss": "la entrada está alrededor la esquina",
+      "lemmas": [
+        "Eingang",
+        "Ecke"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p051",
+      "de": "Warte am Eingang vom Museum!",
+      "es": "¡Espera en la entrada del museo!",
+      "en": "Wait at the museum entrance!",
+      "gloss": "espera en-la entrada del museo",
+      "lemmas": [
+        "warten",
+        "Eingang",
+        "Museum"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Hablando \"vom Museum\" sustituye a \"des Museums\"."
+    },
+    {
+      "id": "city_travel_p052",
+      "de": "Im Sommer fahren wir auf eine Insel.",
+      "es": "En verano nos vamos a una isla.",
+      "en": "In summer we're going to an island.",
+      "gloss": "en-el verano vamos nosotros sobre una isla",
+      "lemmas": [
+        "Insel",
+        "Sommer",
+        "fahren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con islas se usa \"auf\": auf eine Insel (acusativo)."
+    },
+    {
+      "id": "city_travel_p053",
+      "de": "Auf der Insel gibt es keine Autos.",
+      "es": "En la isla no hay coches.",
+      "en": "There are no cars on the island.",
+      "gloss": "sobre la isla da ello ningún coche",
+      "lemmas": [
+        "Insel",
+        "geben",
+        "Auto"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p054",
+      "de": "Ich warte im Café gegenüber.",
+      "es": "Espero en la cafetería de enfrente.",
+      "en": "I'll wait in the café across the street.",
+      "gloss": "yo espero en-el café enfrente",
+      "lemmas": [
+        "warten",
+        "Café"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p055",
+      "de": "Gibt es hier in der Nähe ein Café?",
+      "es": "¿Hay una cafetería por aquí cerca?",
+      "en": "Is there a café nearby?",
+      "gloss": "da ello aquí en la cercanía un café",
+      "lemmas": [
+        "geben",
+        "Café",
+        "Nähe"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p056",
+      "de": "Wir waren den ganzen Tag unterwegs.",
+      "es": "Estuvimos todo el día fuera.",
+      "en": "We were out all day.",
+      "gloss": "nosotros estábamos el entero día de-camino",
+      "lemmas": [
+        "unterwegs",
+        "Tag"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p057",
+      "de": "Ich ruf dich unterwegs an!",
+      "es": "¡Te llamo de camino!",
+      "en": "I'll call you on the way!",
+      "gloss": "yo llamo a-ti de-camino (parte-separable)",
+      "lemmas": [
+        "anrufen",
+        "unterwegs"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "Hablando se come la -e: \"ich ruf\" en vez de \"ich rufe\"."
+    },
+    {
+      "id": "city_travel_p058",
+      "de": "Wir haben keinen Parkplatz gefunden.",
+      "es": "No hemos encontrado aparcamiento.",
+      "en": "We didn't find a parking space.",
+      "gloss": "nosotros hemos ningún aparcamiento encontrado",
+      "lemmas": [
+        "Parkplatz",
+        "finden"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p059",
+      "de": "Am Strand gibt es einen großen Parkplatz.",
+      "es": "En la playa hay un aparcamiento grande.",
+      "en": "There's a big car park at the beach.",
+      "gloss": "en-la playa da ello un grande aparcamiento",
+      "lemmas": [
+        "Parkplatz",
+        "Strand",
+        "geben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"es gibt\" siempre con acusativo: einen großen Parkplatz."
+    },
+    {
+      "id": "city_travel_p060",
+      "de": "Hast du deinen Pass dabei?",
+      "es": "¿Llevas el pasaporte encima?",
+      "en": "Do you have your passport with you?",
+      "gloss": "tienes tú tu pasaporte contigo",
+      "lemmas": [
+        "Pass",
+        "dabei"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "\"der Pass\" = pasaporte; no lo confundas con \"Pass auf!\" (¡cuidado!)."
+    },
+    {
+      "id": "city_travel_p061",
+      "de": "Ich habe meinen Pass im Hotel vergessen.",
+      "es": "Me he dejado el pasaporte en el hotel.",
+      "en": "I left my passport at the hotel.",
+      "gloss": "yo he mi pasaporte en-el hotel olvidado",
+      "lemmas": [
+        "Pass",
+        "vergessen",
+        "Hotel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"vergessen\" cubre también \"dejarse algo\"."
+    },
+    {
+      "id": "city_travel_p062",
+      "de": "Ohne Pass kommst du nicht ins Ausland.",
+      "es": "Sin pasaporte no puedes ir al extranjero.",
+      "en": "You can't go abroad without a passport.",
+      "gloss": "sin pasaporte vienes tú no en-el extranjero",
+      "lemmas": [
+        "Pass",
+        "Ausland",
+        "kommen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"ohne\" + acusativo y sin artículo: ohne Pass."
+    },
+    {
+      "id": "city_travel_p063",
+      "de": "Es gibt eine gute Verbindung nach Berlin.",
+      "es": "Hay buena conexión a Berlín.",
+      "en": "There's a good connection to Berlin.",
+      "gloss": "da ello una buena conexión hacia Berlín",
+      "lemmas": [
+        "Verbindung",
+        "geben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p064",
+      "de": "Ich habe hier keine Verbindung.",
+      "es": "Aquí no tengo cobertura.",
+      "en": "I have no signal here.",
+      "gloss": "yo tengo aquí ninguna conexión",
+      "lemmas": [
+        "Verbindung",
+        "haben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Para la cobertura del móvil se dice más \"Empfang\"; \"Verbindung\" es la conexión (de trenes y de red)."
+    },
+    {
+      "id": "city_travel_p065",
+      "de": "Das Museum hat montags zu.",
+      "es": "El museo cierra los lunes.",
+      "en": "The museum is closed on Mondays.",
+      "gloss": "el museo tiene los-lunes cerrado",
+      "lemmas": [
+        "Museum",
+        "zuhaben",
+        "Montag"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"zuhaben\" separable; \"montags\" = todos los lunes."
+    },
+    {
+      "id": "city_travel_p066",
+      "de": "Wollen wir ins Museum gehen?",
+      "es": "¿Vamos al museo?",
+      "en": "Shall we go to the museum?",
+      "gloss": "queremos nosotros en-el museo ir",
+      "lemmas": [
+        "wollen",
+        "Museum",
+        "gehen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p067",
+      "de": "Wo kann ich eine Fahrkarte kaufen?",
+      "es": "¿Dónde puedo comprar un billete?",
+      "en": "Where can I buy a ticket?",
+      "gloss": "dónde puedo yo un billete comprar",
+      "lemmas": [
+        "Fahrkarte",
+        "kaufen",
+        "können"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p068",
+      "de": "Ich habe die Fahrkarte online gekauft.",
+      "es": "He comprado el billete por internet.",
+      "en": "I bought the ticket online.",
+      "gloss": "yo he el billete online comprado",
+      "lemmas": [
+        "Fahrkarte",
+        "kaufen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p069",
+      "de": "Meine Schwester arbeitet im Ausland.",
+      "es": "Mi hermana trabaja en el extranjero.",
+      "en": "My sister works abroad.",
+      "gloss": "mi hermana trabaja en-el extranjero",
+      "lemmas": [
+        "Ausland",
+        "Schwester",
+        "arbeiten"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p070",
+      "de": "Im Ausland brauchst du einen Ausweis.",
+      "es": "En el extranjero necesitas un documento de identidad.",
+      "en": "You need an ID abroad.",
+      "gloss": "en-el extranjero necesitas tú un documento",
+      "lemmas": [
+        "Ausland",
+        "Ausweis",
+        "brauchen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p071",
+      "de": "Sei vorsichtig!",
+      "es": "¡Ten cuidado!",
+      "en": "Be careful!",
+      "gloss": "sé cuidadoso",
+      "lemmas": [
+        "vorsichtig",
+        "sein"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p072",
+      "de": "Fahr vorsichtig, ja?",
+      "es": "Conduce con cuidado, ¿vale?",
+      "en": "Drive carefully, okay?",
+      "gloss": "conduce cuidadoso, sí",
+      "lemmas": [
+        "fahren",
+        "vorsichtig"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p073",
+      "de": "Da musst du vorsichtig sein, das ist gefährlich.",
+      "es": "Ahí tienes que ir con cuidado, es peligroso.",
+      "en": "You have to be careful there, it's dangerous.",
+      "gloss": "ahí debes tú cuidadoso ser, eso es peligroso",
+      "lemmas": [
+        "vorsichtig",
+        "müssen",
+        "gefährlich"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p074",
+      "de": "Kann ich bitte Ihren Ausweis sehen?",
+      "es": "¿Puedo ver su documento, por favor?",
+      "en": "Could I see your ID, please?",
+      "gloss": "puedo yo por-favor su documento ver",
+      "lemmas": [
+        "Ausweis",
+        "sehen",
+        "können"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"Ausweis\" = DNI; \"Pass\" = pasaporte."
+    },
+    {
+      "id": "city_travel_p075",
+      "de": "Ich habe meinen Ausweis dabei.",
+      "es": "Llevo el DNI encima.",
+      "en": "I've got my ID with me.",
+      "gloss": "yo tengo mi documento conmigo",
+      "lemmas": [
+        "Ausweis",
+        "dabei"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p076",
+      "de": "Wie war der Ausflug?",
+      "es": "¿Qué tal la excursión?",
+      "en": "How was the day trip?",
+      "gloss": "cómo fue la excursión",
+      "lemmas": [
+        "Ausflug",
+        "sein"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p077",
+      "de": "Am Samstag machen wir einen Ausflug auf die Insel.",
+      "es": "El sábado hacemos una excursión a la isla.",
+      "en": "On Saturday we're taking a trip to the island.",
+      "gloss": "en-el sábado hacemos nosotros una excursión sobre la isla",
+      "lemmas": [
+        "Ausflug",
+        "Insel",
+        "Samstag"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p078",
+      "de": "Ich habe den Zug verpasst.",
+      "es": "He perdido el tren.",
+      "en": "I missed the train.",
+      "gloss": "yo he el tren perdido",
+      "lemmas": [
+        "verpassen",
+        "Zug"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Perder un tren es \"verpassen\", no \"verlieren\"."
+    },
+    {
+      "id": "city_travel_p079",
+      "de": "Beeil dich, sonst verpassen wir den Bus!",
+      "es": "¡Date prisa o perdemos el autobús!",
+      "en": "Hurry up or we'll miss the bus!",
+      "gloss": "apresura te, si-no perdemos nosotros el autobús",
+      "lemmas": [
+        "verpassen",
+        "Bus",
+        "sich beeilen"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_p080",
+      "de": "Du hast nichts verpasst.",
+      "es": "No te has perdido nada.",
+      "en": "You didn't miss anything.",
+      "gloss": "tú has nada perdido",
+      "lemmas": [
+        "verpassen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "También sirve para \"no te perdiste nada interesante\"."
+    },
+    {
+      "id": "city_travel_p081",
+      "de": "Hast du deinen ___ dabei?",
+      "es": "¿Llevas tu ___ encima?",
+      "en": "Do you have your ___ with you?",
+      "gloss": "tienes tú tu ___ contigo",
+      "lemmas": [
+        "Pass",
+        "Ausweis",
+        "Koffer",
+        "haben"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Pass",
+          "es": "pasaporte"
+        },
+        {
+          "de": "Ausweis",
+          "es": "documento de identidad"
+        },
+        {
+          "de": "Schlüssel",
+          "es": "llave"
+        },
+        {
+          "de": "Koffer",
+          "es": "maleta"
+        },
+        {
+          "de": "Rucksack",
+          "es": "mochila"
+        }
+      ],
+      "note": "Todos son masculinos, por eso \"deinen\": deinen Pass, deinen Schlüssel …"
+    },
+    {
+      "id": "city_travel_p082",
+      "de": "Ich habe ___ verpasst.",
+      "es": "He perdido ___.",
+      "en": "I missed ___.",
+      "gloss": "yo he ___ perdido",
+      "lemmas": [
+        "verpassen"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "den Zug",
+          "es": "el tren"
+        },
+        {
+          "de": "den Bus",
+          "es": "el autobús"
+        },
+        {
+          "de": "den Flug",
+          "es": "el vuelo"
+        },
+        {
+          "de": "den Anfang",
+          "es": "el principio"
+        },
+        {
+          "de": "die Haltestelle",
+          "es": "la parada"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_p083",
+      "de": "Gibt es hier in der Nähe ___?",
+      "es": "¿Hay ___ por aquí cerca?",
+      "en": "Is there ___ nearby?",
+      "gloss": "da ello aquí en la cercanía ___",
+      "lemmas": [
+        "Nähe",
+        "geben",
+        "Café",
+        "Museum",
+        "Parkplatz",
+        "Kirche"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ein Café",
+          "es": "una cafetería"
+        },
+        {
+          "de": "ein Museum",
+          "es": "un museo"
+        },
+        {
+          "de": "einen Parkplatz",
+          "es": "un aparcamiento"
+        },
+        {
+          "de": "eine Kirche",
+          "es": "una iglesia"
+        },
+        {
+          "de": "eine Haltestelle",
+          "es": "una parada"
+        }
+      ],
+      "note": "\"es gibt\" pide acusativo: einen Parkplatz."
+    },
+    {
+      "id": "city_travel_p084",
+      "de": "Sollen wir ___ nehmen?",
+      "es": "¿Cogemos ___?",
+      "en": "Shall we take ___?",
+      "gloss": "debemos nosotros ___ tomar",
+      "lemmas": [
+        "sollen",
+        "nehmen",
+        "Taxi"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ein Taxi",
+          "es": "un taxi"
+        },
+        {
+          "de": "den Bus",
+          "es": "el autobús"
+        },
+        {
+          "de": "den Zug",
+          "es": "el tren"
+        },
+        {
+          "de": "das Fahrrad",
+          "es": "la bici"
+        },
+        {
+          "de": "den nächsten Ausgang",
+          "es": "la siguiente salida"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_p085",
+      "de": "Wir machen einen Ausflug ___.",
+      "es": "Hacemos una excursión ___.",
+      "en": "We're going on a trip ___.",
+      "gloss": "nosotros hacemos una excursión ___",
+      "lemmas": [
+        "Ausflug",
+        "machen",
+        "Insel",
+        "Strand",
+        "Park"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "an den Strand",
+          "es": "a la playa"
+        },
+        {
+          "de": "auf die Insel",
+          "es": "a la isla"
+        },
+        {
+          "de": "in die Berge",
+          "es": "a la montaña"
+        },
+        {
+          "de": "in den Park",
+          "es": "al parque"
+        },
+        {
+          "de": "ins Ausland",
+          "es": "al extranjero"
+        }
+      ],
+      "note": "Todos con acusativo porque hay movimiento."
+    },
+    {
+      "id": "city_travel_p086",
+      "de": "Wo ist der nächste ___?",
+      "es": "¿Dónde está el ___ más cercano?",
+      "en": "Where's the nearest ___?",
+      "gloss": "dónde está el más-cercano ___",
+      "lemmas": [
+        "Parkplatz",
+        "Ausgang",
+        "Eingang",
+        "Bahnhof",
+        "Park"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Parkplatz",
+          "es": "aparcamiento"
+        },
+        {
+          "de": "Ausgang",
+          "es": "salida"
+        },
+        {
+          "de": "Eingang",
+          "es": "entrada"
+        },
+        {
+          "de": "Bahnhof",
+          "es": "estación"
+        },
+        {
+          "de": "Park",
+          "es": "parque"
+        }
+      ],
+      "note": "Solo para palabras con \"der\"; con \"die\" se dice \"die nächste\"."
+    },
+    {
+      "id": "city_travel_p087",
+      "de": "Kannst du mich ___ abholen?",
+      "es": "¿Me puedes recoger ___?",
+      "en": "Can you pick me up ___?",
+      "gloss": "puedes tú a-mí ___ recoger",
+      "lemmas": [
+        "abholen",
+        "können"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "am Bahnhof",
+          "es": "en la estación"
+        },
+        {
+          "de": "vom Flughafen",
+          "es": "del aeropuerto"
+        },
+        {
+          "de": "an der Ecke",
+          "es": "en la esquina"
+        },
+        {
+          "de": "vor der Kirche",
+          "es": "delante de la iglesia"
+        },
+        {
+          "de": "um acht",
+          "es": "a las ocho"
+        }
+      ],
+      "note": "Separable: kannst ... abholen, todo junto al final."
+    },
+    {
+      "id": "city_travel_p088",
+      "de": "Sei vorsichtig, ___ ist gefährlich!",
+      "es": "¡Ten cuidado, ___ es peligroso!",
+      "en": "Be careful, ___ is dangerous!",
+      "gloss": "sé cuidadoso, ___ es peligroso",
+      "lemmas": [
+        "vorsichtig",
+        "gefährlich"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Straße",
+          "es": "la calle"
+        },
+        {
+          "de": "die Brücke",
+          "es": "el puente"
+        },
+        {
+          "de": "der Verkehr",
+          "es": "el tráfico"
+        },
+        {
+          "de": "das Wasser",
+          "es": "el agua"
+        },
+        {
+          "de": "die Ecke da",
+          "es": "esa esquina"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "city_travel_q001",
+      "de": "Wir treffen uns an der Brücke.",
+      "es": "Quedamos en el puente.",
+      "en": "Let's meet at the bridge.",
+      "gloss": "nosotros encontramos nos en el-dat puente",
+      "lemmas": [
+        "treffen",
+        "Brücke"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"an der\" (dativo) porque es un sitio donde estás, no un movimiento."
+    },
+    {
+      "id": "city_travel_q002",
+      "de": "Kurz vor der Brücke ist eine Ampel.",
+      "es": "Justo antes del puente hay un semáforo.",
+      "en": "There's a traffic light just before the bridge.",
+      "gloss": "poco antes-de el-dat puente está un semáforo",
+      "lemmas": [
+        "Brücke",
+        "Ampel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"kurz vor\" = justo antes de."
+    },
+    {
+      "id": "city_travel_q003",
+      "de": "Mach mal den Motor aus!",
+      "es": "¡Apaga el motor!",
+      "en": "Turn the engine off!",
+      "gloss": "haz una-vez el-ac motor fuera",
+      "lemmas": [
+        "ausmachen",
+        "Motor",
+        "machen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"ausmachen\" se parte: mach ... aus."
+    },
+    {
+      "id": "city_travel_q004",
+      "de": "Der Motor geht nicht an.",
+      "es": "El motor no arranca.",
+      "en": "The engine won't start.",
+      "gloss": "el motor va no en-marcha",
+      "lemmas": [
+        "Motor",
+        "gehen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"angehen\" = encenderse, arrancar; también se parte."
+    },
+    {
+      "id": "city_travel_q005",
+      "de": "Der Motor ist viel zu laut.",
+      "es": "El motor hace demasiado ruido.",
+      "en": "The engine is way too loud.",
+      "gloss": "el motor está mucho demasiado ruidoso",
+      "lemmas": [
+        "Motor",
+        "laut"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"viel zu\" = demasiado, más de la cuenta."
+    },
+    {
+      "id": "city_travel_q006",
+      "de": "Nimm bitte einen Helm mit!",
+      "es": "¡Llévate un casco, por favor!",
+      "en": "Take a helmet with you, please!",
+      "gloss": "toma por-favor un-ac casco con",
+      "lemmas": [
+        "mitnehmen",
+        "Helm"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"mitnehmen\" se parte: nimm ... mit."
+    },
+    {
+      "id": "city_travel_q007",
+      "de": "Ich nehm dich gern ein Stück mit.",
+      "es": "Te acerco un trecho, encantado.",
+      "en": "I'll happily give you a lift part of the way.",
+      "gloss": "yo tomo te con-gusto un trozo con",
+      "lemmas": [
+        "mitnehmen",
+        "gern"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"ein Stück\" aquí = un tramo del camino."
+    },
+    {
+      "id": "city_travel_q008",
+      "de": "Nimm die Kinder einfach mit!",
+      "es": "¡Llévate a los niños y ya está!",
+      "en": "Just bring the kids along!",
+      "gloss": "toma los-ac niños simplemente con",
+      "lemmas": [
+        "mitnehmen",
+        "Kind"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"einfach\" aquí = sin darle más vueltas."
+    },
+    {
+      "id": "city_travel_q009",
+      "de": "Ich such noch einen Parkplatz.",
+      "es": "Todavía estoy buscando aparcamiento.",
+      "en": "I'm still looking for a parking space.",
+      "gloss": "yo busco todavía un-ac aparcamiento",
+      "lemmas": [
+        "suchen",
+        "Parkplatz"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "En hablado se dice \"ich such\" sin la -e final."
+    },
+    {
+      "id": "city_travel_q010",
+      "de": "Wir stehen ganz hinten auf dem Parkplatz.",
+      "es": "Estamos al fondo del aparcamiento.",
+      "en": "We're parked right at the back of the car park.",
+      "gloss": "nosotros estamos del-todo atrás en el-dat aparcamiento",
+      "lemmas": [
+        "stehen",
+        "Parkplatz"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Para algo aparcado se usa \"stehen\", no \"sein\"."
+    },
+    {
+      "id": "city_travel_q011",
+      "de": "Der Parkplatz kostet drei Euro die Stunde.",
+      "es": "El aparcamiento cuesta tres euros la hora.",
+      "en": "The car park costs three euros an hour.",
+      "gloss": "el aparcamiento cuesta tres euros la-ac hora",
+      "lemmas": [
+        "Parkplatz",
+        "kosten",
+        "Stunde"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"die Stunde\" en acusativo = a la hora; también vale \"pro Stunde\"."
+    },
+    {
+      "id": "city_travel_q012",
+      "de": "Ohne Helm ist das gefährlich.",
+      "es": "Sin casco eso es peligroso.",
+      "en": "That's dangerous without a helmet.",
+      "gloss": "sin casco es eso peligroso",
+      "lemmas": [
+        "gefährlich",
+        "Helm"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"ohne\" va aquí sin artículo, igual que en español."
+    },
+    {
+      "id": "city_travel_q013",
+      "de": "Die Kreuzung da ist echt gefährlich.",
+      "es": "Ese cruce es muy peligroso.",
+      "en": "That junction is really dangerous.",
+      "gloss": "el cruce ahí es de-verdad peligroso",
+      "lemmas": [
+        "Kreuzung",
+        "gefährlich"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"da\" detrás del nombre = ese de ahí."
+    },
+    {
+      "id": "city_travel_q014",
+      "de": "Fahr langsam, das ist hier gefährlich.",
+      "es": "Conduce despacio, aquí es peligroso.",
+      "en": "Drive slowly, it's dangerous here.",
+      "gloss": "conduce despacio eso es aquí peligroso",
+      "lemmas": [
+        "fahren",
+        "langsam",
+        "gefährlich"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "city_travel_q015",
+      "de": "Ich hol dich an der Haltestelle ab.",
+      "es": "Te recojo en la parada.",
+      "en": "I'll pick you up at the stop.",
+      "gloss": "yo recojo te en la-dat parada (ab)",
+      "lemmas": [
+        "abholen",
+        "Haltestelle"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"abholen\" se parte: hol ... ab."
+    },
+    {
+      "id": "city_travel_q016",
+      "de": "Holst du das Paket noch ab?",
+      "es": "¿Todavía vas a recoger el paquete?",
+      "en": "Are you still picking up the parcel?",
+      "gloss": "recoges tú el paquete todavía (ab)",
+      "lemmas": [
+        "abholen",
+        "Paket"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "\"noch\" aquí = todavía, antes de que se acabe el día."
+    },
+    {
+      "id": "city_travel_q017",
+      "de": "Kannst du die Kinder von der Schule abholen?",
+      "es": "¿Puedes recoger a los niños del colegio?",
+      "en": "Can you pick the kids up from school?",
+      "gloss": "puedes tú los niños de la-dat escuela recoger",
+      "lemmas": [
+        "abholen",
+        "Kind",
+        "Schule"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Con un modal el verbo va entero al final y no se parte."
+    },
+    {
+      "id": "city_travel_q018",
+      "de": "Der Reifen ist platt.",
+      "es": "La rueda está pinchada.",
+      "en": "The tyre is flat.",
+      "gloss": "el neumático está plano",
+      "lemmas": [
+        "Reifen",
+        "platt"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "\"platt\" es la palabra normal para una rueda desinflada."
+    },
+    {
+      "id": "city_travel_q019",
+      "de": "Ich muss noch Luft in die Reifen machen.",
+      "es": "Todavía tengo que inflar las ruedas.",
+      "en": "I still need to put air in the tyres.",
+      "gloss": "yo debo todavía aire en los-ac neumáticos hacer",
+      "lemmas": [
+        "Reifen",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"Luft machen\" es lo que se dice en el día a día para inflar."
+    },
+    {
+      "id": "city_travel_q020",
+      "de": "Die Reifen sind ziemlich alt.",
+      "es": "Las ruedas están bastante viejas.",
+      "en": "The tyres are pretty old.",
+      "gloss": "los neumáticos están bastante viejos",
+      "lemmas": [
+        "Reifen",
+        "alt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Reifen\" no cambia en plural: der Reifen, die Reifen."
+    },
+    {
+      "id": "city_travel_q021",
+      "de": "An der nächsten Kreuzung links.",
+      "es": "En el siguiente cruce, a la izquierda.",
+      "en": "Left at the next junction.",
+      "gloss": "en el-dat próximo cruce izquierda",
+      "lemmas": [
+        "Kreuzung",
+        "links"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Dando indicaciones se deja el verbo fuera."
+    },
+    {
+      "id": "city_travel_q022",
+      "de": "Bis zur ___ sind es zehn Minuten.",
+      "es": "Hasta ___ hay diez minutos.",
+      "en": "It's ten minutes to the ___.",
+      "gloss": "hasta a-la ___ son ello diez minutos",
+      "lemmas": [
+        "Kreuzung",
+        "Brücke",
+        "Haltestelle",
+        "Tankstelle"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Kreuzung",
+          "es": "el cruce"
+        },
+        {
+          "de": "Brücke",
+          "es": "el puente"
+        },
+        {
+          "de": "Haltestelle",
+          "es": "la parada"
+        },
+        {
+          "de": "Tankstelle",
+          "es": "la gasolinera"
+        }
+      ],
+      "note": "\"bis zur\" para palabras con die."
+    },
+    {
+      "id": "city_travel_q023",
+      "de": "Die Ampel ist gerade rot.",
+      "es": "El semáforo está ahora en rojo.",
+      "en": "The light is red right now.",
+      "gloss": "el semáforo está ahora-mismo rojo",
+      "lemmas": [
+        "Ampel",
+        "rot"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "\"gerade\" = justo ahora."
+    },
+    {
+      "id": "city_travel_q024",
+      "de": "Warte, bis die Ampel grün wird.",
+      "es": "Espera hasta que el semáforo se ponga verde.",
+      "en": "Wait until the light turns green.",
+      "gloss": "espera hasta-que el semáforo verde se-pone",
+      "lemmas": [
+        "warten",
+        "Ampel",
+        "grün",
+        "werden"
+      ],
+      "level": 4,
+      "type": "phrase",
+      "note": "\"bis\" manda el verbo al final de la frase."
+    },
+    {
+      "id": "city_travel_q025",
+      "de": "Gleich nach der Ampel ist die Tankstelle.",
+      "es": "Justo después del semáforo está la gasolinera.",
+      "en": "The petrol station is right after the traffic light.",
+      "gloss": "enseguida después-de el-dat semáforo está la gasolinera",
+      "lemmas": [
+        "Ampel",
+        "Tankstelle"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"nach\" de lugar pide dativo: der Ampel."
+    },
+    {
+      "id": "city_travel_q026",
+      "de": "Im Tunnel hab ich kein Netz.",
+      "es": "En el túnel no tengo cobertura.",
+      "en": "I have no signal in the tunnel.",
+      "gloss": "en-el túnel tengo yo ninguna cobertura",
+      "lemmas": [
+        "Tunnel",
+        "haben"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"kein Netz\" = sin cobertura en el móvil."
+    },
+    {
+      "id": "city_travel_q027",
+      "de": "Nach dem Tunnel musst du rechts.",
+      "es": "Después del túnel tienes que ir a la derecha.",
+      "en": "After the tunnel you need to go right.",
+      "gloss": "después-de el-dat túnel debes tú derecha",
+      "lemmas": [
+        "Tunnel",
+        "müssen",
+        "rechts"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Si la dirección está clara, se deja \"fahren\" fuera."
+    },
+    {
+      "id": "city_travel_q028",
+      "de": "Der Tunnel ist gesperrt.",
+      "es": "El túnel está cortado.",
+      "en": "The tunnel is closed.",
+      "gloss": "el túnel está cerrado",
+      "lemmas": [
+        "Tunnel",
+        "sperren"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"gesperrt\" = cortado al tráfico."
+    },
+    {
+      "id": "city_travel_q029",
+      "de": "Wir müssen noch zwei Haltestellen weiter.",
+      "es": "Nos quedan dos paradas más.",
+      "en": "We have two more stops to go.",
+      "gloss": "nosotros debemos todavía dos paradas más-allá",
+      "lemmas": [
+        "Haltestelle",
+        "müssen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con \"weiter\" no hace falta repetir \"fahren\"."
+    },
+    {
+      "id": "city_travel_q030",
+      "de": "An welcher Haltestelle steigst du aus?",
+      "es": "¿En qué parada te bajas?",
+      "en": "Which stop do you get off at?",
+      "gloss": "en cuál-dat parada bajas tú fuera",
+      "lemmas": [
+        "Haltestelle",
+        "aussteigen"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "\"aussteigen\" = bajarse de un vehículo; se parte."
+    },
+    {
+      "id": "city_travel_q031",
+      "de": "Wir halten kurz an der Tankstelle.",
+      "es": "Paramos un momento en la gasolinera.",
+      "en": "We'll stop at the petrol station for a moment.",
+      "gloss": "nosotros paramos brevemente en la-dat gasolinera",
+      "lemmas": [
+        "halten",
+        "Tankstelle"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_q032",
+      "de": "An der Tankstelle gibt's auch Kaffee.",
+      "es": "En la gasolinera también hay café.",
+      "en": "They've got coffee at the petrol station too.",
+      "gloss": "en la-dat gasolinera hay también café",
+      "lemmas": [
+        "Tankstelle",
+        "geben",
+        "Kaffee"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"gibt's\" es \"gibt es\" al hablar."
+    },
+    {
+      "id": "city_travel_q033",
+      "de": "Der Zug fährt heute von Gleis drei.",
+      "es": "Hoy el tren sale por la vía tres.",
+      "en": "The train leaves from platform three today.",
+      "gloss": "el tren va hoy desde vía tres",
+      "lemmas": [
+        "Gleis",
+        "Zug",
+        "fahren"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Salidas: \"von Gleis 3\". Para llegadas se dice \"auf Gleis 3\"."
+    },
+    {
+      "id": "city_travel_q034",
+      "de": "Von welchem Gleis fährt der Zug nach Köln?",
+      "es": "¿De qué vía sale el tren a Colonia?",
+      "en": "Which platform does the train to Cologne leave from?",
+      "gloss": "desde cuál-dat vía va el tren hacia Colonia",
+      "lemmas": [
+        "Gleis",
+        "Zug",
+        "fahren"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "\"von\" pide dativo: welchem Gleis."
+    },
+    {
+      "id": "city_travel_q035",
+      "de": "Wir stehen schon am Gleis.",
+      "es": "Ya estamos en el andén.",
+      "en": "We're already on the platform.",
+      "gloss": "nosotros estamos ya en-el andén",
+      "lemmas": [
+        "Gleis",
+        "stehen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"am\" es \"an dem\"."
+    },
+    {
+      "id": "city_travel_q036",
+      "de": "Setz den Helm auf!",
+      "es": "¡Ponte el casco!",
+      "en": "Put your helmet on!",
+      "gloss": "pon el-ac casco encima",
+      "lemmas": [
+        "Helm",
+        "aufsetzen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Gorros y cascos van con \"aufsetzen\", no con \"anziehen\"."
+    },
+    {
+      "id": "city_travel_q037",
+      "de": "Ich muss noch meine Sachen packen.",
+      "es": "Todavía tengo que hacer la maleta.",
+      "en": "I still have to pack my things.",
+      "gloss": "yo debo todavía mis cosas empaquetar",
+      "lemmas": [
+        "packen",
+        "müssen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_q038",
+      "de": "Hast du alles in den Kofferraum gepackt?",
+      "es": "¿Lo has metido todo en el maletero?",
+      "en": "Did you put everything in the boot?",
+      "gloss": "has tú todo en el-ac maletero empaquetado",
+      "lemmas": [
+        "packen",
+        "Kofferraum"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Movimiento hacia dentro → \"in den\" (acusativo)."
+    },
+    {
+      "id": "city_travel_q039",
+      "de": "Er hat mich am Arm gepackt.",
+      "es": "Me agarró del brazo.",
+      "en": "He grabbed me by the arm.",
+      "gloss": "él ha me en-el brazo agarrado",
+      "lemmas": [
+        "packen",
+        "Arm"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"packen\" también significa agarrar fuerte."
+    },
+    {
+      "id": "city_travel_q040",
+      "de": "Die Bremse geht nicht richtig.",
+      "es": "El freno no va bien.",
+      "en": "The brake isn't working properly.",
+      "gloss": "el freno va no correctamente",
+      "lemmas": [
+        "Bremse",
+        "gehen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"geht nicht\" = no funciona."
+    },
+    {
+      "id": "city_travel_q041",
+      "de": "Tritt auf die Bremse!",
+      "es": "¡Pisa el freno!",
+      "en": "Hit the brakes!",
+      "gloss": "pisa sobre el-ac freno",
+      "lemmas": [
+        "Bremse",
+        "treten"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Se dice \"auf die Bremse treten\", con acusativo."
+    },
+    {
+      "id": "city_travel_q042",
+      "de": "Die Bremse am Fahrrad ist kaputt.",
+      "es": "El freno de la bici está roto.",
+      "en": "The brake on the bike is broken.",
+      "gloss": "el freno en-la bicicleta está roto",
+      "lemmas": [
+        "Bremse",
+        "Fahrrad"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con \"am\" sitúas la pieza en el vehículo; hablando también se oye \"vom Fahrrad\"."
+    },
+    {
+      "id": "city_travel_q043",
+      "de": "Wir haben einen Anhänger dabei.",
+      "es": "Llevamos un remolque.",
+      "en": "We've got a trailer with us.",
+      "gloss": "nosotros tenemos un-ac remolque con-nosotros",
+      "lemmas": [
+        "Anhänger",
+        "haben"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"dabei haben\" = llevar consigo."
+    },
+    {
+      "id": "city_travel_q044",
+      "de": "Mit dem Anhänger fährst du langsamer.",
+      "es": "Con el remolque vas más despacio.",
+      "en": "You drive slower with the trailer.",
+      "gloss": "con el-dat remolque vas tú más-despacio",
+      "lemmas": [
+        "Anhänger",
+        "fahren",
+        "langsam"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"mit\" siempre con dativo: dem Anhänger."
+    },
+    {
+      "id": "city_travel_q045",
+      "de": "Das passt alles in den Anhänger.",
+      "es": "Todo eso cabe en el remolque.",
+      "en": "That all fits in the trailer.",
+      "gloss": "eso cabe todo en el-ac remolque",
+      "lemmas": [
+        "Anhänger",
+        "passen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"passen\" aquí = caber."
+    },
+    {
+      "id": "city_travel_q046",
+      "de": "Sei bitte pünktlich!",
+      "es": "¡Sé puntual, por favor!",
+      "en": "Please be on time!",
+      "gloss": "sé por-favor puntual",
+      "lemmas": [
+        "pünktlich",
+        "sein"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"sei\" es el imperativo irregular de \"sein\"."
+    },
+    {
+      "id": "city_travel_q047",
+      "de": "Der Zug war heute sogar pünktlich.",
+      "es": "Hoy el tren hasta llegó puntual.",
+      "en": "The train was even on time today.",
+      "gloss": "el tren estuvo hoy incluso puntual",
+      "lemmas": [
+        "pünktlich",
+        "Zug"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"sogar\" = incluso, contra lo esperado."
+    },
+    {
+      "id": "city_travel_q048",
+      "de": "Wir sind pünktlich angekommen.",
+      "es": "Llegamos puntuales.",
+      "en": "We arrived on time.",
+      "gloss": "nosotros somos puntualmente llegados",
+      "lemmas": [
+        "pünktlich",
+        "ankommen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Los verbos de movimiento hacen el pasado con \"sein\"."
+    },
+    {
+      "id": "city_travel_q049",
+      "de": "Stell das Fahrrad nicht auf den Gehweg.",
+      "es": "No pongas la bici en la acera.",
+      "en": "Don't put the bike on the pavement.",
+      "gloss": "pon la bicicleta no sobre la-ac acera",
+      "lemmas": [
+        "Gehweg",
+        "Fahrrad"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "Movimiento hacia un sitio → \"auf den\" (acusativo)."
+    },
+    {
+      "id": "city_travel_q050",
+      "de": "Geh lieber auf dem Gehweg!",
+      "es": "Mejor ve por la acera.",
+      "en": "Better walk on the pavement!",
+      "gloss": "ve mejor sobre la-dat acera",
+      "lemmas": [
+        "Gehweg",
+        "gehen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Aquí no vas hacia la acera, ya estás en ella: dativo."
+    },
+    {
+      "id": "city_travel_q051",
+      "de": "Auf dem Gehweg darf man nicht Fahrrad fahren.",
+      "es": "En la acera no se puede ir en bici.",
+      "en": "You're not allowed to cycle on the pavement.",
+      "gloss": "sobre la-dat acera puede uno no bicicleta conducir",
+      "lemmas": [
+        "Gehweg",
+        "dürfen",
+        "Fahrrad",
+        "fahren"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"man\" = uno, la gente en general."
+    },
+    {
+      "id": "city_travel_q052",
+      "de": "Der Kofferraum ist schon voll.",
+      "es": "El maletero ya está lleno.",
+      "en": "The boot is already full.",
+      "gloss": "el maletero está ya lleno",
+      "lemmas": [
+        "Kofferraum",
+        "voll"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_q053",
+      "de": "Mach mal den Kofferraum auf!",
+      "es": "¡Abre el maletero!",
+      "en": "Open the boot!",
+      "gloss": "haz una-vez el-ac maletero abierto",
+      "lemmas": [
+        "aufmachen",
+        "Kofferraum",
+        "machen"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"aufmachen\" se parte: mach ... auf."
+    },
+    {
+      "id": "city_travel_q054",
+      "de": "Das Auto steht neben der Laterne.",
+      "es": "El coche está al lado de la farola.",
+      "en": "The car is parked next to the streetlight.",
+      "gloss": "el coche está junto-a la-dat farola",
+      "lemmas": [
+        "Laterne",
+        "Auto",
+        "stehen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"neben\" con dativo cuando solo dices dónde está algo."
+    },
+    {
+      "id": "city_travel_q055",
+      "de": "Die Laterne vor unserem Haus ist kaputt.",
+      "es": "La farola de delante de nuestra casa está rota.",
+      "en": "The streetlight in front of our house is broken.",
+      "gloss": "la farola delante-de nuestra-dat casa está rota",
+      "lemmas": [
+        "Laterne",
+        "Haus"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_q056",
+      "de": "Warte an der Laterne, ich komm gleich.",
+      "es": "Espera junto a la farola, ahora voy.",
+      "en": "Wait by the streetlight, I'm coming.",
+      "gloss": "espera en la-dat farola yo vengo enseguida",
+      "lemmas": [
+        "Laterne",
+        "warten",
+        "kommen"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": "\"ich komm\" sin -e es lo normal hablando."
+    },
+    {
+      "id": "city_travel_q057",
+      "de": "Der ___ ist kaputt.",
+      "es": "El ___ está roto.",
+      "en": "The ___ is broken.",
+      "gloss": "el ___ está estropeado",
+      "lemmas": [
+        "Motor",
+        "Reifen",
+        "Anhänger",
+        "Kofferraum"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Motor",
+          "es": "motor"
+        },
+        {
+          "de": "Reifen",
+          "es": "neumático"
+        },
+        {
+          "de": "Anhänger",
+          "es": "remolque"
+        },
+        {
+          "de": "Kofferraum",
+          "es": "maletero"
+        }
+      ],
+      "note": "Todas estas palabras llevan der."
+    },
+    {
+      "id": "city_travel_q058",
+      "de": "Wo ist hier die nächste ___?",
+      "es": "¿Dónde está la ___ más cercana?",
+      "en": "Where's the nearest ___ around here?",
+      "gloss": "dónde está aquí la próxima ___",
+      "lemmas": [
+        "Tankstelle",
+        "Haltestelle",
+        "Apotheke",
+        "U-Bahn-Station"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Tankstelle",
+          "es": "gasolinera"
+        },
+        {
+          "de": "Haltestelle",
+          "es": "parada"
+        },
+        {
+          "de": "Apotheke",
+          "es": "farmacia"
+        },
+        {
+          "de": "U-Bahn-Station",
+          "es": "estación de metro"
+        }
+      ],
+      "note": "\"die nächste\" para palabras con die; en español, \"la ___ más cercana\"."
+    },
+    {
+      "id": "city_travel_r001",
+      "de": "Ich wohne in einem kleinen Dorf.",
+      "es": "Vivo en un pueblo pequeño.",
+      "en": "I live in a small village.",
+      "gloss": "yo vivo en un pequeño pueblo",
+      "lemmas": [
+        "wohnen",
+        "Dorf",
+        "klein"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Tras \"in einem\" el adjetivo lleva -en: \"kleinen\"."
+    },
+    {
+      "id": "city_travel_r002",
+      "de": "Mein Dorf hat nur einen Supermarkt.",
+      "es": "Mi pueblo solo tiene un supermercado.",
+      "en": "My village only has one supermarket.",
+      "gloss": "mi pueblo tiene solo un supermercado",
+      "lemmas": [
+        "Dorf",
+        "Supermarkt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "city_travel_r003",
+      "de": "Wohnst du in der Stadt oder in einem Dorf?",
+      "es": "¿Vives en la ciudad o en un pueblo?",
+      "en": "Do you live in the city or in a village?",
+      "gloss": "vives tú en la ciudad o en un pueblo",
+      "lemmas": [
+        "wohnen",
+        "Stadt",
+        "Dorf"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"in der Stadt\" (die) y \"in einem Dorf\" (das): dativo de lugar."
+    },
+    {
+      "id": "city_travel_r004",
+      "de": "Im Dorf ist es viel ruhiger als in der Stadt.",
+      "es": "En el pueblo se está mucho más tranquilo que en la ciudad.",
+      "en": "It's much quieter in the village than in the city.",
+      "gloss": "en-el pueblo es ello mucho más-tranquilo que en la ciudad",
+      "lemmas": [
+        "Dorf",
+        "ruhig",
+        "Stadt"
+      ],
+      "level": 4,
+      "type": "answer",
+      "note": "Comparativo: adjetivo + -er y luego \"als\" para \"que\"."
+    },
+    {
+      "id": "city_travel_r005",
+      "de": "Im Dorf gibt es keine ___.",
+      "es": "En el pueblo no hay ___.",
+      "en": "There's no ___ in the village.",
+      "gloss": "en-el pueblo da ello ninguna ___",
+      "lemmas": [
+        "Dorf",
+        "Apotheke",
+        "Bank",
+        "Schule",
+        "Bäckerei"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Apotheke",
+          "es": "farmacia"
+        },
+        {
+          "de": "Bank",
+          "es": "banco"
+        },
+        {
+          "de": "Schule",
+          "es": "escuela"
+        },
+        {
+          "de": "Bäckerei",
+          "es": "panadería"
+        }
+      ],
+      "note": "\"keine\" va con femeninos y plurales; con masculino sería \"keinen\" y con neutro \"kein\"."
+    },
+    {
+      "id": "city_travel_r006",
+      "de": "Als Kind habe ich in einem Dorf gelebt.",
+      "es": "De niño viví en un pueblo.",
+      "en": "As a child I lived in a village.",
+      "gloss": "como niño he yo en un pueblo vivido",
+      "lemmas": [
+        "Kind",
+        "leben",
+        "Dorf"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "El participio \"gelebt\" cierra la frase."
+    },
+    {
+      "id": "city_travel_r007",
+      "de": "Wie weit ist es bis ins Zentrum?",
+      "es": "¿A qué distancia está el centro?",
+      "en": "How far is it to the city centre?",
+      "gloss": "qué lejos es ello hasta a-el centro",
+      "lemmas": [
+        "Zentrum"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"bis ins\" indica movimiento hacia dentro del centro."
+    },
+    {
+      "id": "city_travel_r008",
+      "de": "Wir treffen uns um sieben im Zentrum.",
+      "es": "Quedamos a las siete en el centro.",
+      "en": "We're meeting at seven in the city centre.",
+      "gloss": "nosotros encontramos nos a las siete en-el centro",
+      "lemmas": [
+        "treffen",
+        "Zentrum"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"sich treffen\" exige el pronombre: \"wir treffen uns\"."
+    },
+    {
+      "id": "city_travel_r009",
+      "de": "Im Zentrum ist am Wochenende immer viel los.",
+      "es": "En el centro siempre hay mucho ambiente el fin de semana.",
+      "en": "There's always a lot going on in the centre at the weekend.",
+      "gloss": "en-el centro es en-el fin-de-semana siempre mucho suelto",
+      "lemmas": [
+        "Zentrum",
+        "Wochenende"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"viel los sein\" = haber mucho ambiente, no se traduce palabra por palabra."
+    },
+    {
+      "id": "city_travel_r010",
+      "de": "Fährt dieser Bus ins Zentrum?",
+      "es": "¿Este autobús va al centro?",
+      "en": "Does this bus go to the city centre?",
+      "gloss": "va este bus a-el centro",
+      "lemmas": [
+        "fahren",
+        "Bus",
+        "Zentrum"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"ins Zentrum\" (acusativo) porque hay movimiento hacia allí."
+    },
+    {
+      "id": "city_travel_r011",
+      "de": "Im Zentrum gibt es viele ___.",
+      "es": "En el centro hay un montón de ___.",
+      "en": "There are lots of ___ in the city centre.",
+      "gloss": "en-el centro da ello muchos ___",
+      "lemmas": [
+        "Zentrum",
+        "Geschäft",
+        "Restaurant",
+        "Café",
+        "Museum",
+        "Leute"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Geschäfte",
+          "es": "tiendas"
+        },
+        {
+          "de": "Restaurants",
+          "es": "restaurantes"
+        },
+        {
+          "de": "Cafés",
+          "es": "cafeterías"
+        },
+        {
+          "de": "Museen",
+          "es": "museos"
+        },
+        {
+          "de": "Leute",
+          "es": "gente"
+        }
+      ],
+      "note": "Con \"es gibt\" el objeto va en acusativo, en plural sin cambio."
+    },
+    {
+      "id": "city_travel_r012",
+      "de": "Wo kann ich hier parken?",
+      "es": "¿Dónde puedo aparcar aquí?",
+      "en": "Where can I park around here?",
+      "gloss": "dónde puedo yo aquí aparcar",
+      "lemmas": [
+        "parken",
+        "können"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "city_travel_r013",
+      "de": "Ich parke immer in der Nähe vom Bahnhof.",
+      "es": "Siempre aparco cerca de la estación.",
+      "en": "I always park near the station.",
+      "gloss": "yo aparco siempre en la cercanía de-el estación",
+      "lemmas": [
+        "parken",
+        "Nähe",
+        "Bahnhof"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"vom\" es la fusión de \"von dem\"."
+    },
+    {
+      "id": "city_travel_r014",
+      "de": "Ich habe das Auto vor dem Hotel geparkt.",
+      "es": "He aparcado el coche delante del hotel.",
+      "en": "I parked the car in front of the hotel.",
+      "gloss": "yo he el coche delante de-el hotel aparcado",
+      "lemmas": [
+        "parken",
+        "Auto",
+        "Hotel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "El participio es \"geparkt\" y \"vor dem\" va en dativo porque no hay movimiento."
+    },
+    {
+      "id": "city_travel_r015",
+      "de": "Kann man hier ___ parken?",
+      "es": "¿Se puede aparcar aquí ___?",
+      "en": "Can you park here ___?",
+      "gloss": "puede uno aquí ___ aparcar",
+      "lemmas": [
+        "parken",
+        "können",
+        "kostenlos",
+        "Stunde",
+        "Nacht",
+        "Wochenende"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "kostenlos",
+          "es": "gratis"
+        },
+        {
+          "de": "eine Stunde",
+          "es": "una hora"
+        },
+        {
+          "de": "über Nacht",
+          "es": "toda la noche"
+        },
+        {
+          "de": "am Wochenende",
+          "es": "el fin de semana"
+        }
+      ],
+      "note": "\"man\" es impersonal: \"se puede\", no habla de una persona concreta."
+    },
+    {
+      "id": "city_travel_r016",
+      "de": "Parken kostet hier zwei Euro pro Stunde.",
+      "es": "Aparcar aquí cuesta dos euros por hora.",
+      "en": "Parking here costs two euros an hour.",
+      "gloss": "aparcar cuesta aquí dos euros por hora",
+      "lemmas": [
+        "parken",
+        "kosten",
+        "Euro",
+        "Stunde"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "El infinitivo \"Parken\" funciona como sujeto y se escribe con mayúscula."
+    },
+    {
+      "id": "city_travel_r017",
+      "de": "Im Zentrum darf man nur eine Stunde parken.",
+      "es": "En el centro solo se puede aparcar una hora.",
+      "en": "In the city centre you can only park for one hour.",
+      "gloss": "en-el centro puede uno solo una hora aparcar",
+      "lemmas": [
+        "Zentrum",
+        "parken",
+        "dürfen",
+        "Stunde"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"dürfen\" es permiso y manda el infinitivo al final."
+    }
+  ]
+}

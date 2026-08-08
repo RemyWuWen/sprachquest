@@ -1,0 +1,11 @@
+# Generated — rebuild with `node build.js`
+# (chunks.js IS committed: GitHub Pages serves static files only.)
+node_modules/
+.DS_Store
+*.log
+
+# Never commit a key. The game reads it from the browser's localStorage,
+# so there is nothing key-shaped that ever belongs in this repo.
+.env
+.env.*
+*.key

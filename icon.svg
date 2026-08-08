@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2740"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#ffcf4d"/>
+      <stop offset="1" stop-color="#e0453c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- safe area for maskable icons: keep art inside the middle 80% -->
+  <g transform="translate(256 256)">
+    <!-- shield -->
+    <path d="M0 -150 L118 -104 V22 C118 96 62 140 0 162 C-62 140 -118 96 -118 22 V-104 Z"
+          fill="#18212e" stroke="#ffcf4d" stroke-width="12" stroke-linejoin="round"/>
+    <!-- ß, the letter German has and Spanish doesn't -->
+    <text x="0" y="52" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="176"
+          fill="url(#gold)">ß</text>
+  </g>
+</svg>

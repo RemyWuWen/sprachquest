@@ -1,0 +1,5334 @@
+{
+  "packId": "food_drink",
+  "title": "Essen & Trinken",
+  "titleDe": "Essen, Trinken und Bestellen",
+  "desc": "Después de este pack puedes pedir comida y bebida en un restaurante o café, hablar de lo que te gusta comer, hacer la compra, cocinar con una receta y decir si algo está rico o si ya estás lleno.",
+  "chunks": [
+    {
+      "id": "food_drink_001",
+      "de": "Guten Appetit!",
+      "es": "¡Que aproveche!",
+      "en": "Enjoy your meal!",
+      "gloss": "buen apetito",
+      "lemmas": [],
+      "level": 1,
+      "type": "phrase",
+      "note": "Se dice siempre antes de empezar a comer; no decirlo suena raro."
+    },
+    {
+      "id": "food_drink_002",
+      "de": "Lecker!",
+      "es": "¡Qué rico!",
+      "en": "Yum! / Delicious!",
+      "gloss": "rico",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 1,
+      "type": "word",
+      "note": ""
+    },
+    {
+      "id": "food_drink_003",
+      "de": "Ich habe Hunger.",
+      "es": "Tengo hambre.",
+      "en": "I'm hungry.",
+      "gloss": "yo tengo hambre",
+      "lemmas": [
+        "Hunger"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "El alemán dice \"tener hambre\", igual que el español."
+    },
+    {
+      "id": "food_drink_004",
+      "de": "Ich hab voll Hunger!",
+      "es": "¡Tengo un hambre que me muero!",
+      "en": "I'm so hungry!",
+      "gloss": "yo tengo lleno hambre",
+      "lemmas": [
+        "Hunger"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "En el habla real \"habe\" pierde la -e y \"voll\" significa aquí \"un montón\"."
+    },
+    {
+      "id": "food_drink_005",
+      "de": "Ich bin satt.",
+      "es": "Estoy lleno.",
+      "en": "I'm full.",
+      "gloss": "yo estoy lleno",
+      "lemmas": [
+        "satt"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_006",
+      "de": "Ein Kaffee, bitte.",
+      "es": "Un café, por favor.",
+      "en": "A coffee, please.",
+      "gloss": "un café por-favor",
+      "lemmas": [
+        "Kaffee"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_007",
+      "de": "Ein Wasser, bitte.",
+      "es": "Un agua, por favor.",
+      "en": "A water, please.",
+      "gloss": "un agua por-favor",
+      "lemmas": [
+        "Wasser"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "En alemán el agua es neutro: das Wasser."
+    },
+    {
+      "id": "food_drink_008",
+      "de": "Ein Bier, bitte.",
+      "es": "Una cerveza, por favor.",
+      "en": "A beer, please.",
+      "gloss": "una cerveza por-favor",
+      "lemmas": [
+        "Bier"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_009",
+      "de": "Noch ein Bier, bitte.",
+      "es": "Otra cerveza, por favor.",
+      "en": "Another beer, please.",
+      "gloss": "todavía una cerveza por-favor",
+      "lemmas": [
+        "Bier"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"noch ein\" = otro más, no \"todavía uno\"."
+    },
+    {
+      "id": "food_drink_010",
+      "de": "Zwei Brötchen, bitte.",
+      "es": "Dos panecillos, por favor.",
+      "en": "Two rolls, please.",
+      "gloss": "dos panecillos por-favor",
+      "lemmas": [
+        "Brötchen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "El plural de Brötchen no cambia."
+    },
+    {
+      "id": "food_drink_011",
+      "de": "Eine Tasse Tee, bitte.",
+      "es": "Una taza de té, por favor.",
+      "en": "A cup of tea, please.",
+      "gloss": "una taza té por-favor",
+      "lemmas": [
+        "Tasse",
+        "Tee"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "No se pone \"de\": eine Tasse Tee."
+    },
+    {
+      "id": "food_drink_012",
+      "de": "Eine Flasche Wasser, bitte.",
+      "es": "Una botella de agua, por favor.",
+      "en": "A bottle of water, please.",
+      "gloss": "una botella agua por-favor",
+      "lemmas": [
+        "Flasche",
+        "Wasser"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_013",
+      "de": "Milch und Zucker?",
+      "es": "¿Leche y azúcar?",
+      "en": "Milk and sugar?",
+      "gloss": "leche y azúcar",
+      "lemmas": [
+        "Milch",
+        "Zucker"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_014",
+      "de": "Mit Milch, bitte.",
+      "es": "Con leche, por favor.",
+      "en": "With milk, please.",
+      "gloss": "con leche por-favor",
+      "lemmas": [
+        "Milch"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "food_drink_015",
+      "de": "Ohne Zucker, bitte.",
+      "es": "Sin azúcar, por favor.",
+      "en": "Without sugar, please.",
+      "gloss": "sin azúcar por-favor",
+      "lemmas": [
+        "Zucker"
+      ],
+      "level": 1,
+      "type": "answer",
+      "note": ""
+    },
+    {
+      "id": "food_drink_016",
+      "de": "Das Salz, bitte.",
+      "es": "La sal, por favor.",
+      "en": "The salt, please.",
+      "gloss": "la sal por-favor",
+      "lemmas": [
+        "Salz"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_017",
+      "de": "Schmeckt's?",
+      "es": "¿Está bueno?",
+      "en": "Is it good? / Tasty?",
+      "gloss": "sabe-ello",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "Es \"Schmeckt es?\" comprimido; lo oirás en cada comida."
+    },
+    {
+      "id": "food_drink_018",
+      "de": "Probier mal!",
+      "es": "¡Pruébalo!",
+      "en": "Give it a try!",
+      "gloss": "prueba vez",
+      "lemmas": [
+        "probieren"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"mal\" no se traduce, solo suaviza la orden."
+    },
+    {
+      "id": "food_drink_019",
+      "de": "Einmal Salat, bitte.",
+      "es": "Una de ensalada, por favor.",
+      "en": "One salad, please.",
+      "gloss": "una-vez ensalada por-favor",
+      "lemmas": [
+        "Salat"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "\"einmal\" es la forma normal de pedir una ración."
+    },
+    {
+      "id": "food_drink_020",
+      "de": "Einmal ___, bitte.",
+      "es": "Una de ___, por favor.",
+      "en": "One ___, please.",
+      "gloss": "una-vez ___ por-favor",
+      "lemmas": [
+        "Suppe",
+        "Pizza",
+        "Kuchen",
+        "Fisch"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Suppe",
+          "es": "sopa"
+        },
+        {
+          "de": "Pizza",
+          "es": "pizza"
+        },
+        {
+          "de": "Kuchen",
+          "es": "tarta"
+        },
+        {
+          "de": "Pommes",
+          "es": "patatas fritas"
+        },
+        {
+          "de": "Fisch",
+          "es": "pescado"
+        }
+      ],
+      "note": "Con \"einmal\" el nombre va sin artículo."
+    },
+    {
+      "id": "food_drink_021",
+      "de": "Das Abendessen ist fertig!",
+      "es": "¡La cena está lista!",
+      "en": "Dinner's ready!",
+      "gloss": "la cena está lista",
+      "lemmas": [
+        "Abendessen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_022",
+      "de": "Das Frühstück ist ab sieben Uhr.",
+      "es": "El desayuno es a partir de las siete.",
+      "en": "Breakfast is from seven o'clock.",
+      "gloss": "el desayuno es a-partir-de siete hora",
+      "lemmas": [
+        "Frühstück"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_023",
+      "de": "Was gibt's zum Mittagessen?",
+      "es": "¿Qué hay de comer?",
+      "en": "What's for lunch?",
+      "gloss": "qué da-ello para-el almuerzo",
+      "lemmas": [
+        "Mittagessen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "\"es gibt\" = hay; en el habla se dice \"gibt's\"."
+    },
+    {
+      "id": "food_drink_024",
+      "de": "Was gibt es zum Abendessen?",
+      "es": "¿Qué hay de cena?",
+      "en": "What's for dinner?",
+      "gloss": "qué da ello para-la cena",
+      "lemmas": [
+        "Abendessen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_025",
+      "de": "Ich esse gern Pizza.",
+      "es": "Me gusta comer pizza.",
+      "en": "I like eating pizza.",
+      "gloss": "yo como con-gusto pizza",
+      "lemmas": [
+        "essen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"gern\" + verbo = me gusta hacer algo."
+    },
+    {
+      "id": "food_drink_026",
+      "de": "Ich trinke gern Tee.",
+      "es": "Me gusta el té.",
+      "en": "I like drinking tea.",
+      "gloss": "yo bebo con-gusto té",
+      "lemmas": [
+        "trinken",
+        "Tee"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_027",
+      "de": "Was möchtest du essen?",
+      "es": "¿Qué quieres comer?",
+      "en": "What do you want to eat?",
+      "gloss": "qué quisieras tú comer",
+      "lemmas": [
+        "essen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "El infinitivo va al final."
+    },
+    {
+      "id": "food_drink_028",
+      "de": "Was willst du trinken?",
+      "es": "¿Qué quieres beber?",
+      "en": "What do you want to drink?",
+      "gloss": "qué quieres tú beber",
+      "lemmas": [
+        "trinken"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_029",
+      "de": "Möchtest du was trinken?",
+      "es": "¿Quieres beber algo?",
+      "en": "Do you want something to drink?",
+      "gloss": "quisieras tú algo beber",
+      "lemmas": [
+        "trinken"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Aquí \"was\" es \"etwas\" (algo), no \"qué\"."
+    },
+    {
+      "id": "food_drink_030",
+      "de": "Ich trinke keinen Kaffee.",
+      "es": "No bebo café.",
+      "en": "I don't drink coffee.",
+      "gloss": "yo bebo ningún café",
+      "lemmas": [
+        "trinken",
+        "Kaffee"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Para negar un sustantivo se usa kein-, no \"nicht\"."
+    },
+    {
+      "id": "food_drink_031",
+      "de": "Einen Kaffee mit Milch, bitte.",
+      "es": "Un café con leche, por favor.",
+      "en": "A coffee with milk, please.",
+      "gloss": "un café con leche por-favor",
+      "lemmas": [
+        "Kaffee",
+        "Milch"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "\"einen\" porque el café es el objeto de lo que pides."
+    },
+    {
+      "id": "food_drink_032",
+      "de": "Ich nehme ein Brötchen mit Käse.",
+      "es": "Me tomo un panecillo con queso.",
+      "en": "I'll have a roll with cheese.",
+      "gloss": "yo tomo un panecillo con queso",
+      "lemmas": [
+        "Brötchen",
+        "Käse"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Ich nehme\" es la forma más normal de pedir algo."
+    },
+    {
+      "id": "food_drink_033",
+      "de": "Das Brot ist noch warm.",
+      "es": "El pan todavía está caliente.",
+      "en": "The bread is still warm.",
+      "gloss": "el pan está todavía caliente",
+      "lemmas": [
+        "Brot"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_034",
+      "de": "Ich esse kein Fleisch.",
+      "es": "No como carne.",
+      "en": "I don't eat meat.",
+      "gloss": "yo como ninguna carne",
+      "lemmas": [
+        "essen",
+        "Fleisch"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_035",
+      "de": "Mit Fleisch oder ohne?",
+      "es": "¿Con carne o sin?",
+      "en": "With meat or without?",
+      "gloss": "con carne o sin",
+      "lemmas": [
+        "Fleisch"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_036",
+      "de": "Ich mag Kartoffeln.",
+      "es": "Me gustan las patatas.",
+      "en": "I like potatoes.",
+      "gloss": "yo gusto patatas",
+      "lemmas": [
+        "Kartoffel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "En plural: die Kartoffeln, sin artículo aquí."
+    },
+    {
+      "id": "food_drink_037",
+      "de": "Obst ist gesund.",
+      "es": "La fruta es sana.",
+      "en": "Fruit is healthy.",
+      "gloss": "fruta es sana",
+      "lemmas": [
+        "Obst"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"Obst\" no lleva artículo cuando se habla en general."
+    },
+    {
+      "id": "food_drink_038",
+      "de": "Ich esse gern Obst.",
+      "es": "Me gusta la fruta.",
+      "en": "I like eating fruit.",
+      "gloss": "yo como con-gusto fruta",
+      "lemmas": [
+        "essen",
+        "Obst"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_039",
+      "de": "Ich nehme einen Apfel.",
+      "es": "Me llevo una manzana.",
+      "en": "I'll take an apple.",
+      "gloss": "yo tomo una manzana",
+      "lemmas": [
+        "Apfel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_040",
+      "de": "Möchtest du ein Stück Kuchen?",
+      "es": "¿Quieres un trozo de tarta?",
+      "en": "Would you like a piece of cake?",
+      "gloss": "quisieras tú un trozo tarta",
+      "lemmas": [
+        "Kuchen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_041",
+      "de": "Die Suppe ist zu heiß.",
+      "es": "La sopa está demasiado caliente.",
+      "en": "The soup is too hot.",
+      "gloss": "la sopa está demasiado caliente",
+      "lemmas": [
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_042",
+      "de": "Das ist echt lecker!",
+      "es": "¡Esto está buenísimo!",
+      "en": "This is really tasty!",
+      "gloss": "esto está de-verdad rico",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_043",
+      "de": "Der Fisch ist super lecker.",
+      "es": "El pescado está riquísimo.",
+      "en": "The fish is super tasty.",
+      "gloss": "el pescado está súper rico",
+      "lemmas": [
+        "Fisch",
+        "lecker"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_044",
+      "de": "Ich möchte bestellen, bitte.",
+      "es": "Quería pedir, por favor.",
+      "en": "I'd like to order, please.",
+      "gloss": "yo quisiera pedir por-favor",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_045",
+      "de": "Wir gehen ins Restaurant.",
+      "es": "Vamos al restaurante.",
+      "en": "We're going to the restaurant.",
+      "gloss": "nosotros vamos en-el restaurante",
+      "lemmas": [
+        "Restaurant"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"ins\" = in + das, porque hay movimiento hacia dentro."
+    },
+    {
+      "id": "food_drink_046",
+      "de": "Gehen wir ins Café?",
+      "es": "¿Vamos a la cafetería?",
+      "en": "Shall we go to the cafe?",
+      "gloss": "vamos nosotros en-el café",
+      "lemmas": [
+        "Café"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "Cuidado: das Café es el local, der Kaffee es la bebida."
+    },
+    {
+      "id": "food_drink_047",
+      "de": "Das Café macht um acht auf.",
+      "es": "La cafetería abre a las ocho.",
+      "en": "The cafe opens at eight.",
+      "gloss": "el café hace a-las ocho abre",
+      "lemmas": [
+        "Café"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "\"aufmachen\" es separable: el \"auf\" se va al final."
+    },
+    {
+      "id": "food_drink_048",
+      "de": "Eine heiße Schokolade, bitte.",
+      "es": "Un chocolate caliente, por favor.",
+      "en": "A hot chocolate, please.",
+      "gloss": "una caliente chocolate por-favor",
+      "lemmas": [
+        "Schokolade"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Schokolade es femenino: die Schokolade."
+    },
+    {
+      "id": "food_drink_049",
+      "de": "Ich esse gern Schokolade.",
+      "es": "Me gusta el chocolate.",
+      "en": "I like eating chocolate.",
+      "gloss": "yo como con-gusto chocolate",
+      "lemmas": [
+        "essen",
+        "Schokolade"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_050",
+      "de": "Einen Apfelsaft, bitte.",
+      "es": "Un zumo de manzana, por favor.",
+      "en": "An apple juice, please.",
+      "gloss": "un manzana-zumo por-favor",
+      "lemmas": [
+        "Saft",
+        "Apfel"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Apfel + Saft se pegan en una sola palabra."
+    },
+    {
+      "id": "food_drink_051",
+      "de": "Der Teller ist leer.",
+      "es": "El plato está vacío.",
+      "en": "The plate is empty.",
+      "gloss": "el plato está vacío",
+      "lemmas": [
+        "Teller"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_052",
+      "de": "Die Flasche ist leer.",
+      "es": "La botella está vacía.",
+      "en": "The bottle is empty.",
+      "gloss": "la botella está vacía",
+      "lemmas": [
+        "Flasche"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_053",
+      "de": "Wo ist mein Löffel?",
+      "es": "¿Dónde está mi cuchara?",
+      "en": "Where's my spoon?",
+      "gloss": "dónde está mi cuchara",
+      "lemmas": [
+        "Löffel"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "En alemán la cuchara es masculina: der Löffel."
+    },
+    {
+      "id": "food_drink_054",
+      "de": "Ich koche heute.",
+      "es": "Hoy cocino yo.",
+      "en": "I'm cooking today.",
+      "gloss": "yo cocino hoy",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_055",
+      "de": "Kannst du kochen?",
+      "es": "¿Sabes cocinar?",
+      "en": "Can you cook?",
+      "gloss": "puedes tú cocinar",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "\"können\" vale para \"poder\" y para \"saber hacer\"."
+    },
+    {
+      "id": "food_drink_056",
+      "de": "Ich esse keine Eier.",
+      "es": "No como huevos.",
+      "en": "I don't eat eggs.",
+      "gloss": "yo como ningunos huevos",
+      "lemmas": [
+        "essen",
+        "Ei"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "El plural de das Ei es die Eier."
+    },
+    {
+      "id": "food_drink_057",
+      "de": "Ein Ei zum Frühstück, bitte.",
+      "es": "Un huevo para el desayuno, por favor.",
+      "en": "An egg for breakfast, please.",
+      "gloss": "un huevo para-el desayuno por-favor",
+      "lemmas": [
+        "Ei",
+        "Frühstück"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_058",
+      "de": "Ich bin schon satt, danke.",
+      "es": "Ya estoy lleno, gracias.",
+      "en": "I'm already full, thanks.",
+      "gloss": "yo estoy ya lleno gracias",
+      "lemmas": [
+        "satt"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_059",
+      "de": "Ich habe keinen Hunger.",
+      "es": "No tengo hambre.",
+      "en": "I'm not hungry.",
+      "gloss": "yo tengo ningún hambre",
+      "lemmas": [
+        "Hunger"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Hunger es masculino, por eso \"keinen\"."
+    },
+    {
+      "id": "food_drink_060",
+      "de": "Trinkst du Wein oder Bier?",
+      "es": "¿Bebes vino o cerveza?",
+      "en": "Do you drink wine or beer?",
+      "gloss": "bebes tú vino o cerveza",
+      "lemmas": [
+        "trinken",
+        "Wein",
+        "Bier"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_061",
+      "de": "Ein Glas Wein, bitte.",
+      "es": "Una copa de vino, por favor.",
+      "en": "A glass of wine, please.",
+      "gloss": "un vaso vino por-favor",
+      "lemmas": [
+        "Wein"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_062",
+      "de": "Ich mag Käse sehr gern.",
+      "es": "Me gusta mucho el queso.",
+      "en": "I really like cheese.",
+      "gloss": "yo gusto queso muy con-gusto",
+      "lemmas": [
+        "Käse"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_063",
+      "de": "Da fehlt Salz.",
+      "es": "Le falta sal.",
+      "en": "It needs salt.",
+      "gloss": "ahí falta sal",
+      "lemmas": [
+        "Salz"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_064",
+      "de": "Noch eine Tasse Kaffee?",
+      "es": "¿Otra taza de café?",
+      "en": "Another cup of coffee?",
+      "gloss": "todavía una taza café",
+      "lemmas": [
+        "Tasse",
+        "Kaffee"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_065",
+      "de": "Ich hätte gern ___, bitte.",
+      "es": "Quería ___, por favor.",
+      "en": "I'd like ___, please.",
+      "gloss": "yo tendría con-gusto ___ por-favor",
+      "lemmas": [
+        "Kaffee",
+        "Bier",
+        "Suppe",
+        "Wasser",
+        "Kuchen"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Kaffee",
+          "es": "un café"
+        },
+        {
+          "de": "ein Bier",
+          "es": "una cerveza"
+        },
+        {
+          "de": "eine Suppe",
+          "es": "una sopa"
+        },
+        {
+          "de": "ein Wasser",
+          "es": "un agua"
+        },
+        {
+          "de": "ein Stück Kuchen",
+          "es": "un trozo de tarta"
+        }
+      ],
+      "note": "Es la fórmula más educada para pedir; el nombre va en acusativo."
+    },
+    {
+      "id": "food_drink_066",
+      "de": "Ich möchte ___, bitte.",
+      "es": "Quiero ___, por favor.",
+      "en": "I'd like ___, please.",
+      "gloss": "yo quisiera ___ por-favor",
+      "lemmas": [
+        "Salat",
+        "Fisch",
+        "Tee",
+        "Saft"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Salat",
+          "es": "una ensalada"
+        },
+        {
+          "de": "den Fisch",
+          "es": "el pescado"
+        },
+        {
+          "de": "einen Tee",
+          "es": "un té"
+        },
+        {
+          "de": "einen Saft",
+          "es": "un zumo"
+        },
+        {
+          "de": "die Suppe",
+          "es": "la sopa"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_067",
+      "de": "Ich esse gern ___.",
+      "es": "Me gusta comer ___.",
+      "en": "I like eating ___.",
+      "gloss": "yo como con-gusto ___",
+      "lemmas": [
+        "essen",
+        "Fisch",
+        "Käse",
+        "Kuchen",
+        "Kartoffel"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Fisch",
+          "es": "pescado"
+        },
+        {
+          "de": "Käse",
+          "es": "queso"
+        },
+        {
+          "de": "Nudeln",
+          "es": "pasta"
+        },
+        {
+          "de": "Kuchen",
+          "es": "tarta"
+        },
+        {
+          "de": "Kartoffeln",
+          "es": "patatas"
+        }
+      ],
+      "note": "Sin artículo cuando hablas de la comida en general."
+    },
+    {
+      "id": "food_drink_068",
+      "de": "Ich trinke gern ___.",
+      "es": "Me gusta beber ___.",
+      "en": "I like drinking ___.",
+      "gloss": "yo bebo con-gusto ___",
+      "lemmas": [
+        "trinken",
+        "Saft",
+        "Wasser",
+        "Milch",
+        "Kaffee"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Cola",
+          "es": "cola"
+        },
+        {
+          "de": "Saft",
+          "es": "zumo"
+        },
+        {
+          "de": "Wasser",
+          "es": "agua"
+        },
+        {
+          "de": "Milch",
+          "es": "leche"
+        },
+        {
+          "de": "Kaffee",
+          "es": "café"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_069",
+      "de": "Haben Sie ___?",
+      "es": "¿Tienen ___?",
+      "en": "Do you have ___?",
+      "gloss": "tienen usted ___",
+      "lemmas": [
+        "Salat",
+        "Kuchen",
+        "Bier",
+        "Saft"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Salat ohne Fleisch",
+          "es": "una ensalada sin carne"
+        },
+        {
+          "de": "Kuchen",
+          "es": "tarta"
+        },
+        {
+          "de": "alkoholfreies Bier",
+          "es": "cerveza sin alcohol"
+        },
+        {
+          "de": "frischen Saft",
+          "es": "zumo natural"
+        }
+      ],
+      "note": "\"Sie\" con mayúscula es el usted formal."
+    },
+    {
+      "id": "food_drink_070",
+      "de": "___ schmeckt super.",
+      "es": "___ está buenísimo.",
+      "en": "___ tastes great.",
+      "gloss": "___ sabe súper",
+      "lemmas": [
+        "schmecken",
+        "Kuchen",
+        "Suppe",
+        "Fisch",
+        "Brot"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Der Kuchen",
+          "es": "la tarta"
+        },
+        {
+          "de": "Die Suppe",
+          "es": "la sopa"
+        },
+        {
+          "de": "Der Fisch",
+          "es": "el pescado"
+        },
+        {
+          "de": "Das Brot",
+          "es": "el pan"
+        }
+      ],
+      "note": "\"schmecken\" es para comida: literalmente \"saber a\"."
+    },
+    {
+      "id": "food_drink_071",
+      "de": "Ich koche heute ___.",
+      "es": "Hoy cocino ___.",
+      "en": "Today I'm cooking ___.",
+      "gloss": "yo cocino hoy ___",
+      "lemmas": [
+        "kochen",
+        "Suppe",
+        "Fisch",
+        "Kartoffel",
+        "Gemüse"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Suppe",
+          "es": "sopa"
+        },
+        {
+          "de": "Fisch mit Kartoffeln",
+          "es": "pescado con patatas"
+        },
+        {
+          "de": "Nudeln",
+          "es": "pasta"
+        },
+        {
+          "de": "Gemüse",
+          "es": "verdura"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_072",
+      "de": "Zum Frühstück esse ich ein Brötchen.",
+      "es": "Para desayunar como un panecillo.",
+      "en": "For breakfast I eat a roll.",
+      "gloss": "para-el desayuno como yo un panecillo",
+      "lemmas": [
+        "Frühstück",
+        "essen",
+        "Brötchen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Al empezar por otra cosa, el verbo se adelanta al sujeto."
+    },
+    {
+      "id": "food_drink_073",
+      "de": "Zum Abendessen gibt es Suppe.",
+      "es": "De cena hay sopa.",
+      "en": "There's soup for dinner.",
+      "gloss": "para-la cena da ello sopa",
+      "lemmas": [
+        "Abendessen",
+        "Suppe"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_074",
+      "de": "Wie schmeckt es dir?",
+      "es": "¿Qué tal está?",
+      "en": "How do you like it?",
+      "gloss": "cómo sabe ello a-ti",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "La persona va en dativo: mir, dir, ihm."
+    },
+    {
+      "id": "food_drink_075",
+      "de": "Das schmeckt mir nicht.",
+      "es": "No me gusta.",
+      "en": "I don't like the taste.",
+      "gloss": "eso sabe a-mí no",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Funciona como \"gustar\": lo que gusta es el sujeto."
+    },
+    {
+      "id": "food_drink_076",
+      "de": "Der Kuchen schmeckt echt lecker.",
+      "es": "La tarta está buenísima.",
+      "en": "The cake tastes really good.",
+      "gloss": "la tarta sabe de-verdad rica",
+      "lemmas": [
+        "Kuchen",
+        "schmecken",
+        "lecker"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_077",
+      "de": "Kann ich bitte ein Glas Wasser haben?",
+      "es": "¿Me puede poner un vaso de agua?",
+      "en": "Could I have a glass of water, please?",
+      "gloss": "puedo yo por-favor un vaso agua tener",
+      "lemmas": [
+        "Wasser"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "El infinitivo \"haben\" cierra la frase."
+    },
+    {
+      "id": "food_drink_078",
+      "de": "Kann ich noch einen Teller haben?",
+      "es": "¿Me puede traer otro plato?",
+      "en": "Could I have another plate?",
+      "gloss": "puedo yo todavía un plato tener",
+      "lemmas": [
+        "Teller"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_079",
+      "de": "Ich brauche noch einen Löffel.",
+      "es": "Necesito otra cuchara.",
+      "en": "I need another spoon.",
+      "gloss": "yo necesito todavía una cuchara",
+      "lemmas": [
+        "Löffel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_080",
+      "de": "Kannst du mir das Salz geben?",
+      "es": "¿Me pasas la sal?",
+      "en": "Can you pass me the salt?",
+      "gloss": "puedes tú a-mí la sal dar",
+      "lemmas": [
+        "Salz"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"mir\" es dativo: a mí."
+    },
+    {
+      "id": "food_drink_081",
+      "de": "Kennst du ein gutes Restaurant hier?",
+      "es": "¿Conoces algún restaurante bueno por aquí?",
+      "en": "Do you know a good restaurant around here?",
+      "gloss": "conoces tú un buen restaurante aquí",
+      "lemmas": [
+        "Restaurant"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_082",
+      "de": "Wir treffen uns im Café.",
+      "es": "Quedamos en la cafetería.",
+      "en": "We're meeting at the cafe.",
+      "gloss": "nosotros encontramos nos en-el café",
+      "lemmas": [
+        "Café"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"im\" (sin movimiento) frente a \"ins\" (hacia dentro)."
+    },
+    {
+      "id": "food_drink_083",
+      "de": "Es gibt Fisch mit Kartoffeln.",
+      "es": "Hay pescado con patatas.",
+      "en": "There's fish with potatoes.",
+      "gloss": "ello da pescado con patatas",
+      "lemmas": [
+        "Fisch",
+        "Kartoffel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"mit\" siempre pide dativo: mit Kartoffeln."
+    },
+    {
+      "id": "food_drink_084",
+      "de": "Wie viel kostet ein Kilo Äpfel?",
+      "es": "¿Cuánto cuesta un kilo de manzanas?",
+      "en": "How much is a kilo of apples?",
+      "gloss": "cuánto cuesta un kilo manzanas",
+      "lemmas": [
+        "Apfel"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Plural de Apfel: Äpfel."
+    },
+    {
+      "id": "food_drink_085",
+      "de": "Willst du mal probieren?",
+      "es": "¿Quieres probar?",
+      "en": "Do you want to try some?",
+      "gloss": "quieres tú vez probar",
+      "lemmas": [
+        "probieren"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_086",
+      "de": "Ich möchte einen Tisch reservieren.",
+      "es": "Quería reservar una mesa.",
+      "en": "I'd like to book a table.",
+      "gloss": "yo quisiera una mesa reservar",
+      "lemmas": [
+        "reservieren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_087",
+      "de": "Hast du ein Rezept dafür?",
+      "es": "¿Tienes una receta de eso?",
+      "en": "Do you have a recipe for that?",
+      "gloss": "tienes tú una receta para-eso",
+      "lemmas": [
+        "Rezept"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Ojo: Rezept es receta de cocina y receta médica."
+    },
+    {
+      "id": "food_drink_088",
+      "de": "Ich nehme einen Salat als Vorspeise.",
+      "es": "De primero tomo una ensalada.",
+      "en": "I'll have a salad as a starter.",
+      "gloss": "yo tomo una ensalada como entrante",
+      "lemmas": [
+        "Salat"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_089",
+      "de": "Ich trinke lieber Tee als Kaffee.",
+      "es": "Prefiero el té al café.",
+      "en": "I prefer tea to coffee.",
+      "gloss": "yo bebo más-gustoso té que café",
+      "lemmas": [
+        "trinken",
+        "Tee",
+        "Kaffee"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"lieber\" = prefiero; se coloca detrás del verbo."
+    },
+    {
+      "id": "food_drink_090",
+      "de": "Gemüse mag ich nicht so gern.",
+      "es": "La verdura no me gusta mucho.",
+      "en": "I don't really like vegetables.",
+      "gloss": "verdura gusto yo no tan con-gusto",
+      "lemmas": [
+        "Gemüse"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Al poner el objeto delante, el verbo sigue en segunda posición."
+    },
+    {
+      "id": "food_drink_091",
+      "de": "Iss mehr Obst und Gemüse!",
+      "es": "¡Come más fruta y verdura!",
+      "en": "Eat more fruit and vegetables!",
+      "gloss": "come más fruta y verdura",
+      "lemmas": [
+        "essen",
+        "Obst",
+        "Gemüse"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "El imperativo de essen es irregular: iss."
+    },
+    {
+      "id": "food_drink_092",
+      "de": "Was für einen Saft habt ihr?",
+      "es": "¿Qué tipo de zumo tenéis?",
+      "en": "What kind of juice do you have?",
+      "gloss": "qué por un zumo tenéis vosotros",
+      "lemmas": [
+        "Saft"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "\"Was für ein...\" = qué tipo de."
+    },
+    {
+      "id": "food_drink_093",
+      "de": "Die Milch ist alle.",
+      "es": "Se ha acabado la leche.",
+      "en": "We're out of milk.",
+      "gloss": "la leche está toda",
+      "lemmas": [
+        "Milch"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "\"ist alle\" es coloquial y significa que se acabó."
+    },
+    {
+      "id": "food_drink_094",
+      "de": "Kann ich bitte ___ haben?",
+      "es": "¿Me puede traer ___, por favor?",
+      "en": "Could I have ___, please?",
+      "gloss": "puedo yo por-favor ___ tener",
+      "lemmas": [
+        "Wasser",
+        "Löffel",
+        "Teller",
+        "Brot"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Karte",
+          "es": "la carta"
+        },
+        {
+          "de": "noch ein Glas Wasser",
+          "es": "otro vaso de agua"
+        },
+        {
+          "de": "noch einen Löffel",
+          "es": "otra cuchara"
+        },
+        {
+          "de": "einen sauberen Teller",
+          "es": "un plato limpio"
+        },
+        {
+          "de": "noch etwas Brot",
+          "es": "un poco más de pan"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_095",
+      "de": "Was kostet ___?",
+      "es": "¿Cuánto cuesta ___?",
+      "en": "How much is ___?",
+      "gloss": "qué cuesta ___",
+      "lemmas": [
+        "Kaffee",
+        "Brot",
+        "Apfel",
+        "Wein"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "der Kaffee",
+          "es": "el café"
+        },
+        {
+          "de": "das Brot",
+          "es": "el pan"
+        },
+        {
+          "de": "ein Kilo Äpfel",
+          "es": "un kilo de manzanas"
+        },
+        {
+          "de": "die Flasche Wein",
+          "es": "la botella de vino"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_096",
+      "de": "Zum Frühstück gibt es ___.",
+      "es": "Para desayunar hay ___.",
+      "en": "For breakfast there's ___.",
+      "gloss": "para-el desayuno da ello ___",
+      "lemmas": [
+        "Frühstück",
+        "Brötchen",
+        "Käse",
+        "Ei",
+        "Obst"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Brötchen mit Käse",
+          "es": "panecillos con queso"
+        },
+        {
+          "de": "ein Ei",
+          "es": "un huevo"
+        },
+        {
+          "de": "Obst und Joghurt",
+          "es": "fruta y yogur"
+        },
+        {
+          "de": "Kaffee und Kuchen",
+          "es": "café y tarta"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_097",
+      "de": "Möchtest du ___ probieren?",
+      "es": "¿Quieres probar ___?",
+      "en": "Do you want to try ___?",
+      "gloss": "quisieras tú ___ probar",
+      "lemmas": [
+        "probieren",
+        "Kuchen",
+        "Suppe",
+        "Käse",
+        "Salat"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "den Kuchen",
+          "es": "la tarta"
+        },
+        {
+          "de": "die Suppe",
+          "es": "la sopa"
+        },
+        {
+          "de": "den Käse",
+          "es": "el queso"
+        },
+        {
+          "de": "meinen Salat",
+          "es": "mi ensalada"
+        }
+      ],
+      "note": "El infinitivo \"probieren\" va al final."
+    },
+    {
+      "id": "food_drink_098",
+      "de": "Ich hätte gern eine Flasche ___.",
+      "es": "Quería una botella de ___.",
+      "en": "I'd like a bottle of ___.",
+      "gloss": "yo tendría con-gusto una botella ___",
+      "lemmas": [
+        "Flasche",
+        "Wasser",
+        "Wein",
+        "Saft",
+        "Bier"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Wasser",
+          "es": "agua"
+        },
+        {
+          "de": "Wein",
+          "es": "vino"
+        },
+        {
+          "de": "Apfelsaft",
+          "es": "zumo de manzana"
+        },
+        {
+          "de": "Bier",
+          "es": "cerveza"
+        }
+      ],
+      "note": "Detrás de \"eine Flasche\" el nombre va sin artículo."
+    },
+    {
+      "id": "food_drink_099",
+      "de": "Habt ihr schon bestellt?",
+      "es": "¿Ya habéis pedido?",
+      "en": "Have you ordered yet?",
+      "gloss": "tenéis vosotros ya pedido",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "El participio de bestellen no lleva ge-: bestellt."
+    },
+    {
+      "id": "food_drink_100",
+      "de": "Wir haben eine Flasche Wein bestellt.",
+      "es": "Hemos pedido una botella de vino.",
+      "en": "We ordered a bottle of wine.",
+      "gloss": "nosotros hemos una botella vino pedido",
+      "lemmas": [
+        "Flasche",
+        "Wein",
+        "bestellen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_101",
+      "de": "Haben Sie reserviert?",
+      "es": "¿Tienen reserva?",
+      "en": "Do you have a reservation?",
+      "gloss": "tienen usted reservado",
+      "lemmas": [
+        "reservieren"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Es lo primero que te preguntan al entrar a un restaurante."
+    },
+    {
+      "id": "food_drink_102",
+      "de": "Ich habe einen Tisch für zwei reserviert.",
+      "es": "He reservado una mesa para dos.",
+      "en": "I booked a table for two.",
+      "gloss": "yo he una mesa para dos reservado",
+      "lemmas": [
+        "reservieren"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_103",
+      "de": "Ich habe schon gegessen.",
+      "es": "Ya he comido.",
+      "en": "I've already eaten.",
+      "gloss": "yo he ya comido",
+      "lemmas": [
+        "essen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Participio irregular: essen - gegessen."
+    },
+    {
+      "id": "food_drink_104",
+      "de": "Ich hab noch nichts gegessen, ich hab voll Hunger.",
+      "es": "No he comido nada todavía, tengo un hambre...",
+      "en": "I haven't eaten anything yet, I'm starving.",
+      "gloss": "yo he todavía nada comido, yo tengo lleno hambre",
+      "lemmas": [
+        "essen",
+        "Hunger"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_105",
+      "de": "Nach dem Mittagessen gehe ich zum Training.",
+      "es": "Después de comer voy al entrenamiento.",
+      "en": "After lunch I go to practice.",
+      "gloss": "después de-el almuerzo voy yo a-el entrenamiento",
+      "lemmas": [
+        "Mittagessen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"nach\" pide dativo: nach dem Mittagessen."
+    },
+    {
+      "id": "food_drink_106",
+      "de": "Das Rezept ist von meiner Oma.",
+      "es": "La receta es de mi abuela.",
+      "en": "The recipe is from my grandma.",
+      "gloss": "la receta está de mi abuela",
+      "lemmas": [
+        "Rezept"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"von\" pide dativo: von meiner Oma."
+    },
+    {
+      "id": "food_drink_107",
+      "de": "Ich kaufe das Gemüse immer auf dem Markt.",
+      "es": "La verdura siempre la compro en el mercado.",
+      "en": "I always buy the vegetables at the market.",
+      "gloss": "yo compro la verdura siempre en el mercado",
+      "lemmas": [
+        "Gemüse"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_108",
+      "de": "Möchten Sie noch etwas trinken?",
+      "es": "¿Desea beber algo más?",
+      "en": "Would you like anything else to drink?",
+      "gloss": "quisieran usted todavía algo beber",
+      "lemmas": [
+        "trinken"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Te lo dirá el camarero; responde \"Nein danke\" o pide otra cosa."
+    },
+    {
+      "id": "food_drink_109",
+      "de": "Zu viel Zucker ist nicht gesund.",
+      "es": "Demasiado azúcar no es sano.",
+      "en": "Too much sugar isn't healthy.",
+      "gloss": "demasiado mucho azúcar es no sano",
+      "lemmas": [
+        "Zucker"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_110",
+      "de": "Ich koche heute Abend für meine Familie.",
+      "es": "Esta noche cocino para mi familia.",
+      "en": "I'm cooking for my family tonight.",
+      "gloss": "yo cocino hoy tarde para mi familia",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"für\" pide acusativo: für meine Familie."
+    },
+    {
+      "id": "food_drink_111",
+      "de": "Zum Frühstück gibt es bei uns Brot, Käse und Eier.",
+      "es": "En mi casa desayunamos pan, queso y huevos.",
+      "en": "At our place breakfast is bread, cheese and eggs.",
+      "gloss": "para-el desayuno da ello en nosotros pan queso y huevos",
+      "lemmas": [
+        "Frühstück",
+        "Brot",
+        "Käse",
+        "Ei"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "\"bei uns\" = en nuestra casa."
+    },
+    {
+      "id": "food_drink_112",
+      "de": "Ich möchte einen Tisch für ___ reservieren.",
+      "es": "Quería reservar una mesa para ___.",
+      "en": "I'd like to book a table for ___.",
+      "gloss": "yo quisiera una mesa para ___ reservar",
+      "lemmas": [
+        "reservieren"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "zwei Personen",
+          "es": "dos personas"
+        },
+        {
+          "de": "heute Abend um acht",
+          "es": "esta noche a las ocho"
+        },
+        {
+          "de": "Freitag",
+          "es": "el viernes"
+        },
+        {
+          "de": "vier Personen",
+          "es": "cuatro personas"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_113",
+      "de": "Wenn ich Hunger habe, esse ich einen Apfel.",
+      "es": "Cuando tengo hambre, me como una manzana.",
+      "en": "When I'm hungry, I eat an apple.",
+      "gloss": "cuando yo hambre tengo como yo una manzana",
+      "lemmas": [
+        "Hunger",
+        "essen",
+        "Apfel"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Con \"wenn\" el verbo se va al final de esa parte."
+    },
+    {
+      "id": "food_drink_114",
+      "de": "Ich weiß nicht, was ich heute kochen soll.",
+      "es": "No sé qué cocinar hoy.",
+      "en": "I don't know what to cook today.",
+      "gloss": "yo sé no qué yo hoy cocinar debo",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_115",
+      "de": "Ich nehme den Fisch, weil er hier immer gut schmeckt.",
+      "es": "Tomo el pescado, porque aquí siempre está bueno.",
+      "en": "I'll have the fish, because it's always good here.",
+      "gloss": "yo tomo el pescado porque él aquí siempre bien sabe",
+      "lemmas": [
+        "Fisch",
+        "schmecken"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras \"weil\" el verbo se va al final."
+    },
+    {
+      "id": "food_drink_116",
+      "de": "Wir haben im Restaurant gegessen und es war richtig lecker.",
+      "es": "Comimos en el restaurante y estaba realmente rico.",
+      "en": "We ate at the restaurant and it was really tasty.",
+      "gloss": "nosotros hemos en-el restaurante comido y ello estaba realmente rico",
+      "lemmas": [
+        "Restaurant",
+        "essen",
+        "lecker"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_117",
+      "de": "Wenn du willst, kannst du mal mein Rezept probieren.",
+      "es": "Si quieres, puedes probar mi receta.",
+      "en": "If you want, you can try my recipe.",
+      "gloss": "si tú quieres puedes tú vez mi receta probar",
+      "lemmas": [
+        "Rezept",
+        "probieren"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_118",
+      "de": "Wenn ich satt bin, esse ich nichts mehr.",
+      "es": "Cuando estoy lleno, ya no como más.",
+      "en": "When I'm full, I don't eat any more.",
+      "gloss": "cuando yo lleno estoy como yo nada más",
+      "lemmas": [
+        "satt",
+        "essen"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_119",
+      "de": "Ich trinke morgens immer einen Kaffee, bevor ich zur Schule gehe.",
+      "es": "Por las mañanas siempre me tomo un café antes de ir al colegio.",
+      "en": "I always have a coffee in the morning before I go to school.",
+      "gloss": "yo bebo mañanas siempre un café antes-de yo a-la escuela voy",
+      "lemmas": [
+        "trinken",
+        "Kaffee"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_120",
+      "de": "Könnten wir bitte noch Brot und Wasser bestellen?",
+      "es": "¿Podríamos pedir más pan y agua, por favor?",
+      "en": "Could we order some more bread and water, please?",
+      "gloss": "podríamos nosotros por-favor todavía pan y agua pedir",
+      "lemmas": [
+        "Brot",
+        "Wasser",
+        "bestellen"
+      ],
+      "level": 5,
+      "type": "question",
+      "note": "\"Könnten\" es más educado que \"Können\"."
+    },
+    {
+      "id": "food_drink_p001",
+      "de": "Ich hab Durst.",
+      "es": "Tengo sed.",
+      "en": "I'm thirsty.",
+      "gloss": "yo tengo sed",
+      "lemmas": [
+        "Durst"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "La sed se 'tiene': Durst haben, sin artículo."
+    },
+    {
+      "id": "food_drink_p002",
+      "de": "Hast du auch Durst?",
+      "es": "¿Tú también tienes sed?",
+      "en": "Are you thirsty too?",
+      "gloss": "tienes tú también sed",
+      "lemmas": [
+        "Durst"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p003",
+      "de": "Ein Eis, bitte.",
+      "es": "Un helado, por favor.",
+      "en": "An ice cream, please.",
+      "gloss": "un helado por-favor",
+      "lemmas": [
+        "Eis"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Eis significa tanto 'hielo' como 'helado'."
+    },
+    {
+      "id": "food_drink_p004",
+      "de": "Zwei Kugeln Eis, bitte.",
+      "es": "Dos bolas de helado, por favor.",
+      "en": "Two scoops of ice cream, please.",
+      "gloss": "dos bolas helado por-favor",
+      "lemmas": [
+        "Eis"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Tras la cantidad no se pone 'de': Kugeln Eis."
+    },
+    {
+      "id": "food_drink_p005",
+      "de": "Riech mal!",
+      "es": "¡Huele!",
+      "en": "Have a smell!",
+      "gloss": "huele vez",
+      "lemmas": [
+        "riechen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "'mal' suaviza el imperativo, no se traduce."
+    },
+    {
+      "id": "food_drink_p006",
+      "de": "Das riecht gut!",
+      "es": "¡Huele bien!",
+      "en": "That smells good!",
+      "gloss": "eso huele bien",
+      "lemmas": [
+        "riechen"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p007",
+      "de": "Ist das scharf?",
+      "es": "¿Está picante?",
+      "en": "Is that spicy?",
+      "gloss": "es eso picante",
+      "lemmas": [
+        "scharf"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p008",
+      "de": "Danke, das reicht.",
+      "es": "Gracias, con eso basta.",
+      "en": "Thanks, that's enough.",
+      "gloss": "gracias eso basta",
+      "lemmas": [
+        "reichen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "'reichen' aquí es 'bastar', no 'llegar'."
+    },
+    {
+      "id": "food_drink_p009",
+      "de": "Reicht das so?",
+      "es": "¿Así es suficiente?",
+      "en": "Is that enough like this?",
+      "gloss": "basta eso así",
+      "lemmas": [
+        "reichen"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p010",
+      "de": "Ein Stück Kuchen, bitte.",
+      "es": "Un trozo de tarta, por favor.",
+      "en": "A piece of cake, please.",
+      "gloss": "un trozo tarta por-favor",
+      "lemmas": [
+        "Kuchen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p011",
+      "de": "Einen Saft, bitte.",
+      "es": "Un zumo, por favor.",
+      "en": "A juice, please.",
+      "gloss": "un zumo por-favor",
+      "lemmas": [
+        "Saft"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "Saft es masculino, por eso 'einen' en acusativo."
+    },
+    {
+      "id": "food_drink_p012",
+      "de": "Mit Reis, bitte.",
+      "es": "Con arroz, por favor.",
+      "en": "With rice, please.",
+      "gloss": "con arroz por-favor",
+      "lemmas": [
+        "Reis"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p013",
+      "de": "Ein Brötchen mit Butter, bitte.",
+      "es": "Un panecillo con mantequilla, por favor.",
+      "en": "A roll with butter, please.",
+      "gloss": "un panecillo con mantequilla por-favor",
+      "lemmas": [
+        "Brötchen",
+        "Butter"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p014",
+      "de": "Eine Wurst mit Senf, bitte.",
+      "es": "Una salchicha con mostaza, por favor.",
+      "en": "A sausage with mustard, please.",
+      "gloss": "una salchicha con mostaza por-favor",
+      "lemmas": [
+        "Wurst"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p015",
+      "de": "Ich krieg langsam Hunger.",
+      "es": "Me está entrando hambre.",
+      "en": "I'm slowly getting hungry.",
+      "gloss": "yo recibo lentamente hambre",
+      "lemmas": [
+        "Hunger"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'langsam' aquí es 'poco a poco', no 'despacio'."
+    },
+    {
+      "id": "food_drink_p016",
+      "de": "Ich hab Lust auf Pizza.",
+      "es": "Me apetece pizza.",
+      "en": "I fancy pizza.",
+      "gloss": "yo tengo ganas sobre pizza",
+      "lemmas": [
+        "Pizza"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Se dice 'Lust auf' + acusativo para 'apetecer'."
+    },
+    {
+      "id": "food_drink_p017",
+      "de": "Die Getränke sind extra.",
+      "es": "Las bebidas se pagan aparte.",
+      "en": "Drinks are extra.",
+      "gloss": "las bebidas son aparte",
+      "lemmas": [
+        "Getränk"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p018",
+      "de": "Nudeln gehen immer.",
+      "es": "La pasta siempre apetece.",
+      "en": "Pasta always works.",
+      "gloss": "fideos van siempre",
+      "lemmas": [
+        "Nudel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'X geht immer' = 'X nunca falla'; nada que ver con caminar."
+    },
+    {
+      "id": "food_drink_p019",
+      "de": "Wie schmeckt der Reis?",
+      "es": "¿Qué tal está el arroz?",
+      "en": "How does the rice taste?",
+      "gloss": "cómo sabe el arroz",
+      "lemmas": [
+        "schmecken",
+        "Reis"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p020",
+      "de": "Die Tomaten schmecken super.",
+      "es": "Los tomates están buenísimos.",
+      "en": "The tomatoes taste great.",
+      "gloss": "los tomates saben súper",
+      "lemmas": [
+        "Tomate",
+        "schmecken"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p021",
+      "de": "Kannst du die Tomaten schneiden?",
+      "es": "¿Puedes cortar los tomates?",
+      "en": "Can you cut the tomatoes?",
+      "gloss": "puedes tú los tomates cortar",
+      "lemmas": [
+        "Tomate"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "El infinitivo va al final de la frase."
+    },
+    {
+      "id": "food_drink_p022",
+      "de": "Ist noch Butter da?",
+      "es": "¿Queda mantequilla?",
+      "en": "Is there still butter?",
+      "gloss": "está todavía mantequilla ahí",
+      "lemmas": [
+        "Butter"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'da sein' = 'haber/quedar' de algo."
+    },
+    {
+      "id": "food_drink_p023",
+      "de": "Die Brötchen sind noch warm.",
+      "es": "Los panecillos están todavía calientes.",
+      "en": "The rolls are still warm.",
+      "gloss": "los panecillos están todavía calientes",
+      "lemmas": [
+        "Brötchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p024",
+      "de": "Probier mal die Suppe!",
+      "es": "¡Prueba la sopa!",
+      "en": "Try the soup!",
+      "gloss": "prueba vez la sopa",
+      "lemmas": [
+        "probieren",
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p025",
+      "de": "Die Suppe hier ist echt gut.",
+      "es": "La sopa de aquí está muy buena.",
+      "en": "The soup here is really good.",
+      "gloss": "la sopa aquí es de-verdad buena",
+      "lemmas": [
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p026",
+      "de": "Das Rezept ist ganz einfach.",
+      "es": "La receta es muy sencilla.",
+      "en": "The recipe is really simple.",
+      "gloss": "la receta es del-todo sencilla",
+      "lemmas": [
+        "Rezept"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p027",
+      "de": "Schokolade geht immer.",
+      "es": "El chocolate siempre apetece.",
+      "en": "Chocolate always works.",
+      "gloss": "chocolate va siempre",
+      "lemmas": [
+        "Schokolade"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p028",
+      "de": "Ich esse keine Wurst mehr.",
+      "es": "Ya no como embutido.",
+      "en": "I don't eat sausage anymore.",
+      "gloss": "yo como ninguna salchicha más",
+      "lemmas": [
+        "Wurst"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'nicht mehr / kein ... mehr' = 'ya no'."
+    },
+    {
+      "id": "food_drink_p029",
+      "de": "Heute gibt es Kartoffeln mit Wurst.",
+      "es": "Hoy hay patatas con salchicha.",
+      "en": "Today there are potatoes with sausage.",
+      "gloss": "hoy da ello patatas con salchicha",
+      "lemmas": [
+        "Kartoffel",
+        "Wurst"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'es gibt' + acusativo = 'hay'."
+    },
+    {
+      "id": "food_drink_p030",
+      "de": "Die Kartoffeln sind noch nicht fertig.",
+      "es": "Las patatas todavía no están listas.",
+      "en": "The potatoes aren't ready yet.",
+      "gloss": "las patatas están todavía no listas",
+      "lemmas": [
+        "Kartoffel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p031",
+      "de": "Nimm nicht so viel Öl.",
+      "es": "No pongas tanto aceite.",
+      "en": "Don't use so much oil.",
+      "gloss": "toma no tan mucho aceite",
+      "lemmas": [
+        "Öl"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "'nehmen' se usa para 'poner/echar' un ingrediente."
+    },
+    {
+      "id": "food_drink_p032",
+      "de": "Ich mag es gern scharf.",
+      "es": "Me gusta picante.",
+      "en": "I like it spicy.",
+      "gloss": "yo gusto ello con-gusto picante",
+      "lemmas": [
+        "scharf"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p033",
+      "de": "Das ist nicht mein Geschmack.",
+      "es": "No es de mi gusto.",
+      "en": "That's not my taste.",
+      "gloss": "eso es no mi gusto",
+      "lemmas": [
+        "Geschmack"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p034",
+      "de": "Ich nehme nur einen Salat.",
+      "es": "Yo solo tomo una ensalada.",
+      "en": "I'll just have a salad.",
+      "gloss": "yo tomo solo una ensalada",
+      "lemmas": [
+        "Salat"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p035",
+      "de": "Machst du den Salat?",
+      "es": "¿Preparas tú la ensalada?",
+      "en": "Are you making the salad?",
+      "gloss": "haces tú la ensalada",
+      "lemmas": [
+        "Salat"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p036",
+      "de": "Das sieht lecker aus.",
+      "es": "Tiene buena pinta.",
+      "en": "That looks delicious.",
+      "gloss": "eso ve rico fuera",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'aussehen' es separable: el 'aus' se va al final."
+    },
+    {
+      "id": "food_drink_p037",
+      "de": "Das war richtig lecker, danke!",
+      "es": "¡Estaba buenísimo, gracias!",
+      "en": "That was really delicious, thanks!",
+      "gloss": "eso era realmente rico gracias",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p038",
+      "de": "Für mich einen Saft, ohne Eis.",
+      "es": "Para mí un zumo, sin hielo.",
+      "en": "A juice for me, no ice.",
+      "gloss": "para mí un zumo sin hielo",
+      "lemmas": [
+        "Saft",
+        "Eis"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "Aquí 'Eis' es hielo, no helado."
+    },
+    {
+      "id": "food_drink_p039",
+      "de": "Hier riecht es nach Kaffee.",
+      "es": "Aquí huele a café.",
+      "en": "It smells of coffee here.",
+      "gloss": "aquí huele ello hacia café",
+      "lemmas": [
+        "riechen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'riechen nach' + dativo; el 'es' impersonal es obligatorio."
+    },
+    {
+      "id": "food_drink_p040",
+      "de": "Das schmeckt nach nichts.",
+      "es": "Esto no sabe a nada.",
+      "en": "That tastes of nothing.",
+      "gloss": "eso sabe hacia nada",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'schmecken nach' = 'saber a'."
+    },
+    {
+      "id": "food_drink_p041",
+      "de": "Was für Getränke habt ihr?",
+      "es": "¿Qué bebidas tenéis?",
+      "en": "What drinks do you have?",
+      "gloss": "qué por bebidas tenéis vosotros",
+      "lemmas": [
+        "Getränk"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'was für' = 'qué tipo de'; el 'für' no rige caso aquí."
+    },
+    {
+      "id": "food_drink_p042",
+      "de": "Was kannst du empfehlen?",
+      "es": "¿Qué recomiendas?",
+      "en": "What can you recommend?",
+      "gloss": "qué puedes tú recomendar",
+      "lemmas": [
+        "empfehlen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p043",
+      "de": "Das kann ich dir echt empfehlen.",
+      "es": "Eso te lo recomiendo de verdad.",
+      "en": "I can really recommend that to you.",
+      "gloss": "eso puedo yo a-ti de-verdad recomendar",
+      "lemmas": [
+        "empfehlen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "La persona a quien recomiendas va en dativo: dir."
+    },
+    {
+      "id": "food_drink_p044",
+      "de": "Kannst du mir mal das Öl reichen?",
+      "es": "¿Me pasas el aceite?",
+      "en": "Can you pass me the oil?",
+      "gloss": "puedes tú a-mí vez el aceite pasar",
+      "lemmas": [
+        "Öl",
+        "reichen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Aquí 'reichen' es 'pasar algo a alguien' (dativo + acusativo)."
+    },
+    {
+      "id": "food_drink_p045",
+      "de": "Der Kuchen ist mir zu süß.",
+      "es": "La tarta es demasiado dulce para mí.",
+      "en": "The cake is too sweet for me.",
+      "gloss": "la tarta es a-mí demasiado dulce",
+      "lemmas": [
+        "Kuchen",
+        "süß"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'mir zu süß' usa dativo, nunca 'für mich'."
+    },
+    {
+      "id": "food_drink_p046",
+      "de": "Ich mag es lieber süß als salzig.",
+      "es": "Lo prefiero dulce antes que salado.",
+      "en": "I prefer it sweet rather than salty.",
+      "gloss": "yo gusto ello más-gustoso dulce que salado",
+      "lemmas": [
+        "süß"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p047",
+      "de": "Magst du lieber Reis oder Nudeln?",
+      "es": "¿Prefieres arroz o pasta?",
+      "en": "Do you prefer rice or pasta?",
+      "gloss": "gustas tú más-gustoso arroz o fideos",
+      "lemmas": [
+        "Reis",
+        "Nudel"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'lieber' expresa la preferencia; no hay verbo 'preferir'."
+    },
+    {
+      "id": "food_drink_p048",
+      "de": "Wollen wir schon mal bestellen?",
+      "es": "¿Pedimos ya?",
+      "en": "Shall we go ahead and order?",
+      "gloss": "queremos nosotros ya vez pedir",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'Wollen wir ...?' es la forma normal de proponer algo."
+    },
+    {
+      "id": "food_drink_p049",
+      "de": "Ich bestelle uns was zu trinken.",
+      "es": "Nos pido algo de beber.",
+      "en": "I'll order us something to drink.",
+      "gloss": "yo pido a-nosotros algo para beber",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'was' aquí es 'etwas' (algo) en lengua hablada."
+    },
+    {
+      "id": "food_drink_p050",
+      "de": "Wir bestellen uns eine Pizza.",
+      "es": "Nos pedimos una pizza.",
+      "en": "We'll order ourselves a pizza.",
+      "gloss": "nosotros pedimos a-nosotros una pizza",
+      "lemmas": [
+        "bestellen",
+        "Pizza"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p051",
+      "de": "Schick mir mal das Rezept!",
+      "es": "¡Mándame la receta!",
+      "en": "Send me the recipe!",
+      "gloss": "manda a-mí vez la receta",
+      "lemmas": [
+        "Rezept"
+      ],
+      "level": 3,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p052",
+      "de": "Ich hab noch Schokolade in der Tasche.",
+      "es": "Todavía tengo chocolate en el bolso.",
+      "en": "I've still got chocolate in my bag.",
+      "gloss": "yo tengo todavía chocolate en la bolsa",
+      "lemmas": [
+        "Schokolade"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'in der Tasche' va en dativo porque indica lugar, no movimiento."
+    },
+    {
+      "id": "food_drink_p053",
+      "de": "Das hat einen komischen Geschmack.",
+      "es": "Esto tiene un sabor raro.",
+      "en": "This has a strange taste.",
+      "gloss": "eso tiene un raro sabor",
+      "lemmas": [
+        "Geschmack"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p054",
+      "de": "Hat es geschmeckt?",
+      "es": "¿Ha estado bueno?",
+      "en": "Did you enjoy it?",
+      "gloss": "ha ello sabido",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Frase fija del camarero al recoger los platos."
+    },
+    {
+      "id": "food_drink_p055",
+      "de": "Willst du mal von meinem Eis probieren?",
+      "es": "¿Quieres probar mi helado?",
+      "en": "Do you want to try some of my ice cream?",
+      "gloss": "quieres tú vez de mi helado probar",
+      "lemmas": [
+        "Eis",
+        "probieren"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": "Para probar una parte se dice 'von' + dativo."
+    },
+    {
+      "id": "food_drink_p056",
+      "de": "Nach dem Training habe ich immer Hunger.",
+      "es": "Después del entrenamiento siempre tengo hambre.",
+      "en": "After training I'm always hungry.",
+      "gloss": "tras el entrenamiento tengo yo siempre hambre",
+      "lemmas": [
+        "Hunger"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'nach' rige dativo y, al ir delante, el verbo queda en 2ª posición."
+    },
+    {
+      "id": "food_drink_p057",
+      "de": "Ich habe die Nudeln zu lange gekocht.",
+      "es": "He cocido la pasta demasiado tiempo.",
+      "en": "I cooked the pasta too long.",
+      "gloss": "yo he los fideos demasiado largo cocido",
+      "lemmas": [
+        "Nudel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_p058",
+      "de": "Der Kellner hat uns den Fisch empfohlen.",
+      "es": "El camarero nos recomendó el pescado.",
+      "en": "The waiter recommended the fish to us.",
+      "gloss": "el camarero ha a-nosotros el pescado recomendado",
+      "lemmas": [
+        "empfehlen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Participio irregular: empfehlen - empfohlen."
+    },
+    {
+      "id": "food_drink_p059",
+      "de": "Ich nehme keinen Kuchen, weil er mir zu süß ist.",
+      "es": "No tomo tarta porque para mí es demasiado dulce.",
+      "en": "I won't have cake because it's too sweet for me.",
+      "gloss": "yo tomo ninguna tarta porque él a-mí demasiado dulce es",
+      "lemmas": [
+        "Kuchen",
+        "süß"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Con 'weil' el verbo se va al final."
+    },
+    {
+      "id": "food_drink_p060",
+      "de": "Wenn ich Durst habe, trinke ich einfach Wasser.",
+      "es": "Cuando tengo sed, simplemente bebo agua.",
+      "en": "When I'm thirsty I just drink water.",
+      "gloss": "cuando yo sed tengo bebo yo simplemente agua",
+      "lemmas": [
+        "Durst"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Tras la frase con 'wenn', la principal empieza por el verbo."
+    },
+    {
+      "id": "food_drink_p061",
+      "de": "Ich glaube, das Öl ist alle.",
+      "es": "Creo que se ha acabado el aceite.",
+      "en": "I think we're out of oil.",
+      "gloss": "yo creo el aceite está todo",
+      "lemmas": [
+        "Öl"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "'alle sein' en lengua hablada = haberse acabado."
+    },
+    {
+      "id": "food_drink_p062",
+      "de": "Sag mir Bescheid, wenn das Essen fertig ist.",
+      "es": "Avísame cuando la comida esté lista.",
+      "en": "Let me know when the food is ready.",
+      "gloss": "di a-mí aviso cuando la comida lista está",
+      "lemmas": [],
+      "level": 5,
+      "type": "sentence",
+      "note": "'Bescheid sagen' se dice siempre así, en dos palabras."
+    },
+    {
+      "id": "food_drink_p063",
+      "de": "Ich weiß nicht, ob das hier scharf ist.",
+      "es": "No sé si esto pica.",
+      "en": "I don't know whether this is spicy.",
+      "gloss": "yo sé no si eso aquí picante está",
+      "lemmas": [
+        "scharf"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Con 'ob' el verbo va al final."
+    },
+    {
+      "id": "food_drink_p064",
+      "de": "Es riecht so gut, dass ich sofort Hunger habe.",
+      "es": "Huele tan bien que me entra hambre al momento.",
+      "en": "It smells so good that I'm hungry right away.",
+      "gloss": "ello huele tan bien que yo enseguida hambre tengo",
+      "lemmas": [
+        "riechen",
+        "Hunger"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Con 'dass' el verbo se coloca al final."
+    },
+    {
+      "id": "food_drink_p065",
+      "de": "Ich hab Lust auf ___.",
+      "es": "Me apetece ___.",
+      "en": "I fancy ___.",
+      "gloss": "yo tengo ganas sobre ___",
+      "lemmas": [
+        "Pizza",
+        "Eis",
+        "Kuchen",
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "eine Pizza",
+          "es": "una pizza"
+        },
+        {
+          "de": "ein Eis",
+          "es": "un helado"
+        },
+        {
+          "de": "Kuchen",
+          "es": "tarta"
+        },
+        {
+          "de": "Nudeln",
+          "es": "pasta"
+        },
+        {
+          "de": "eine Suppe",
+          "es": "una sopa"
+        }
+      ],
+      "note": "'Lust auf' siempre con acusativo."
+    },
+    {
+      "id": "food_drink_p066",
+      "de": "Das ist mir zu ___.",
+      "es": "Para mí es demasiado ___.",
+      "en": "That's too ___ for me.",
+      "gloss": "eso es a-mí demasiado ___",
+      "lemmas": [
+        "süß",
+        "scharf"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "süß",
+          "es": "dulce"
+        },
+        {
+          "de": "scharf",
+          "es": "picante"
+        },
+        {
+          "de": "heiß",
+          "es": "caliente"
+        },
+        {
+          "de": "salzig",
+          "es": "salado"
+        },
+        {
+          "de": "viel",
+          "es": "mucho"
+        }
+      ],
+      "note": "La persona va en dativo (mir), nunca 'für mich'."
+    },
+    {
+      "id": "food_drink_p067",
+      "de": "Kannst du mir ___ empfehlen?",
+      "es": "¿Me puedes recomendar ___?",
+      "en": "Can you recommend ___ to me?",
+      "gloss": "puedes tú a-mí ___ recomendar",
+      "lemmas": [
+        "empfehlen",
+        "Getränk"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ein Restaurant",
+          "es": "un restaurante"
+        },
+        {
+          "de": "ein gutes Café",
+          "es": "un buen café"
+        },
+        {
+          "de": "ein Getränk",
+          "es": "una bebida"
+        },
+        {
+          "de": "einen Wein",
+          "es": "un vino"
+        },
+        {
+          "de": "ein Rezept",
+          "es": "una receta"
+        }
+      ],
+      "note": "Lo recomendado va en acusativo y el infinitivo al final."
+    },
+    {
+      "id": "food_drink_p068",
+      "de": "Das schmeckt nach ___.",
+      "es": "Esto sabe a ___.",
+      "en": "This tastes of ___.",
+      "gloss": "eso sabe hacia ___",
+      "lemmas": [
+        "schmecken",
+        "Schokolade"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Schokolade",
+          "es": "chocolate"
+        },
+        {
+          "de": "Fisch",
+          "es": "pescado"
+        },
+        {
+          "de": "Käse",
+          "es": "queso"
+        },
+        {
+          "de": "Knoblauch",
+          "es": "ajo"
+        },
+        {
+          "de": "Zitrone",
+          "es": "limón"
+        }
+      ],
+      "note": "'nach' + dativo; sin artículo con nombres de sabores."
+    },
+    {
+      "id": "food_drink_p069",
+      "de": "Ich habe ___ bestellt.",
+      "es": "He pedido ___.",
+      "en": "I ordered ___.",
+      "gloss": "yo he ___ pedido",
+      "lemmas": [
+        "bestellen",
+        "Salat",
+        "Saft"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "eine Pizza",
+          "es": "una pizza"
+        },
+        {
+          "de": "einen Saft",
+          "es": "un zumo"
+        },
+        {
+          "de": "einen Salat",
+          "es": "una ensalada"
+        },
+        {
+          "de": "Nudeln",
+          "es": "pasta"
+        },
+        {
+          "de": "zwei Getränke",
+          "es": "dos bebidas"
+        }
+      ],
+      "note": "El participio 'bestellt' va siempre al final."
+    },
+    {
+      "id": "food_drink_p070",
+      "de": "Hast du schon mal ___ probiert?",
+      "es": "¿Has probado alguna vez ___?",
+      "en": "Have you ever tried ___?",
+      "gloss": "has tú ya vez ___ probado",
+      "lemmas": [
+        "probieren",
+        "Wurst",
+        "Kartoffel"
+      ],
+      "level": 4,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Currywurst",
+          "es": "currywurst"
+        },
+        {
+          "de": "Kartoffelsuppe",
+          "es": "sopa de patata"
+        },
+        {
+          "de": "deutschen Kuchen",
+          "es": "tarta alemana"
+        },
+        {
+          "de": "Brötchen mit Butter",
+          "es": "panecillo con mantequilla"
+        },
+        {
+          "de": "scharfe Suppe",
+          "es": "sopa picante"
+        }
+      ],
+      "note": "'schon mal' = 'alguna vez'; el participio cierra la frase."
+    },
+    {
+      "id": "food_drink_q001",
+      "de": "Ein Messer, bitte.",
+      "es": "Un cuchillo, por favor.",
+      "en": "A knife, please.",
+      "gloss": "un cuchillo por-favor",
+      "lemmas": [
+        "Messer"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q002",
+      "de": "Kannst du mir mal ein Messer geben?",
+      "es": "¿Me pasas un cuchillo?",
+      "en": "Can you hand me a knife?",
+      "gloss": "puedes tú a-mí vez un cuchillo dar",
+      "lemmas": [
+        "Messer"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Ese 'mal' no traduce nada: solo suaviza la petición."
+    },
+    {
+      "id": "food_drink_q003",
+      "de": "Das Messer ist nicht scharf genug.",
+      "es": "El cuchillo no corta bien.",
+      "en": "The knife isn't sharp enough.",
+      "gloss": "el cuchillo es no afilado suficiente",
+      "lemmas": [
+        "Messer",
+        "scharf"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'scharf' vale para 'afilado' y para 'picante'."
+    },
+    {
+      "id": "food_drink_q004",
+      "de": "Stell die Teller auf den Tisch.",
+      "es": "Pon los platos en la mesa.",
+      "en": "Put the plates on the table.",
+      "gloss": "pon los platos sobre la mesa",
+      "lemmas": [
+        "Teller"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Con movimiento, 'auf' lleva acusativo: 'den Tisch'."
+    },
+    {
+      "id": "food_drink_q005",
+      "de": "Mein Teller ist noch voll.",
+      "es": "Todavía tengo el plato lleno.",
+      "en": "My plate is still full.",
+      "gloss": "mi plato está todavía lleno",
+      "lemmas": [
+        "Teller"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q006",
+      "de": "Sind die Teller sauber?",
+      "es": "¿Están limpios los platos?",
+      "en": "Are the plates clean?",
+      "gloss": "están los platos limpios",
+      "lemmas": [
+        "Teller"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q007",
+      "de": "Nimm einen Löffel Zucker.",
+      "es": "Coge una cucharada de azúcar.",
+      "en": "Take a spoonful of sugar.",
+      "gloss": "toma una cuchara azúcar",
+      "lemmas": [
+        "Löffel",
+        "Zucker"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "No lleva 'de': 'ein Löffel Zucker' = una cucharada de azúcar."
+    },
+    {
+      "id": "food_drink_q008",
+      "de": "Mein Löffel ist runtergefallen.",
+      "es": "Se me ha caído la cuchara.",
+      "en": "My spoon fell on the floor.",
+      "gloss": "mi cuchara es abajo-caída",
+      "lemmas": [
+        "Löffel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'runterfallen' hace el perfecto con 'sein', no con 'haben'."
+    },
+    {
+      "id": "food_drink_q009",
+      "de": "Isst du das mit dem Löffel?",
+      "es": "¿Eso te lo comes con cuchara?",
+      "en": "Do you eat that with a spoon?",
+      "gloss": "comes tú eso con la cuchara",
+      "lemmas": [
+        "Löffel"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'mit' siempre lleva dativo: 'dem Löffel'."
+    },
+    {
+      "id": "food_drink_q010",
+      "de": "Die Tasse ist noch heiß.",
+      "es": "La taza todavía quema.",
+      "en": "The cup is still hot.",
+      "gloss": "la taza está todavía caliente",
+      "lemmas": [
+        "Tasse"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q011",
+      "de": "Jeden Morgen trinke ich eine Tasse Tee.",
+      "es": "Cada mañana me tomo una taza de té.",
+      "en": "Every morning I drink a cup of tea.",
+      "gloss": "cada mañana bebo yo una taza té",
+      "lemmas": [
+        "Tasse"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Si la frase empieza por otra cosa, el verbo va segundo y el sujeto detrás."
+    },
+    {
+      "id": "food_drink_q012",
+      "de": "Hast du meine Tasse gesehen?",
+      "es": "¿Has visto mi taza?",
+      "en": "Have you seen my cup?",
+      "gloss": "has tú mi taza visto",
+      "lemmas": [
+        "Tasse"
+      ],
+      "level": 4,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q013",
+      "de": "Der Käse riecht komisch.",
+      "es": "El queso huele raro.",
+      "en": "The cheese smells odd.",
+      "gloss": "el queso huele raro",
+      "lemmas": [
+        "Käse"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q014",
+      "de": "Machst du mir ein Brot mit Käse?",
+      "es": "¿Me haces un pan con queso?",
+      "en": "Will you make me a cheese sandwich?",
+      "gloss": "haces tú a-mí un pan con queso",
+      "lemmas": [
+        "Käse"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'ein Brot machen' es preparar una rebanada con algo encima."
+    },
+    {
+      "id": "food_drink_q015",
+      "de": "Ohne Käse, bitte.",
+      "es": "Sin queso, por favor.",
+      "en": "Without cheese, please.",
+      "gloss": "sin queso por-favor",
+      "lemmas": [
+        "Käse"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q016",
+      "de": "Salz und Pfeffer stehen da vorne.",
+      "es": "La sal y la pimienta están ahí delante.",
+      "en": "Salt and pepper are over there at the front.",
+      "gloss": "sal y pimienta están-de-pie ahí delante",
+      "lemmas": [
+        "Salz",
+        "Pfeffer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Para cosas de pie sobre una superficie se usa 'stehen', no 'sein'."
+    },
+    {
+      "id": "food_drink_q017",
+      "de": "Ich habe zu viel Salz genommen.",
+      "es": "Me he pasado con la sal.",
+      "en": "I used too much salt.",
+      "gloss": "yo he demasiado mucho sal tomado",
+      "lemmas": [
+        "Salz"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q018",
+      "de": "Kommt da noch Salz rein?",
+      "es": "¿Lleva más sal?",
+      "en": "Does more salt go in it?",
+      "gloss": "viene ahí todavía sal dentro",
+      "lemmas": [
+        "Salz"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'Kommt da ... rein?' es la forma normal de preguntar si un ingrediente va en el plato."
+    },
+    {
+      "id": "food_drink_q019",
+      "de": "Schäl mal die Kartoffeln.",
+      "es": "Pela las patatas, anda.",
+      "en": "Peel the potatoes, would you.",
+      "gloss": "pela vez las patatas",
+      "lemmas": [
+        "Kartoffel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q020",
+      "de": "Die Kartoffeln brauchen noch zehn Minuten.",
+      "es": "A las patatas les faltan diez minutos.",
+      "en": "The potatoes need another ten minutes.",
+      "gloss": "las patatas necesitan todavía diez minutos",
+      "lemmas": [
+        "Kartoffel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q021",
+      "de": "Ich nehme lieber Kartoffeln als Reis.",
+      "es": "Prefiero patatas antes que arroz.",
+      "en": "I'd rather have potatoes than rice.",
+      "gloss": "yo tomo más-gustosamente patatas que arroz",
+      "lemmas": [
+        "Kartoffel",
+        "Reis"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'lieber ... als ...' es la manera normal de decir 'prefiero X a Y'."
+    },
+    {
+      "id": "food_drink_q022",
+      "de": "Willst du einen Apfel?",
+      "es": "¿Quieres una manzana?",
+      "en": "Do you want an apple?",
+      "gloss": "quieres tú una manzana",
+      "lemmas": [
+        "Apfel"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q023",
+      "de": "Die Äpfel sind noch sauer.",
+      "es": "Las manzanas todavía están ácidas.",
+      "en": "The apples are still sour.",
+      "gloss": "las manzanas están todavía ácidas",
+      "lemmas": [
+        "Apfel",
+        "sauer"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "El plural de 'Apfel' es 'Äpfel', con diéresis."
+    },
+    {
+      "id": "food_drink_q024",
+      "de": "Ich hab mir einen Apfel mitgenommen.",
+      "es": "Me he llevado una manzana.",
+      "en": "I took an apple with me.",
+      "gloss": "yo he a-mí una manzana con-llevado",
+      "lemmas": [
+        "Apfel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "En 'mitgenommen' el prefijo 'mit-' vuelve a pegarse al participio."
+    },
+    {
+      "id": "food_drink_q025",
+      "de": "Was kochst du da?",
+      "es": "¿Qué estás cocinando?",
+      "en": "What are you cooking there?",
+      "gloss": "qué cocinas tú ahí",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "El alemán no tiene gerundio: 'kochst du' vale para 'estás cocinando'."
+    },
+    {
+      "id": "food_drink_q026",
+      "de": "Ich koche uns schnell Nudeln.",
+      "es": "Nos hago una pasta rápida.",
+      "en": "I'll quickly cook us some pasta.",
+      "gloss": "yo cocino a-nosotros rápido fideos",
+      "lemmas": [
+        "kochen",
+        "Nudel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "El presente sirve también para lo que vas a hacer ahora mismo."
+    },
+    {
+      "id": "food_drink_q027",
+      "de": "Wer kocht heute Abend?",
+      "es": "¿Quién cocina esta noche?",
+      "en": "Who's cooking tonight?",
+      "gloss": "quién cocina hoy tarde",
+      "lemmas": [
+        "kochen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q028",
+      "de": "Hier fehlt eine Gabel.",
+      "es": "Aquí falta un tenedor.",
+      "en": "There's a fork missing here.",
+      "gloss": "aquí falta un tenedor",
+      "lemmas": [
+        "Gabel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q029",
+      "de": "Kannst du mir bitte eine Gabel bringen?",
+      "es": "¿Me puedes traer un tenedor, por favor?",
+      "en": "Could you bring me a fork, please?",
+      "gloss": "puedes tú a-mí por-favor un tenedor traer",
+      "lemmas": [
+        "Gabel"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "Con 'können' el segundo verbo va en infinitivo al final."
+    },
+    {
+      "id": "food_drink_q030",
+      "de": "Nimm die Gabel, nicht die Hände.",
+      "es": "Usa el tenedor, no las manos.",
+      "en": "Use the fork, not your hands.",
+      "gloss": "toma el tenedor no las manos",
+      "lemmas": [
+        "Gabel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q031",
+      "de": "Der Topf ist zu klein.",
+      "es": "La olla es demasiado pequeña.",
+      "en": "The pot is too small.",
+      "gloss": "la olla es demasiado pequeña",
+      "lemmas": [
+        "Topf"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q032",
+      "de": "Tu die Nudeln in den Topf.",
+      "es": "Echa la pasta a la olla.",
+      "en": "Put the pasta in the pot.",
+      "gloss": "pon los fideos en la olla",
+      "lemmas": [
+        "Topf",
+        "Nudel"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'tun' aquí es 'poner, meter'; muy usado al cocinar."
+    },
+    {
+      "id": "food_drink_q033",
+      "de": "Im Topf ist noch Suppe.",
+      "es": "Todavía queda sopa en la olla.",
+      "en": "There's still soup in the pot.",
+      "gloss": "en-la olla hay todavía sopa",
+      "lemmas": [
+        "Topf",
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q034",
+      "de": "Butter aufs Brot?",
+      "es": "¿Mantequilla en el pan?",
+      "en": "Butter on the bread?",
+      "gloss": "mantequilla sobre-el pan",
+      "lemmas": [
+        "Butter"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'aufs' es 'auf das' contraído; se dice siempre así."
+    },
+    {
+      "id": "food_drink_q035",
+      "de": "Wir haben keine Butter mehr.",
+      "es": "Ya no nos queda mantequilla.",
+      "en": "We're out of butter.",
+      "gloss": "nosotros tenemos ninguna mantequilla más",
+      "lemmas": [
+        "Butter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'kein ... mehr' = 'ya no queda nada de ...'."
+    },
+    {
+      "id": "food_drink_q036",
+      "de": "Die Butter ist noch zu hart.",
+      "es": "La mantequilla está todavía demasiado dura.",
+      "en": "The butter is still too hard.",
+      "gloss": "la mantequilla está todavía demasiado dura",
+      "lemmas": [
+        "Butter"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q037",
+      "de": "Willst du auch eine Wurst?",
+      "es": "¿Tú también quieres una salchicha?",
+      "en": "Do you want a sausage too?",
+      "gloss": "quieres tú también una salchicha",
+      "lemmas": [
+        "Wurst"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q038",
+      "de": "Die Wurst war zu salzig.",
+      "es": "La salchicha estaba demasiado salada.",
+      "en": "The sausage was too salty.",
+      "gloss": "la salchicha era demasiado salada",
+      "lemmas": [
+        "Wurst"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q039",
+      "de": "Auf dem Brot sind Wurst und Käse.",
+      "es": "El pan lleva embutido y queso.",
+      "en": "There's sausage and cheese on the bread.",
+      "gloss": "sobre el pan hay salchicha y queso",
+      "lemmas": [
+        "Wurst",
+        "Käse"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Sin movimiento, 'auf' lleva dativo: 'dem Brot'."
+    },
+    {
+      "id": "food_drink_q040",
+      "de": "Wie viel Zucker nimmst du?",
+      "es": "¿Cuánto azúcar te pones?",
+      "en": "How much sugar do you take?",
+      "gloss": "cuánto azúcar tomas tú",
+      "lemmas": [
+        "Zucker"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q041",
+      "de": "Ohne Zucker schmeckt es mir besser.",
+      "es": "Sin azúcar me gusta más.",
+      "en": "It tastes better to me without sugar.",
+      "gloss": "sin azúcar sabe ello a-mí mejor",
+      "lemmas": [
+        "Zucker",
+        "schmecken"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'schmecken' pide dativo: 'mir', no 'mich'."
+    },
+    {
+      "id": "food_drink_q042",
+      "de": "Da ist viel zu viel Zucker drin.",
+      "es": "Ahí dentro hay muchísimo azúcar.",
+      "en": "There's way too much sugar in that.",
+      "gloss": "ahí está mucho demasiado azúcar dentro",
+      "lemmas": [
+        "Zucker"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'viel zu viel' = 'muchísimo', no 'mucho demasiado'."
+    },
+    {
+      "id": "food_drink_q043",
+      "de": "Ich mache uns schnell einen Salat.",
+      "es": "Nos preparo una ensalada rápida.",
+      "en": "I'll quickly make us a salad.",
+      "gloss": "yo hago a-nosotros rápido una ensalada",
+      "lemmas": [
+        "Salat"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q044",
+      "de": "Im Salat ist zu viel Öl.",
+      "es": "La ensalada lleva demasiado aceite.",
+      "en": "There's too much oil in the salad.",
+      "gloss": "en-la ensalada hay demasiado mucho aceite",
+      "lemmas": [
+        "Salat",
+        "Öl"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q045",
+      "de": "Die Suppe wird kalt.",
+      "es": "Se está enfriando la sopa.",
+      "en": "The soup is getting cold.",
+      "gloss": "la sopa se-vuelve fría",
+      "lemmas": [
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'werden' + adjetivo = 'ponerse/volverse'."
+    },
+    {
+      "id": "food_drink_q046",
+      "de": "Willst du noch Suppe?",
+      "es": "¿Quieres más sopa?",
+      "en": "Do you want more soup?",
+      "gloss": "quieres tú todavía sopa",
+      "lemmas": [
+        "Suppe"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'noch' delante de un nombre significa 'más'."
+    },
+    {
+      "id": "food_drink_q047",
+      "de": "Die Suppe hat mir gut geschmeckt.",
+      "es": "La sopa me ha gustado mucho.",
+      "en": "I really liked the soup.",
+      "gloss": "la sopa ha a-mí bien sabido",
+      "lemmas": [
+        "Suppe",
+        "schmecken"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Lo que gusta es el sujeto, como en español con 'gustar'."
+    },
+    {
+      "id": "food_drink_q048",
+      "de": "Ich backe einen Kuchen.",
+      "es": "Estoy haciendo una tarta.",
+      "en": "I'm baking a cake.",
+      "gloss": "yo horneo una tarta",
+      "lemmas": [
+        "backen",
+        "Kuchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'backen' es al horno; 'kochen' es en el fuego."
+    },
+    {
+      "id": "food_drink_q049",
+      "de": "Der Kuchen ist von gestern.",
+      "es": "La tarta es de ayer.",
+      "en": "The cake is from yesterday.",
+      "gloss": "la tarta es de ayer",
+      "lemmas": [
+        "Kuchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q050",
+      "de": "Wer will noch Kuchen?",
+      "es": "¿Quién quiere más tarta?",
+      "en": "Who wants more cake?",
+      "gloss": "quién quiere todavía tarta",
+      "lemmas": [
+        "Kuchen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q051",
+      "de": "Gib noch etwas Öl in die Pfanne.",
+      "es": "Echa un poco más de aceite a la sartén.",
+      "en": "Add a bit more oil to the pan.",
+      "gloss": "da todavía algo aceite en la sartén",
+      "lemmas": [
+        "Öl",
+        "Pfanne"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Para echar algo en un recipiente se usa 'geben in' + acusativo."
+    },
+    {
+      "id": "food_drink_q052",
+      "de": "Das Öl ist zu heiß.",
+      "es": "El aceite está demasiado caliente.",
+      "en": "The oil is too hot.",
+      "gloss": "el aceite está demasiado caliente",
+      "lemmas": [
+        "Öl"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q053",
+      "de": "Ich brate das ohne Öl.",
+      "es": "Eso lo hago a la plancha sin aceite.",
+      "en": "I fry that without oil.",
+      "gloss": "yo frío eso sin aceite",
+      "lemmas": [
+        "Öl"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'ohne' siempre lleva acusativo."
+    },
+    {
+      "id": "food_drink_q054",
+      "de": "Was bestellst du?",
+      "es": "¿Tú qué pides?",
+      "en": "What are you ordering?",
+      "gloss": "qué pides tú",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q055",
+      "de": "Bestellst du für mich mit?",
+      "es": "¿Pides también lo mío?",
+      "en": "Will you order for me too?",
+      "gloss": "pides tú para mí con",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": "'mitbestellen' es pedir algo también para otra persona; el 'mit' va al final."
+    },
+    {
+      "id": "food_drink_q056",
+      "de": "Wir haben zu viel bestellt.",
+      "es": "Hemos pedido demasiado.",
+      "en": "We ordered too much.",
+      "gloss": "nosotros hemos demasiado mucho pedido",
+      "lemmas": [
+        "bestellen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'bestellt' no lleva 'ge-' porque 'be-' es prefijo inseparable."
+    },
+    {
+      "id": "food_drink_q057",
+      "de": "Ich schneide die Zwiebeln.",
+      "es": "Yo corto las cebollas.",
+      "en": "I'll cut the onions.",
+      "gloss": "yo corto las cebollas",
+      "lemmas": [
+        "schneiden",
+        "Zwiebel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q058",
+      "de": "Ich hab mich geschnitten.",
+      "es": "Me he cortado.",
+      "en": "I cut myself.",
+      "gloss": "yo he me cortado",
+      "lemmas": [
+        "schneiden"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Reflexivo en acusativo: 'mich', y el participio irregular es 'geschnitten'."
+    },
+    {
+      "id": "food_drink_q059",
+      "de": "Schneid das Brot bitte in Scheiben.",
+      "es": "Corta el pan en rebanadas, por favor.",
+      "en": "Please cut the bread into slices.",
+      "gloss": "corta el pan por-favor en rebanadas",
+      "lemmas": [
+        "schneiden"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q060",
+      "de": "Der Reis ist fertig.",
+      "es": "El arroz ya está.",
+      "en": "The rice is done.",
+      "gloss": "el arroz está listo",
+      "lemmas": [
+        "Reis"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q061",
+      "de": "Machst du Reis dazu?",
+      "es": "¿Haces arroz para acompañar?",
+      "en": "Are you making rice with it?",
+      "gloss": "haces tú arroz a-ello",
+      "lemmas": [
+        "Reis"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'dazu' = 'de acompañamiento, con eso'."
+    },
+    {
+      "id": "food_drink_q062",
+      "de": "Die Tomaten sind noch nicht reif.",
+      "es": "Los tomates todavía no están maduros.",
+      "en": "The tomatoes aren't ripe yet.",
+      "gloss": "los tomates están todavía no maduros",
+      "lemmas": [
+        "Tomate"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'noch nicht' junto significa 'todavía no'."
+    },
+    {
+      "id": "food_drink_q063",
+      "de": "Auf die Pizza kommen noch Tomaten.",
+      "es": "A la pizza le faltan los tomates.",
+      "en": "Tomatoes still go on the pizza.",
+      "gloss": "sobre la pizza vienen todavía tomates",
+      "lemmas": [
+        "Tomate"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'kommen auf' se usa para decir qué ingrediente va encima."
+    },
+    {
+      "id": "food_drink_q064",
+      "de": "Tomaten esse ich am liebsten roh.",
+      "es": "Los tomates me gustan sobre todo crudos.",
+      "en": "I like tomatoes best raw.",
+      "gloss": "tomates como yo al más-gustoso crudos",
+      "lemmas": [
+        "Tomate"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'am liebsten' es el superlativo de 'gern': lo que más te gusta."
+    },
+    {
+      "id": "food_drink_q065",
+      "de": "Willst du ein Stück Schokolade?",
+      "es": "¿Quieres un trozo de chocolate?",
+      "en": "Do you want a piece of chocolate?",
+      "gloss": "quieres tú un trozo chocolate",
+      "lemmas": [
+        "Schokolade"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q066",
+      "de": "Ich hab die ganze Schokolade gegessen.",
+      "es": "Me he comido todo el chocolate.",
+      "en": "I ate the whole chocolate bar.",
+      "gloss": "yo he el entero chocolate comido",
+      "lemmas": [
+        "Schokolade"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q067",
+      "de": "Ist noch Saft im Kühlschrank?",
+      "es": "¿Queda zumo en la nevera?",
+      "en": "Is there any juice left in the fridge?",
+      "gloss": "hay todavía zumo en-la nevera",
+      "lemmas": [
+        "Saft"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'Ist noch ...?' es la forma normal de preguntar si queda algo."
+    },
+    {
+      "id": "food_drink_q068",
+      "de": "Der Saft ist mir zu süß.",
+      "es": "El zumo me resulta demasiado dulce.",
+      "en": "The juice is too sweet for me.",
+      "gloss": "el zumo es a-mí demasiado dulce",
+      "lemmas": [
+        "Saft",
+        "süß"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'mir zu ...' = 'demasiado ... para mi gusto'."
+    },
+    {
+      "id": "food_drink_q069",
+      "de": "Schmeckt dir die Soße?",
+      "es": "¿Te gusta la salsa?",
+      "en": "Do you like the sauce?",
+      "gloss": "sabe a-ti la salsa",
+      "lemmas": [
+        "schmecken",
+        "Soße"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q070",
+      "de": "Das schmeckt viel besser als gestern.",
+      "es": "Esto está mucho mejor que ayer.",
+      "en": "This tastes much better than yesterday.",
+      "gloss": "eso sabe mucho mejor que ayer",
+      "lemmas": [
+        "schmecken"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "En comparaciones se usa 'als', no 'wie'."
+    },
+    {
+      "id": "food_drink_q071",
+      "de": "Die Erdbeeren sind richtig süß.",
+      "es": "Las fresas están dulcísimas.",
+      "en": "The strawberries are really sweet.",
+      "gloss": "las fresas son realmente dulces",
+      "lemmas": [
+        "Erdbeere",
+        "süß"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'richtig' delante de un adjetivo es un intensificador coloquial."
+    },
+    {
+      "id": "food_drink_q072",
+      "de": "Ich mag keine süßen Getränke.",
+      "es": "No me gustan las bebidas dulces.",
+      "en": "I don't like sweet drinks.",
+      "gloss": "yo quiero ningunas dulces bebidas",
+      "lemmas": [
+        "süß"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Delante de un nombre el adjetivo se declina: 'süßen'."
+    },
+    {
+      "id": "food_drink_q073",
+      "de": "Ist das Brot noch frisch?",
+      "es": "¿El pan todavía está tierno?",
+      "en": "Is the bread still fresh?",
+      "gloss": "está el pan todavía fresco",
+      "lemmas": [
+        "frisch"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q074",
+      "de": "Die Brötchen sind ganz frisch.",
+      "es": "Los panecillos están recién hechos.",
+      "en": "The rolls are completely fresh.",
+      "gloss": "los panecillos están del-todo frescos",
+      "lemmas": [
+        "frisch",
+        "Brötchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q075",
+      "de": "Ich kaufe das Gemüse lieber frisch.",
+      "es": "Prefiero comprar la verdura fresca.",
+      "en": "I prefer to buy vegetables fresh.",
+      "gloss": "yo compro la verdura más-gustosamente fresca",
+      "lemmas": [
+        "frisch"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q076",
+      "de": "Mach die Pfanne heiß.",
+      "es": "Calienta la sartén.",
+      "en": "Get the pan hot.",
+      "gloss": "haz la sartén caliente",
+      "lemmas": [
+        "Pfanne"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q077",
+      "de": "In der Pfanne ist noch Öl.",
+      "es": "Todavía hay aceite en la sartén.",
+      "en": "There's still oil in the pan.",
+      "gloss": "en la sartén hay todavía aceite",
+      "lemmas": [
+        "Pfanne",
+        "Öl"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q078",
+      "de": "Die Eier sind in der Pfanne.",
+      "es": "Los huevos están en la sartén.",
+      "en": "The eggs are in the pan.",
+      "gloss": "los huevos están en la sartén",
+      "lemmas": [
+        "Pfanne"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q079",
+      "de": "Ich hol schnell Brötchen.",
+      "es": "Voy rápido a por panecillos.",
+      "en": "I'll quickly go get some rolls.",
+      "gloss": "yo traigo rápido panecillos",
+      "lemmas": [
+        "Brötchen"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'holen' es ir a buscar algo y traerlo."
+    },
+    {
+      "id": "food_drink_q080",
+      "de": "Die Brötchen vom Bäcker sind viel besser.",
+      "es": "Los panecillos de la panadería son mucho mejores.",
+      "en": "The rolls from the bakery are much better.",
+      "gloss": "los panecillos del panadero son mucho mejores",
+      "lemmas": [
+        "Brötchen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "'vom Bäcker' = de la panadería, aunque literalmente diga 'del panadero'."
+    },
+    {
+      "id": "food_drink_q081",
+      "de": "Ein Brötchen mit Schinken, bitte.",
+      "es": "Un panecillo con jamón, por favor.",
+      "en": "A roll with ham, please.",
+      "gloss": "un panecillo con jamón por-favor",
+      "lemmas": [
+        "Brötchen",
+        "Schinken"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q082",
+      "de": "Die Nudeln sind noch hart.",
+      "es": "La pasta todavía está dura.",
+      "en": "The pasta is still hard.",
+      "gloss": "los fideos están todavía duros",
+      "lemmas": [
+        "Nudel"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'Nudeln' va casi siempre en plural."
+    },
+    {
+      "id": "food_drink_q083",
+      "de": "Nudeln mit Soße, bitte.",
+      "es": "Pasta con salsa, por favor.",
+      "en": "Pasta with sauce, please.",
+      "gloss": "fideos con salsa por-favor",
+      "lemmas": [
+        "Nudel",
+        "Soße"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q084",
+      "de": "Darf ich mal probieren?",
+      "es": "¿Puedo probar?",
+      "en": "May I have a taste?",
+      "gloss": "puedo yo vez probar",
+      "lemmas": [
+        "probieren"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'dürfen' es el permiso; 'können' es la capacidad."
+    },
+    {
+      "id": "food_drink_q085",
+      "de": "Probier den Käse, der ist super.",
+      "es": "Prueba el queso, está buenísimo.",
+      "en": "Try the cheese, it's great.",
+      "gloss": "prueba el queso ese es súper",
+      "lemmas": [
+        "probieren",
+        "Käse"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'der' repite el nombre anterior, como 'ese' en español hablado."
+    },
+    {
+      "id": "food_drink_q086",
+      "de": "Ich probiere gern neue Sachen.",
+      "es": "Me gusta probar cosas nuevas.",
+      "en": "I like trying new things.",
+      "gloss": "yo pruebo gustosamente nuevas cosas",
+      "lemmas": [
+        "probieren"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'gern' + verbo es la manera de decir 'me gusta hacer algo'."
+    },
+    {
+      "id": "food_drink_q087",
+      "de": "Mir ist das viel zu scharf.",
+      "es": "Para mí eso pica muchísimo.",
+      "en": "That's way too spicy for me.",
+      "gloss": "a-mí es eso mucho demasiado picante",
+      "lemmas": [
+        "scharf"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q088",
+      "de": "Magst du es scharf?",
+      "es": "¿Te gusta picante?",
+      "en": "Do you like it spicy?",
+      "gloss": "quieres tú ello picante",
+      "lemmas": [
+        "scharf"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q089",
+      "de": "Ohne Zwiebeln, bitte.",
+      "es": "Sin cebolla, por favor.",
+      "en": "Without onions, please.",
+      "gloss": "sin cebollas por-favor",
+      "lemmas": [
+        "Zwiebel"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "El alemán lo dice en plural aunque el español use el singular."
+    },
+    {
+      "id": "food_drink_q090",
+      "de": "Von Zwiebeln muss ich immer weinen.",
+      "es": "Las cebollas siempre me hacen llorar.",
+      "en": "Onions always make me cry.",
+      "gloss": "de cebollas debo yo siempre llorar",
+      "lemmas": [
+        "Zwiebel"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "El alemán dice 'tengo que llorar por las cebollas', no 'me hacen llorar'."
+    },
+    {
+      "id": "food_drink_q091",
+      "de": "Mit Soße oder ohne?",
+      "es": "¿Con salsa o sin?",
+      "en": "With sauce or without?",
+      "gloss": "con salsa o sin",
+      "lemmas": [
+        "Soße"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q092",
+      "de": "Die Soße ist zu dünn.",
+      "es": "La salsa está demasiado líquida.",
+      "en": "The sauce is too thin.",
+      "gloss": "la salsa está demasiado fina",
+      "lemmas": [
+        "Soße"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q093",
+      "de": "Ich esse keinen Schinken.",
+      "es": "Yo no como jamón.",
+      "en": "I don't eat ham.",
+      "gloss": "yo como ningún jamón",
+      "lemmas": [
+        "Schinken"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Para negar un nombre se usa 'kein', no 'nicht'."
+    },
+    {
+      "id": "food_drink_q094",
+      "de": "Auf der Pizza ist Schinken.",
+      "es": "La pizza lleva jamón.",
+      "en": "There's ham on the pizza.",
+      "gloss": "sobre la pizza hay jamón",
+      "lemmas": [
+        "Schinken"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q095",
+      "de": "Noch etwas Pfeffer?",
+      "es": "¿Un poco más de pimienta?",
+      "en": "A bit more pepper?",
+      "gloss": "todavía algo pimienta",
+      "lemmas": [
+        "Pfeffer"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q096",
+      "de": "Da ist zu viel Pfeffer dran.",
+      "es": "Lleva demasiada pimienta.",
+      "en": "There's too much pepper on it.",
+      "gloss": "ahí está demasiado mucha pimienta encima",
+      "lemmas": [
+        "Pfeffer"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'dran' es la forma hablada de 'daran': encima de eso."
+    },
+    {
+      "id": "food_drink_q097",
+      "de": "Nimm dir eine Banane mit.",
+      "es": "Llévate un plátano.",
+      "en": "Take a banana with you.",
+      "gloss": "toma a-ti un plátano con",
+      "lemmas": [
+        "Banane"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'mitnehmen' es separable: el 'mit' se va al final."
+    },
+    {
+      "id": "food_drink_q098",
+      "de": "Die Bananen sind noch grün.",
+      "es": "Los plátanos todavía están verdes.",
+      "en": "The bananas are still green.",
+      "gloss": "los plátanos están todavía verdes",
+      "lemmas": [
+        "Banane"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q099",
+      "de": "Ich mache mir einen Saft mit Banane.",
+      "es": "Me hago un zumo con plátano.",
+      "en": "I'm making myself a juice with banana.",
+      "gloss": "yo hago a-mí un zumo con plátano",
+      "lemmas": [
+        "Banane",
+        "Saft"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Ese 'mir' es un dativo de interés: 'me lo hago para mí'."
+    },
+    {
+      "id": "food_drink_q100",
+      "de": "Mit Sahne, bitte.",
+      "es": "Con nata, por favor.",
+      "en": "With cream, please.",
+      "gloss": "con nata por-favor",
+      "lemmas": [
+        "Sahne"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q101",
+      "de": "Kommt da Sahne rein?",
+      "es": "¿Lleva nata?",
+      "en": "Does cream go in it?",
+      "gloss": "viene ahí nata dentro",
+      "lemmas": [
+        "Sahne"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q102",
+      "de": "Erdbeeren mit Sahne sind das Beste.",
+      "es": "Las fresas con nata son lo mejor.",
+      "en": "Strawberries with cream are the best.",
+      "gloss": "fresas con nata son lo mejor",
+      "lemmas": [
+        "Sahne",
+        "Erdbeere"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "El verbo va en plural porque el sujeto es 'Erdbeeren'."
+    },
+    {
+      "id": "food_drink_q103",
+      "de": "Einmal Huhn mit Reis, bitte.",
+      "es": "Una de pollo con arroz, por favor.",
+      "en": "One chicken with rice, please.",
+      "gloss": "una-vez pollo con arroz por-favor",
+      "lemmas": [
+        "Huhn",
+        "Reis"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": "En cartas y bares verás más 'Hähnchen' para el pollo cocinado."
+    },
+    {
+      "id": "food_drink_q104",
+      "de": "Ich esse lieber Huhn als Fisch.",
+      "es": "Prefiero pollo antes que pescado.",
+      "en": "I'd rather eat chicken than fish.",
+      "gloss": "yo como más-gustosamente pollo que pescado",
+      "lemmas": [
+        "Huhn"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q105",
+      "de": "Die Milch ist schon sauer.",
+      "es": "La leche ya está cortada.",
+      "en": "The milk has already gone sour.",
+      "gloss": "la leche está ya agria",
+      "lemmas": [
+        "sauer"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "Con personas 'sauer' significa 'enfadado'."
+    },
+    {
+      "id": "food_drink_q106",
+      "de": "Die Zitrone ist mir zu sauer.",
+      "es": "El limón me resulta demasiado ácido.",
+      "en": "The lemon is too sour for me.",
+      "gloss": "el limón es a-mí demasiado ácido",
+      "lemmas": [
+        "sauer",
+        "Zitrone"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q107",
+      "de": "Wir brauchen noch Mehl.",
+      "es": "Todavía nos hace falta harina.",
+      "en": "We still need flour.",
+      "gloss": "nosotros necesitamos todavía harina",
+      "lemmas": [
+        "Mehl"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q108",
+      "de": "Ist noch Mehl da?",
+      "es": "¿Queda harina?",
+      "en": "Is there any flour left?",
+      "gloss": "hay todavía harina ahí",
+      "lemmas": [
+        "Mehl"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'da sein' aquí es 'haber, quedar'."
+    },
+    {
+      "id": "food_drink_q109",
+      "de": "Ohne Mehl kann ich nicht backen.",
+      "es": "Sin harina no puedo hornear.",
+      "en": "I can't bake without flour.",
+      "gloss": "sin harina puedo yo no hornear",
+      "lemmas": [
+        "Mehl",
+        "backen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q110",
+      "de": "Tee mit Zitrone, bitte.",
+      "es": "Té con limón, por favor.",
+      "en": "Tea with lemon, please.",
+      "gloss": "té con limón por-favor",
+      "lemmas": [
+        "Zitrone"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q111",
+      "de": "Tu ein bisschen Zitrone drauf.",
+      "es": "Échale un poco de limón.",
+      "en": "Put a bit of lemon on it.",
+      "gloss": "pon un poquito limón encima",
+      "lemmas": [
+        "Zitrone"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'ein bisschen' no lleva 'de' delante del nombre."
+    },
+    {
+      "id": "food_drink_q112",
+      "de": "Willst du einen Keks?",
+      "es": "¿Quieres una galleta?",
+      "en": "Do you want a cookie?",
+      "gloss": "quieres tú una galleta",
+      "lemmas": [
+        "Keks"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": "'Keks' es masculino aunque en español la galleta sea femenina."
+    },
+    {
+      "id": "food_drink_q113",
+      "de": "Die Kekse sind alle.",
+      "es": "Se han acabado las galletas.",
+      "en": "The cookies are all gone.",
+      "gloss": "las galletas están todas",
+      "lemmas": [
+        "Keks"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": "'alle sein' en lenguaje hablado significa 'haberse acabado'."
+    },
+    {
+      "id": "food_drink_q114",
+      "de": "Wir backen heute Kekse.",
+      "es": "Hoy hacemos galletas.",
+      "en": "We're baking cookies today.",
+      "gloss": "nosotros horneamos hoy galletas",
+      "lemmas": [
+        "backen",
+        "Keks"
+      ],
+      "level": 2,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q115",
+      "de": "Das riecht lecker!",
+      "es": "¡Qué bien huele!",
+      "en": "That smells delicious!",
+      "gloss": "eso huele rico",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q116",
+      "de": "Meine Oma kocht echt lecker.",
+      "es": "Mi abuela cocina buenísimo.",
+      "en": "My grandma's cooking is really good.",
+      "gloss": "mi abuela cocina de-verdad rico",
+      "lemmas": [
+        "lecker",
+        "kochen"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "Aquí 'lecker' funciona como adverbio, sin cambiar de forma."
+    },
+    {
+      "id": "food_drink_q117",
+      "de": "Boah, ist das lecker!",
+      "es": "¡Buah, qué rico está!",
+      "en": "Wow, this is delicious!",
+      "gloss": "guau es eso rico",
+      "lemmas": [
+        "lecker"
+      ],
+      "level": 2,
+      "type": "phrase",
+      "note": "En estas exclamaciones el verbo va el primero."
+    },
+    {
+      "id": "food_drink_q118",
+      "de": "Auf dem Brot ist noch Gurke.",
+      "es": "En el pan queda pepino.",
+      "en": "There's still cucumber on the bread.",
+      "gloss": "sobre el pan hay todavía pepino",
+      "lemmas": [
+        "Gurke"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q119",
+      "de": "Ich schneide die Gurke klein.",
+      "es": "Corto el pepino en trocitos.",
+      "en": "I'll dice the cucumber.",
+      "gloss": "yo corto el pepino pequeño",
+      "lemmas": [
+        "Gurke",
+        "schneiden"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'klein schneiden' = cortar en trozos pequeños."
+    },
+    {
+      "id": "food_drink_q120",
+      "de": "Magst du Gurke im Salat?",
+      "es": "¿Te gusta el pepino en la ensalada?",
+      "en": "Do you like cucumber in salad?",
+      "gloss": "quieres tú pepino en-la ensalada",
+      "lemmas": [
+        "Gurke",
+        "Salat"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q121",
+      "de": "Marmelade oder Honig?",
+      "es": "¿Mermelada o miel?",
+      "en": "Jam or honey?",
+      "gloss": "mermelada o miel",
+      "lemmas": [
+        "Marmelade",
+        "Honig"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q122",
+      "de": "Tee mit Honig hilft immer.",
+      "es": "El té con miel siempre va bien.",
+      "en": "Tea with honey always helps.",
+      "gloss": "té con miel ayuda siempre",
+      "lemmas": [
+        "Honig"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q123",
+      "de": "Nimmst du Honig aufs Brötchen?",
+      "es": "¿Te pones miel en el panecillo?",
+      "en": "Do you have honey on your roll?",
+      "gloss": "tomas tú miel sobre-el panecillo",
+      "lemmas": [
+        "Honig",
+        "Brötchen"
+      ],
+      "level": 3,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q124",
+      "de": "Morgens esse ich Joghurt mit Obst.",
+      "es": "Por las mañanas como yogur con fruta.",
+      "en": "In the mornings I eat yogurt with fruit.",
+      "gloss": "por-las-mañanas como yo yogur con fruta",
+      "lemmas": [
+        "Joghurt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'morgens' es 'por las mañanas', en general, no 'mañana'."
+    },
+    {
+      "id": "food_drink_q125",
+      "de": "Der Joghurt ist abgelaufen.",
+      "es": "El yogur está caducado.",
+      "en": "The yogurt is past its date.",
+      "gloss": "el yogur es caducado",
+      "lemmas": [
+        "Joghurt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q126",
+      "de": "Wir haben noch einen Joghurt im Kühlschrank.",
+      "es": "Todavía tenemos un yogur en la nevera.",
+      "en": "We still have a yogurt in the fridge.",
+      "gloss": "nosotros tenemos todavía un yogur en-la nevera",
+      "lemmas": [
+        "Joghurt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q127",
+      "de": "Sie hat einen Kuchen gebacken.",
+      "es": "Ella ha hecho una tarta.",
+      "en": "She baked a cake.",
+      "gloss": "ella ha una tarta horneado",
+      "lemmas": [
+        "backen",
+        "Kuchen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "El participio es irregular: 'gebacken', no 'gebackt'."
+    },
+    {
+      "id": "food_drink_q128",
+      "de": "Ich bin total hungrig.",
+      "es": "Estoy muerto de hambre.",
+      "en": "I'm really hungry.",
+      "gloss": "yo estoy total hambriento",
+      "lemmas": [
+        "hungrig"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q129",
+      "de": "Bist du hungrig?",
+      "es": "¿Tienes hambre?",
+      "en": "Are you hungry?",
+      "gloss": "estás tú hambriento",
+      "lemmas": [
+        "hungrig"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": "El alemán usa 'ser/estar' + adjetivo donde el español dice 'tener hambre'."
+    },
+    {
+      "id": "food_drink_q130",
+      "de": "Wenn ich hungrig bin, werde ich sauer.",
+      "es": "Cuando tengo hambre me pongo de mal humor.",
+      "en": "When I'm hungry I get grumpy.",
+      "gloss": "cuando yo hambriento estoy me-vuelvo yo enfadado",
+      "lemmas": [
+        "hungrig",
+        "sauer"
+      ],
+      "level": 5,
+      "type": "sentence",
+      "note": "Aquí 'sauer' es 'enfadado'; en la frase con 'wenn' el verbo va al final."
+    },
+    {
+      "id": "food_drink_q131",
+      "de": "Im Sommer gibt es hier frische Erdbeeren.",
+      "es": "En verano aquí hay fresas frescas.",
+      "en": "In summer there are fresh strawberries here.",
+      "gloss": "en-el verano da ello aquí frescas fresas",
+      "lemmas": [
+        "Erdbeere",
+        "frisch"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'es gibt' es el 'hay' del alemán y siempre lleva acusativo."
+    },
+    {
+      "id": "food_drink_q132",
+      "de": "Welche Marmelade willst du?",
+      "es": "¿Qué mermelada quieres?",
+      "en": "Which jam do you want?",
+      "gloss": "cuál mermelada quieres tú",
+      "lemmas": [
+        "Marmelade"
+      ],
+      "level": 2,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q133",
+      "de": "Ein Brötchen mit Butter und Marmelade, bitte.",
+      "es": "Un panecillo con mantequilla y mermelada, por favor.",
+      "en": "A roll with butter and jam, please.",
+      "gloss": "un panecillo con mantequilla y mermelada por-favor",
+      "lemmas": [
+        "Marmelade",
+        "Butter",
+        "Brötchen"
+      ],
+      "level": 1,
+      "type": "phrase",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q134",
+      "de": "Bist du satt?",
+      "es": "¿Ya has comido bastante?",
+      "en": "Are you full?",
+      "gloss": "estás tú lleno",
+      "lemmas": [
+        "satt"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q135",
+      "de": "Davon werde ich nicht satt.",
+      "es": "Con eso no me lleno.",
+      "en": "That won't fill me up.",
+      "gloss": "de-eso me-vuelvo yo no lleno",
+      "lemmas": [
+        "satt"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'davon' sustituye a 'de eso' y abre la frase."
+    },
+    {
+      "id": "food_drink_q136",
+      "de": "Ich esse, bis ich satt bin.",
+      "es": "Como hasta que me lleno.",
+      "en": "I eat until I'm full.",
+      "gloss": "yo como hasta-que yo lleno estoy",
+      "lemmas": [
+        "satt"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": "Con 'bis' el verbo se va al final de la frase."
+    },
+    {
+      "id": "food_drink_q137",
+      "de": "Ich bin durstig.",
+      "es": "Tengo sed.",
+      "en": "I'm thirsty.",
+      "gloss": "yo estoy sediento",
+      "lemmas": [
+        "durstig"
+      ],
+      "level": 1,
+      "type": "sentence",
+      "note": "En el día a día se oye más 'Ich hab Durst'."
+    },
+    {
+      "id": "food_drink_q138",
+      "de": "Bist du auch durstig?",
+      "es": "¿Tú también tienes sed?",
+      "en": "Are you thirsty too?",
+      "gloss": "estás tú también sediento",
+      "lemmas": [
+        "durstig"
+      ],
+      "level": 1,
+      "type": "question",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q139",
+      "de": "Nach dem Sport bin ich immer durstig.",
+      "es": "Después de hacer deporte siempre tengo sed.",
+      "en": "After sports I'm always thirsty.",
+      "gloss": "tras el deporte estoy yo siempre sediento",
+      "lemmas": [
+        "durstig"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": "'nach' lleva dativo: 'dem Sport'."
+    },
+    {
+      "id": "food_drink_q140",
+      "de": "Kannst du mir mal ___ geben?",
+      "es": "¿Me pasas ___?",
+      "en": "Can you hand me ___?",
+      "gloss": "puedes tú a-mí vez ___ dar",
+      "lemmas": [
+        "Messer",
+        "Gabel",
+        "Butter",
+        "Pfeffer",
+        "Salz"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "ein Messer",
+          "es": "un cuchillo"
+        },
+        {
+          "de": "eine Gabel",
+          "es": "un tenedor"
+        },
+        {
+          "de": "die Butter",
+          "es": "la mantequilla"
+        },
+        {
+          "de": "den Pfeffer",
+          "es": "la pimienta"
+        },
+        {
+          "de": "das Salz",
+          "es": "la sal"
+        }
+      ],
+      "note": "Lo que pides va en acusativo: 'den Pfeffer', 'ein Messer'."
+    },
+    {
+      "id": "food_drink_q141",
+      "de": "Ein Brötchen mit ___, bitte.",
+      "es": "Un panecillo con ___, por favor.",
+      "en": "A roll with ___, please.",
+      "gloss": "un panecillo con ___ por-favor",
+      "lemmas": [
+        "Brötchen",
+        "Käse",
+        "Schinken",
+        "Marmelade",
+        "Honig",
+        "Butter"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Käse",
+          "es": "queso"
+        },
+        {
+          "de": "Schinken",
+          "es": "jamón"
+        },
+        {
+          "de": "Marmelade",
+          "es": "mermelada"
+        },
+        {
+          "de": "Honig",
+          "es": "miel"
+        },
+        {
+          "de": "Butter",
+          "es": "mantequilla"
+        }
+      ],
+      "note": "Con estos alimentos no hace falta artículo después de 'mit'."
+    },
+    {
+      "id": "food_drink_q142",
+      "de": "Ich backe heute ___.",
+      "es": "Hoy hago ___ al horno.",
+      "en": "Today I'm baking ___.",
+      "gloss": "yo horneo hoy ___",
+      "lemmas": [
+        "backen",
+        "Kuchen",
+        "Keks",
+        "Brötchen"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "einen Kuchen",
+          "es": "una tarta"
+        },
+        {
+          "de": "Kekse",
+          "es": "galletas"
+        },
+        {
+          "de": "Brot",
+          "es": "pan"
+        },
+        {
+          "de": "Brötchen",
+          "es": "panecillos"
+        },
+        {
+          "de": "eine Pizza",
+          "es": "una pizza"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_q143",
+      "de": "Kannst du bitte ___ schneiden?",
+      "es": "¿Puedes cortar ___, por favor?",
+      "en": "Could you cut ___, please?",
+      "gloss": "puedes tú por-favor ___ cortar",
+      "lemmas": [
+        "schneiden",
+        "Zwiebel",
+        "Tomate",
+        "Gurke",
+        "Käse"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Zwiebeln",
+          "es": "las cebollas"
+        },
+        {
+          "de": "die Tomaten",
+          "es": "los tomates"
+        },
+        {
+          "de": "die Gurke",
+          "es": "el pepino"
+        },
+        {
+          "de": "den Käse",
+          "es": "el queso"
+        },
+        {
+          "de": "das Brot",
+          "es": "el pan"
+        }
+      ],
+      "note": "El infinitivo 'schneiden' cierra siempre la frase."
+    },
+    {
+      "id": "food_drink_q144",
+      "de": "Tu bitte ___ in den Topf.",
+      "es": "Echa ___ a la olla, por favor.",
+      "en": "Please put ___ in the pot.",
+      "gloss": "pon por-favor ___ en la olla",
+      "lemmas": [
+        "Topf",
+        "Nudel",
+        "Reis",
+        "Kartoffel",
+        "Salz"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Nudeln",
+          "es": "la pasta"
+        },
+        {
+          "de": "den Reis",
+          "es": "el arroz"
+        },
+        {
+          "de": "die Kartoffeln",
+          "es": "las patatas"
+        },
+        {
+          "de": "etwas Salz",
+          "es": "un poco de sal"
+        },
+        {
+          "de": "das Gemüse",
+          "es": "la verdura"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_q145",
+      "de": "Haben wir noch ___?",
+      "es": "¿Nos queda ___?",
+      "en": "Do we still have any ___?",
+      "gloss": "tenemos nosotros todavía ___",
+      "lemmas": [
+        "Butter",
+        "Mehl",
+        "Zucker",
+        "Saft",
+        "Sahne"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Butter",
+          "es": "mantequilla"
+        },
+        {
+          "de": "Mehl",
+          "es": "harina"
+        },
+        {
+          "de": "Zucker",
+          "es": "azúcar"
+        },
+        {
+          "de": "Saft",
+          "es": "zumo"
+        },
+        {
+          "de": "Sahne",
+          "es": "nata"
+        }
+      ],
+      "note": "Sin artículo cuando hablas de una cantidad indeterminada."
+    },
+    {
+      "id": "food_drink_q146",
+      "de": "Ich mag es lieber ___.",
+      "es": "Yo lo prefiero ___.",
+      "en": "I prefer it ___.",
+      "gloss": "yo quiero ello más-gustosamente ___",
+      "lemmas": [
+        "süß",
+        "scharf",
+        "sauer",
+        "frisch"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "süß",
+          "es": "dulce"
+        },
+        {
+          "de": "scharf",
+          "es": "picante"
+        },
+        {
+          "de": "sauer",
+          "es": "ácido"
+        },
+        {
+          "de": "frisch",
+          "es": "fresco"
+        },
+        {
+          "de": "warm",
+          "es": "caliente"
+        }
+      ],
+      "note": "Detrás del verbo el adjetivo no se declina."
+    },
+    {
+      "id": "food_drink_q147",
+      "de": "Möchtest du ___ dazu?",
+      "es": "¿Quieres ___ para acompañar?",
+      "en": "Would you like ___ with it?",
+      "gloss": "querrías tú ___ a-ello",
+      "lemmas": [
+        "Reis",
+        "Salat",
+        "Soße",
+        "Kartoffel",
+        "Sahne"
+      ],
+      "level": 2,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Reis",
+          "es": "arroz"
+        },
+        {
+          "de": "Salat",
+          "es": "ensalada"
+        },
+        {
+          "de": "Soße",
+          "es": "salsa"
+        },
+        {
+          "de": "Kartoffeln",
+          "es": "patatas"
+        },
+        {
+          "de": "Sahne",
+          "es": "nata"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_q148",
+      "de": "Ist das ___?",
+      "es": "¿Esto está ___?",
+      "en": "Is this ___?",
+      "gloss": "es eso ___",
+      "lemmas": [
+        "frisch",
+        "scharf",
+        "süß",
+        "sauer",
+        "lecker"
+      ],
+      "level": 1,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "frisch",
+          "es": "fresco"
+        },
+        {
+          "de": "scharf",
+          "es": "picante"
+        },
+        {
+          "de": "süß",
+          "es": "dulce"
+        },
+        {
+          "de": "sauer",
+          "es": "ácido"
+        },
+        {
+          "de": "lecker",
+          "es": "rico"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_q149",
+      "de": "Ich hab noch ___ im Kühlschrank.",
+      "es": "Todavía me queda ___ en la nevera.",
+      "en": "I've still got ___ in the fridge.",
+      "gloss": "yo tengo todavía ___ en-la nevera",
+      "lemmas": [
+        "Joghurt",
+        "Käse",
+        "Butter",
+        "Saft",
+        "Suppe"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Joghurt",
+          "es": "yogur"
+        },
+        {
+          "de": "Käse",
+          "es": "queso"
+        },
+        {
+          "de": "Butter",
+          "es": "mantequilla"
+        },
+        {
+          "de": "Saft",
+          "es": "zumo"
+        },
+        {
+          "de": "Suppe",
+          "es": "sopa"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "food_drink_q150",
+      "de": "Nimm dir noch ___.",
+      "es": "Sírvete más ___.",
+      "en": "Help yourself to more ___.",
+      "gloss": "toma a-ti todavía ___",
+      "lemmas": [
+        "Kuchen",
+        "Salat",
+        "Keks",
+        "Suppe"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "Kuchen",
+          "es": "tarta"
+        },
+        {
+          "de": "Salat",
+          "es": "ensalada"
+        },
+        {
+          "de": "einen Keks",
+          "es": "una galleta"
+        },
+        {
+          "de": "Suppe",
+          "es": "sopa"
+        },
+        {
+          "de": "Brot",
+          "es": "pan"
+        }
+      ],
+      "note": "Ese 'dir' es dativo y no se traduce como palabra suelta."
+    },
+    {
+      "id": "food_drink_q151",
+      "de": "Schmeckt dir ___?",
+      "es": "¿Te gusta ___?",
+      "en": "Do you like ___?",
+      "gloss": "sabe a-ti ___",
+      "lemmas": [
+        "schmecken",
+        "Soße",
+        "Reis",
+        "Käse",
+        "Suppe",
+        "Huhn"
+      ],
+      "level": 3,
+      "type": "frame",
+      "fillers": [
+        {
+          "de": "die Soße",
+          "es": "la salsa"
+        },
+        {
+          "de": "der Reis",
+          "es": "el arroz"
+        },
+        {
+          "de": "der Käse",
+          "es": "el queso"
+        },
+        {
+          "de": "die Suppe",
+          "es": "la sopa"
+        },
+        {
+          "de": "das Huhn",
+          "es": "el pollo"
+        }
+      ],
+      "note": "Lo que gusta es el sujeto y va en nominativo."
+    },
+    {
+      "id": "food_drink_q152",
+      "de": "Stell den Topf bitte auf den Herd.",
+      "es": "Pon la olla en el fuego, por favor.",
+      "en": "Put the pot on the stove, please.",
+      "gloss": "pon la olla por-favor sobre el fuego",
+      "lemmas": [
+        "Topf"
+      ],
+      "level": 3,
+      "type": "sentence",
+      "note": ""
+    },
+    {
+      "id": "food_drink_q153",
+      "de": "Wir haben zusammen gebacken.",
+      "es": "Hemos horneado juntos.",
+      "en": "We baked together.",
+      "gloss": "nosotros hemos juntos horneado",
+      "lemmas": [
+        "backen"
+      ],
+      "level": 4,
+      "type": "sentence",
+      "note": ""
+    }
+  ]
+}

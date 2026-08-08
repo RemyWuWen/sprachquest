@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Sprachquest — Deutsch lernen</title>
+<link rel="stylesheet" href="css/style.css?v=11">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="theme-color" content="#0d1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ============ TITLE ============ -->
+  <section id="screen-title" class="screen active">
+    <div class="title-art">
+      <div class="title-logo">SPRACH<span>QUEST</span></div>
+      <div class="title-sub">Lerne Deutsch. Rette die Wörter.</div>
+    </div>
+    <div class="title-menu">
+      <button class="btn big" data-act="start">Spiel starten</button>
+      <button class="btn ghost" data-act="continue">Weiter spielen</button>
+      <button class="btn ghost" data-act="settings">Einstellungen</button>
+    </div>
+    <div class="title-foot">
+      <span id="title-stats"></span>
+    </div>
+  </section>
+
+  <!-- ============ OVERWORLD ============ -->
+  <section id="screen-world" class="screen">
+    <div class="hud">
+      <div class="hud-left">
+        <div class="hud-name"><span id="hud-region">—</span></div>
+        <div class="bar hp"><i id="hud-hp"></i><b id="hud-hp-txt"></b></div>
+        <div class="bar xp"><i id="hud-xp"></i><b id="hud-xp-txt"></b></div>
+      </div>
+      <div class="hud-right">
+        <div class="pill" id="hud-level">Lv 1</div>
+        <div class="pill words" id="hud-words">0 / 1000 Wörter</div>
+        <div class="pill-row">
+          <div class="pill streak" id="hud-streak">🔥 0</div>
+          <div class="pill coins" id="hud-coins">🪙 0</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <canvas id="game" width="640" height="480"></canvas>
+      <div id="interact-hint" class="interact-hint hidden">ESPACIO</div>
+    </div>
+
+    <div class="toolbar">
+      <button class="tbtn" data-act="journal" title="Wortschatz (J)">📖<span>Wortschatz</span></button>
+      <button class="tbtn" data-act="review" title="Wiederholen (R)">🔁<span>Wiederholen</span><em id="due-badge" class="badge hidden">0</em></button>
+      <button class="tbtn" data-act="map" title="Karte (M)">🗺️<span>Karte</span></button>
+      <button class="tbtn" data-act="dex" title="Wörterdex (D)">👾<span>Wörterdex</span></button>
+      <button class="tbtn" data-act="quests" title="Aufgaben (Q)">📋<span>Aufgaben</span><em id="quest-badge" class="badge hidden">0</em></button>
+      <button class="tbtn" data-act="shop" title="Laden">🛒<span>Laden</span></button>
+      <button class="tbtn" data-act="settings">⚙️<span>Optionen</span></button>
+      <button class="tbtn" data-act="title">🏠<span>Menü</span></button>
+    </div>
+
+    <!-- touch dpad -->
+    <div id="dpad" class="dpad">
+      <button data-dir="up">▲</button>
+      <button data-dir="left">◀</button>
+      <button data-dir="act">●</button>
+      <button data-dir="right">▶</button>
+      <button data-dir="down">▼</button>
+    </div>
+  </section>
+
+  <!-- ============ DIALOGUE ============ -->
+  <div id="dialogue" class="dialogue hidden">
+    <div class="dlg-box">
+      <div class="dlg-who"><span class="dlg-face" id="dlg-face">🧙</span><span id="dlg-name">—</span></div>
+      <div class="dlg-text" id="dlg-text"></div>
+      <div class="dlg-choices" id="dlg-choices"></div>
+      <div class="dlg-next" id="dlg-next">▼</div>
+    </div>
+  </div>
+
+  <!-- ============ LESSON (input phase) ============ -->
+  <section id="screen-lesson" class="screen modal">
+    <div class="panel lesson">
+      <header class="panel-head">
+        <span class="tag" id="lesson-tag">Unterricht</span>
+        <h2 id="lesson-title">—</h2>
+        <button class="x" data-act="close-lesson">✕</button>
+      </header>
+      <div class="lesson-progress"><i id="lesson-prog"></i></div>
+      <div class="card-stack" id="lesson-card"></div>
+      <footer class="panel-foot">
+        <button class="btn ghost" data-act="lesson-prev">◀ Zurück</button>
+        <button class="btn" data-act="lesson-again">🔊 Nochmal hören</button>
+        <button class="btn primary" data-act="lesson-next">Weiter ▶</button>
+      </footer>
+    </div>
+  </section>
+
+  <!-- ============ BATTLE ============ -->
+  <section id="screen-battle" class="screen">
+    <div class="battle-scene">
+      <div class="foe">
+        <div class="foe-art" id="foe-art">👻</div>
+        <div class="foe-info">
+          <div class="foe-name" id="foe-name">Wortgeist</div>
+          <div class="bar foe-hp"><i id="foe-hp"></i></div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-info">
+          <div class="foe-name" id="hero-name">Du</div>
+          <div class="bar hp"><i id="battle-hp"></i></div>
+        </div>
+        <div class="hero-art">🧑‍🎓</div>
+      </div>
+    </div>
+
+    <div class="battle-ui">
+      <div class="q-head">
+        <span class="q-type" id="q-type">—</span>
+        <span class="q-count" id="q-count"></span>
+      </div>
+      <div class="q-prompt" id="q-prompt"></div>
+      <div class="q-sub" id="q-sub"></div>
+      <div class="q-body" id="q-body"></div>
+      <div class="q-feedback hidden" id="q-feedback"></div>
+      <div class="q-actions">
+        <button class="btn ghost" data-act="q-hint">💡 Tipp</button>
+        <button class="btn ghost" data-act="q-audio">🔊</button>
+        <button class="btn primary" id="q-submit" data-act="q-submit">Prüfen</button>
+      </div>
+    </div>
+    <div class="combo" id="combo"><b id="combo-n">0</b><span>Serie</span><i id="combo-bar"></i></div>
+  </section>
+
+  <!-- ============ JOURNAL ============ -->
+  <section id="screen-journal" class="screen modal">
+    <div class="panel wide">
+      <header class="panel-head">
+        <span class="tag">Wortschatz</span>
+        <h2>Dein Sprachbuch</h2>
+        <button class="x" data-act="close-journal">✕</button>
+      </header>
+      <div class="journal-stats" id="journal-stats"></div>
+      <div class="journal-filters">
+        <input id="journal-search" placeholder="Suchen… (deutsch o español)">
+        <select id="journal-pack"></select>
+        <select id="journal-state">
+          <option value="all">Alle</option>
+          <option value="due">Fällig</option>
+          <option value="learning">Am Lernen</option>
+          <option value="strong">Gefestigt</option>
+          <option value="new">Neu</option>
+        </select>
+      </div>
+      <div class="journal-list" id="journal-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ CHAT ============ -->
+  <section id="screen-chat" class="screen modal">
+    <div class="panel chat">
+      <header class="panel-head">
+        <span class="tag" id="chat-tag">Gespräch</span>
+        <h2 id="chat-title">—</h2>
+        <button class="x" data-act="close-chat">✕</button>
+      </header>
+      <div class="chat-goal" id="chat-goal"></div>
+      <div class="chat-log" id="chat-log"></div>
+      <div class="chat-input">
+        <button class="btn ghost mic" data-act="chat-mic" title="Sprechen">🎤</button>
+        <input id="chat-text" placeholder="Schreib auf Deutsch…" autocomplete="off">
+        <button class="btn primary" data-act="chat-send">Senden</button>
+      </div>
+      <div class="chat-help" id="chat-help"></div>
+    </div>
+  </section>
+
+  <!-- ============ META: dex / quests / shop / badges ============ -->
+  <section id="screen-meta" class="screen modal">
+    <div class="panel wide">
+      <header class="panel-head">
+        <div id="meta-tabs" class="tabs">
+          <button data-tab="dex" class="on">👾 Wörterdex</button>
+          <button data-tab="quests">📋 Aufgaben</button>
+          <button data-tab="shop">🛒 Laden</button>
+          <button data-tab="badges">🏅 Abzeichen</button>
+        </div>
+        <span class="pill coins" id="meta-coins">🪙 0</span>
+        <button class="x" data-act="close-meta">✕</button>
+      </header>
+      <div class="meta-body" id="meta-body"></div>
+    </div>
+  </section>
+
+  <!-- ============ CATCH ============ -->
+  <div id="catch-modal" class="catch-modal hidden">
+    <div class="catch-card">
+      <div class="catch-glow"></div>
+      <div class="catch-face" id="catch-face">👻</div>
+      <div class="catch-name" id="catch-name">—</div>
+      <div class="catch-rar" id="catch-rar">—</div>
+      <div class="catch-flavor" id="catch-flavor"></div>
+      <div class="catch-perk" id="catch-perk"></div>
+      <button class="btn primary" data-act="catch-ok">Super!</button>
+    </div>
+  </div>
+
+  <!-- ============ MAP ============ -->
+  <section id="screen-map" class="screen modal">
+    <div class="panel">
+      <header class="panel-head">
+        <span class="tag">Karte</span>
+        <h2>Die Welt</h2>
+        <button class="x" data-act="close-map">✕</button>
+      </header>
+      <div class="worldmap" id="worldmap"></div>
+    </div>
+  </section>
+
+  <!-- ============ SETTINGS ============ -->
+  <section id="screen-settings" class="screen modal">
+    <div class="panel">
+      <header class="panel-head">
+        <span class="tag">Optionen</span>
+        <h2>Einstellungen</h2>
+        <button class="x" data-act="close-settings">✕</button>
+      </header>
+      <div class="settings">
+        <label class="row"><span>Idioma de apoyo</span>
+          <select id="set-lang"><option value="es">Español</option><option value="en">English</option></select>
+        </label>
+        <label class="row"><span>Audio (TTS)</span><input type="checkbox" id="set-tts" checked></label>
+        <label class="row"><span>Velocidad del audio</span><input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="0.85"></label>
+        <label class="row"><span>Efectos de sonido</span><input type="checkbox" id="set-sfx" checked></label>
+        <label class="row"><span>Nuevos chunks por lección</span><input type="number" id="set-newper" min="3" max="12" value="6"></label>
+        <hr>
+        <label class="row col"><span>Anthropic API key <em>(para hablar con la IA)</em></span>
+          <input type="password" id="set-key" placeholder="sk-ant-…">
+          <small>Se guarda <b>solo en este navegador</b> (localStorage) y viaja únicamente a api.anthropic.com. No se sube a ningún sitio ni se comparte. Sin key, los jefes usan el modo offline.</small>
+        </label>
+        <label class="row"><span>Modelo de IA <em>(afecta al coste)</em></span>
+          <select id="set-model">
+            <option value="claude-opus-5">Claude Opus 5 — mejor</option>
+            <option value="claude-sonnet-5">Claude Sonnet 5 — más barato</option>
+          </select>
+        </label>
+        <hr>
+        <div class="row">
+          <button class="btn ghost danger" data-act="reset">Borrar progreso</button>
+          <button class="btn ghost" data-act="export">Exportar partida</button>
+          <button class="btn ghost" data-act="import">Importar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TOAST / LEVEL UP ============ -->
+  <div id="toast" class="toast hidden"></div>
+  <div id="flash" class="flash hidden"></div>
+
+</div>
+
+<script src="data/chunks.js?v=11"></script>
+<script src="js/srs.js?v=11"></script>
+<script src="js/audio.js?v=11"></script>
+<script src="js/fx.js?v=11"></script>
+<script src="js/world.js?v=11"></script>
+<script src="js/meta.js?v=11"></script>
+<script src="js/battle.js?v=11"></script>
+<script src="js/ai.js?v=11"></script>
+<script src="js/game.js?v=11"></script>
+<script>
+  // Precaches the whole game so it plays with no connection at all.
+  // file:// has no service workers — harmless, the game still runs.
+  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
+</body>
+</html>
