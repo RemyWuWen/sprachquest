@@ -145,7 +145,7 @@ const REGIONS = [
     id: 'markt', name: 'Der Marktplatz', icon: '🥨',
     desc: 'Comida, bebida, dinero y compras. Todo lo que dirás cada día.',
     packs: ['food_drink', 'shopping_money'],
-    seed: 202, spawn: { x: 22, y: 30 }, unlockAt: 22,
+    seed: 202, spawn: { x: 22, y: 30 }, unlockAt: 12,
     build(p) {
       p.rect(0, 0, 44, 34, T.STONE);
       p.border(T.WALL, 1);
@@ -196,7 +196,7 @@ const REGIONS = [
     id: 'viertel', name: 'Das Wohnviertel', icon: '🏘️',
     desc: 'Tu casa, tu rutina, tu familia: el vocabulario de cada mañana.',
     packs: ['home_routine', 'people_family'],
-    seed: 303, spawn: { x: 21, y: 31 }, unlockAt: 46,
+    seed: 303, spawn: { x: 21, y: 31 }, unlockAt: 30,
     build(p) {
       p.border(T.TREE, 2);
       p.hpath(4, 40, 12, T.PATH, 3);
@@ -228,7 +228,7 @@ const REGIONS = [
     id: 'stadt', name: 'Die Stadt', icon: '🏙️',
     desc: 'Transporte, direcciones, trabajo y estudios.',
     packs: ['city_travel', 'work_school'],
-    seed: 404, spawn: { x: 21, y: 31 }, unlockAt: 74,
+    seed: 404, spawn: { x: 21, y: 31 }, unlockAt: 55,
     build(p) {
       p.rect(0, 0, 44, 34, T.STONE);
       p.border(T.WALL, 1);
@@ -270,7 +270,7 @@ const REGIONS = [
     id: 'park', name: 'Park & Klinik', icon: '🌳',
     desc: 'El cuerpo, la salud, los sentimientos, el tiempo y el ocio.',
     packs: ['health_body', 'weather_leisure'],
-    seed: 505, spawn: { x: 21, y: 31 }, unlockAt: 104,
+    seed: 505, spawn: { x: 21, y: 31 }, unlockAt: 85,
     build(p) {
       p.border(T.TREE, 2);
       p.pond(14, 12, 6);
@@ -301,7 +301,7 @@ const REGIONS = [
     id: 'turm', name: 'Der Sprachturm', icon: '🗼',
     desc: 'Conectores, partículas y la prueba final: hablar de verdad.',
     packs: ['core_connect'],
-    seed: 606, spawn: { x: 21, y: 31 }, unlockAt: 140,
+    seed: 606, spawn: { x: 21, y: 31 }, unlockAt: 120,
     build(p) {
       p.rect(0, 0, 44, 34, T.LAVAROCK);
       p.border(T.ROCK, 2);

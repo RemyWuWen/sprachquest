@@ -11,24 +11,24 @@
    old build.
    ============================================================ */
 
-const CACHE = 'sprachquest-d3e0c453';
+const CACHE = 'sprachquest-9e9f9f02';
 
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './icon.svg',
-  './css/style.css?v=d3e0c453',
-  './data/chunks.js?v=d3e0c453',
-  './js/ai.js?v=d3e0c453',
-  './js/audio.js?v=d3e0c453',
-  './js/battle.js?v=d3e0c453',
-  './js/fx.js?v=d3e0c453',
-  './js/game.js?v=d3e0c453',
-  './js/lookup.js?v=d3e0c453',
-  './js/meta.js?v=d3e0c453',
-  './js/srs.js?v=d3e0c453',
-  './js/world.js?v=d3e0c453'
+  './css/style.css?v=9e9f9f02',
+  './data/chunks.js?v=9e9f9f02',
+  './js/ai.js?v=9e9f9f02',
+  './js/audio.js?v=9e9f9f02',
+  './js/battle.js?v=9e9f9f02',
+  './js/fx.js?v=9e9f9f02',
+  './js/game.js?v=9e9f9f02',
+  './js/lookup.js?v=9e9f9f02',
+  './js/meta.js?v=9e9f9f02',
+  './js/srs.js?v=9e9f9f02',
+  './js/world.js?v=9e9f9f02'
 ];
 
 self.addEventListener('install', e => {

@@ -27,7 +27,8 @@ const Game = (() => {
       profile: {
         name: 'Held', xp: 0, level: 1, hp: 100, maxHp: 100, coins: 0,
         region: 'dorf', unlocked: ['dorf'], bosses: [],
-        streak: 0, lastDay: '', bestCombo: 0, started: Date.now()
+        streak: 0, lastDay: '', bestCombo: 0, started: Date.now(),
+        errors: {}   // CASE/GENDER/WORD_ORDER/... → count, the learner's weak spots
       },
       cards: {},           // chunkId → SRS card
       taught: {},          // packId → how many chunks introduced
@@ -62,13 +63,27 @@ const Game = (() => {
     return state.cards[id];
   }
   const knownChunks = () => ALL.filter(c => (state.cards[c.id] || {}).seen > 0);
-  const dueChunks = () => { const n = Date.now(); return knownChunks().filter(c => state.cards[c.id].due <= n); };
-  const strongCount = () => ALL.filter(c => (state.cards[c.id] || {}).strength >= 2).length;
+  const dueChunks = () => { const n = Date.now(); return knownChunks().filter(c => !state.cards[c.id].leech && state.cards[c.id].due <= n); };
+  // Gates read PRODUCED items only — recognition hits no longer open the map.
+  const strongCount = () => ALL.filter(c => (state.cards[c.id] || {}).produced).length;
 
   /** How many of the 1000 high-frequency words you have actually met.
       `cov` is precomputed at build time and already accounts for
       inflected forms (geht → gehen, Häuser → Haus). */
   function lemmasKnown() {
+    const s = new Set();
+    // Only chunks the learner has PRODUCED unaided count toward the headline.
+    // `seen` is set the moment a lesson card is clicked past, so counting it
+    // measured clicking; card.produced is set only by a correct cloze/recall/
+    // frame answer with no hint. The number should mean something.
+    ALL.forEach(c => {
+      const cd = state.cards[c.id];
+      if (cd && cd.produced) (c.cov || []).forEach(i => s.add(i));
+    });
+    return s.size;
+  }
+  /** Words merely encountered — shown as the smaller, secondary number. */
+  function lemmasSeen() {
     const s = new Set();
     knownChunks().forEach(c => (c.cov || []).forEach(i => s.add(i)));
     return s.size;
@@ -124,6 +139,7 @@ const Game = (() => {
     $('hud-xp-txt').textContent = `${p.xp} / ${xpFor(p.level)} XP`;
     $('hud-level').textContent = 'Lv ' + p.level;
     $('hud-words').textContent = `${lemmasKnown()} / ${lemmaTotal()} Wörter`;
+    $('hud-words').title = `${lemmasKnown()} producidas sin ayuda · ${lemmasSeen()} vistas`;
     $('hud-streak').textContent = '🔥 ' + p.streak;
     $('hud-coins').textContent = '🪙 ' + (p.coins || 0);
     const d = dueChunks().length;
@@ -137,6 +153,18 @@ const Game = (() => {
   }
 
   function checkStreak() { Meta.rollStreak(); }
+
+  /** Remember which KIND of German error this was, not just that there was one. */
+  function noteError(kind) {
+    if (!state || !kind) return;
+    const e = state.profile.errors || (state.profile.errors = {});
+    e[kind] = (e[kind] || 0) + 1;
+  }
+  /** The learner's most frequent error type, for targeted practice. */
+  function worstError() {
+    const e = (state && state.profile.errors) || {};
+    return Object.keys(e).sort((a, b) => e[b] - e[a])[0] || null;
+  }
 
   /* ---------------- translation peek ----------------
      Spanish is hidden by default and revealed on demand (Tab, or the 👁
@@ -793,7 +821,7 @@ const Game = (() => {
   return {
     get state() { return state; },
     show, toast, card, allChunks, knownChunks, dueChunks, pack, chunk,
-    addXp, updateHud, save, enterRegion, interact, Dialogue,
-    lemmasKnown, lemmaTotal
+    addXp, updateHud, save, enterRegion, interact, Dialogue, noteError, worstError,
+    lemmasKnown, lemmasSeen, lemmaTotal
   };
 })();

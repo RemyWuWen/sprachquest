@@ -528,3 +528,23 @@ body.show-tr .msg .tr { display: block; }
                    text-transform: uppercase; letter-spacing: .4px; }
 .wordtip .wt-meta i { font-style: normal; opacity: .7; }
 .wordtip .wt-none{ display: block; font-size: 12.5px; color: var(--dim); margin-top: 4px; font-style: italic; }
+
+/* ---------- feedback: name the error, then fix it ---------- */
+.q-feedback .why  { display:block; margin-top:6px; font-size:12.5px; line-height:1.45;
+                    color:#cfe3ff; background:rgba(90,184,255,.09);
+                    border-left:3px solid var(--blue); border-radius:0 7px 7px 0; padding:7px 10px; }
+.q-feedback .diff { display:block; margin-top:6px; font-size:16px; }
+.q-feedback .diff s { color:var(--red); opacity:.85; text-decoration-thickness:2px; }
+.q-feedback .diff b { color:var(--green); }
+
+/* ---------- phone ergonomics ----------
+   Toolbar buttons were 43x37 and one overflowed a 375px screen. Apple and
+   Google both put the minimum comfortable target at 44px; below that you
+   mis-tap, and mis-taps in a learning app cost answers. */
+@media (max-width: 760px) {
+  .toolbar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+             width: 100%; max-width: 100%; padding: 0 6px; box-sizing: border-box; }
+  .toolbar .tbtn { min-height: 46px; width: 100%; justify-content: center; font-size: 17px; }
+  .dlg-peek { min-height: 34px; padding: 6px 12px; }
+  .panel-head .x { min-width: 40px; min-height: 40px; }
+}

@@ -87,7 +87,10 @@ const AI = (() => {
     if (!S) return;
     const list = S.targets.map(c => {
       const done = S.hit.has(c.id);
-      return `<span style="opacity:${done ? 1 : .55};text-decoration:${done ? 'none' : 'none'}">${done ? '✅' : '⬜'} <b>${esc(c.de)}</b></span>`;
+      // Show WHAT to express, in Spanish — never the German to copy.
+      // Printing the target sentence turns production into transcription.
+      const want = Game.state.settings.lang === 'en' ? (c.en || c.es) : (c.es || c.en);
+      return `<span style="opacity:${done ? 1 : .6}">${done ? '✅' : '⬜'} ${done ? '<b>' + esc(c.de) + '</b>' : esc(want)}</span>`;
     }).join(' &nbsp; ');
     $('chat-goal').innerHTML = `Usa estas expresiones en la conversación (${S.hit.size}/${S.targets.length}):<br>${list}`;
   }
@@ -257,8 +260,8 @@ FIX: <la frase del alumno reescrita correctamente en alemán — omite esta lín
     if (notYet.length) {
       const t = notYet[0];
       const hints = [
-        `Und du? Sag mal: „${t.de}"?`,
-        `Interessant. Kannst du „${t.de}" sagen?`,
+        `Und du? Wie ist das bei dir?`,
+        `Interessant. Erzähl mir mehr davon.`,
         `Aha! Und wie sagt man „${t.es}" auf Deutsch?`
       ];
       de = hints[S.turns % hints.length];

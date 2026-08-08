@@ -113,7 +113,7 @@ const Battle = (() => {
     fb.classList.add('hidden'); fb.innerHTML = '';
     $('q-submit').textContent = 'Prüfen';
 
-    if (Game.state.profile.hp <= 0) return finish(false);
+    
     if (S.foeHp <= 0) return finish(true);
     // Safety valve. HP already ends a bad run, but relearning re-queues
     // every miss, so cap the absolute number of questions too — comparing
@@ -178,8 +178,7 @@ const Battle = (() => {
       SFX.bad();
       FX.wash('rgba(120,0,0,.45)');
       Game.addXp(Math.floor(s.xp * .5));
-      Game.toast(`Ohnmächtig… ${s.correct}/${s.done} richtig. Ruh dich aus und versuch es nochmal.`);
-      p.hp = Math.max(20, Math.floor(p.maxHp * .4));
+      Game.toast(`${s.correct}/${s.done} richtig. Die schwierigen kommen wieder.`);
       if (s.onLose) s.onLose(s);
     }
     Meta.checkBadges();
@@ -372,7 +371,10 @@ const Battle = (() => {
     if (type === 'recognize' || type === 'listen') {
       if (S.q.answer === '' || S.q.answer === undefined || S.q.answer < 0) { Game.toast('Wähl eine Antwort.'); return; }
       const ok = S.q.answer === S.q.correctIdx;
-      res = { ok, grade: ok ? 2 : 0, kind: ok ? 'exact' : 'wrong' };
+      // MEANING = picked the wrong sense. Distinct from a grammar slip,
+      // and worth logging separately in the learner's error profile.
+      res = { ok, grade: ok ? 2 : 0, kind: ok ? 'EXACT' : 'MEANING',
+              rule: ok ? '' : 'Esa no era la idea. Vuelve a mirar la frase entera.' };
       const btns = $('q-body').querySelectorAll('.opts button');
       btns.forEach((b, i) => { if (i === S.q.correctIdx) b.classList.add('good'); else if (i === S.q.answer && !ok) b.classList.add('bad'); });
     } else if (type === 'cloze') {
@@ -393,6 +395,11 @@ const Battle = (() => {
     S.answered = true;
     S.done++;
     const card = Game.card(chunk.id);
+    // "Produced" means: generated the German from scratch, unaided. Picking
+    // it out of four options is recognition and must never count as this.
+    if (res.ok && !S.hintUsed && (type === 'recall' || type === 'cloze' || type === 'frame')) {
+      card.produced = true;
+    }
     SRS.review(card, res.grade);
     Game.state.cards[chunk.id] = card;
 
@@ -405,7 +412,7 @@ const Battle = (() => {
 
       const base = (type === 'recall' || type === 'frame') ? 12 : type === 'cloze' ? 9 : 6;
       const critChance = .05 + (S.perks.crit || 0) + Math.min(.20, S.combo * .01);
-      const crit = res.kind === 'exact' && Math.random() < critChance;
+      const crit = res.kind === 'EXACT' && Math.random() < critChance;
       const mult = tier(S.combo).mult * (crit ? 2 : 1);
       const gain = Math.round(base * mult * (1 + (S.perks.xp || 0)));
 
@@ -421,29 +428,37 @@ const Battle = (() => {
       if (crit) { FX.shake(11); FX.wash('rgba(255,207,77,.35)'); SFX.great(); } else { FX.shake(4); SFX.good(); }
 
       fb.classList.add('good');
-      fb.innerHTML = res.kind === 'typo'
-        ? `Fast! Kleiner Tippfehler.<span class="fix">${esc(shown)}</span>`
+      fb.innerHTML = (res.kind === 'TYPO' || res.kind === 'CAPITAL')
+        ? `Fast — ${res.kind === 'CAPITAL' ? 'mayúsculas' : 'un dedazo'}.<span class="fix">${esc(shown)}</span>` +
+          (res.rule ? `<span class="why">${esc(res.rule)}</span>` : '')
         : `${crit ? 'PERFEKT! ⚡' : 'Richtig! ✅'}<span class="fix">${esc(chunk.de)}</span><span class="gl">${esc(chunk.gloss || '')}</span>`;
       const inp = $('q-input'); if (inp) inp.classList.add('good');
 
     } else {
       S.wrong++;
       setCombo(0);
+      Game.noteError(res.kind);
 
-      if (S.shields > 0) {
-        S.shields--;
-        FX.float('SCHILD!', '.hero-art', 'shield');
-        FX.banner('🛡️ SCHILD', 'Dein Wortgeist fängt den Treffer ab', '');
-      } else {
-        Game.state.profile.hp = Math.max(0, Game.state.profile.hp - 14);
-        FX.float('-14', '.hero-art', 'bad');
-        FX.shake(9);
-        FX.wash('rgba(255,60,60,.30)');
-        FX.pop('.hero-art', 'fx-hurt');
-      }
+      // No HP, no damage, no fainting. Ending a session on the very thing
+      // learning requires — being wrong — is backwards, and it turned every
+      // error into a currency sink instead of a lesson.
+      FX.shake(4);
+      FX.pop('.hero-art', 'fx-hurt');
+
+      // Elaborated feedback: name the error type, then show the fix.
+      // Right/wrong alone is d=0.05; saying *why* is d=0.49.
+      const label = {
+        CASE: '⚠️ Caso', GENDER: '⚠️ Género', WORD_ORDER: '⚠️ Orden de palabras',
+        VERB_FORM: '⚠️ Forma verbal', UMLAUT: '⚠️ Umlaut / ß', CAPITAL: '⚠️ Mayúsculas',
+        LEXIS: 'Otra palabra', MISSING: 'Falta algo', EXTRA: 'Sobra algo',
+        MEANING: '⚠️ Significado'
+      }[res.kind] || 'Noch nicht';
 
       fb.classList.add('bad');
-      fb.innerHTML = `Noch nicht.<span class="fix">${esc(shown)}</span>` +
+      fb.innerHTML = `${label}` +
+        (res.diff ? `<span class="diff"><s>${esc(res.diff[0])}</s> → <b>${esc(res.diff[1])}</b></span>` : '') +
+        `<span class="fix">${esc(shown)}</span>` +
+        (res.rule ? `<span class="why">${esc(res.rule)}</span>` : '') +
         `<span class="gl">${esc(chunk.gloss || '')}</span>` +
         `<span style="display:block;margin-top:5px;color:#cfe">${esc(tr(chunk))}</span>` +
         (chunk.note ? `<span style="display:block;margin-top:5px;color:#9fb6d1;font-size:12.5px">💡 ${esc(chunk.note)}</span>` : '');
