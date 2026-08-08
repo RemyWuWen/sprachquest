@@ -27,6 +27,21 @@ const Battle = (() => {
 
   const words = de => de.replace(/_+/g, '___').split(/\s+/).filter(Boolean);
 
+  /* Repair the seam when a Spanish frame and its filler both carry the same
+     little word. "¡Avisa a ___!" + "a mí" produced "¡Avisa a a mí!"; the
+     German side is fine because German fillers are bare, but Spanish fillers
+     often carry their own preposition or article. Cheap to fix generically,
+     and it protects every frame — including the ones nobody audited. */
+  const SEAMS = [
+    [/\b(a) +a\b/gi, '$1'], [/\b(de) +de\b/gi, '$1'], [/\b(en) +en\b/gi, '$1'],
+    [/\b(con) +con\b/gi, '$1'], [/\b(por) +por\b/gi, '$1'], [/\b(para) +para\b/gi, '$1'],
+    [/\ba +al\b/gi, 'al'], [/\bde +del\b/gi, 'del'], [/\ba +el\b/gi, 'al'],
+    [/\bde +el\b/gi, 'del'], [/\bcon +contigo\b/gi, 'contigo'],
+    [/\bcon +conmigo\b/gi, 'conmigo'], [/\bque +que\b/gi, 'que']
+  ];
+  const mendSeam = t => SEAMS.reduce((x, [re, to]) => x.replace(re, to), t)
+                             .replace(/\s{2,}/g, ' ').replace(/\s+([.,!?])/g, '$1').trim();
+
   /** Resolve a frame's ___ slot into a real example on BOTH sides, so the
       learner is never asked to guess which filler we had in mind. */
   function materialize(chunk) {
@@ -37,7 +52,9 @@ const Battle = (() => {
     const fes = Game.state.settings.lang === 'en' ? (f.en || f.es) : (f.es || f.en);
     return {
       de: chunk.de.replace(/_+/, f.de),
-      tr: /_/.test(tr(chunk)) ? tr(chunk).replace(/_+/, fes) : `${tr(chunk).replace(/\s*_+\s*/g, ' ')} (${fes})`
+      tr: /_/.test(tr(chunk))
+        ? mendSeam(tr(chunk).replace(/_+/, fes))
+        : `${tr(chunk).replace(/\s*_+\s*/g, ' ').trim()} (${fes})`
     };
   }
   const shuffle = a => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[b[i], b[j]] = [b[j], b[i]]; } return b; };

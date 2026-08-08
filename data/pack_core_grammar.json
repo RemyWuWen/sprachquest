@@ -1,2886 +1,2886 @@
 {
-  "packId": "core_grammar",
-  "title": "Kernstruktur",
-  "titleDe": "Das Grundgerüst",
-  "desc": "Al terminar este pack sabrás presentarte, preguntar quién, qué, dónde, cuándo y por qué, decir sí y no, negar con nicht y kein, y montar frases con sein, haben, werden y es gibt.",
-  "chunks": [
-    {
-      "id": "core_grammar_001",
-      "de": "Ich bin müde.",
-      "es": "Estoy cansado.",
-      "en": "I'm tired.",
-      "gloss": "yo soy cansado",
-      "lemmas": [
-        "ich",
-        "sein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": "El alemán usa 'sein' para ser y estar."
-    },
-    {
-      "id": "core_grammar_002",
-      "de": "Ich bin nicht müde.",
-      "es": "No estoy cansado.",
-      "en": "I'm not tired.",
-      "gloss": "yo soy no cansado",
-      "lemmas": [
-        "ich",
-        "sein",
-        "nicht"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": "'nicht' va detrás del verbo, no delante como en español."
-    },
-    {
-      "id": "core_grammar_003",
-      "de": "Bist du das?",
-      "es": "¿Eres tú?",
-      "en": "Is that you?",
-      "gloss": "eres tú eso",
-      "lemmas": [
-        "sein",
-        "du",
-        "das"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_004",
-      "de": "Wer bist du?",
-      "es": "¿Quién eres?",
-      "en": "Who are you?",
-      "gloss": "quién eres tú",
-      "lemmas": [
-        "wer",
-        "sein",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_005",
-      "de": "Wie heißt du?",
-      "es": "¿Cómo te llamas?",
-      "en": "What's your name?",
-      "gloss": "cómo te-llamas tú",
-      "lemmas": [
-        "wie",
-        "heißen",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_006",
-      "de": "Wie geht's?",
-      "es": "¿Qué tal?",
-      "en": "How's it going?",
-      "gloss": "cómo va-ello",
-      "lemmas": [
-        "wie",
-        "gehen",
-        "es"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'geht's' es 'geht es' hablado; se dice así casi siempre."
-    },
-    {
-      "id": "core_grammar_007",
-      "de": "Wie geht es dir?",
-      "es": "¿Cómo estás?",
-      "en": "How are you?",
-      "gloss": "cómo va ello a-ti",
-      "lemmas": [
-        "wie",
-        "gehen",
-        "es",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_008",
-      "de": "Mir geht's gut, und dir?",
-      "es": "Estoy bien, ¿y tú?",
-      "en": "I'm good, and you?",
-      "gloss": "a-mí va-ello bien y a-ti",
-      "lemmas": [
-        "ich",
-        "gehen",
-        "es",
-        "du"
-      ],
-      "level": 2,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_009",
-      "de": "Das ist mein Bruder.",
-      "es": "Este es mi hermano.",
-      "en": "This is my brother.",
-      "gloss": "eso es mi hermano",
-      "lemmas": [
-        "das",
-        "sein",
-        "mein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": "'Das ist...' sirve para presentar a cualquier persona o cosa."
-    },
-    {
-      "id": "core_grammar_010",
-      "de": "Das ist nicht mein Handy.",
-      "es": "Ese no es mi móvil.",
-      "en": "That's not my phone.",
-      "gloss": "eso es no mi móvil",
-      "lemmas": [
-        "das",
-        "sein",
-        "nicht",
-        "mein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_011",
-      "de": "Ist das dein Handy?",
-      "es": "¿Es tuyo este móvil?",
-      "en": "Is that your phone?",
-      "gloss": "es eso tu móvil",
-      "lemmas": [
-        "sein",
-        "das",
-        "dein"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_012",
-      "de": "Ist das dein Ernst?",
-      "es": "¿Lo dices en serio?",
-      "en": "Are you serious?",
-      "gloss": "es eso tu seriedad",
-      "lemmas": [
-        "sein",
-        "das",
-        "dein"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Frase hecha: nunca se traduce palabra por palabra."
-    },
-    {
-      "id": "core_grammar_013",
-      "de": "Was ist das?",
-      "es": "¿Qué es esto?",
-      "en": "What's that?",
-      "gloss": "qué es eso",
-      "lemmas": [
-        "was",
-        "sein",
-        "das"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_014",
-      "de": "Was ist los?",
-      "es": "¿Qué pasa?",
-      "en": "What's going on?",
-      "gloss": "qué es suelto",
-      "lemmas": [
-        "was",
-        "sein"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_015",
-      "de": "Was gibt's?",
-      "es": "¿Qué hay? / ¿Qué pasa?",
-      "en": "What's up?",
-      "gloss": "qué da-ello",
-      "lemmas": [
-        "was",
-        "geben",
-        "es"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "'gibt's' = 'gibt es'; el alemán dice 'da' donde el español dice 'hay'."
-    },
-    {
-      "id": "core_grammar_016",
-      "de": "Ja, klar!",
-      "es": "¡Claro que sí!",
-      "en": "Yeah, sure!",
-      "gloss": "sí claro",
-      "lemmas": [
-        "ja"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_017",
-      "de": "Ja, gerne!",
-      "es": "¡Sí, con mucho gusto!",
-      "en": "Yes, gladly!",
-      "gloss": "sí con-gusto",
-      "lemmas": [
-        "ja"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_018",
-      "de": "Ja, genau!",
-      "es": "¡Sí, exacto!",
-      "en": "Yes, exactly!",
-      "gloss": "sí exacto",
-      "lemmas": [
-        "ja"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_019",
-      "de": "Nein, danke.",
-      "es": "No, gracias.",
-      "en": "No, thanks.",
-      "gloss": "no gracias",
-      "lemmas": [
-        "nein"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_020",
-      "de": "Nein, das stimmt nicht.",
-      "es": "No, eso no es cierto.",
-      "en": "No, that's not right.",
-      "gloss": "no eso cuadra no",
-      "lemmas": [
-        "nein",
-        "das",
-        "nicht"
-      ],
-      "level": 2,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_021",
-      "de": "Nein, ich glaube nicht.",
-      "es": "No, creo que no.",
-      "en": "No, I don't think so.",
-      "gloss": "no yo creo no",
-      "lemmas": [
-        "nein",
-        "ich",
-        "nicht"
-      ],
-      "level": 2,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_022",
-      "de": "Ich habe Hunger.",
-      "es": "Tengo hambre.",
-      "en": "I'm hungry.",
-      "gloss": "yo tengo hambre",
-      "lemmas": [
-        "ich",
-        "haben"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_023",
-      "de": "Ich hab keine Zeit.",
-      "es": "No tengo tiempo.",
-      "en": "I don't have time.",
-      "gloss": "yo tengo ninguna tiempo",
-      "lemmas": [
-        "ich",
-        "haben",
-        "kein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'hab' sin -e es lo normal al hablar; escrito se pone 'habe'."
-    },
-    {
-      "id": "core_grammar_024",
-      "de": "Ich habe keinen Hunger.",
-      "es": "No tengo hambre.",
-      "en": "I'm not hungry.",
-      "gloss": "yo tengo ningún hambre",
-      "lemmas": [
-        "ich",
-        "haben",
-        "kein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Con sustantivos se niega con 'kein', no con 'nicht'."
-    },
-    {
-      "id": "core_grammar_025",
-      "de": "Hast du ein Ladekabel?",
-      "es": "¿Tienes un cargador?",
-      "en": "Do you have a charger?",
-      "gloss": "tienes tú un cable-de-carga",
-      "lemmas": [
-        "haben",
-        "du",
-        "ein"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_026",
-      "de": "Ich habe eine Frage.",
-      "es": "Tengo una pregunta.",
-      "en": "I have a question.",
-      "gloss": "yo tengo una pregunta",
-      "lemmas": [
-        "ich",
-        "haben",
-        "ein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_027",
-      "de": "Er ist mein Freund.",
-      "es": "Él es mi amigo.",
-      "en": "He's my friend.",
-      "gloss": "él es mi amigo",
-      "lemmas": [
-        "er",
-        "sein",
-        "mein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_028",
-      "de": "Er hat einen Hund.",
-      "es": "Él tiene un perro.",
-      "en": "He has a dog.",
-      "gloss": "él tiene un perro",
-      "lemmas": [
-        "er",
-        "haben",
-        "ein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'ein' se convierte en 'einen' cuando es el objeto del verbo."
-    },
-    {
-      "id": "core_grammar_029",
-      "de": "Sie ist nicht da.",
-      "es": "Ella no está.",
-      "en": "She's not here.",
-      "gloss": "ella es no ahí",
-      "lemmas": [
-        "sie",
-        "sein",
-        "nicht"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_030",
-      "de": "Sie hat recht.",
-      "es": "Ella tiene razón.",
-      "en": "She's right.",
-      "gloss": "ella tiene razón",
-      "lemmas": [
-        "sie",
-        "haben"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_031",
-      "de": "Sie sind aus Spanien.",
-      "es": "Ellos son de España.",
-      "en": "They're from Spain.",
-      "gloss": "ellos son de España",
-      "lemmas": [
-        "sie",
-        "sein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'sie' es 'ella', 'ellos' y 'usted'; lo distingues por el verbo."
-    },
-    {
-      "id": "core_grammar_032",
-      "de": "Wir sind zu zweit.",
-      "es": "Somos dos.",
-      "en": "There are two of us.",
-      "gloss": "nosotros somos a dos",
-      "lemmas": [
-        "wir",
-        "sein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Se usa mucho al llegar a un restaurante."
-    },
-    {
-      "id": "core_grammar_033",
-      "de": "Wir haben Zeit.",
-      "es": "Tenemos tiempo.",
-      "en": "We have time.",
-      "gloss": "nosotros tenemos tiempo",
-      "lemmas": [
-        "wir",
-        "haben"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_034",
-      "de": "Wo bist du?",
-      "es": "¿Dónde estás?",
-      "en": "Where are you?",
-      "gloss": "dónde eres tú",
-      "lemmas": [
-        "wo",
-        "sein",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_035",
-      "de": "Wo ist der Bahnhof?",
-      "es": "¿Dónde está la estación?",
-      "en": "Where's the train station?",
-      "gloss": "dónde es el estación",
-      "lemmas": [
-        "wo",
-        "sein",
-        "der"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'Bahnhof' es masculino: der Bahnhof."
-    },
-    {
-      "id": "core_grammar_036",
-      "de": "Wo ist die Toilette, bitte?",
-      "es": "¿Dónde está el baño, por favor?",
-      "en": "Where's the toilet, please?",
-      "gloss": "dónde es la baño por-favor",
-      "lemmas": [
-        "wo",
-        "sein",
-        "der"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'die' es la forma femenina de 'der'."
-    },
-    {
-      "id": "core_grammar_037",
-      "de": "Warum nicht?",
-      "es": "¿Por qué no?",
-      "en": "Why not?",
-      "gloss": "por-qué no",
-      "lemmas": [
-        "warum",
-        "nicht"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_038",
-      "de": "Warum bist du sauer?",
-      "es": "¿Por qué estás enfadado?",
-      "en": "Why are you angry?",
-      "gloss": "por-qué eres tú agrio",
-      "lemmas": [
-        "warum",
-        "sein",
-        "du"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "'sauer' literalmente es 'ácido', pero significa 'enfadado'."
-    },
-    {
-      "id": "core_grammar_039",
-      "de": "Wann kommst du?",
-      "es": "¿Cuándo vienes?",
-      "en": "When are you coming?",
-      "gloss": "cuándo vienes tú",
-      "lemmas": [
-        "wann",
-        "kommen",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_040",
-      "de": "Wann gibt es Essen?",
-      "es": "¿Cuándo se come?",
-      "en": "When's the food?",
-      "gloss": "cuándo da ello comida",
-      "lemmas": [
-        "wann",
-        "geben",
-        "es"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_041",
-      "de": "Wer ist das?",
-      "es": "¿Quién es ese?",
-      "en": "Who's that?",
-      "gloss": "quién es eso",
-      "lemmas": [
-        "wer",
-        "sein",
-        "das"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_042",
-      "de": "Wer hat das gesagt?",
-      "es": "¿Quién ha dicho eso?",
-      "en": "Who said that?",
-      "gloss": "quién ha eso dicho",
-      "lemmas": [
-        "wer",
-        "haben",
-        "das",
-        "sagen"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": "En pasado el participio ('gesagt') se va al final de la frase."
-    },
-    {
-      "id": "core_grammar_043",
-      "de": "Ich weiß es nicht.",
-      "es": "No lo sé.",
-      "en": "I don't know.",
-      "gloss": "yo sé lo no",
-      "lemmas": [
-        "ich",
-        "wissen",
-        "es",
-        "nicht"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_044",
-      "de": "Ich verstehe nichts.",
-      "es": "No entiendo nada.",
-      "en": "I don't understand anything.",
-      "gloss": "yo entiendo nada",
-      "lemmas": [
-        "ich",
-        "verstehen",
-        "nichts"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Con 'nichts' ya no se pone 'nicht': no hay doble negación."
-    },
-    {
-      "id": "core_grammar_045",
-      "de": "Das macht nichts.",
-      "es": "No pasa nada.",
-      "en": "That's alright / never mind.",
-      "gloss": "eso hace nada",
-      "lemmas": [
-        "das",
-        "machen",
-        "nichts"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_046",
-      "de": "Nichts zu danken.",
-      "es": "No hay de qué.",
-      "en": "Don't mention it.",
-      "gloss": "nada a agradecer",
-      "lemmas": [
-        "nichts"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_047",
-      "de": "Wie sagt man das auf Deutsch?",
-      "es": "¿Cómo se dice eso en alemán?",
-      "en": "How do you say that in German?",
-      "gloss": "cómo dice uno eso en alemán",
-      "lemmas": [
-        "wie",
-        "sagen",
-        "man",
-        "das"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'man' es el 'se' impersonal español, y lleva verbo en singular."
-    },
-    {
-      "id": "core_grammar_048",
-      "de": "Hier darf man nicht parken.",
-      "es": "Aquí no se puede aparcar.",
-      "en": "You can't park here.",
-      "gloss": "aquí puede uno no aparcar",
-      "lemmas": [
-        "man",
-        "dürfen",
-        "nicht",
-        "parken"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "El infinitivo 'parken' va al final."
-    },
-    {
-      "id": "core_grammar_049",
-      "de": "Man weiß nie.",
-      "es": "Nunca se sabe.",
-      "en": "You never know.",
-      "gloss": "uno sabe nunca",
-      "lemmas": [
-        "man",
-        "wissen"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_050",
-      "de": "Ich werde müde.",
-      "es": "Me estoy cansando.",
-      "en": "I'm getting tired.",
-      "gloss": "yo llego-a-ser cansado",
-      "lemmas": [
-        "ich",
-        "werden"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'werden' es cambio de estado: 'ponerse', 'volverse'."
-    },
-    {
-      "id": "core_grammar_051",
-      "de": "Das wird schon.",
-      "es": "Ya verás que sale bien.",
-      "en": "It'll be fine.",
-      "gloss": "eso llega-a-ser ya",
-      "lemmas": [
-        "das",
-        "werden"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "Frase de ánimo muy común; no se traduce literal."
-    },
-    {
-      "id": "core_grammar_052",
-      "de": "Wir werden sehen.",
-      "es": "Ya veremos.",
-      "en": "We'll see.",
-      "gloss": "nosotros vamos-a ver",
-      "lemmas": [
-        "wir",
-        "werden",
-        "sehen"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "Aquí 'werden' forma el futuro y el infinitivo va al final."
-    },
-    {
-      "id": "core_grammar_053",
-      "de": "Setzen Sie sich, bitte.",
-      "es": "Siéntese, por favor.",
-      "en": "Please have a seat.",
-      "gloss": "sienta usted se por-favor",
-      "lemmas": [
-        "sie",
-        "sich",
-        "setzen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'Sie' con mayúscula es 'usted'; 'sich' es el 'se' reflexivo."
-    },
-    {
-      "id": "core_grammar_054",
-      "de": "Das lohnt sich nicht.",
-      "es": "No merece la pena.",
-      "en": "It's not worth it.",
-      "gloss": "eso vale se no",
-      "lemmas": [
-        "das",
-        "sich",
-        "lohnen",
-        "nicht"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_055",
-      "de": "Er interessiert sich für Fußball.",
-      "es": "Le interesa el fútbol.",
-      "en": "He's into football.",
-      "gloss": "él interesa se por fútbol",
-      "lemmas": [
-        "er",
-        "sich",
-        "interessieren",
-        "für"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'sich interessieren für' siempre lleva 'für' + acusativo."
-    },
-    {
-      "id": "core_grammar_056",
-      "de": "Wir helfen einander.",
-      "es": "Nos ayudamos el uno al otro.",
-      "en": "We help each other.",
-      "gloss": "nosotros ayudamos el-uno-al-otro",
-      "lemmas": [
-        "wir",
-        "helfen",
-        "einander"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Correcto, pero algo formal; hablando se oye más 'Wir helfen uns gegenseitig'."
-    },
-    {
-      "id": "core_grammar_057",
-      "de": "Wir schreiben uns jeden Tag.",
-      "es": "Nos escribimos todos los días.",
-      "en": "We text each other every day.",
-      "gloss": "nosotros escribimos nos cada día",
-      "lemmas": [
-        "wir",
-        "schreiben",
-        "sich"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Para 'el uno al otro' en el día a día basta con 'uns'."
-    },
-    {
-      "id": "core_grammar_058",
-      "de": "Sie kennen sich schon lange.",
-      "es": "Se conocen desde hace mucho.",
-      "en": "They've known each other for ages.",
-      "gloss": "ellos conocen se ya largo",
-      "lemmas": [
-        "sie",
-        "kennen",
-        "sich"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'sich' vale también para 'se ... mutuamente'."
-    },
-    {
-      "id": "core_grammar_059",
-      "de": "Willst du irgendwas trinken?",
-      "es": "¿Quieres beber algo?",
-      "en": "Do you want something to drink?",
-      "gloss": "quieres tú algo beber",
-      "lemmas": [
-        "wollen",
-        "du",
-        "irgendwas",
-        "trinken"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'irgendwas' es el 'etwas' del habla cotidiana."
-    },
-    {
-      "id": "core_grammar_060",
-      "de": "Ich habe irgendwas vergessen.",
-      "es": "Se me ha olvidado algo.",
-      "en": "I forgot something.",
-      "gloss": "yo tengo algo olvidado",
-      "lemmas": [
-        "ich",
-        "haben",
-        "irgendwas",
-        "vergessen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_061",
-      "de": "Sag irgendwas!",
-      "es": "¡Di algo!",
-      "en": "Say something!",
-      "gloss": "di algo",
-      "lemmas": [
-        "sagen",
-        "irgendwas"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_062",
-      "de": "Hast du irgendeine Idee?",
-      "es": "¿Se te ocurre alguna idea?",
-      "en": "Do you have any ideas?",
-      "gloss": "tienes tú alguna idea",
-      "lemmas": [
-        "haben",
-        "du",
-        "irgendein"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'irgendein' se declina igual que 'ein'."
-    },
-    {
-      "id": "core_grammar_063",
-      "de": "Gibt es hier irgendeinen Supermarkt?",
-      "es": "¿Hay algún supermercado por aquí?",
-      "en": "Is there a supermarket around here?",
-      "gloss": "da ello aquí algún supermercado",
-      "lemmas": [
-        "geben",
-        "es",
-        "irgendein"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_064",
-      "de": "Irgendein Typ hat nach dir gefragt.",
-      "es": "Un tío ha preguntado por ti.",
-      "en": "Some guy asked about you.",
-      "gloss": "algún tipo ha por ti preguntado",
-      "lemmas": [
-        "irgendein",
-        "haben",
-        "fragen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_065",
-      "de": "Dieser Zug fährt nach Berlin.",
-      "es": "Este tren va a Berlín.",
-      "en": "This train goes to Berlin.",
-      "gloss": "este tren va hacia Berlín",
-      "lemmas": [
-        "dieser",
-        "fahren",
-        "nach"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'dieser' cambia igual que 'der': dieser/diese/dieses."
-    },
-    {
-      "id": "core_grammar_066",
-      "de": "Diese Woche habe ich frei.",
-      "es": "Esta semana tengo libre.",
-      "en": "I'm off this week.",
-      "gloss": "esta semana tengo yo libre",
-      "lemmas": [
-        "dieser",
-        "ich",
-        "haben"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Si la frase empieza por otra cosa, el sujeto pasa detrás del verbo."
-    },
-    {
-      "id": "core_grammar_067",
-      "de": "Dieses hier, bitte.",
-      "es": "Este de aquí, por favor.",
-      "en": "This one here, please.",
-      "gloss": "este aquí por-favor",
-      "lemmas": [
-        "dieser"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Perfecto para señalar algo en una tienda."
-    },
-    {
-      "id": "core_grammar_068",
-      "de": "Was macht ihr?",
-      "es": "¿Qué hacéis?",
-      "en": "What are you guys doing?",
-      "gloss": "qué hacéis vosotros",
-      "lemmas": [
-        "was",
-        "machen",
-        "ihr"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_069",
-      "de": "Habt ihr Hunger?",
-      "es": "¿Tenéis hambre?",
-      "en": "Are you guys hungry?",
-      "gloss": "tenéis vosotros hambre",
-      "lemmas": [
-        "haben",
-        "ihr"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_070",
-      "de": "Das ist ihr Handy, nicht meins.",
-      "es": "Ese es el móvil de ella, no el mío.",
-      "en": "That's her phone, not mine.",
-      "gloss": "eso es su móvil no mío",
-      "lemmas": [
-        "das",
-        "sein",
-        "ihr",
-        "nicht"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Aquí 'ihr' no es 'vosotros', es 'su (de ella)'."
-    },
-    {
-      "id": "core_grammar_071",
-      "de": "Ihr seid zu spät.",
-      "es": "Llegáis tarde.",
-      "en": "You guys are late.",
-      "gloss": "vosotros sois demasiado tarde",
-      "lemmas": [
-        "ihr",
-        "sein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_072",
-      "de": "Der Bus ist schon weg.",
-      "es": "El autobús ya se ha ido.",
-      "en": "The bus is already gone.",
-      "gloss": "el autobús es ya fuera",
-      "lemmas": [
-        "der",
-        "sein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'weg sein' = haberse ido, ya no estar."
-    },
-    {
-      "id": "core_grammar_073",
-      "de": "Ich nehme den Bus.",
-      "es": "Voy en autobús.",
-      "en": "I'll take the bus.",
-      "gloss": "yo tomo el autobús",
-      "lemmas": [
-        "ich",
-        "nehmen",
-        "der"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'der' se vuelve 'den' cuando es el objeto directo."
-    },
-    {
-      "id": "core_grammar_074",
-      "de": "Ein Wasser, bitte.",
-      "es": "Un agua, por favor.",
-      "en": "A water, please.",
-      "gloss": "un agua por-favor",
-      "lemmas": [
-        "ein"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_075",
-      "de": "Ich habe ein Problem.",
-      "es": "Tengo un problema.",
-      "en": "I have a problem.",
-      "gloss": "yo tengo un problema",
-      "lemmas": [
-        "ich",
-        "haben",
-        "ein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_076",
-      "de": "Kein Problem!",
-      "es": "¡Sin problema!",
-      "en": "No problem!",
-      "gloss": "ningún problema",
-      "lemmas": [
-        "kein"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_077",
-      "de": "Ich habe keine Ahnung.",
-      "es": "Ni idea.",
-      "en": "I have no idea.",
-      "gloss": "yo tengo ninguna idea",
-      "lemmas": [
-        "ich",
-        "haben",
-        "kein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_078",
-      "de": "Es ist zu teuer.",
-      "es": "Es demasiado caro.",
-      "en": "It's too expensive.",
-      "gloss": "ello es demasiado caro",
-      "lemmas": [
-        "es",
-        "sein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_079",
-      "de": "Es regnet.",
-      "es": "Está lloviendo.",
-      "en": "It's raining.",
-      "gloss": "ello llueve",
-      "lemmas": [
-        "es",
-        "regnen"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": "El alemán obliga a poner 'es' aunque el español no ponga sujeto."
-    },
-    {
-      "id": "core_grammar_080",
-      "de": "Hier gibt es kein WLAN.",
-      "es": "Aquí no hay wifi.",
-      "en": "There's no wifi here.",
-      "gloss": "aquí da ello ningún wifi",
-      "lemmas": [
-        "es",
-        "geben",
-        "kein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'es gibt' es el 'hay' alemán y siempre lleva acusativo."
-    },
-    {
-      "id": "core_grammar_081",
-      "de": "Es tut mir leid.",
-      "es": "Lo siento.",
-      "en": "I'm sorry.",
-      "gloss": "ello hace a-mí pena",
-      "lemmas": [
-        "es"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_082",
-      "de": "Bist du dir sicher?",
-      "es": "¿Estás seguro?",
-      "en": "Are you sure?",
-      "gloss": "eres tú a-ti seguro",
-      "lemmas": [
-        "sein",
-        "du",
-        "sich"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "Hablando casi siempre se añade ese 'dir'."
-    },
-    {
-      "id": "core_grammar_083",
-      "de": "Ich bin's!",
-      "es": "¡Soy yo!",
-      "en": "It's me!",
-      "gloss": "yo soy-lo",
-      "lemmas": [
-        "ich",
-        "sein",
-        "es"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "'bin's' = 'bin es'; se dice al llamar a la puerta o por teléfono."
-    },
-    {
-      "id": "core_grammar_084",
-      "de": "Wie viel kostet das?",
-      "es": "¿Cuánto cuesta esto?",
-      "en": "How much is that?",
-      "gloss": "cómo mucho cuesta eso",
-      "lemmas": [
-        "wie",
-        "kosten",
-        "das"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_085",
-      "de": "Wie alt bist du?",
-      "es": "¿Cuántos años tienes?",
-      "en": "How old are you?",
-      "gloss": "cómo viejo eres tú",
-      "lemmas": [
-        "wie",
-        "sein",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "En alemán la edad se dice con 'sein', no con 'haben'."
-    },
-    {
-      "id": "core_grammar_086",
-      "de": "Wo wohnst du?",
-      "es": "¿Dónde vives?",
-      "en": "Where do you live?",
-      "gloss": "dónde vives tú",
-      "lemmas": [
-        "wo",
-        "wohnen",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_087",
-      "de": "Warum sagst du das?",
-      "es": "¿Por qué dices eso?",
-      "en": "Why are you saying that?",
-      "gloss": "por-qué dices tú eso",
-      "lemmas": [
-        "warum",
-        "sagen",
-        "du",
-        "das"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_088",
-      "de": "Wann hast du Zeit?",
-      "es": "¿Cuándo tienes tiempo?",
-      "en": "When are you free?",
-      "gloss": "cuándo tienes tú tiempo",
-      "lemmas": [
-        "wann",
-        "haben",
-        "du"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_089",
-      "de": "Wer will noch was?",
-      "es": "¿Quién quiere más?",
-      "en": "Who wants some more?",
-      "gloss": "quién quiere aún algo",
-      "lemmas": [
-        "wer",
-        "wollen",
-        "was"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "Al hablar, 'was' vale también por 'etwas' (algo)."
-    },
-    {
-      "id": "core_grammar_090",
-      "de": "Ich werde bald fünfzehn.",
-      "es": "Pronto cumplo quince.",
-      "en": "I'm turning fifteen soon.",
-      "gloss": "yo llego-a-ser pronto quince",
-      "lemmas": [
-        "ich",
-        "werden"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Para cumplir años se usa 'werden', no 'haben'."
-    },
-    {
-      "id": "core_grammar_091",
-      "de": "Das ist nichts für mich.",
-      "es": "Eso no es lo mío.",
-      "en": "That's not for me.",
-      "gloss": "eso es nada para mí",
-      "lemmas": [
-        "das",
-        "sein",
-        "nichts"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_092",
-      "de": "Wie ist deine Handynummer?",
-      "es": "¿Cuál es tu número de móvil?",
-      "en": "What's your phone number?",
-      "gloss": "cómo es tu número-de-móvil",
-      "lemmas": [
-        "wie",
-        "dein",
-        "sein"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "El alemán pregunta 'cómo es', no 'cuál es'."
-    },
-    {
-      "id": "core_grammar_093",
-      "de": "Was ist dein Lieblingsspiel?",
-      "es": "¿Cuál es tu juego favorito?",
-      "en": "What's your favourite game?",
-      "gloss": "qué es tu juego-favorito",
-      "lemmas": [
-        "was",
-        "sein",
-        "dein"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_094",
-      "de": "Er ist nicht mein Typ.",
-      "es": "No es mi tipo.",
-      "en": "He's not my type.",
-      "gloss": "él es no mi tipo",
-      "lemmas": [
-        "er",
-        "sein",
-        "nicht",
-        "mein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_095",
-      "de": "Ja, das stimmt.",
-      "es": "Sí, es verdad.",
-      "en": "Yeah, that's right.",
-      "gloss": "sí eso cuadra",
-      "lemmas": [
-        "ja",
-        "das"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_096",
-      "de": "Nein, überhaupt nicht.",
-      "es": "No, para nada.",
-      "en": "No, not at all.",
-      "gloss": "no en-absoluto no",
-      "lemmas": [
-        "nein",
-        "nicht"
-      ],
-      "level": 2,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_097",
-      "de": "Wir sind gleich da.",
-      "es": "Llegamos enseguida.",
-      "en": "We'll be there in a sec.",
-      "gloss": "nosotros somos enseguida ahí",
-      "lemmas": [
-        "wir",
-        "sein"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_098",
-      "de": "Ich bin ___.",
-      "es": "Soy / estoy ___.",
-      "en": "I'm ___.",
-      "gloss": "yo soy ___",
-      "lemmas": [
-        "ich",
-        "sein"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "neu hier",
-          "es": "nuevo aquí"
-        },
-        {
-          "de": "aus Spanien",
-          "es": "de España"
-        },
-        {
-          "de": "fertig",
-          "es": "listo / he terminado"
-        },
-        {
-          "de": "fünfzehn",
-          "es": "quince (años)"
-        },
-        {
-          "de": "gleich zurück",
-          "es": "ahora vuelvo"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_099",
-      "de": "Ich bin nicht von hier.",
-      "es": "No soy de aquí.",
-      "en": "I'm not from around here.",
-      "gloss": "yo soy no de aquí",
-      "lemmas": [
-        "ich",
-        "sein",
-        "nicht"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_100",
-      "de": "Ich habe ___.",
-      "es": "Tengo ___.",
-      "en": "I have ___.",
-      "gloss": "yo tengo ___",
-      "lemmas": [
-        "ich",
-        "haben"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Hunger",
-          "es": "hambre"
-        },
-        {
-          "de": "Durst",
-          "es": "sed"
-        },
-        {
-          "de": "eine Frage",
-          "es": "una pregunta"
-        },
-        {
-          "de": "ein Problem",
-          "es": "un problema"
-        },
-        {
-          "de": "Zeit",
-          "es": "tiempo"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_101",
-      "de": "Ich habe keine ___.",
-      "es": "No tengo ___.",
-      "en": "I don't have any ___.",
-      "gloss": "yo tengo ninguna ___",
-      "lemmas": [
-        "ich",
-        "haben",
-        "kein"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Zeit",
-          "es": "tiempo"
-        },
-        {
-          "de": "Ahnung",
-          "es": "idea"
-        },
-        {
-          "de": "Lust",
-          "es": "ganas"
-        },
-        {
-          "de": "Angst",
-          "es": "miedo"
-        }
-      ],
-      "note": "Estos rellenos son femeninos; por eso 'keine'."
-    },
-    {
-      "id": "core_grammar_102",
-      "de": "Das ist ___.",
-      "es": "Esto es ___.",
-      "en": "That's ___.",
-      "gloss": "eso es ___",
-      "lemmas": [
-        "das",
-        "sein"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "super",
-          "es": "genial"
-        },
-        {
-          "de": "mein Bruder",
-          "es": "mi hermano"
-        },
-        {
-          "de": "zu teuer",
-          "es": "demasiado caro"
-        },
-        {
-          "de": "nicht schlimm",
-          "es": "no es grave"
-        },
-        {
-          "de": "dein Platz",
-          "es": "tu sitio"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_103",
-      "de": "Wo ist ___?",
-      "es": "¿Dónde está ___?",
-      "en": "Where is ___?",
-      "gloss": "dónde es ___",
-      "lemmas": [
-        "wo",
-        "sein"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "der Bahnhof",
-          "es": "la estación"
-        },
-        {
-          "de": "die Toilette",
-          "es": "el baño"
-        },
-        {
-          "de": "mein Handy",
-          "es": "mi móvil"
-        },
-        {
-          "de": "der Ausgang",
-          "es": "la salida"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_104",
-      "de": "Was ist dein Problem?",
-      "es": "¿Cuál es tu problema?",
-      "en": "What's your problem?",
-      "gloss": "qué es tu problema",
-      "lemmas": [
-        "was",
-        "sein",
-        "dein"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "Suena a reproche, igual que en español."
-    },
-    {
-      "id": "core_grammar_105",
-      "de": "Es gibt ___.",
-      "es": "Hay ___.",
-      "en": "There is / are ___.",
-      "gloss": "ello da ___",
-      "lemmas": [
-        "es",
-        "geben"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "ein Problem",
-          "es": "un problema"
-        },
-        {
-          "de": "Pizza",
-          "es": "pizza"
-        },
-        {
-          "de": "viel zu tun",
-          "es": "mucho que hacer"
-        },
-        {
-          "de": "einen Plan",
-          "es": "un plan"
-        }
-      ],
-      "note": "Lo que viene detrás de 'es gibt' va en acusativo."
-    },
-    {
-      "id": "core_grammar_106",
-      "de": "Gibt es hier ___?",
-      "es": "¿Hay ___ por aquí?",
-      "en": "Is there ___ around here?",
-      "gloss": "da ello aquí ___",
-      "lemmas": [
-        "geben",
-        "es"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "WLAN",
-          "es": "wifi"
-        },
-        {
-          "de": "eine Toilette",
-          "es": "un baño"
-        },
-        {
-          "de": "einen Supermarkt",
-          "es": "un supermercado"
-        },
-        {
-          "de": "irgendein Café",
-          "es": "algún café"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_107",
-      "de": "Hast du ___?",
-      "es": "¿Tienes ___?",
-      "en": "Do you have ___?",
-      "gloss": "tienes tú ___",
-      "lemmas": [
-        "haben",
-        "du"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Zeit",
-          "es": "tiempo"
-        },
-        {
-          "de": "ein Ladekabel",
-          "es": "un cargador"
-        },
-        {
-          "de": "irgendwas zu essen",
-          "es": "algo de comer"
-        },
-        {
-          "de": "einen Stift",
-          "es": "un boli"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_108",
-      "de": "Habt ihr ___?",
-      "es": "¿Tenéis ___?",
-      "en": "Do you guys have ___?",
-      "gloss": "tenéis vosotros ___",
-      "lemmas": [
-        "haben",
-        "ihr"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Hunger",
-          "es": "hambre"
-        },
-        {
-          "de": "Lust",
-          "es": "ganas"
-        },
-        {
-          "de": "noch Plätze",
-          "es": "sitios libres"
-        },
-        {
-          "de": "eine Idee",
-          "es": "una idea"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_109",
-      "de": "Warum bist du ___?",
-      "es": "¿Por qué estás ___?",
-      "en": "Why are you ___?",
-      "gloss": "por-qué eres tú ___",
-      "lemmas": [
-        "warum",
-        "sein",
-        "du"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "sauer",
-          "es": "enfadado"
-        },
-        {
-          "de": "so müde",
-          "es": "tan cansado"
-        },
-        {
-          "de": "traurig",
-          "es": "triste"
-        },
-        {
-          "de": "schon hier",
-          "es": "ya aquí"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_110",
-      "de": "Wann ist ___?",
-      "es": "¿Cuándo es ___?",
-      "en": "When is ___?",
-      "gloss": "cuándo es ___",
-      "lemmas": [
-        "wann",
-        "sein"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "die Pause",
-          "es": "el descanso"
-        },
-        {
-          "de": "dein Geburtstag",
-          "es": "tu cumpleaños"
-        },
-        {
-          "de": "das Konzert",
-          "es": "el concierto"
-        },
-        {
-          "de": "der nächste Bus",
-          "es": "el próximo autobús"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_111",
-      "de": "Wer ist dran?",
-      "es": "¿A quién le toca?",
-      "en": "Whose turn is it?",
-      "gloss": "quién es encima",
-      "lemmas": [
-        "wer",
-        "sein"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "Se oye en la cola de una tienda y jugando a cualquier cosa."
-    },
-    {
-      "id": "core_grammar_112",
-      "de": "Wie findest du ___?",
-      "es": "¿Qué te parece ___?",
-      "en": "What do you think of ___?",
-      "gloss": "cómo encuentras tú ___",
-      "lemmas": [
-        "wie",
-        "finden",
-        "du"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "das",
-          "es": "esto"
-        },
-        {
-          "de": "die Musik",
-          "es": "la música"
-        },
-        {
-          "de": "mein neues Handy",
-          "es": "mi móvil nuevo"
-        },
-        {
-          "de": "die Schule hier",
-          "es": "el cole de aquí"
-        }
-      ],
-      "note": "'finden' aquí significa 'parecer', no 'encontrar'."
-    },
-    {
-      "id": "core_grammar_113",
-      "de": "Ich werde langsam ___.",
-      "es": "Me estoy poniendo ___.",
-      "en": "I'm starting to get ___.",
-      "gloss": "yo llego-a-ser lentamente ___",
-      "lemmas": [
-        "ich",
-        "werden"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "müde",
-          "es": "cansado"
-        },
-        {
-          "de": "nervös",
-          "es": "nervioso"
-        },
-        {
-          "de": "hungrig",
-          "es": "hambriento"
-        },
-        {
-          "de": "sauer",
-          "es": "enfadado"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_114",
-      "de": "Wie sagt man ___ auf Deutsch?",
-      "es": "¿Cómo se dice ___ en alemán?",
-      "en": "How do you say ___ in German?",
-      "gloss": "cómo dice uno ___ en alemán",
-      "lemmas": [
-        "wie",
-        "sagen",
-        "man"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "das",
-          "es": "esto"
-        },
-        {
-          "de": "dieses Wort",
-          "es": "esta palabra"
-        },
-        {
-          "de": "\"gracias\"",
-          "es": "\"gracias\""
-        },
-        {
-          "de": "\"perdón\"",
-          "es": "\"perdón\""
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_115",
-      "de": "Ich nehme dieses ___.",
-      "es": "Me llevo este ___.",
-      "en": "I'll take this ___.",
-      "gloss": "yo tomo este ___",
-      "lemmas": [
-        "ich",
-        "nehmen",
-        "dieser"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Buch",
-          "es": "libro"
-        },
-        {
-          "de": "Eis",
-          "es": "helado"
-        },
-        {
-          "de": "T-Shirt",
-          "es": "camiseta"
-        },
-        {
-          "de": "Handy",
-          "es": "móvil"
-        }
-      ],
-      "note": "'dieses' es la forma neutra; con der-palabras se dice 'diesen'."
-    },
-    {
-      "id": "core_grammar_116",
-      "de": "Wir kennen einander schon lange.",
-      "es": "Nos conocemos desde hace mucho.",
-      "en": "We've known each other for a long time.",
-      "gloss": "nosotros conocemos el-uno-al-otro ya largo",
-      "lemmas": [
-        "wir",
-        "kennen",
-        "einander"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "En el habla diaria se oye más 'Wir kennen uns schon lange'."
-    },
-    {
-      "id": "core_grammar_117",
-      "de": "Wir sind füreinander da.",
-      "es": "Estamos el uno para el otro.",
-      "en": "We're there for each other.",
-      "gloss": "nosotros somos para-el-uno-al-otro ahí",
-      "lemmas": [
-        "wir",
-        "sein",
-        "einander"
-      ],
-      "level": 4,
-      "type": "phrase",
-      "note": "'einander' se pega a la preposición: füreinander, miteinander, voneinander."
-    },
-    {
-      "id": "core_grammar_118",
-      "de": "Wir müssen einander ___.",
-      "es": "Tenemos que ___ el uno al otro.",
-      "en": "We have to ___ each other.",
-      "gloss": "nosotros debemos el-uno-al-otro ___",
-      "lemmas": [
-        "wir",
-        "müssen",
-        "einander"
-      ],
-      "level": 4,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "helfen",
-          "es": "ayudar"
-        },
-        {
-          "de": "vertrauen",
-          "es": "confiar en"
-        },
-        {
-          "de": "zuhören",
-          "es": "escuchar"
-        },
-        {
-          "de": "respektieren",
-          "es": "respetar"
-        }
-      ],
-      "note": "'einander' nunca cambia de forma, aunque el verbo pida dativo."
-    },
-    {
-      "id": "core_grammar_p001",
-      "de": "Ist da jemand?",
-      "es": "¿Hay alguien?",
-      "en": "Is anyone there?",
-      "gloss": "es ahí alguien",
-      "lemmas": [
-        "jemand",
-        "sein",
-        "da"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p002",
-      "de": "Kann mir jemand helfen?",
-      "es": "¿Alguien me puede ayudar?",
-      "en": "Can someone help me?",
-      "gloss": "puede a-mí alguien ayudar",
-      "lemmas": [
-        "jemand",
-        "können",
-        "helfen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'helfen' pide dativo: 'mir', no 'mich'."
-    },
-    {
-      "id": "core_grammar_p003",
-      "de": "Ich kenne da jemanden.",
-      "es": "Conozco a alguien para eso.",
-      "en": "I know someone for that.",
-      "gloss": "yo conozco ahí a-alguien",
-      "lemmas": [
-        "jemand",
-        "ich"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "En acusativo 'jemand' se convierte en 'jemanden'."
-    },
-    {
-      "id": "core_grammar_p004",
-      "de": "Hat jemand angerufen?",
-      "es": "¿Ha llamado alguien?",
-      "en": "Did anyone call?",
-      "gloss": "ha alguien llamado",
-      "lemmas": [
-        "jemand",
-        "haben"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p005",
-      "de": "Da war niemand.",
-      "es": "No había nadie.",
-      "en": "Nobody was there.",
-      "gloss": "ahí era nadie",
-      "lemmas": [
-        "niemand",
-        "sein",
-        "da"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Con 'niemand' la frase ya es negativa: no se añade 'nicht'."
-    },
-    {
-      "id": "core_grammar_p006",
-      "de": "Das weiß niemand.",
-      "es": "Eso no lo sabe nadie.",
-      "en": "Nobody knows that.",
-      "gloss": "eso sabe nadie",
-      "lemmas": [
-        "niemand",
-        "wissen",
-        "das"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p007",
-      "de": "Ich habe niemandem etwas gesagt.",
-      "es": "No le he dicho nada a nadie.",
-      "en": "I didn't tell anyone anything.",
-      "gloss": "yo he a-nadie algo dicho",
-      "lemmas": [
-        "niemand",
-        "sagen",
-        "ich"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "En dativo 'niemand' se convierte en 'niemandem'."
-    },
-    {
-      "id": "core_grammar_p008",
-      "de": "Ich bin dabei!",
-      "es": "¡Me apunto!",
-      "en": "I'm in!",
-      "gloss": "yo soy con-ello",
-      "lemmas": [
-        "dabei",
-        "sein",
-        "ich"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "'dabei sein' aquí significa apuntarse a un plan."
-    },
-    {
-      "id": "core_grammar_p009",
-      "de": "Da ist nichts dabei.",
-      "es": "No es para tanto.",
-      "en": "It's no big deal.",
-      "gloss": "ahí es nada con-ello",
-      "lemmas": [
-        "dabei",
-        "sein",
-        "nichts"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Frase hecha para quitar importancia a algo."
-    },
-    {
-      "id": "core_grammar_p010",
-      "de": "Warst du auch dabei?",
-      "es": "¿Tú también estabas?",
-      "en": "Were you there too?",
-      "gloss": "eras tú también con-ello",
-      "lemmas": [
-        "dabei",
-        "sein",
-        "du"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "'dabei' = estar presente en algo que pasaba."
-    },
-    {
-      "id": "core_grammar_p011",
-      "de": "Ich bin dafür.",
-      "es": "Yo estoy a favor.",
-      "en": "I'm for it.",
-      "gloss": "yo soy para-eso",
-      "lemmas": [
-        "dafür",
-        "sein",
-        "ich"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Lo contrario es 'Ich bin dagegen'."
-    },
-    {
-      "id": "core_grammar_p012",
-      "de": "Vielen Dank dafür!",
-      "es": "¡Muchas gracias por eso!",
-      "en": "Thanks a lot for that!",
-      "gloss": "muchas gracias para-eso",
-      "lemmas": [
-        "dafür",
-        "Dank"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p013",
-      "de": "Dafür habe ich jetzt keine Zeit.",
-      "es": "Para eso ahora no tengo tiempo.",
-      "en": "I don't have time for that right now.",
-      "gloss": "para-eso tengo yo ahora ninguna tiempo",
-      "lemmas": [
-        "dafür",
-        "haben",
-        "Zeit"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Al empezar con 'dafür', el verbo va segundo y el sujeto detrás."
-    },
-    {
-      "id": "core_grammar_p014",
-      "de": "Da stimmt irgendwas nicht.",
-      "es": "Aquí hay algo que no cuadra.",
-      "en": "Something's not right here.",
-      "gloss": "ahí cuadra algo no",
-      "lemmas": [
-        "irgendwas",
-        "nicht",
-        "da"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p015",
-      "de": "Hast du irgendwas gehört?",
-      "es": "¿Has oído algo?",
-      "en": "Did you hear anything?",
-      "gloss": "has tú algo oído",
-      "lemmas": [
-        "irgendwas",
-        "hören",
-        "du"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p016",
-      "de": "Was hältst du davon?",
-      "es": "¿Qué te parece?",
-      "en": "What do you think of it?",
-      "gloss": "qué sostienes tú de-eso",
-      "lemmas": [
-        "davon",
-        "du",
-        "was"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'halten von' = opinar sobre algo; nunca uses 'denken von' aquí."
-    },
-    {
-      "id": "core_grammar_p017",
-      "de": "Davon weiß ich nichts.",
-      "es": "De eso no sé nada.",
-      "en": "I don't know anything about that.",
-      "gloss": "de-eso sé yo nada",
-      "lemmas": [
-        "davon",
-        "wissen",
-        "nichts"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Empezar con 'davon' obliga a poner el verbo antes del sujeto."
-    },
-    {
-      "id": "core_grammar_p018",
-      "de": "Das hängt davon ab.",
-      "es": "Eso depende.",
-      "en": "That depends.",
-      "gloss": "eso cuelga de-eso de",
-      "lemmas": [
-        "davon",
-        "das"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Verbo separable 'abhängen': el 'ab' se va al final."
-    },
-    {
-      "id": "core_grammar_p019",
-      "de": "Darauf freue ich mich.",
-      "es": "Tengo ganas de eso.",
-      "en": "I'm looking forward to that.",
-      "gloss": "encima-de-eso alegro yo me",
-      "lemmas": [
-        "darauf",
-        "ich"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'sich freuen auf' + cosa ya mencionada se convierte en 'darauf'."
-    },
-    {
-      "id": "core_grammar_p020",
-      "de": "Ich komme gerade nicht darauf.",
-      "es": "Ahora mismo no me sale.",
-      "en": "I can't think of it right now.",
-      "gloss": "yo vengo justo no encima-de-eso",
-      "lemmas": [
-        "darauf",
-        "kommen",
-        "nicht"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'auf etwas kommen' = acordarse de algo, dar con ello."
-    },
-    {
-      "id": "core_grammar_p021",
-      "de": "Kannst du kurz darauf aufpassen?",
-      "es": "¿Puedes vigilarlo un momento?",
-      "en": "Can you keep an eye on it for a sec?",
-      "gloss": "puedes tú corto encima-de-eso vigilar",
-      "lemmas": [
-        "darauf",
-        "können",
-        "du"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'aufpassen auf' + cosa ya mencionada se convierte en 'darauf'."
-    },
-    {
-      "id": "core_grammar_p022",
-      "de": "Hat jemand ___ gesehen?",
-      "es": "¿Alguien ha visto ___?",
-      "en": "Has anyone seen ___?",
-      "gloss": "ha alguien ___ visto",
-      "lemmas": [
-        "jemand",
-        "sehen",
-        "haben"
-      ],
-      "level": 4,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "mein Handy",
-          "es": "mi móvil"
-        },
-        {
-          "de": "meinen Schlüssel",
-          "es": "mi llave"
-        },
-        {
-          "de": "meine Jacke",
-          "es": "mi chaqueta"
-        },
-        {
-          "de": "den Chef",
-          "es": "al jefe"
-        },
-        {
-          "de": "die Kinder",
-          "es": "a los niños"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "core_grammar_p023",
-      "de": "Ich habe ___ nicht dabei.",
-      "es": "No llevo ___ encima.",
-      "en": "I don't have ___ on me.",
-      "gloss": "yo tengo ___ no con-ello",
-      "lemmas": [
-        "dabei",
-        "haben",
-        "nicht"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "meinen Ausweis",
-          "es": "mi carné"
-        },
-        {
-          "de": "mein Handy",
-          "es": "mi móvil"
-        },
-        {
-          "de": "die Karte",
-          "es": "la tarjeta"
-        },
-        {
-          "de": "meine Brille",
-          "es": "mis gafas"
-        }
-      ],
-      "note": "'dabei haben' = llevar algo encima."
-    },
-    {
-      "id": "core_grammar_p024",
-      "de": "Ich muss noch irgendwas ___.",
-      "es": "Todavía tengo que ___ algo.",
-      "en": "I still have to ___ something.",
-      "gloss": "yo debo todavía algo ___",
-      "lemmas": [
-        "irgendwas",
-        "müssen",
-        "noch"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "essen",
-          "es": "comer"
-        },
-        {
-          "de": "kaufen",
-          "es": "comprar"
-        },
-        {
-          "de": "sagen",
-          "es": "decir"
-        },
-        {
-          "de": "erledigen",
-          "es": "resolver / hacer un recado"
-        }
-      ],
-      "note": "El infinitivo va al final de la frase."
-    },
-    {
-      "id": "core_grammar_r001",
-      "de": "Warte kurz, ich bin gleich fertig.",
-      "es": "Espera un momento, ya casi estoy listo.",
-      "en": "Hang on a sec, I'll be ready in a moment.",
-      "gloss": "espera corto, yo soy enseguida listo",
-      "lemmas": [
-        "warten",
-        "kurz",
-        "ich",
-        "sein",
-        "gleich",
-        "fertig"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Aquí 'kurz' significa 'un momentito', no 'corto de longitud'."
-    },
-    {
-      "id": "core_grammar_r002",
-      "de": "Mach's kurz, ich muss gleich los.",
-      "es": "Sé breve, me tengo que ir enseguida.",
-      "en": "Keep it short, I have to leave in a minute.",
-      "gloss": "haz-lo corto, yo debo enseguida fuera",
-      "lemmas": [
-        "machen",
-        "kurz",
-        "ich",
-        "müssen",
-        "gleich"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "'Mach's' es la forma hablada de 'mach es'."
-    },
-    {
-      "id": "core_grammar_r003",
-      "de": "Ich muss kurz ___.",
-      "es": "Tengo que ___ un momento.",
-      "en": "I need to ___ real quick.",
-      "gloss": "yo debo corto ___",
-      "lemmas": [
-        "ich",
-        "müssen",
-        "kurz"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "telefonieren",
-          "es": "hacer una llamada"
-        },
-        {
-          "de": "aufs Klo",
-          "es": "ir al baño"
-        },
-        {
-          "de": "nachdenken",
-          "es": "pensarlo"
-        },
-        {
-          "de": "was trinken",
-          "es": "beber algo"
-        },
-        {
-          "de": "zur Post",
-          "es": "ir a correos"
-        }
-      ],
-      "note": "Muchos alemanes meten 'kurz' en casi cualquier frase para decir 'rapidito'."
-    },
-    {
-      "id": "core_grammar_r004",
-      "de": "Es ist erst acht Uhr.",
-      "es": "Solo son las ocho.",
-      "en": "It's only eight o'clock.",
-      "gloss": "ello es solo ocho hora",
-      "lemmas": [
-        "es",
-        "sein",
-        "erst",
-        "Uhr"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Delante de una hora, 'erst' significa 'todavía solo'."
-    },
-    {
-      "id": "core_grammar_r005",
-      "de": "Wir sehen uns erst nächste Woche.",
-      "es": "No nos vemos hasta la semana que viene.",
-      "en": "We won't see each other until next week.",
-      "gloss": "nosotros vemos nos solo próxima semana",
-      "lemmas": [
-        "wir",
-        "sehen",
-        "erst",
-        "Woche"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'erst' + tiempo se traduce como 'no ... hasta'."
-    },
-    {
-      "id": "core_grammar_r006",
-      "de": "Ich bin gerade erst angekommen.",
-      "es": "Acabo de llegar ahora mismo.",
-      "en": "I've only just arrived.",
-      "gloss": "yo soy justo apenas llegado",
-      "lemmas": [
-        "ich",
-        "gerade",
-        "erst",
-        "ankommen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'gerade erst' equivale al español 'acabar de'."
-    },
-    {
-      "id": "core_grammar_r007",
-      "de": "Ich mache das erst ___.",
-      "es": "No lo hago hasta ___.",
-      "en": "I'm not doing that until ___.",
-      "gloss": "yo hago eso solo ___",
-      "lemmas": [
-        "ich",
-        "machen",
-        "erst"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "später",
-          "es": "más tarde"
-        },
-        {
-          "de": "heute Abend",
-          "es": "esta noche"
-        },
-        {
-          "de": "nach dem Essen",
-          "es": "después de comer"
-        },
-        {
-          "de": "am Wochenende",
-          "es": "el fin de semana"
-        },
-        {
-          "de": "wenn ich Zeit habe",
-          "es": "cuando tenga tiempo"
-        }
-      ],
-      "note": "Aquí 'erst' marca que algo no pasa antes de ese momento."
-    },
-    {
-      "id": "core_grammar_r008",
-      "de": "Das ist nicht meins, sondern deins.",
-      "es": "Eso no es mío, sino tuyo.",
-      "en": "That's not mine, it's yours.",
-      "gloss": "eso es no mío, sino tuyo",
-      "lemmas": [
-        "das",
-        "sein",
-        "nicht",
-        "sondern"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'sondern' solo se usa después de una negación; si no, se dice 'aber'."
-    },
-    {
-      "id": "core_grammar_r009",
-      "de": "Ich komme nicht heute, sondern morgen.",
-      "es": "No vengo hoy, sino mañana.",
-      "en": "I'm not coming today, but tomorrow.",
-      "gloss": "yo vengo no hoy, sino mañana",
-      "lemmas": [
-        "ich",
-        "kommen",
-        "nicht",
-        "sondern",
-        "heute"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_r010",
-      "de": "Ich will keinen Kaffee, sondern ___.",
-      "es": "No quiero café, sino ___.",
-      "en": "I don't want coffee, I want ___.",
-      "gloss": "yo quiero ningún café, sino ___",
-      "lemmas": [
-        "ich",
-        "wollen",
-        "kein",
-        "Kaffee",
-        "sondern"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "einen Tee",
-          "es": "un té"
-        },
-        {
-          "de": "ein Wasser",
-          "es": "un agua"
-        },
-        {
-          "de": "eine Cola",
-          "es": "una Coca-Cola"
-        },
-        {
-          "de": "einfach nur Ruhe",
-          "es": "simplemente tranquilidad"
-        }
-      ],
-      "note": "Después de 'sondern' se repite el mismo caso que antes: aquí acusativo."
-    },
-    {
-      "id": "core_grammar_r011",
-      "de": "Das machen wir beide zusammen.",
-      "es": "Eso lo hacemos los dos juntos.",
-      "en": "We'll do that together, the two of us.",
-      "gloss": "eso hacemos nosotros ambos juntos",
-      "lemmas": [
-        "das",
-        "machen",
-        "wir",
-        "beide",
-        "zusammen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'beide' va detrás del pronombre: 'wir beide', nunca 'beide wir'."
-    },
-    {
-      "id": "core_grammar_r012",
-      "de": "Danke euch beiden!",
-      "es": "¡Gracias a los dos!",
-      "en": "Thanks to both of you!",
-      "gloss": "gracias a-vosotros ambos",
-      "lemmas": [
-        "danke",
-        "ihr",
-        "beide"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "Tras 'danke' se usa dativo, por eso 'euch beiden' con -n."
-    },
-    {
-      "id": "core_grammar_r013",
-      "de": "Ich habe beide Nachrichten gelesen.",
-      "es": "He leído los dos mensajes.",
-      "en": "I've read both messages.",
-      "gloss": "yo he ambos mensajes leído",
-      "lemmas": [
-        "ich",
-        "haben",
-        "beide",
-        "Nachricht",
-        "lesen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Delante de un sustantivo, 'beide' funciona como artículo: 'beide Nachrichten'."
-    },
-    {
-      "id": "core_grammar_r014",
-      "de": "Das habe ich selbst gemacht.",
-      "es": "Eso lo he hecho yo mismo.",
-      "en": "I made that myself.",
-      "gloss": "eso he yo mismo hecho",
-      "lemmas": [
-        "das",
-        "haben",
-        "ich",
-        "selbst",
-        "machen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Detrás del sujeto, 'selbst' significa 'yo mismo, sin ayuda'."
-    },
-    {
-      "id": "core_grammar_r015",
-      "de": "Mach das doch einfach selbst!",
-      "es": "¡Pues hazlo tú mismo!",
-      "en": "Just do it yourself, then!",
-      "gloss": "haz eso pues simplemente mismo",
-      "lemmas": [
-        "machen",
-        "das",
-        "doch",
-        "einfach",
-        "selbst"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "'doch' aquí añade el tono de reproche, como el 'pues' español."
-    },
-    {
-      "id": "core_grammar_r016",
-      "de": "Selbst mein Chef weiß das nicht.",
-      "es": "Ni siquiera mi jefe lo sabe.",
-      "en": "Even my boss doesn't know that.",
-      "gloss": "incluso mi jefe sabe eso no",
-      "lemmas": [
-        "selbst",
-        "mein",
-        "Chef",
-        "wissen",
-        "nicht"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Al principio de la frase 'selbst' significa 'incluso', no 'mismo'."
-    },
-    {
-      "id": "core_grammar_r017",
-      "de": "Die Idee ist gut, ich habe jedoch keine Zeit.",
-      "es": "La idea es buena, sin embargo no tengo tiempo.",
-      "en": "The idea is good; however, I don't have time.",
-      "gloss": "la idea es buena, yo tengo sin-embargo ningún tiempo",
-      "lemmas": [
-        "Idee",
-        "sein",
-        "gut",
-        "ich",
-        "haben",
-        "jedoch",
-        "Zeit"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "'jedoch' es más formal que 'aber' y suele ir detrás del verbo."
-    },
-    {
-      "id": "core_grammar_r018",
-      "de": "Das Hotel war teuer, jedoch sehr gut.",
-      "es": "El hotel era caro, pero muy bueno.",
-      "en": "The hotel was expensive, but very good.",
-      "gloss": "el hotel era caro, sin-embargo muy bueno",
-      "lemmas": [
-        "Hotel",
-        "sein",
-        "teuer",
-        "jedoch",
-        "gut"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "core_grammar_r019",
-      "de": "Ich habe angerufen, jedoch war niemand da.",
-      "es": "Llamé, sin embargo no había nadie.",
-      "en": "I called, but nobody was there.",
-      "gloss": "yo he llamado, sin-embargo estaba nadie ahí",
-      "lemmas": [
-        "ich",
-        "haben",
-        "anrufen",
-        "jedoch",
-        "niemand"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Si 'jedoch' abre la frase, el verbo va justo detrás."
-    },
-    {
-      "id": "core_grammar_r020",
-      "de": "Nachdem ich gegessen habe, gehe ich schlafen.",
-      "es": "Después de comer, me voy a dormir.",
-      "en": "After I've eaten, I go to sleep.",
-      "gloss": "después-de-que yo comido he, voy yo dormir",
-      "lemmas": [
-        "nachdem",
-        "ich",
-        "essen",
-        "haben",
-        "gehen",
-        "schlafen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Con 'nachdem' el verbo va al final y normalmente en perfecto."
-    },
-    {
-      "id": "core_grammar_r021",
-      "de": "Ruf mich an, nachdem du angekommen bist.",
-      "es": "Llámame después de llegar.",
-      "en": "Call me after you've arrived.",
-      "gloss": "llama me a, después-de-que tú llegado eres",
-      "lemmas": [
-        "anrufen",
-        "nachdem",
-        "du",
-        "ankommen",
-        "sein"
-      ],
-      "level": 5,
-      "type": "phrase",
-      "note": "'ankommen' forma el perfecto con 'sein', no con 'haben'."
-    },
-    {
-      "id": "core_grammar_r022",
-      "de": "Nachdem wir bezahlt haben, können wir gehen.",
-      "es": "Después de que paguemos, nos podemos ir.",
-      "en": "Once we've paid, we can go.",
-      "gloss": "después-de-que nosotros pagado hemos, podemos nosotros ir",
-      "lemmas": [
-        "nachdem",
-        "wir",
-        "bezahlen",
-        "haben",
-        "können",
-        "gehen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Como la frase empieza con 'nachdem...', el verbo principal va justo después de la coma."
+ "packId": "core_grammar",
+ "title": "Kernstruktur",
+ "titleDe": "Das Grundgerüst",
+ "desc": "Al terminar este pack sabrás presentarte, preguntar quién, qué, dónde, cuándo y por qué, decir sí y no, negar con nicht y kein, y montar frases con sein, haben, werden y es gibt.",
+ "chunks": [
+  {
+   "id": "core_grammar_001",
+   "de": "Ich bin müde.",
+   "es": "Estoy cansado.",
+   "en": "I'm tired.",
+   "gloss": "yo soy cansado",
+   "lemmas": [
+    "ich",
+    "sein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "El alemán usa 'sein' para ser y estar."
+  },
+  {
+   "id": "core_grammar_002",
+   "de": "Ich bin nicht müde.",
+   "es": "No estoy cansado.",
+   "en": "I'm not tired.",
+   "gloss": "yo soy no cansado",
+   "lemmas": [
+    "ich",
+    "sein",
+    "nicht"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "'nicht' va detrás del verbo, no delante como en español."
+  },
+  {
+   "id": "core_grammar_003",
+   "de": "Bist du das?",
+   "es": "¿Eres tú?",
+   "en": "Is that you?",
+   "gloss": "eres tú eso",
+   "lemmas": [
+    "sein",
+    "du",
+    "das"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_004",
+   "de": "Wer bist du?",
+   "es": "¿Quién eres?",
+   "en": "Who are you?",
+   "gloss": "quién eres tú",
+   "lemmas": [
+    "wer",
+    "sein",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_005",
+   "de": "Wie heißt du?",
+   "es": "¿Cómo te llamas?",
+   "en": "What's your name?",
+   "gloss": "cómo te-llamas tú",
+   "lemmas": [
+    "wie",
+    "heißen",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_006",
+   "de": "Wie geht's?",
+   "es": "¿Qué tal?",
+   "en": "How's it going?",
+   "gloss": "cómo va-ello",
+   "lemmas": [
+    "wie",
+    "gehen",
+    "es"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'geht's' es 'geht es' hablado; se dice así casi siempre."
+  },
+  {
+   "id": "core_grammar_007",
+   "de": "Wie geht es dir?",
+   "es": "¿Cómo estás?",
+   "en": "How are you?",
+   "gloss": "cómo va ello a-ti",
+   "lemmas": [
+    "wie",
+    "gehen",
+    "es",
+    "du"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_008",
+   "de": "Mir geht's gut, und dir?",
+   "es": "Estoy bien, ¿y tú?",
+   "en": "I'm good, and you?",
+   "gloss": "a-mí va-ello bien y a-ti",
+   "lemmas": [
+    "ich",
+    "gehen",
+    "es",
+    "du"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_009",
+   "de": "Das ist mein Bruder.",
+   "es": "Este es mi hermano.",
+   "en": "This is my brother.",
+   "gloss": "eso es mi hermano",
+   "lemmas": [
+    "das",
+    "sein",
+    "mein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "'Das ist...' sirve para presentar a cualquier persona o cosa."
+  },
+  {
+   "id": "core_grammar_010",
+   "de": "Das ist nicht mein Handy.",
+   "es": "Ese no es mi móvil.",
+   "en": "That's not my phone.",
+   "gloss": "eso es no mi móvil",
+   "lemmas": [
+    "das",
+    "sein",
+    "nicht",
+    "mein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_011",
+   "de": "Ist das dein Handy?",
+   "es": "¿Es tuyo este móvil?",
+   "en": "Is that your phone?",
+   "gloss": "es eso tu móvil",
+   "lemmas": [
+    "sein",
+    "das",
+    "dein"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_012",
+   "de": "Ist das dein Ernst?",
+   "es": "¿Lo dices en serio?",
+   "en": "Are you serious?",
+   "gloss": "es eso tu seriedad",
+   "lemmas": [
+    "sein",
+    "das",
+    "dein"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Frase hecha: nunca se traduce palabra por palabra."
+  },
+  {
+   "id": "core_grammar_013",
+   "de": "Was ist das?",
+   "es": "¿Qué es esto?",
+   "en": "What's that?",
+   "gloss": "qué es eso",
+   "lemmas": [
+    "was",
+    "sein",
+    "das"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_014",
+   "de": "Was ist los?",
+   "es": "¿Qué pasa?",
+   "en": "What's going on?",
+   "gloss": "qué es suelto",
+   "lemmas": [
+    "was",
+    "sein"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_015",
+   "de": "Was gibt's?",
+   "es": "¿Qué hay? / ¿Qué pasa?",
+   "en": "What's up?",
+   "gloss": "qué da-ello",
+   "lemmas": [
+    "was",
+    "geben",
+    "es"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "'gibt's' = 'gibt es'; el alemán dice 'da' donde el español dice 'hay'."
+  },
+  {
+   "id": "core_grammar_016",
+   "de": "Ja, klar!",
+   "es": "¡Claro que sí!",
+   "en": "Yeah, sure!",
+   "gloss": "sí claro",
+   "lemmas": [
+    "ja"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_017",
+   "de": "Ja, gerne!",
+   "es": "¡Sí, con mucho gusto!",
+   "en": "Yes, gladly!",
+   "gloss": "sí con-gusto",
+   "lemmas": [
+    "ja"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_018",
+   "de": "Ja, genau!",
+   "es": "¡Sí, exacto!",
+   "en": "Yes, exactly!",
+   "gloss": "sí exacto",
+   "lemmas": [
+    "ja"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_019",
+   "de": "Nein, danke.",
+   "es": "No, gracias.",
+   "en": "No, thanks.",
+   "gloss": "no gracias",
+   "lemmas": [
+    "nein"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_020",
+   "de": "Nein, das stimmt nicht.",
+   "es": "No, eso no es cierto.",
+   "en": "No, that's not right.",
+   "gloss": "no eso cuadra no",
+   "lemmas": [
+    "nein",
+    "das",
+    "nicht"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_021",
+   "de": "Nein, ich glaube nicht.",
+   "es": "No, creo que no.",
+   "en": "No, I don't think so.",
+   "gloss": "no yo creo no",
+   "lemmas": [
+    "nein",
+    "ich",
+    "nicht"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_022",
+   "de": "Ich habe Hunger.",
+   "es": "Tengo hambre.",
+   "en": "I'm hungry.",
+   "gloss": "yo tengo hambre",
+   "lemmas": [
+    "ich",
+    "haben"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_023",
+   "de": "Ich hab keine Zeit.",
+   "es": "No tengo tiempo.",
+   "en": "I don't have time.",
+   "gloss": "yo tengo ninguna tiempo",
+   "lemmas": [
+    "ich",
+    "haben",
+    "kein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'hab' sin -e es lo normal al hablar; escrito se pone 'habe'."
+  },
+  {
+   "id": "core_grammar_024",
+   "de": "Ich habe keinen Hunger.",
+   "es": "No tengo hambre.",
+   "en": "I'm not hungry.",
+   "gloss": "yo tengo ningún hambre",
+   "lemmas": [
+    "ich",
+    "haben",
+    "kein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con sustantivos se niega con 'kein', no con 'nicht'."
+  },
+  {
+   "id": "core_grammar_025",
+   "de": "Hast du ein Ladekabel?",
+   "es": "¿Tienes un cargador?",
+   "en": "Do you have a charger?",
+   "gloss": "tienes tú un cable-de-carga",
+   "lemmas": [
+    "haben",
+    "du",
+    "ein"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_026",
+   "de": "Ich habe eine Frage.",
+   "es": "Tengo una pregunta.",
+   "en": "I have a question.",
+   "gloss": "yo tengo una pregunta",
+   "lemmas": [
+    "ich",
+    "haben",
+    "ein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_027",
+   "de": "Er ist mein Freund.",
+   "es": "Él es mi amigo.",
+   "en": "He's my friend.",
+   "gloss": "él es mi amigo",
+   "lemmas": [
+    "er",
+    "sein",
+    "mein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_028",
+   "de": "Er hat einen Hund.",
+   "es": "Él tiene un perro.",
+   "en": "He has a dog.",
+   "gloss": "él tiene un perro",
+   "lemmas": [
+    "er",
+    "haben",
+    "ein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'ein' se convierte en 'einen' cuando es el objeto del verbo."
+  },
+  {
+   "id": "core_grammar_029",
+   "de": "Sie ist nicht da.",
+   "es": "Ella no está.",
+   "en": "She's not here.",
+   "gloss": "ella es no ahí",
+   "lemmas": [
+    "sie",
+    "sein",
+    "nicht"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_030",
+   "de": "Sie hat recht.",
+   "es": "Ella tiene razón.",
+   "en": "She's right.",
+   "gloss": "ella tiene razón",
+   "lemmas": [
+    "sie",
+    "haben"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_031",
+   "de": "Sie sind aus Spanien.",
+   "es": "Ellos son de España.",
+   "en": "They're from Spain.",
+   "gloss": "ellos son de España",
+   "lemmas": [
+    "sie",
+    "sein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'sie' es 'ella', 'ellos' y 'usted'; lo distingues por el verbo."
+  },
+  {
+   "id": "core_grammar_032",
+   "de": "Wir sind zu zweit.",
+   "es": "Somos dos.",
+   "en": "There are two of us.",
+   "gloss": "nosotros somos a dos",
+   "lemmas": [
+    "wir",
+    "sein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Se usa mucho al llegar a un restaurante."
+  },
+  {
+   "id": "core_grammar_033",
+   "de": "Wir haben Zeit.",
+   "es": "Tenemos tiempo.",
+   "en": "We have time.",
+   "gloss": "nosotros tenemos tiempo",
+   "lemmas": [
+    "wir",
+    "haben"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_034",
+   "de": "Wo bist du?",
+   "es": "¿Dónde estás?",
+   "en": "Where are you?",
+   "gloss": "dónde eres tú",
+   "lemmas": [
+    "wo",
+    "sein",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_035",
+   "de": "Wo ist der Bahnhof?",
+   "es": "¿Dónde está la estación?",
+   "en": "Where's the train station?",
+   "gloss": "dónde es el estación",
+   "lemmas": [
+    "wo",
+    "sein",
+    "der"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'Bahnhof' es masculino: der Bahnhof."
+  },
+  {
+   "id": "core_grammar_036",
+   "de": "Wo ist die Toilette, bitte?",
+   "es": "¿Dónde está el baño, por favor?",
+   "en": "Where's the toilet, please?",
+   "gloss": "dónde es la baño por-favor",
+   "lemmas": [
+    "wo",
+    "sein",
+    "der"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'die' es la forma femenina de 'der'."
+  },
+  {
+   "id": "core_grammar_037",
+   "de": "Warum nicht?",
+   "es": "¿Por qué no?",
+   "en": "Why not?",
+   "gloss": "por-qué no",
+   "lemmas": [
+    "warum",
+    "nicht"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_038",
+   "de": "Warum bist du sauer?",
+   "es": "¿Por qué estás enfadado?",
+   "en": "Why are you angry?",
+   "gloss": "por-qué eres tú agrio",
+   "lemmas": [
+    "warum",
+    "sein",
+    "du"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "'sauer' literalmente es 'ácido', pero significa 'enfadado'."
+  },
+  {
+   "id": "core_grammar_039",
+   "de": "Wann kommst du?",
+   "es": "¿Cuándo vienes?",
+   "en": "When are you coming?",
+   "gloss": "cuándo vienes tú",
+   "lemmas": [
+    "wann",
+    "kommen",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_040",
+   "de": "Wann gibt es Essen?",
+   "es": "¿Cuándo se come?",
+   "en": "When's the food?",
+   "gloss": "cuándo da ello comida",
+   "lemmas": [
+    "wann",
+    "geben",
+    "es"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_041",
+   "de": "Wer ist das?",
+   "es": "¿Quién es ese?",
+   "en": "Who's that?",
+   "gloss": "quién es eso",
+   "lemmas": [
+    "wer",
+    "sein",
+    "das"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_042",
+   "de": "Wer hat das gesagt?",
+   "es": "¿Quién ha dicho eso?",
+   "en": "Who said that?",
+   "gloss": "quién ha eso dicho",
+   "lemmas": [
+    "wer",
+    "haben",
+    "das",
+    "sagen"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "En pasado el participio ('gesagt') se va al final de la frase."
+  },
+  {
+   "id": "core_grammar_043",
+   "de": "Ich weiß es nicht.",
+   "es": "No lo sé.",
+   "en": "I don't know.",
+   "gloss": "yo sé lo no",
+   "lemmas": [
+    "ich",
+    "wissen",
+    "es",
+    "nicht"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_044",
+   "de": "Ich verstehe nichts.",
+   "es": "No entiendo nada.",
+   "en": "I don't understand anything.",
+   "gloss": "yo entiendo nada",
+   "lemmas": [
+    "ich",
+    "verstehen",
+    "nichts"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con 'nichts' ya no se pone 'nicht': no hay doble negación."
+  },
+  {
+   "id": "core_grammar_045",
+   "de": "Das macht nichts.",
+   "es": "No pasa nada.",
+   "en": "That's alright / never mind.",
+   "gloss": "eso hace nada",
+   "lemmas": [
+    "das",
+    "machen",
+    "nichts"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_046",
+   "de": "Nichts zu danken.",
+   "es": "No hay de qué.",
+   "en": "Don't mention it.",
+   "gloss": "nada a agradecer",
+   "lemmas": [
+    "nichts"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_047",
+   "de": "Wie sagt man das auf Deutsch?",
+   "es": "¿Cómo se dice eso en alemán?",
+   "en": "How do you say that in German?",
+   "gloss": "cómo dice uno eso en alemán",
+   "lemmas": [
+    "wie",
+    "sagen",
+    "man",
+    "das"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'man' es el 'se' impersonal español, y lleva verbo en singular."
+  },
+  {
+   "id": "core_grammar_048",
+   "de": "Hier darf man nicht parken.",
+   "es": "Aquí no se puede aparcar.",
+   "en": "You can't park here.",
+   "gloss": "aquí puede uno no aparcar",
+   "lemmas": [
+    "man",
+    "dürfen",
+    "nicht",
+    "parken"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El infinitivo 'parken' va al final."
+  },
+  {
+   "id": "core_grammar_049",
+   "de": "Man weiß nie.",
+   "es": "Nunca se sabe.",
+   "en": "You never know.",
+   "gloss": "uno sabe nunca",
+   "lemmas": [
+    "man",
+    "wissen"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_050",
+   "de": "Ich werde müde.",
+   "es": "Me estoy cansando.",
+   "en": "I'm getting tired.",
+   "gloss": "yo llego-a-ser cansado",
+   "lemmas": [
+    "ich",
+    "werden"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'werden' es cambio de estado: 'ponerse', 'volverse'."
+  },
+  {
+   "id": "core_grammar_051",
+   "de": "Das wird schon.",
+   "es": "Ya verás que sale bien.",
+   "en": "It'll be fine.",
+   "gloss": "eso llega-a-ser ya",
+   "lemmas": [
+    "das",
+    "werden"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "Frase de ánimo muy común; no se traduce literal."
+  },
+  {
+   "id": "core_grammar_052",
+   "de": "Wir werden sehen.",
+   "es": "Ya veremos.",
+   "en": "We'll see.",
+   "gloss": "nosotros vamos-a ver",
+   "lemmas": [
+    "wir",
+    "werden",
+    "sehen"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "Aquí 'werden' forma el futuro y el infinitivo va al final."
+  },
+  {
+   "id": "core_grammar_053",
+   "de": "Setzen Sie sich, bitte.",
+   "es": "Siéntese, por favor.",
+   "en": "Please have a seat.",
+   "gloss": "sienta usted se por-favor",
+   "lemmas": [
+    "sie",
+    "sich",
+    "setzen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'Sie' con mayúscula es 'usted'; 'sich' es el 'se' reflexivo."
+  },
+  {
+   "id": "core_grammar_054",
+   "de": "Das lohnt sich nicht.",
+   "es": "No merece la pena.",
+   "en": "It's not worth it.",
+   "gloss": "eso vale se no",
+   "lemmas": [
+    "das",
+    "sich",
+    "lohnen",
+    "nicht"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_055",
+   "de": "Er interessiert sich für Fußball.",
+   "es": "Le interesa el fútbol.",
+   "en": "He's into football.",
+   "gloss": "él interesa se por fútbol",
+   "lemmas": [
+    "er",
+    "sich",
+    "interessieren",
+    "für"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'sich interessieren für' siempre lleva 'für' + acusativo."
+  },
+  {
+   "id": "core_grammar_056",
+   "de": "Wir helfen einander.",
+   "es": "Nos ayudamos el uno al otro.",
+   "en": "We help each other.",
+   "gloss": "nosotros ayudamos el-uno-al-otro",
+   "lemmas": [
+    "wir",
+    "helfen",
+    "einander"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Correcto, pero algo formal; hablando se oye más 'Wir helfen uns gegenseitig'."
+  },
+  {
+   "id": "core_grammar_057",
+   "de": "Wir schreiben uns jeden Tag.",
+   "es": "Nos escribimos todos los días.",
+   "en": "We text each other every day.",
+   "gloss": "nosotros escribimos nos cada día",
+   "lemmas": [
+    "wir",
+    "schreiben",
+    "sich"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Para 'el uno al otro' en el día a día basta con 'uns'."
+  },
+  {
+   "id": "core_grammar_058",
+   "de": "Sie kennen sich schon lange.",
+   "es": "Se conocen desde hace mucho.",
+   "en": "They've known each other for ages.",
+   "gloss": "ellos conocen se ya largo",
+   "lemmas": [
+    "sie",
+    "kennen",
+    "sich"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'sich' vale también para 'se ... mutuamente'."
+  },
+  {
+   "id": "core_grammar_059",
+   "de": "Willst du irgendwas trinken?",
+   "es": "¿Quieres beber algo?",
+   "en": "Do you want something to drink?",
+   "gloss": "quieres tú algo beber",
+   "lemmas": [
+    "wollen",
+    "du",
+    "irgendwas",
+    "trinken"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'irgendwas' es el 'etwas' del habla cotidiana."
+  },
+  {
+   "id": "core_grammar_060",
+   "de": "Ich habe irgendwas vergessen.",
+   "es": "Se me ha olvidado algo.",
+   "en": "I forgot something.",
+   "gloss": "yo tengo algo olvidado",
+   "lemmas": [
+    "ich",
+    "haben",
+    "irgendwas",
+    "vergessen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_061",
+   "de": "Sag irgendwas!",
+   "es": "¡Di algo!",
+   "en": "Say something!",
+   "gloss": "di algo",
+   "lemmas": [
+    "sagen",
+    "irgendwas"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_062",
+   "de": "Hast du irgendeine Idee?",
+   "es": "¿Se te ocurre alguna idea?",
+   "en": "Do you have any ideas?",
+   "gloss": "tienes tú alguna idea",
+   "lemmas": [
+    "haben",
+    "du",
+    "irgendein"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'irgendein' se declina igual que 'ein'."
+  },
+  {
+   "id": "core_grammar_063",
+   "de": "Gibt es hier irgendeinen Supermarkt?",
+   "es": "¿Hay algún supermercado por aquí?",
+   "en": "Is there a supermarket around here?",
+   "gloss": "da ello aquí algún supermercado",
+   "lemmas": [
+    "geben",
+    "es",
+    "irgendein"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_064",
+   "de": "Irgendein Typ hat nach dir gefragt.",
+   "es": "Un tío ha preguntado por ti.",
+   "en": "Some guy asked about you.",
+   "gloss": "algún tipo ha por ti preguntado",
+   "lemmas": [
+    "irgendein",
+    "haben",
+    "fragen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_065",
+   "de": "Dieser Zug fährt nach Berlin.",
+   "es": "Este tren va a Berlín.",
+   "en": "This train goes to Berlin.",
+   "gloss": "este tren va hacia Berlín",
+   "lemmas": [
+    "dieser",
+    "fahren",
+    "nach"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'dieser' cambia igual que 'der': dieser/diese/dieses."
+  },
+  {
+   "id": "core_grammar_066",
+   "de": "Diese Woche habe ich frei.",
+   "es": "Esta semana tengo libre.",
+   "en": "I'm off this week.",
+   "gloss": "esta semana tengo yo libre",
+   "lemmas": [
+    "dieser",
+    "ich",
+    "haben"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Si la frase empieza por otra cosa, el sujeto pasa detrás del verbo."
+  },
+  {
+   "id": "core_grammar_067",
+   "de": "Dieses hier, bitte.",
+   "es": "Este de aquí, por favor.",
+   "en": "This one here, please.",
+   "gloss": "este aquí por-favor",
+   "lemmas": [
+    "dieser"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Perfecto para señalar algo en una tienda."
+  },
+  {
+   "id": "core_grammar_068",
+   "de": "Was macht ihr?",
+   "es": "¿Qué hacéis?",
+   "en": "What are you guys doing?",
+   "gloss": "qué hacéis vosotros",
+   "lemmas": [
+    "was",
+    "machen",
+    "ihr"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_069",
+   "de": "Habt ihr Hunger?",
+   "es": "¿Tenéis hambre?",
+   "en": "Are you guys hungry?",
+   "gloss": "tenéis vosotros hambre",
+   "lemmas": [
+    "haben",
+    "ihr"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_070",
+   "de": "Das ist ihr Handy, nicht meins.",
+   "es": "Ese es el móvil de ella, no el mío.",
+   "en": "That's her phone, not mine.",
+   "gloss": "eso es su móvil no mío",
+   "lemmas": [
+    "das",
+    "sein",
+    "ihr",
+    "nicht"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Aquí 'ihr' no es 'vosotros', es 'su (de ella)'."
+  },
+  {
+   "id": "core_grammar_071",
+   "de": "Ihr seid zu spät.",
+   "es": "Llegáis tarde.",
+   "en": "You guys are late.",
+   "gloss": "vosotros sois demasiado tarde",
+   "lemmas": [
+    "ihr",
+    "sein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_072",
+   "de": "Der Bus ist schon weg.",
+   "es": "El autobús ya se ha ido.",
+   "en": "The bus is already gone.",
+   "gloss": "el autobús es ya fuera",
+   "lemmas": [
+    "der",
+    "sein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'weg sein' = haberse ido, ya no estar."
+  },
+  {
+   "id": "core_grammar_073",
+   "de": "Ich nehme den Bus.",
+   "es": "Voy en autobús.",
+   "en": "I'll take the bus.",
+   "gloss": "yo tomo el autobús",
+   "lemmas": [
+    "ich",
+    "nehmen",
+    "der"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'der' se vuelve 'den' cuando es el objeto directo."
+  },
+  {
+   "id": "core_grammar_074",
+   "de": "Ein Wasser, bitte.",
+   "es": "Un agua, por favor.",
+   "en": "A water, please.",
+   "gloss": "un agua por-favor",
+   "lemmas": [
+    "ein"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_075",
+   "de": "Ich habe ein Problem.",
+   "es": "Tengo un problema.",
+   "en": "I have a problem.",
+   "gloss": "yo tengo un problema",
+   "lemmas": [
+    "ich",
+    "haben",
+    "ein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_076",
+   "de": "Kein Problem!",
+   "es": "¡Sin problema!",
+   "en": "No problem!",
+   "gloss": "ningún problema",
+   "lemmas": [
+    "kein"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_077",
+   "de": "Ich habe keine Ahnung.",
+   "es": "Ni idea.",
+   "en": "I have no idea.",
+   "gloss": "yo tengo ninguna idea",
+   "lemmas": [
+    "ich",
+    "haben",
+    "kein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_078",
+   "de": "Es ist zu teuer.",
+   "es": "Es demasiado caro.",
+   "en": "It's too expensive.",
+   "gloss": "ello es demasiado caro",
+   "lemmas": [
+    "es",
+    "sein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_079",
+   "de": "Es regnet.",
+   "es": "Está lloviendo.",
+   "en": "It's raining.",
+   "gloss": "ello llueve",
+   "lemmas": [
+    "es",
+    "regnen"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": "El alemán obliga a poner 'es' aunque el español no ponga sujeto."
+  },
+  {
+   "id": "core_grammar_080",
+   "de": "Hier gibt es kein WLAN.",
+   "es": "Aquí no hay wifi.",
+   "en": "There's no wifi here.",
+   "gloss": "aquí da ello ningún wifi",
+   "lemmas": [
+    "es",
+    "geben",
+    "kein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'es gibt' es el 'hay' alemán y siempre lleva acusativo."
+  },
+  {
+   "id": "core_grammar_081",
+   "de": "Es tut mir leid.",
+   "es": "Lo siento.",
+   "en": "I'm sorry.",
+   "gloss": "ello hace a-mí pena",
+   "lemmas": [
+    "es"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_082",
+   "de": "Bist du dir sicher?",
+   "es": "¿Estás seguro?",
+   "en": "Are you sure?",
+   "gloss": "eres tú a-ti seguro",
+   "lemmas": [
+    "sein",
+    "du",
+    "sich"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Hablando casi siempre se añade ese 'dir'."
+  },
+  {
+   "id": "core_grammar_083",
+   "de": "Ich bin's!",
+   "es": "¡Soy yo!",
+   "en": "It's me!",
+   "gloss": "yo soy-lo",
+   "lemmas": [
+    "ich",
+    "sein",
+    "es"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "'bin's' = 'bin es'; se dice al llamar a la puerta o por teléfono."
+  },
+  {
+   "id": "core_grammar_084",
+   "de": "Wie viel kostet das?",
+   "es": "¿Cuánto cuesta esto?",
+   "en": "How much is that?",
+   "gloss": "cómo mucho cuesta eso",
+   "lemmas": [
+    "wie",
+    "kosten",
+    "das"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_085",
+   "de": "Wie alt bist du?",
+   "es": "¿Cuántos años tienes?",
+   "en": "How old are you?",
+   "gloss": "cómo viejo eres tú",
+   "lemmas": [
+    "wie",
+    "sein",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "En alemán la edad se dice con 'sein', no con 'haben'."
+  },
+  {
+   "id": "core_grammar_086",
+   "de": "Wo wohnst du?",
+   "es": "¿Dónde vives?",
+   "en": "Where do you live?",
+   "gloss": "dónde vives tú",
+   "lemmas": [
+    "wo",
+    "wohnen",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_087",
+   "de": "Warum sagst du das?",
+   "es": "¿Por qué dices eso?",
+   "en": "Why are you saying that?",
+   "gloss": "por-qué dices tú eso",
+   "lemmas": [
+    "warum",
+    "sagen",
+    "du",
+    "das"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_088",
+   "de": "Wann hast du Zeit?",
+   "es": "¿Cuándo tienes tiempo?",
+   "en": "When are you free?",
+   "gloss": "cuándo tienes tú tiempo",
+   "lemmas": [
+    "wann",
+    "haben",
+    "du"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_089",
+   "de": "Wer will noch was?",
+   "es": "¿Quién quiere más?",
+   "en": "Who wants some more?",
+   "gloss": "quién quiere aún algo",
+   "lemmas": [
+    "wer",
+    "wollen",
+    "was"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Al hablar, 'was' vale también por 'etwas' (algo)."
+  },
+  {
+   "id": "core_grammar_090",
+   "de": "Ich werde bald fünfzehn.",
+   "es": "Pronto cumplo quince.",
+   "en": "I'm turning fifteen soon.",
+   "gloss": "yo llego-a-ser pronto quince",
+   "lemmas": [
+    "ich",
+    "werden"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Para cumplir años se usa 'werden', no 'haben'."
+  },
+  {
+   "id": "core_grammar_091",
+   "de": "Das ist nichts für mich.",
+   "es": "Eso no es lo mío.",
+   "en": "That's not for me.",
+   "gloss": "eso es nada para mí",
+   "lemmas": [
+    "das",
+    "sein",
+    "nichts"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_092",
+   "de": "Wie ist deine Handynummer?",
+   "es": "¿Cuál es tu número de móvil?",
+   "en": "What's your phone number?",
+   "gloss": "cómo es tu número-de-móvil",
+   "lemmas": [
+    "wie",
+    "dein",
+    "sein"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "El alemán pregunta 'cómo es', no 'cuál es'."
+  },
+  {
+   "id": "core_grammar_093",
+   "de": "Was ist dein Lieblingsspiel?",
+   "es": "¿Cuál es tu juego favorito?",
+   "en": "What's your favourite game?",
+   "gloss": "qué es tu juego-favorito",
+   "lemmas": [
+    "was",
+    "sein",
+    "dein"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_094",
+   "de": "Er ist nicht mein Typ.",
+   "es": "No es mi tipo.",
+   "en": "He's not my type.",
+   "gloss": "él es no mi tipo",
+   "lemmas": [
+    "er",
+    "sein",
+    "nicht",
+    "mein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_095",
+   "de": "Ja, das stimmt.",
+   "es": "Sí, es verdad.",
+   "en": "Yeah, that's right.",
+   "gloss": "sí eso cuadra",
+   "lemmas": [
+    "ja",
+    "das"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_096",
+   "de": "Nein, überhaupt nicht.",
+   "es": "No, para nada.",
+   "en": "No, not at all.",
+   "gloss": "no en-absoluto no",
+   "lemmas": [
+    "nein",
+    "nicht"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_097",
+   "de": "Wir sind gleich da.",
+   "es": "Llegamos enseguida.",
+   "en": "We'll be there in a sec.",
+   "gloss": "nosotros somos enseguida ahí",
+   "lemmas": [
+    "wir",
+    "sein"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_098",
+   "de": "Ich bin ___.",
+   "es": "Soy / estoy ___.",
+   "en": "I'm ___.",
+   "gloss": "yo soy ___",
+   "lemmas": [
+    "ich",
+    "sein"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "neu hier",
+     "es": "nuevo aquí"
+    },
+    {
+     "de": "aus Spanien",
+     "es": "de España"
+    },
+    {
+     "de": "fertig",
+     "es": "listo / he terminado"
+    },
+    {
+     "de": "fünfzehn",
+     "es": "quince (años)"
+    },
+    {
+     "de": "gleich zurück",
+     "es": "ahora vuelvo"
     }
-  ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_099",
+   "de": "Ich bin nicht von hier.",
+   "es": "No soy de aquí.",
+   "en": "I'm not from around here.",
+   "gloss": "yo soy no de aquí",
+   "lemmas": [
+    "ich",
+    "sein",
+    "nicht"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_100",
+   "de": "Ich habe ___.",
+   "es": "Tengo ___.",
+   "en": "I have ___.",
+   "gloss": "yo tengo ___",
+   "lemmas": [
+    "ich",
+    "haben"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Hunger",
+     "es": "hambre"
+    },
+    {
+     "de": "Durst",
+     "es": "sed"
+    },
+    {
+     "de": "eine Frage",
+     "es": "una pregunta"
+    },
+    {
+     "de": "ein Problem",
+     "es": "un problema"
+    },
+    {
+     "de": "Zeit",
+     "es": "tiempo"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_101",
+   "de": "Ich habe keine ___.",
+   "es": "No tengo ___.",
+   "en": "I don't have any ___.",
+   "gloss": "yo tengo ninguna ___",
+   "lemmas": [
+    "ich",
+    "haben",
+    "kein"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Zeit",
+     "es": "tiempo"
+    },
+    {
+     "de": "Ahnung",
+     "es": "idea"
+    },
+    {
+     "de": "Lust",
+     "es": "ganas"
+    },
+    {
+     "de": "Angst",
+     "es": "miedo"
+    }
+   ],
+   "note": "Estos rellenos son femeninos; por eso 'keine'."
+  },
+  {
+   "id": "core_grammar_102",
+   "de": "Das ist ___.",
+   "es": "Esto es ___.",
+   "en": "That's ___.",
+   "gloss": "eso es ___",
+   "lemmas": [
+    "das",
+    "sein"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "super",
+     "es": "genial"
+    },
+    {
+     "de": "mein Bruder",
+     "es": "mi hermano"
+    },
+    {
+     "de": "zu teuer",
+     "es": "demasiado caro"
+    },
+    {
+     "de": "nicht schlimm",
+     "es": "no es grave"
+    },
+    {
+     "de": "dein Platz",
+     "es": "tu sitio"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_103",
+   "de": "Wo ist ___?",
+   "es": "¿Dónde está ___?",
+   "en": "Where is ___?",
+   "gloss": "dónde es ___",
+   "lemmas": [
+    "wo",
+    "sein"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "der Bahnhof",
+     "es": "la estación"
+    },
+    {
+     "de": "die Toilette",
+     "es": "el baño"
+    },
+    {
+     "de": "mein Handy",
+     "es": "mi móvil"
+    },
+    {
+     "de": "der Ausgang",
+     "es": "la salida"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_104",
+   "de": "Was ist dein Problem?",
+   "es": "¿Cuál es tu problema?",
+   "en": "What's your problem?",
+   "gloss": "qué es tu problema",
+   "lemmas": [
+    "was",
+    "sein",
+    "dein"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Suena a reproche, igual que en español."
+  },
+  {
+   "id": "core_grammar_105",
+   "de": "Es gibt ___.",
+   "es": "Hay ___.",
+   "en": "There is / are ___.",
+   "gloss": "ello da ___",
+   "lemmas": [
+    "es",
+    "geben"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "ein Problem",
+     "es": "un problema"
+    },
+    {
+     "de": "Pizza",
+     "es": "pizza"
+    },
+    {
+     "de": "viel zu tun",
+     "es": "mucho que hacer"
+    },
+    {
+     "de": "einen Plan",
+     "es": "un plan"
+    }
+   ],
+   "note": "Lo que viene detrás de 'es gibt' va en acusativo."
+  },
+  {
+   "id": "core_grammar_106",
+   "de": "Gibt es hier ___?",
+   "es": "¿Hay ___ por aquí?",
+   "en": "Is there ___ around here?",
+   "gloss": "da ello aquí ___",
+   "lemmas": [
+    "geben",
+    "es"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "WLAN",
+     "es": "wifi"
+    },
+    {
+     "de": "eine Toilette",
+     "es": "un baño"
+    },
+    {
+     "de": "einen Supermarkt",
+     "es": "un supermercado"
+    },
+    {
+     "de": "irgendein Café",
+     "es": "algún café"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_107",
+   "de": "Hast du ___?",
+   "es": "¿Tienes ___?",
+   "en": "Do you have ___?",
+   "gloss": "tienes tú ___",
+   "lemmas": [
+    "haben",
+    "du"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Zeit",
+     "es": "tiempo"
+    },
+    {
+     "de": "ein Ladekabel",
+     "es": "un cargador"
+    },
+    {
+     "de": "irgendwas zu essen",
+     "es": "algo de comer"
+    },
+    {
+     "de": "einen Stift",
+     "es": "un boli"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_108",
+   "de": "Habt ihr ___?",
+   "es": "¿Tenéis ___?",
+   "en": "Do you guys have ___?",
+   "gloss": "tenéis vosotros ___",
+   "lemmas": [
+    "haben",
+    "ihr"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Hunger",
+     "es": "hambre"
+    },
+    {
+     "de": "Lust",
+     "es": "ganas"
+    },
+    {
+     "de": "noch Plätze",
+     "es": "sitios libres"
+    },
+    {
+     "de": "eine Idee",
+     "es": "una idea"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_109",
+   "de": "Warum bist du ___?",
+   "es": "¿Por qué estás ___?",
+   "en": "Why are you ___?",
+   "gloss": "por-qué eres tú ___",
+   "lemmas": [
+    "warum",
+    "sein",
+    "du"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "sauer",
+     "es": "enfadado"
+    },
+    {
+     "de": "so müde",
+     "es": "tan cansado"
+    },
+    {
+     "de": "traurig",
+     "es": "triste"
+    },
+    {
+     "de": "schon hier",
+     "es": "ya aquí"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_110",
+   "de": "Wann ist ___?",
+   "es": "¿Cuándo es ___?",
+   "en": "When is ___?",
+   "gloss": "cuándo es ___",
+   "lemmas": [
+    "wann",
+    "sein"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "die Pause",
+     "es": "el descanso"
+    },
+    {
+     "de": "dein Geburtstag",
+     "es": "tu cumpleaños"
+    },
+    {
+     "de": "das Konzert",
+     "es": "el concierto"
+    },
+    {
+     "de": "der nächste Bus",
+     "es": "el próximo autobús"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_111",
+   "de": "Wer ist dran?",
+   "es": "¿A quién le toca?",
+   "en": "Whose turn is it?",
+   "gloss": "quién es encima",
+   "lemmas": [
+    "wer",
+    "sein"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Se oye en la cola de una tienda y jugando a cualquier cosa."
+  },
+  {
+   "id": "core_grammar_112",
+   "de": "Wie findest du ___?",
+   "es": "¿Qué te parece ___?",
+   "en": "What do you think of ___?",
+   "gloss": "cómo encuentras tú ___",
+   "lemmas": [
+    "wie",
+    "finden",
+    "du"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "das",
+     "es": "esto"
+    },
+    {
+     "de": "die Musik",
+     "es": "la música"
+    },
+    {
+     "de": "mein neues Handy",
+     "es": "mi móvil nuevo"
+    },
+    {
+     "de": "die Schule hier",
+     "es": "el cole de aquí"
+    }
+   ],
+   "note": "'finden' aquí significa 'parecer', no 'encontrar'."
+  },
+  {
+   "id": "core_grammar_113",
+   "de": "Ich werde langsam ___.",
+   "es": "Me estoy poniendo ___.",
+   "en": "I'm starting to get ___.",
+   "gloss": "yo llego-a-ser lentamente ___",
+   "lemmas": [
+    "ich",
+    "werden"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "müde",
+     "es": "cansado"
+    },
+    {
+     "de": "nervös",
+     "es": "nervioso"
+    },
+    {
+     "de": "hungrig",
+     "es": "hambriento"
+    },
+    {
+     "de": "sauer",
+     "es": "enfadado"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_114",
+   "de": "Wie sagt man ___ auf Deutsch?",
+   "es": "¿Cómo se dice ___ en alemán?",
+   "en": "How do you say ___ in German?",
+   "gloss": "cómo dice uno ___ en alemán",
+   "lemmas": [
+    "wie",
+    "sagen",
+    "man"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "das",
+     "es": "esto"
+    },
+    {
+     "de": "dieses Wort",
+     "es": "esta palabra"
+    },
+    {
+     "de": "\"gracias\"",
+     "es": "\"gracias\""
+    },
+    {
+     "de": "\"perdón\"",
+     "es": "\"perdón\""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_115",
+   "de": "Ich nehme dieses ___.",
+   "es": "Me llevo este ___.",
+   "en": "I'll take this ___.",
+   "gloss": "yo tomo este ___",
+   "lemmas": [
+    "ich",
+    "nehmen",
+    "dieser"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Buch",
+     "es": "libro"
+    },
+    {
+     "de": "Eis",
+     "es": "helado"
+    },
+    {
+     "de": "T-Shirt",
+     "es": "camiseta"
+    },
+    {
+     "de": "Handy",
+     "es": "móvil"
+    }
+   ],
+   "note": "'dieses' es la forma neutra; con der-palabras se dice 'diesen'."
+  },
+  {
+   "id": "core_grammar_116",
+   "de": "Wir kennen einander schon lange.",
+   "es": "Nos conocemos desde hace mucho.",
+   "en": "We've known each other for a long time.",
+   "gloss": "nosotros conocemos el-uno-al-otro ya largo",
+   "lemmas": [
+    "wir",
+    "kennen",
+    "einander"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "En el habla diaria se oye más 'Wir kennen uns schon lange'."
+  },
+  {
+   "id": "core_grammar_117",
+   "de": "Wir sind füreinander da.",
+   "es": "Estamos el uno para el otro.",
+   "en": "We're there for each other.",
+   "gloss": "nosotros somos para-el-uno-al-otro ahí",
+   "lemmas": [
+    "wir",
+    "sein",
+    "einander"
+   ],
+   "level": 4,
+   "type": "phrase",
+   "note": "'einander' se pega a la preposición: füreinander, miteinander, voneinander."
+  },
+  {
+   "id": "core_grammar_118",
+   "de": "Wir müssen einander ___.",
+   "es": "Tenemos que ___ el uno al otro.",
+   "en": "We have to ___ each other.",
+   "gloss": "nosotros debemos el-uno-al-otro ___",
+   "lemmas": [
+    "wir",
+    "müssen",
+    "einander"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "helfen",
+     "es": "ayudar"
+    },
+    {
+     "de": "vertrauen",
+     "es": "confiar en"
+    },
+    {
+     "de": "zuhören",
+     "es": "escuchar"
+    },
+    {
+     "de": "respektieren",
+     "es": "respetar"
+    }
+   ],
+   "note": "'einander' nunca cambia de forma, aunque el verbo pida dativo."
+  },
+  {
+   "id": "core_grammar_p001",
+   "de": "Ist da jemand?",
+   "es": "¿Hay alguien?",
+   "en": "Is anyone there?",
+   "gloss": "es ahí alguien",
+   "lemmas": [
+    "jemand",
+    "sein",
+    "da"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p002",
+   "de": "Kann mir jemand helfen?",
+   "es": "¿Alguien me puede ayudar?",
+   "en": "Can someone help me?",
+   "gloss": "puede a-mí alguien ayudar",
+   "lemmas": [
+    "jemand",
+    "können",
+    "helfen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'helfen' pide dativo: 'mir', no 'mich'."
+  },
+  {
+   "id": "core_grammar_p003",
+   "de": "Ich kenne da jemanden.",
+   "es": "Conozco a alguien para eso.",
+   "en": "I know someone for that.",
+   "gloss": "yo conozco ahí a-alguien",
+   "lemmas": [
+    "jemand",
+    "ich"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "En acusativo 'jemand' se convierte en 'jemanden'."
+  },
+  {
+   "id": "core_grammar_p004",
+   "de": "Hat jemand angerufen?",
+   "es": "¿Ha llamado alguien?",
+   "en": "Did anyone call?",
+   "gloss": "ha alguien llamado",
+   "lemmas": [
+    "jemand",
+    "haben"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p005",
+   "de": "Da war niemand.",
+   "es": "No había nadie.",
+   "en": "Nobody was there.",
+   "gloss": "ahí era nadie",
+   "lemmas": [
+    "niemand",
+    "sein",
+    "da"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Con 'niemand' la frase ya es negativa: no se añade 'nicht'."
+  },
+  {
+   "id": "core_grammar_p006",
+   "de": "Das weiß niemand.",
+   "es": "Eso no lo sabe nadie.",
+   "en": "Nobody knows that.",
+   "gloss": "eso sabe nadie",
+   "lemmas": [
+    "niemand",
+    "wissen",
+    "das"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p007",
+   "de": "Ich habe niemandem etwas gesagt.",
+   "es": "No le he dicho nada a nadie.",
+   "en": "I didn't tell anyone anything.",
+   "gloss": "yo he a-nadie algo dicho",
+   "lemmas": [
+    "niemand",
+    "sagen",
+    "ich"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "En dativo 'niemand' se convierte en 'niemandem'."
+  },
+  {
+   "id": "core_grammar_p008",
+   "de": "Ich bin dabei!",
+   "es": "¡Me apunto!",
+   "en": "I'm in!",
+   "gloss": "yo soy con-ello",
+   "lemmas": [
+    "dabei",
+    "sein",
+    "ich"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "'dabei sein' aquí significa apuntarse a un plan."
+  },
+  {
+   "id": "core_grammar_p009",
+   "de": "Da ist nichts dabei.",
+   "es": "No es para tanto.",
+   "en": "It's no big deal.",
+   "gloss": "ahí es nada con-ello",
+   "lemmas": [
+    "dabei",
+    "sein",
+    "nichts"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Frase hecha para quitar importancia a algo."
+  },
+  {
+   "id": "core_grammar_p010",
+   "de": "Warst du auch dabei?",
+   "es": "¿Tú también estabas?",
+   "en": "Were you there too?",
+   "gloss": "eras tú también con-ello",
+   "lemmas": [
+    "dabei",
+    "sein",
+    "du"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "'dabei' = estar presente en algo que pasaba."
+  },
+  {
+   "id": "core_grammar_p011",
+   "de": "Ich bin dafür.",
+   "es": "Yo estoy a favor.",
+   "en": "I'm for it.",
+   "gloss": "yo soy para-eso",
+   "lemmas": [
+    "dafür",
+    "sein",
+    "ich"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Lo contrario es 'Ich bin dagegen'."
+  },
+  {
+   "id": "core_grammar_p012",
+   "de": "Vielen Dank dafür!",
+   "es": "¡Muchas gracias por eso!",
+   "en": "Thanks a lot for that!",
+   "gloss": "muchas gracias para-eso",
+   "lemmas": [
+    "dafür",
+    "Dank"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p013",
+   "de": "Dafür habe ich jetzt keine Zeit.",
+   "es": "Para eso ahora no tengo tiempo.",
+   "en": "I don't have time for that right now.",
+   "gloss": "para-eso tengo yo ahora ninguna tiempo",
+   "lemmas": [
+    "dafür",
+    "haben",
+    "Zeit"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Al empezar con 'dafür', el verbo va segundo y el sujeto detrás."
+  },
+  {
+   "id": "core_grammar_p014",
+   "de": "Da stimmt irgendwas nicht.",
+   "es": "Aquí hay algo que no cuadra.",
+   "en": "Something's not right here.",
+   "gloss": "ahí cuadra algo no",
+   "lemmas": [
+    "irgendwas",
+    "nicht",
+    "da"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p015",
+   "de": "Hast du irgendwas gehört?",
+   "es": "¿Has oído algo?",
+   "en": "Did you hear anything?",
+   "gloss": "has tú algo oído",
+   "lemmas": [
+    "irgendwas",
+    "hören",
+    "du"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p016",
+   "de": "Was hältst du davon?",
+   "es": "¿Qué te parece?",
+   "en": "What do you think of it?",
+   "gloss": "qué sostienes tú de-eso",
+   "lemmas": [
+    "davon",
+    "du",
+    "was"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'halten von' = opinar sobre algo; nunca uses 'denken von' aquí."
+  },
+  {
+   "id": "core_grammar_p017",
+   "de": "Davon weiß ich nichts.",
+   "es": "De eso no sé nada.",
+   "en": "I don't know anything about that.",
+   "gloss": "de-eso sé yo nada",
+   "lemmas": [
+    "davon",
+    "wissen",
+    "nichts"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Empezar con 'davon' obliga a poner el verbo antes del sujeto."
+  },
+  {
+   "id": "core_grammar_p018",
+   "de": "Das hängt davon ab.",
+   "es": "Eso depende.",
+   "en": "That depends.",
+   "gloss": "eso cuelga de-eso de",
+   "lemmas": [
+    "davon",
+    "das"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Verbo separable 'abhängen': el 'ab' se va al final."
+  },
+  {
+   "id": "core_grammar_p019",
+   "de": "Darauf freue ich mich.",
+   "es": "Tengo ganas de eso.",
+   "en": "I'm looking forward to that.",
+   "gloss": "encima-de-eso alegro yo me",
+   "lemmas": [
+    "darauf",
+    "ich"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'sich freuen auf' + cosa ya mencionada se convierte en 'darauf'."
+  },
+  {
+   "id": "core_grammar_p020",
+   "de": "Ich komme gerade nicht darauf.",
+   "es": "Ahora mismo no me sale.",
+   "en": "I can't think of it right now.",
+   "gloss": "yo vengo justo no encima-de-eso",
+   "lemmas": [
+    "darauf",
+    "kommen",
+    "nicht"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'auf etwas kommen' = acordarse de algo, dar con ello."
+  },
+  {
+   "id": "core_grammar_p021",
+   "de": "Kannst du kurz darauf aufpassen?",
+   "es": "¿Puedes vigilarlo un momento?",
+   "en": "Can you keep an eye on it for a sec?",
+   "gloss": "puedes tú corto encima-de-eso vigilar",
+   "lemmas": [
+    "darauf",
+    "können",
+    "du"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'aufpassen auf' + cosa ya mencionada se convierte en 'darauf'."
+  },
+  {
+   "id": "core_grammar_p022",
+   "de": "Hat jemand ___ gesehen?",
+   "es": "¿Alguien ha visto ___?",
+   "en": "Has anyone seen ___?",
+   "gloss": "ha alguien ___ visto",
+   "lemmas": [
+    "jemand",
+    "sehen",
+    "haben"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "mein Handy",
+     "es": "mi móvil"
+    },
+    {
+     "de": "meinen Schlüssel",
+     "es": "mi llave"
+    },
+    {
+     "de": "meine Jacke",
+     "es": "mi chaqueta"
+    },
+    {
+     "de": "den Chef",
+     "es": "al jefe"
+    },
+    {
+     "de": "die Kinder",
+     "es": "a los niños"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "core_grammar_p023",
+   "de": "Ich habe ___ nicht dabei.",
+   "es": "No llevo ___ encima.",
+   "en": "I don't have ___ on me.",
+   "gloss": "yo tengo ___ no con-ello",
+   "lemmas": [
+    "dabei",
+    "haben",
+    "nicht"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "meinen Ausweis",
+     "es": "mi carné"
+    },
+    {
+     "de": "mein Handy",
+     "es": "mi móvil"
+    },
+    {
+     "de": "die Karte",
+     "es": "la tarjeta"
+    },
+    {
+     "de": "meine Brille",
+     "es": "mis gafas"
+    }
+   ],
+   "note": "'dabei haben' = llevar algo encima."
+  },
+  {
+   "id": "core_grammar_p024",
+   "de": "Ich muss noch irgendwas ___.",
+   "es": "Todavía tengo que ___ algo.",
+   "en": "I still have to ___ something.",
+   "gloss": "yo debo todavía algo ___",
+   "lemmas": [
+    "irgendwas",
+    "müssen",
+    "noch"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "essen",
+     "es": "comer"
+    },
+    {
+     "de": "kaufen",
+     "es": "comprar"
+    },
+    {
+     "de": "sagen",
+     "es": "decir"
+    },
+    {
+     "de": "erledigen",
+     "es": "resolver / hacer un recado"
+    }
+   ],
+   "note": "El infinitivo va al final de la frase."
+  },
+  {
+   "id": "core_grammar_r001",
+   "de": "Warte kurz, ich bin gleich fertig.",
+   "es": "Espera un momento, ya casi estoy listo.",
+   "en": "Hang on a sec, I'll be ready in a moment.",
+   "gloss": "espera corto, yo soy enseguida listo",
+   "lemmas": [
+    "warten",
+    "kurz",
+    "ich",
+    "sein",
+    "gleich",
+    "fertig"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Aquí 'kurz' significa 'un momentito', no 'corto de longitud'."
+  },
+  {
+   "id": "core_grammar_r002",
+   "de": "Mach's kurz, ich muss gleich los.",
+   "es": "Sé breve, me tengo que ir enseguida.",
+   "en": "Keep it short, I have to leave in a minute.",
+   "gloss": "haz-lo corto, yo debo enseguida fuera",
+   "lemmas": [
+    "machen",
+    "kurz",
+    "ich",
+    "müssen",
+    "gleich"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "'Mach's' es la forma hablada de 'mach es'."
+  },
+  {
+   "id": "core_grammar_r003",
+   "de": "Ich muss kurz ___.",
+   "es": "Tengo que ___ un momento.",
+   "en": "I need to ___ real quick.",
+   "gloss": "yo debo corto ___",
+   "lemmas": [
+    "ich",
+    "müssen",
+    "kurz"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "telefonieren",
+     "es": "hacer una llamada"
+    },
+    {
+     "de": "aufs Klo",
+     "es": "ir al baño"
+    },
+    {
+     "de": "nachdenken",
+     "es": "pensarlo"
+    },
+    {
+     "de": "was trinken",
+     "es": "beber algo"
+    },
+    {
+     "de": "zur Post",
+     "es": "ir a correos"
+    }
+   ],
+   "note": "Muchos alemanes meten 'kurz' en casi cualquier frase para decir 'rapidito'."
+  },
+  {
+   "id": "core_grammar_r004",
+   "de": "Es ist erst acht Uhr.",
+   "es": "Solo son las ocho.",
+   "en": "It's only eight o'clock.",
+   "gloss": "ello es solo ocho hora",
+   "lemmas": [
+    "es",
+    "sein",
+    "erst",
+    "Uhr"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Delante de una hora, 'erst' significa 'todavía solo'."
+  },
+  {
+   "id": "core_grammar_r005",
+   "de": "Wir sehen uns erst nächste Woche.",
+   "es": "No nos vemos hasta la semana que viene.",
+   "en": "We won't see each other until next week.",
+   "gloss": "nosotros vemos nos solo próxima semana",
+   "lemmas": [
+    "wir",
+    "sehen",
+    "erst",
+    "Woche"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'erst' + tiempo se traduce como 'no ... hasta'."
+  },
+  {
+   "id": "core_grammar_r006",
+   "de": "Ich bin gerade erst angekommen.",
+   "es": "Acabo de llegar ahora mismo.",
+   "en": "I've only just arrived.",
+   "gloss": "yo soy justo apenas llegado",
+   "lemmas": [
+    "ich",
+    "gerade",
+    "erst",
+    "ankommen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'gerade erst' equivale al español 'acabar de'."
+  },
+  {
+   "id": "core_grammar_r007",
+   "de": "Ich mache das erst ___.",
+   "es": "No lo hago hasta ___.",
+   "en": "I'm not doing that until ___.",
+   "gloss": "yo hago eso solo ___",
+   "lemmas": [
+    "ich",
+    "machen",
+    "erst"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "später",
+     "es": "más tarde"
+    },
+    {
+     "de": "heute Abend",
+     "es": "esta noche"
+    },
+    {
+     "de": "nach dem Essen",
+     "es": "después de comer"
+    },
+    {
+     "de": "am Wochenende",
+     "es": "el fin de semana"
+    },
+    {
+     "de": "wenn ich Zeit habe",
+     "es": "cuando tenga tiempo"
+    }
+   ],
+   "note": "Aquí 'erst' marca que algo no pasa antes de ese momento."
+  },
+  {
+   "id": "core_grammar_r008",
+   "de": "Das ist nicht meins, sondern deins.",
+   "es": "Eso no es mío, sino tuyo.",
+   "en": "That's not mine, it's yours.",
+   "gloss": "eso es no mío, sino tuyo",
+   "lemmas": [
+    "das",
+    "sein",
+    "nicht",
+    "sondern"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'sondern' solo se usa después de una negación; si no, se dice 'aber'."
+  },
+  {
+   "id": "core_grammar_r009",
+   "de": "Ich komme nicht heute, sondern morgen.",
+   "es": "No vengo hoy, sino mañana.",
+   "en": "I'm not coming today, but tomorrow.",
+   "gloss": "yo vengo no hoy, sino mañana",
+   "lemmas": [
+    "ich",
+    "kommen",
+    "nicht",
+    "sondern",
+    "heute"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_r010",
+   "de": "Ich will keinen Kaffee, sondern ___.",
+   "es": "No quiero café, sino ___.",
+   "en": "I don't want coffee, I want ___.",
+   "gloss": "yo quiero ningún café, sino ___",
+   "lemmas": [
+    "ich",
+    "wollen",
+    "kein",
+    "Kaffee",
+    "sondern"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "einen Tee",
+     "es": "un té"
+    },
+    {
+     "de": "ein Wasser",
+     "es": "un agua"
+    },
+    {
+     "de": "eine Cola",
+     "es": "una Coca-Cola"
+    },
+    {
+     "de": "einfach nur Ruhe",
+     "es": "simplemente tranquilidad"
+    }
+   ],
+   "note": "Después de 'sondern' se repite el mismo caso que antes: aquí acusativo."
+  },
+  {
+   "id": "core_grammar_r011",
+   "de": "Das machen wir beide zusammen.",
+   "es": "Eso lo hacemos los dos juntos.",
+   "en": "We'll do that together, the two of us.",
+   "gloss": "eso hacemos nosotros ambos juntos",
+   "lemmas": [
+    "das",
+    "machen",
+    "wir",
+    "beide",
+    "zusammen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'beide' va detrás del pronombre: 'wir beide', nunca 'beide wir'."
+  },
+  {
+   "id": "core_grammar_r012",
+   "de": "Danke euch beiden!",
+   "es": "¡Gracias a los dos!",
+   "en": "Thanks to both of you!",
+   "gloss": "gracias a-vosotros ambos",
+   "lemmas": [
+    "danke",
+    "ihr",
+    "beide"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "Tras 'danke' se usa dativo, por eso 'euch beiden' con -n."
+  },
+  {
+   "id": "core_grammar_r013",
+   "de": "Ich habe beide Nachrichten gelesen.",
+   "es": "He leído los dos mensajes.",
+   "en": "I've read both messages.",
+   "gloss": "yo he ambos mensajes leído",
+   "lemmas": [
+    "ich",
+    "haben",
+    "beide",
+    "Nachricht",
+    "lesen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Delante de un sustantivo, 'beide' funciona como artículo: 'beide Nachrichten'."
+  },
+  {
+   "id": "core_grammar_r014",
+   "de": "Das habe ich selbst gemacht.",
+   "es": "Eso lo he hecho yo mismo.",
+   "en": "I made that myself.",
+   "gloss": "eso he yo mismo hecho",
+   "lemmas": [
+    "das",
+    "haben",
+    "ich",
+    "selbst",
+    "machen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Detrás del sujeto, 'selbst' significa 'yo mismo, sin ayuda'."
+  },
+  {
+   "id": "core_grammar_r015",
+   "de": "Mach das doch einfach selbst!",
+   "es": "¡Pues hazlo tú mismo!",
+   "en": "Just do it yourself, then!",
+   "gloss": "haz eso pues simplemente mismo",
+   "lemmas": [
+    "machen",
+    "das",
+    "doch",
+    "einfach",
+    "selbst"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "'doch' aquí añade el tono de reproche, como el 'pues' español."
+  },
+  {
+   "id": "core_grammar_r016",
+   "de": "Selbst mein Chef weiß das nicht.",
+   "es": "Ni siquiera mi jefe lo sabe.",
+   "en": "Even my boss doesn't know that.",
+   "gloss": "incluso mi jefe sabe eso no",
+   "lemmas": [
+    "selbst",
+    "mein",
+    "Chef",
+    "wissen",
+    "nicht"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Al principio de la frase 'selbst' significa 'incluso', no 'mismo'."
+  },
+  {
+   "id": "core_grammar_r017",
+   "de": "Die Idee ist gut, ich habe jedoch keine Zeit.",
+   "es": "La idea es buena, sin embargo no tengo tiempo.",
+   "en": "The idea is good; however, I don't have time.",
+   "gloss": "la idea es buena, yo tengo sin-embargo ningún tiempo",
+   "lemmas": [
+    "Idee",
+    "sein",
+    "gut",
+    "ich",
+    "haben",
+    "jedoch",
+    "Zeit"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "'jedoch' es más formal que 'aber' y suele ir detrás del verbo."
+  },
+  {
+   "id": "core_grammar_r018",
+   "de": "Das Hotel war teuer, jedoch sehr gut.",
+   "es": "El hotel era caro, pero muy bueno.",
+   "en": "The hotel was expensive, but very good.",
+   "gloss": "el hotel era caro, sin-embargo muy bueno",
+   "lemmas": [
+    "Hotel",
+    "sein",
+    "teuer",
+    "jedoch",
+    "gut"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "core_grammar_r019",
+   "de": "Ich habe angerufen, jedoch war niemand da.",
+   "es": "Llamé, sin embargo no había nadie.",
+   "en": "I called, but nobody was there.",
+   "gloss": "yo he llamado, sin-embargo estaba nadie ahí",
+   "lemmas": [
+    "ich",
+    "haben",
+    "anrufen",
+    "jedoch",
+    "niemand"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Si 'jedoch' abre la frase, el verbo va justo detrás."
+  },
+  {
+   "id": "core_grammar_r020",
+   "de": "Nachdem ich gegessen habe, gehe ich schlafen.",
+   "es": "Después de comer, me voy a dormir.",
+   "en": "After I've eaten, I go to sleep.",
+   "gloss": "después-de-que yo comido he, voy yo dormir",
+   "lemmas": [
+    "nachdem",
+    "ich",
+    "essen",
+    "haben",
+    "gehen",
+    "schlafen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Con 'nachdem' el verbo va al final y normalmente en perfecto."
+  },
+  {
+   "id": "core_grammar_r021",
+   "de": "Ruf mich an, nachdem du angekommen bist.",
+   "es": "Llámame después de llegar.",
+   "en": "Call me after you've arrived.",
+   "gloss": "llama me a, después-de-que tú llegado eres",
+   "lemmas": [
+    "anrufen",
+    "nachdem",
+    "du",
+    "ankommen",
+    "sein"
+   ],
+   "level": 5,
+   "type": "phrase",
+   "note": "'ankommen' forma el perfecto con 'sein', no con 'haben'."
+  },
+  {
+   "id": "core_grammar_r022",
+   "de": "Nachdem wir bezahlt haben, können wir gehen.",
+   "es": "Después de que paguemos, nos podemos ir.",
+   "en": "Once we've paid, we can go.",
+   "gloss": "después-de-que nosotros pagado hemos, podemos nosotros ir",
+   "lemmas": [
+    "nachdem",
+    "wir",
+    "bezahlen",
+    "haben",
+    "können",
+    "gehen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Como la frase empieza con 'nachdem...', el verbo principal va justo después de la coma."
+  }
+ ]
 }

@@ -519,20 +519,6 @@
    "note": "Lo que gusta es el sujeto y la persona va en dativo: \"mir\"."
   },
   {
-   "id": "weather_leisure_040",
-   "de": "Ich höre gern Musik.",
-   "es": "Me gusta escuchar música.",
-   "en": "I like listening to music.",
-   "gloss": "yo oigo con-gusto música",
-   "lemmas": [
-    "hören",
-    "Musik"
-   ],
-   "level": 2,
-   "type": "sentence",
-   "note": ""
-  },
-  {
    "id": "weather_leisure_041",
    "de": "Mach mal die Musik lauter!",
    "es": "¡Sube la música!",
@@ -1208,19 +1194,6 @@
    "level": 3,
    "type": "sentence",
    "note": "\"es gibt\" = hay, y siempre con acusativo."
-  },
-  {
-   "id": "weather_leisure_092",
-   "de": "Wollen wir schwimmen gehen?",
-   "es": "¿Vamos a nadar?",
-   "en": "Shall we go swimming?",
-   "gloss": "queremos nosotros nadar ir",
-   "lemmas": [
-    "schwimmen"
-   ],
-   "level": 3,
-   "type": "question",
-   "note": ""
   },
   {
    "id": "weather_leisure_093",
@@ -2480,7 +2453,7 @@
    "lemmas": [
     "Ball"
    ],
-   "level": 1,
+   "level": 2,
    "type": "sentence",
    "note": ""
   },
@@ -2616,19 +2589,6 @@
    "note": ""
   },
   {
-   "id": "weather_leisure_p043",
-   "de": "Schau mal, da drüben ist ein Pferd!",
-   "es": "¡Mira, ahí enfrente hay un caballo!",
-   "en": "Look, there's a horse over there!",
-   "gloss": "mira una-vez, ahí al-otro-lado está un caballo",
-   "lemmas": [
-    "Pferd"
-   ],
-   "level": 2,
-   "type": "phrase",
-   "note": ""
-  },
-  {
    "id": "weather_leisure_p044",
    "de": "Es hat aufgehört zu regnen.",
    "es": "Ha dejado de llover.",
@@ -2655,19 +2615,6 @@
    "note": "\"hoffentlich\" no lleva subjuntivo: el verbo va normal."
   },
   {
-   "id": "weather_leisure_p046",
-   "de": "Danke für die Einladung!",
-   "es": "¡Gracias por la invitación!",
-   "en": "Thanks for the invitation!",
-   "gloss": "gracias por la invitación",
-   "lemmas": [
-    "Einladung"
-   ],
-   "level": 2,
-   "type": "phrase",
-   "note": "\"für\" siempre con acusativo: für die Einladung."
-  },
-  {
    "id": "weather_leisure_p047",
    "de": "Hast du die Einladung schon bekommen?",
    "es": "¿Ya has recibido la invitación?",
@@ -2692,19 +2639,6 @@
    "level": 2,
    "type": "phrase",
    "note": "\"sich etwas anschauen\": el \"an\" va al final y \"dir\" es dativo."
-  },
-  {
-   "id": "weather_leisure_p049",
-   "de": "Wollen wir uns das Spiel anschauen?",
-   "es": "¿Vemos el partido?",
-   "en": "Shall we watch the game?",
-   "gloss": "queremos nosotros a-nosotros el partido mirar",
-   "lemmas": [
-    "anschauen"
-   ],
-   "level": 3,
-   "type": "question",
-   "note": ""
   },
   {
    "id": "weather_leisure_p050",
@@ -2863,19 +2797,6 @@
    "level": 2,
    "type": "sentence",
    "note": ""
-  },
-  {
-   "id": "weather_leisure_p062",
-   "de": "Mach mal den Fernseher an!",
-   "es": "¡Enciende la tele!",
-   "en": "Turn the TV on!",
-   "gloss": "haz una-vez el televisor en",
-   "lemmas": [
-    "Fernseher"
-   ],
-   "level": 2,
-   "type": "phrase",
-   "note": "\"anmachen\" separable; \"mal\" suaviza la orden."
   },
   {
    "id": "weather_leisure_p063",
@@ -3487,20 +3408,6 @@
    "level": 4,
    "type": "sentence",
    "note": "'soll' aquí significa 'está previsto / dicen que'."
-  },
-  {
-   "id": "weather_leisure_q023",
-   "de": "Wirf mir mal den Ball!",
-   "es": "¡Pásame la pelota!",
-   "en": "Throw me the ball!",
-   "gloss": "lanza a-mí una-vez la pelota",
-   "lemmas": [
-    "werfen",
-    "Ball"
-   ],
-   "level": 2,
-   "type": "phrase",
-   "note": ""
   },
   {
    "id": "weather_leisure_q024",

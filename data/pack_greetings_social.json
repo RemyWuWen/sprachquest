@@ -1,3038 +1,3038 @@
 {
-  "packId": "greetings_social",
-  "title": "Begrüßung & Small Talk",
-  "titleDe": "Hallo sagen und ins Gespräch kommen",
-  "desc": "Después de este pack sabes saludar, despedirte, presentarte, dar las gracias, pedir perdón, felicitar, invitar a alguien y mantener una conversación corta en alemán.",
-  "chunks": [
-    {
-      "id": "greetings_social_001",
-      "de": "Hallo!",
-      "es": "¡Hola!",
-      "en": "Hi!",
-      "gloss": "hola",
-      "lemmas": [
-        "hallo"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_002",
-      "de": "Guten Morgen!",
-      "es": "¡Buenos días!",
-      "en": "Good morning!",
-      "gloss": "buen mañana",
-      "lemmas": [
-        "gut",
-        "Morgen"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Solo hasta las 10-11 de la mañana."
-    },
-    {
-      "id": "greetings_social_003",
-      "de": "Guten Tag!",
-      "es": "¡Buenos días! / ¡Buenas!",
-      "en": "Good day! / Hello!",
-      "gloss": "buen día",
-      "lemmas": [
-        "gut",
-        "Tag"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Saludo formal, con desconocidos y en tiendas."
-    },
-    {
-      "id": "greetings_social_004",
-      "de": "Guten Abend!",
-      "es": "¡Buenas tardes! / ¡Buenas noches!",
-      "en": "Good evening!",
-      "gloss": "buen tarde-noche",
-      "lemmas": [
-        "gut",
-        "Abend"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_005",
-      "de": "Gute Nacht!",
-      "es": "¡Buenas noches!",
-      "en": "Good night!",
-      "gloss": "buena noche",
-      "lemmas": [
-        "gut",
-        "Nacht"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Solo para despedirse antes de dormir, nunca para saludar."
-    },
-    {
-      "id": "greetings_social_006",
-      "de": "Hallo, ich bin Lena.",
-      "es": "Hola, soy Lena.",
-      "en": "Hi, I'm Lena.",
-      "gloss": "hola, yo soy Lena",
-      "lemmas": [
-        "hallo",
-        "ich",
-        "sein"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_007",
-      "de": "Wie geht's?",
-      "es": "¿Qué tal?",
-      "en": "How's it going?",
-      "gloss": "cómo va-ello",
-      "lemmas": [
-        "wie",
-        "gehen",
-        "es"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'geht's' es 'geht es' hablado; es la forma normal."
-    },
-    {
-      "id": "greetings_social_008",
-      "de": "Gut, danke!",
-      "es": "¡Bien, gracias!",
-      "en": "Good, thanks!",
-      "gloss": "bien, gracias",
-      "lemmas": [
-        "gut",
-        "danke"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_009",
-      "de": "Und dir?",
-      "es": "¿Y a ti?",
-      "en": "And you?",
-      "gloss": "y a-ti",
-      "lemmas": [
-        "und",
-        "du"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "Se dice 'dir' (dativo), no 'du'."
-    },
-    {
-      "id": "greetings_social_010",
-      "de": "Tschüss!",
-      "es": "¡Adiós! / ¡Chao!",
-      "en": "Bye!",
-      "gloss": "chao",
-      "lemmas": [
-        "tschüss"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_011",
-      "de": "Tschüss, bis morgen!",
-      "es": "¡Chao, hasta mañana!",
-      "en": "Bye, see you tomorrow!",
-      "gloss": "chao, hasta mañana",
-      "lemmas": [
-        "tschüss"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_012",
-      "de": "Auf Wiedersehen!",
-      "es": "¡Adiós! / ¡Hasta luego!",
-      "en": "Goodbye!",
-      "gloss": "hasta re-ver",
-      "lemmas": [
-        "auf",
-        "Wiedersehen"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Más formal que 'tschüss'; en tiendas y oficinas es lo normal."
-    },
-    {
-      "id": "greetings_social_013",
-      "de": "Bis bald!",
-      "es": "¡Hasta pronto!",
-      "en": "See you soon!",
-      "gloss": "hasta pronto",
-      "lemmas": [
-        "bis",
-        "bald"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_014",
-      "de": "Danke!",
-      "es": "¡Gracias!",
-      "en": "Thanks!",
-      "gloss": "gracias",
-      "lemmas": [
-        "danke"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_015",
-      "de": "Danke schön!",
-      "es": "¡Muchas gracias!",
-      "en": "Thank you!",
-      "gloss": "gracias bonito",
-      "lemmas": [
-        "danke",
-        "schön"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_016",
-      "de": "Vielen Dank!",
-      "es": "¡Muchísimas gracias!",
-      "en": "Many thanks!",
-      "gloss": "mucho agradecimiento",
-      "lemmas": [
-        "viel",
-        "Dank"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_017",
-      "de": "Bitte!",
-      "es": "¡De nada!",
-      "en": "You're welcome!",
-      "gloss": "por-favor",
-      "lemmas": [
-        "bitte"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": "'Bitte' significa 'por favor' y también 'de nada'."
-    },
-    {
-      "id": "greetings_social_018",
-      "de": "Bitte schön!",
-      "es": "¡Aquí tiene! / ¡De nada!",
-      "en": "Here you go! / You're welcome!",
-      "gloss": "por-favor bonito",
-      "lemmas": [
-        "bitte"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Lo dice quien entrega algo."
-    },
-    {
-      "id": "greetings_social_019",
-      "de": "Ja, bitte.",
-      "es": "Sí, por favor.",
-      "en": "Yes, please.",
-      "gloss": "sí, por-favor",
-      "lemmas": [
-        "bitte"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_020",
-      "de": "Nein, danke.",
-      "es": "No, gracias.",
-      "en": "No, thanks.",
-      "gloss": "no, gracias",
-      "lemmas": [
-        "danke"
-      ],
-      "level": 1,
-      "type": "answer",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_021",
-      "de": "Okay!",
-      "es": "¡Vale!",
-      "en": "Okay!",
-      "gloss": "vale",
-      "lemmas": [
-        "okay"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_022",
-      "de": "Alles okay?",
-      "es": "¿Todo bien?",
-      "en": "Everything okay?",
-      "gloss": "todo okay",
-      "lemmas": [
-        "okay"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_023",
-      "de": "Okay, kein Problem.",
-      "es": "Vale, no hay problema.",
-      "en": "Okay, no problem.",
-      "gloss": "vale, ningún problema",
-      "lemmas": [
-        "okay",
-        "kein",
-        "Problem"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_024",
-      "de": "Wie heißt du?",
-      "es": "¿Cómo te llamas?",
-      "en": "What's your name?",
-      "gloss": "cómo te-llamas tú",
-      "lemmas": [
-        "heißen"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_025",
-      "de": "Ich heiße ___.",
-      "es": "Me llamo ___.",
-      "en": "My name is ___.",
-      "gloss": "yo me-llamo ___",
-      "lemmas": [
-        "heißen"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Lena",
-          "es": "Lena"
-        },
-        {
-          "de": "Max",
-          "es": "Max"
-        },
-        {
-          "de": "Sofía",
-          "es": "Sofía"
-        },
-        {
-          "de": "Jonas",
-          "es": "Jonas"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_026",
-      "de": "Wie ist Ihr Name?",
-      "es": "¿Cuál es su nombre?",
-      "en": "What is your name? (formal)",
-      "gloss": "cómo es su nombre",
-      "lemmas": [
-        "wie",
-        "sein",
-        "Name"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "Se pregunta con 'wie' (cómo), no con 'was' (qué). Con un amigo: 'Wie ist dein Name?'."
-    },
-    {
-      "id": "greetings_social_027",
-      "de": "Mein Name ist ___.",
-      "es": "Mi nombre es ___.",
-      "en": "My name is ___.",
-      "gloss": "mi nombre es ___",
-      "lemmas": [
-        "Name"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Wu",
-          "es": "Wu"
-        },
-        {
-          "de": "Meier",
-          "es": "Meier"
-        },
-        {
-          "de": "Lena Schmidt",
-          "es": "Lena Schmidt"
-        },
-        {
-          "de": "García",
-          "es": "García"
-        }
-      ],
-      "note": "Más formal que 'ich heiße'."
-    },
-    {
-      "id": "greetings_social_028",
-      "de": "Entschuldigung!",
-      "es": "¡Perdón! / ¡Disculpe!",
-      "en": "Excuse me! / Sorry!",
-      "gloss": "perdón",
-      "lemmas": [
-        "Entschuldigung"
-      ],
-      "level": 1,
-      "type": "word",
-      "note": "Sirve para pedir perdón y para llamar la atención de alguien."
-    },
-    {
-      "id": "greetings_social_029",
-      "de": "Entschuldigung, wie bitte?",
-      "es": "Perdón, ¿cómo dice?",
-      "en": "Sorry, what was that?",
-      "gloss": "perdón, cómo por-favor",
-      "lemmas": [
-        "Entschuldigung",
-        "bitte"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'Wie bitte?' es lo que dices cuando no has entendido."
-    },
-    {
-      "id": "greetings_social_030",
-      "de": "Guten Tag, Herr ___!",
-      "es": "¡Buenos días, señor ___!",
-      "en": "Good day, Mr. ___!",
-      "gloss": "buen día, señor ___",
-      "lemmas": [
-        "Herr"
-      ],
-      "level": 1,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Meier",
-          "es": "Meier"
-        },
-        {
-          "de": "Schmidt",
-          "es": "Schmidt"
-        },
-        {
-          "de": "Müller",
-          "es": "Müller"
-        },
-        {
-          "de": "Wu",
-          "es": "Wu"
-        }
-      ],
-      "note": "Con 'Herr' siempre va el apellido, nunca el nombre."
-    },
-    {
-      "id": "greetings_social_031",
-      "de": "Hallo zusammen!",
-      "es": "¡Hola a todos!",
-      "en": "Hi everyone!",
-      "gloss": "hola juntos",
-      "lemmas": [
-        "hallo"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Para saludar a un grupo o en un chat."
-    },
-    {
-      "id": "greetings_social_032",
-      "de": "Wie heißen Sie?",
-      "es": "¿Cómo se llama usted?",
-      "en": "What's your name? (formal)",
-      "gloss": "cómo se-llama usted",
-      "lemmas": [
-        "heißen"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "'Sie' con mayúscula es 'usted'."
-    },
-    {
-      "id": "greetings_social_033",
-      "de": "Das ist Herr Fischer.",
-      "es": "Este es el señor Fischer.",
-      "en": "This is Mr. Fischer.",
-      "gloss": "eso es señor Fischer",
-      "lemmas": [
-        "Herr"
-      ],
-      "level": 1,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_034",
-      "de": "Wie geht es Ihnen, Herr Wu?",
-      "es": "¿Cómo está usted, señor Wu?",
-      "en": "How are you, Mr. Wu?",
-      "gloss": "cómo va ello a-usted, señor Wu",
-      "lemmas": [
-        "gehen",
-        "Herr"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "Versión formal de 'Wie geht's?'."
-    },
-    {
-      "id": "greetings_social_035",
-      "de": "Alles klar, bis dann!",
-      "es": "Vale, ¡hasta luego!",
-      "en": "Alright, see you!",
-      "gloss": "todo claro, hasta entonces",
-      "lemmas": [
-        "alles",
-        "klar",
-        "bis",
-        "dann"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_036",
-      "de": "Entschuldigung, wo ist ___?",
-      "es": "Perdón, ¿dónde está ___?",
-      "en": "Excuse me, where is ___?",
-      "gloss": "perdón, dónde está ___",
-      "lemmas": [
-        "Entschuldigung"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "der Bahnhof",
-          "es": "la estación"
-        },
-        {
-          "de": "die Toilette",
-          "es": "el baño"
-        },
-        {
-          "de": "der Ausgang",
-          "es": "la salida"
-        },
-        {
-          "de": "die Schule",
-          "es": "el colegio"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_037",
-      "de": "Entschuldige!",
-      "es": "¡Perdona!",
-      "en": "Sorry!",
-      "gloss": "disculpa",
-      "lemmas": [
-        "entschuldigen"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Forma informal, a un amigo."
-    },
-    {
-      "id": "greetings_social_038",
-      "de": "Danke für ___!",
-      "es": "¡Gracias por ___!",
-      "en": "Thanks for ___!",
-      "gloss": "gracias por ___",
-      "lemmas": [
-        "danke"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "die Hilfe",
-          "es": "la ayuda"
-        },
-        {
-          "de": "das Geschenk",
-          "es": "el regalo"
-        },
-        {
-          "de": "deine Nachricht",
-          "es": "tu mensaje"
-        },
-        {
-          "de": "alles",
-          "es": "todo"
-        }
-      ],
-      "note": "'für' siempre lleva acusativo."
-    },
-    {
-      "id": "greetings_social_039",
-      "de": "Was sagst du?",
-      "es": "¿Qué dices?",
-      "en": "What are you saying?",
-      "gloss": "qué dices tú",
-      "lemmas": [
-        "sagen"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_040",
-      "de": "Sag mal, ___?",
-      "es": "Oye, ¿___?",
-      "en": "Say, ___?",
-      "gloss": "di una-vez, ___",
-      "lemmas": [
-        "sagen"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "hast du kurz Zeit",
-          "es": "tienes un momento"
-        },
-        {
-          "de": "wie geht's dir",
-          "es": "qué tal estás"
-        },
-        {
-          "de": "wo bist du",
-          "es": "dónde estás"
-        },
-        {
-          "de": "was machst du gerade",
-          "es": "qué estás haciendo"
-        }
-      ],
-      "note": "'Sag mal' abre una pregunta de forma coloquial, como 'oye'."
-    },
-    {
-      "id": "greetings_social_041",
-      "de": "Er heißt Jonas.",
-      "es": "Él se llama Jonas.",
-      "en": "His name is Jonas.",
-      "gloss": "él se-llama Jonas",
-      "lemmas": [
-        "heißen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_042",
-      "de": "Was heißt das auf Spanisch?",
-      "es": "¿Qué significa eso en español?",
-      "en": "What does that mean in Spanish?",
-      "gloss": "qué significa eso en español",
-      "lemmas": [
-        "heißen"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "'heißen' también significa 'significar'."
-    },
-    {
-      "id": "greetings_social_043",
-      "de": "Wie war noch mal dein Name?",
-      "es": "¿Cómo era tu nombre?",
-      "en": "What was your name again?",
-      "gloss": "cómo era aún una-vez tu nombre",
-      "lemmas": [
-        "Name"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "'noch mal' aquí = 'otra vez que se me ha olvidado'. Muy usado."
-    },
-    {
-      "id": "greetings_social_044",
-      "de": "Viele Grüße!",
-      "es": "¡Saludos!",
-      "en": "Best regards!",
-      "gloss": "muchos saludos",
-      "lemmas": [
-        "viel",
-        "Gruß"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Cierre normal de un correo o mensaje."
-    },
-    {
-      "id": "greetings_social_045",
-      "de": "Liebe Grüße, Lena",
-      "es": "Un abrazo, Lena",
-      "en": "Warm regards, Lena",
-      "gloss": "queridos saludos, Lena",
-      "lemmas": [
-        "lieb",
-        "Gruß"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Entre amigos se abrevia 'LG' en los chats."
-    },
-    {
-      "id": "greetings_social_046",
-      "de": "Grüß dich!",
-      "es": "¡Hola!",
-      "en": "Hi there!",
-      "gloss": "saluda a-ti",
-      "lemmas": [
-        "grüßen",
-        "du"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Saludo informal, sobre todo en el sur de Alemania."
-    },
-    {
-      "id": "greetings_social_047",
-      "de": "Herzlichen Glückwunsch!",
-      "es": "¡Felicidades!",
-      "en": "Congratulations!",
-      "gloss": "cordial felicitación",
-      "lemmas": [
-        "Glückwunsch"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_048",
-      "de": "Herzlichen Glückwunsch zum ___!",
-      "es": "¡Felicidades por ___!",
-      "en": "Congratulations on ___!",
-      "gloss": "cordial felicitación a-el ___",
-      "lemmas": [
-        "Glückwunsch"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Geburtstag",
-          "es": "el cumpleaños"
-        },
-        {
-          "de": "neuen Job",
-          "es": "el nuevo trabajo"
-        },
-        {
-          "de": "Führerschein",
-          "es": "el carnet de conducir"
-        },
-        {
-          "de": "Abitur",
-          "es": "el bachillerato"
-        }
-      ],
-      "note": "'zum' = zu dem; con palabras femeninas se dice 'zur'."
-    },
-    {
-      "id": "greetings_social_049",
-      "de": "Danke für die Einladung!",
-      "es": "¡Gracias por la invitación!",
-      "en": "Thanks for the invitation!",
-      "gloss": "gracias por la invitación",
-      "lemmas": [
-        "danke",
-        "Einladung"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_050",
-      "de": "Die Einladung ist für Samstag.",
-      "es": "La invitación es para el sábado.",
-      "en": "The invitation is for Saturday.",
-      "gloss": "la invitación es para sábado",
-      "lemmas": [
-        "Einladung"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_051",
-      "de": "Ich lade dich ein.",
-      "es": "Te invito.",
-      "en": "I'm inviting you. / It's on me.",
-      "gloss": "yo invito a-ti dentro",
-      "lemmas": [
-        "einladen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Verbo separable: el 'ein' se va al final de la frase."
-    },
-    {
-      "id": "greetings_social_052",
-      "de": "Ich habe Besuch.",
-      "es": "Tengo visita.",
-      "en": "I have visitors.",
-      "gloss": "yo tengo visita",
-      "lemmas": [
-        "Besuch"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Sin artículo, aunque en español digas 'una visita'."
-    },
-    {
-      "id": "greetings_social_053",
-      "de": "Danke für den Besuch!",
-      "es": "¡Gracias por la visita!",
-      "en": "Thanks for coming by!",
-      "gloss": "gracias por la visita",
-      "lemmas": [
-        "danke",
-        "Besuch"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_054",
-      "de": "Das ist verboten.",
-      "es": "Eso está prohibido.",
-      "en": "That's forbidden.",
-      "gloss": "eso está prohibido",
-      "lemmas": [
-        "verbieten"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_055",
-      "de": "Das war ein Witz!",
-      "es": "¡Era broma!",
-      "en": "That was a joke!",
-      "gloss": "eso era un chiste",
-      "lemmas": [
-        "sein",
-        "Witz"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_056",
-      "de": "Das ist kein Witz.",
-      "es": "No es broma.",
-      "en": "That's no joke.",
-      "gloss": "eso es ningún chiste",
-      "lemmas": [
-        "Witz"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Delante de un sustantivo se niega con 'kein', no con 'nicht'."
-    },
-    {
-      "id": "greetings_social_057",
-      "de": "Erzähl mal!",
-      "es": "¡Cuenta!",
-      "en": "Tell me!",
-      "gloss": "cuenta una-vez",
-      "lemmas": [
-        "erzählen"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_058",
-      "de": "Ich frage meine Mutter.",
-      "es": "Le pregunto a mi madre.",
-      "en": "I'll ask my mum.",
-      "gloss": "yo pregunto mi madre",
-      "lemmas": [
-        "fragen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "'fragen' lleva acusativo directo, sin 'a': 'ich frage sie'."
-    },
-    {
-      "id": "greetings_social_059",
-      "de": "Okay, dann bis später!",
-      "es": "Vale, ¡hasta luego entonces!",
-      "en": "Okay, see you later then!",
-      "gloss": "vale, entonces hasta más-tarde",
-      "lemmas": [
-        "okay"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_060",
-      "de": "Entschuldigen Sie bitte!",
-      "es": "¡Disculpe, por favor!",
-      "en": "Excuse me, please!",
-      "gloss": "disculpe usted por-favor",
-      "lemmas": [
-        "entschuldigen",
-        "bitte"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "Forma formal; a un amigo se dice 'Entschuldige'."
-    },
-    {
-      "id": "greetings_social_061",
-      "de": "Entschuldigung, das war mein Fehler.",
-      "es": "Perdón, fue culpa mía.",
-      "en": "Sorry, that was my mistake.",
-      "gloss": "perdón, eso era mi error",
-      "lemmas": [
-        "Entschuldigung",
-        "Fehler"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_062",
-      "de": "Kannst du mir helfen?",
-      "es": "¿Me puedes ayudar?",
-      "en": "Can you help me?",
-      "gloss": "puedes tú a-mí ayudar",
-      "lemmas": [
-        "helfen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'helfen' pide dativo: 'mir', nunca 'mich'."
-    },
-    {
-      "id": "greetings_social_063",
-      "de": "Kannst du mir mit ___ helfen?",
-      "es": "¿Me puedes ayudar con ___?",
-      "en": "Can you help me with ___?",
-      "gloss": "puedes tú a-mí con ___ ayudar",
-      "lemmas": [
-        "helfen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "den Hausaufgaben",
-          "es": "los deberes"
-        },
-        {
-          "de": "dem Koffer",
-          "es": "la maleta"
-        },
-        {
-          "de": "dem Computer",
-          "es": "el ordenador"
-        },
-        {
-          "de": "meinem Deutsch",
-          "es": "mi alemán"
-        }
-      ],
-      "note": "'mit' siempre va con dativo."
-    },
-    {
-      "id": "greetings_social_064",
-      "de": "Können Sie mir bitte helfen?",
-      "es": "¿Me puede ayudar, por favor?",
-      "en": "Could you help me, please?",
-      "gloss": "puede usted a-mí por-favor ayudar",
-      "lemmas": [
-        "bitte",
-        "helfen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "Versión formal de 'Kannst du mir helfen?'."
-    },
-    {
-      "id": "greetings_social_065",
-      "de": "Wie sagt man das auf Deutsch?",
-      "es": "¿Cómo se dice eso en alemán?",
-      "en": "How do you say that in German?",
-      "gloss": "cómo dice uno eso en alemán",
-      "lemmas": [
-        "sagen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'man' es el 'se' impersonal del español."
-    },
-    {
-      "id": "greetings_social_066",
-      "de": "Sagen Sie das bitte noch mal.",
-      "es": "Dígalo otra vez, por favor.",
-      "en": "Please say that again.",
-      "gloss": "diga usted eso por-favor aún una-vez",
-      "lemmas": [
-        "sagen",
-        "bitte"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_067",
-      "de": "Darf ich dich etwas fragen?",
-      "es": "¿Te puedo preguntar una cosa?",
-      "en": "Can I ask you something?",
-      "gloss": "puedo yo a-ti algo preguntar",
-      "lemmas": [
-        "fragen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "Con 'fragen' la persona va en acusativo: 'dich'."
-    },
-    {
-      "id": "greetings_social_068",
-      "de": "Frag ihn doch einfach!",
-      "es": "¡Pregúntale sin más!",
-      "en": "Just ask him!",
-      "gloss": "pregunta a-él pues simplemente",
-      "lemmas": [
-        "fragen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'doch' aquí solo da ánimo, no se traduce."
-    },
-    {
-      "id": "greetings_social_069",
-      "de": "Darf ich mich vorstellen?",
-      "es": "¿Me permite presentarme?",
-      "en": "May I introduce myself?",
-      "gloss": "puedo yo me presentar",
-      "lemmas": [
-        "vorstellen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_070",
-      "de": "Darf ich dir ___ vorstellen?",
-      "es": "¿Te presento a ___?",
-      "en": "May I introduce ___ to you?",
-      "gloss": "puedo yo a-ti ___ presentar",
-      "lemmas": [
-        "vorstellen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "meinen Bruder",
-          "es": "a mi hermano"
-        },
-        {
-          "de": "meine Freundin",
-          "es": "a mi novia/amiga"
-        },
-        {
-          "de": "Herrn Wu",
-          "es": "al señor Wu"
-        },
-        {
-          "de": "meine Eltern",
-          "es": "a mis padres"
-        }
-      ],
-      "note": "Verbo separable: 'vorstellen' va entero al final tras un modal."
-    },
-    {
-      "id": "greetings_social_071",
-      "de": "Ich stelle dir meine Familie vor.",
-      "es": "Te presento a mi familia.",
-      "en": "I'll introduce my family to you.",
-      "gloss": "yo presento a-ti mi familia ante",
-      "lemmas": [
-        "vorstellen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Sin modal, el prefijo 'vor' se va al final."
-    },
-    {
-      "id": "greetings_social_072",
-      "de": "Was kannst du mir empfehlen?",
-      "es": "¿Qué me recomiendas?",
-      "en": "What can you recommend to me?",
-      "gloss": "qué puedes tú a-mí recomendar",
-      "lemmas": [
-        "empfehlen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_073",
-      "de": "Ich kann dir ___ empfehlen.",
-      "es": "Te puedo recomendar ___.",
-      "en": "I can recommend ___ to you.",
-      "gloss": "yo puedo a-ti ___ recomendar",
-      "lemmas": [
-        "empfehlen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "den Kuchen hier",
-          "es": "el pastel de aquí"
-        },
-        {
-          "de": "diesen Film",
-          "es": "esta película"
-        },
-        {
-          "de": "das Restaurant",
-          "es": "el restaurante"
-        },
-        {
-          "de": "dieses Buch",
-          "es": "este libro"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_074",
-      "de": "Das ist hier nicht erlaubt.",
-      "es": "Eso no está permitido aquí.",
-      "en": "That's not allowed here.",
-      "gloss": "eso está aquí no permitido",
-      "lemmas": [
-        "erlauben"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_075",
-      "de": "Ich melde mich später.",
-      "es": "Ya te digo algo luego.",
-      "en": "I'll get in touch later.",
-      "gloss": "yo aviso me más-tarde",
-      "lemmas": [
-        "sich melden"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'sich melden' = dar señales de vida, escribir o llamar."
-    },
-    {
-      "id": "greetings_social_076",
-      "de": "Melde dich mal!",
-      "es": "¡Da señales de vida!",
-      "en": "Get in touch sometime!",
-      "gloss": "avisa te una-vez",
-      "lemmas": [
-        "sich melden"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "En imperativo el 'dich' va justo detrás del verbo."
-    },
-    {
-      "id": "greetings_social_077",
-      "de": "Ich melde mich ___.",
-      "es": "Te aviso ___.",
-      "en": "I'll be in touch ___.",
-      "gloss": "yo aviso me ___",
-      "lemmas": [
-        "sich melden"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "morgen",
-          "es": "mañana"
-        },
-        {
-          "de": "heute Abend",
-          "es": "esta noche"
-        },
-        {
-          "de": "am Wochenende",
-          "es": "el fin de semana"
-        },
-        {
-          "de": "nächste Woche",
-          "es": "la semana que viene"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_078",
-      "de": "Was soll ich mitbringen?",
-      "es": "¿Qué llevo? / ¿Qué traigo?",
-      "en": "What should I bring?",
-      "gloss": "qué debo yo traer-con",
-      "lemmas": [
-        "mitbringen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "La pregunta típica antes de ir a una fiesta."
-    },
-    {
-      "id": "greetings_social_079",
-      "de": "Kannst du ___ mitbringen?",
-      "es": "¿Puedes traer ___?",
-      "en": "Can you bring ___?",
-      "gloss": "puedes tú ___ traer-con",
-      "lemmas": [
-        "mitbringen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "etwas zu trinken",
-          "es": "algo de beber"
-        },
-        {
-          "de": "einen Kuchen",
-          "es": "un pastel"
-        },
-        {
-          "de": "deine Freundin",
-          "es": "a tu amiga"
-        },
-        {
-          "de": "Musik",
-          "es": "música"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_080",
-      "de": "Ich gratuliere dir!",
-      "es": "¡Te felicito!",
-      "en": "Congratulations!",
-      "gloss": "yo felicito a-ti",
-      "lemmas": [
-        "gratulieren"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'gratulieren' pide dativo: 'dir', no 'dich'."
-    },
-    {
-      "id": "greetings_social_081",
-      "de": "Herzlichen Glückwunsch zur Hochzeit!",
-      "es": "¡Felicidades por la boda!",
-      "en": "Congratulations on the wedding!",
-      "gloss": "cordial felicitación a-la boda",
-      "lemmas": [
-        "Glückwunsch"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_082",
-      "de": "Er erzählt gern Witze.",
-      "es": "Le gusta contar chistes.",
-      "en": "He likes telling jokes.",
-      "gloss": "él cuenta con-gusto chistes",
-      "lemmas": [
-        "erzählen",
-        "Witz"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "'gern' + verbo = 'le gusta hacer algo'."
-    },
-    {
-      "id": "greetings_social_083",
-      "de": "Er macht immer Witze.",
-      "es": "Siempre está de broma.",
-      "en": "He's always joking.",
-      "gloss": "él hace siempre chistes",
-      "lemmas": [
-        "machen",
-        "Witz"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_084",
-      "de": "Erzähl mal von ___!",
-      "es": "¡Cuéntame de ___!",
-      "en": "Tell me about ___!",
-      "gloss": "cuenta una-vez de ___",
-      "lemmas": [
-        "erzählen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "deinem Wochenende",
-          "es": "tu fin de semana"
-        },
-        {
-          "de": "deiner Familie",
-          "es": "tu familia"
-        },
-        {
-          "de": "deiner Schule",
-          "es": "tu colegio"
-        },
-        {
-          "de": "deiner Reise",
-          "es": "tu viaje"
-        }
-      ],
-      "note": "'von' siempre lleva dativo."
-    },
-    {
-      "id": "greetings_social_085",
-      "de": "Viele Grüße an deine Familie!",
-      "es": "¡Saludos a tu familia!",
-      "en": "Say hi to your family!",
-      "gloss": "muchos saludos a tu familia",
-      "lemmas": [
-        "Gruß"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_086",
-      "de": "Das war ein nettes Gespräch.",
-      "es": "Ha sido una conversación agradable.",
-      "en": "That was a nice conversation.",
-      "gloss": "eso era una agradable conversación",
-      "lemmas": [
-        "nett",
-        "Gespräch"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_087",
-      "de": "Das Gespräch war sehr interessant.",
-      "es": "La conversación fue muy interesante.",
-      "en": "The conversation was very interesting.",
-      "gloss": "la conversación era muy interesante",
-      "lemmas": [
-        "Gespräch"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_088",
-      "de": "Okay, machen wir das so.",
-      "es": "Vale, lo hacemos así.",
-      "en": "Okay, let's do it that way.",
-      "gloss": "vale, hacemos nosotros eso así",
-      "lemmas": [
-        "okay",
-        "machen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "El verbo va primero: es una propuesta, no una pregunta."
-    },
-    {
-      "id": "greetings_social_089",
-      "de": "Ich möchte dich zu ___ einladen.",
-      "es": "Quiero invitarte a ___.",
-      "en": "I'd like to invite you to ___.",
-      "gloss": "yo quisiera a-ti a ___ invitar",
-      "lemmas": [
-        "einladen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "meiner Party",
-          "es": "mi fiesta"
-        },
-        {
-          "de": "meinem Geburtstag",
-          "es": "mi cumpleaños"
-        },
-        {
-          "de": "einem Kaffee",
-          "es": "un café"
-        },
-        {
-          "de": "uns nach Hause",
-          "es": "nuestra casa"
-        }
-      ],
-      "note": "'zu' siempre lleva dativo."
-    },
-    {
-      "id": "greetings_social_090",
-      "de": "Wie schreibt man Ihren Namen?",
-      "es": "¿Cómo se escribe su nombre?",
-      "en": "How do you spell your name?",
-      "gloss": "cómo escribe uno su nombre",
-      "lemmas": [
-        "schreiben",
-        "Name"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "'Name' es especial: en acusativo hace 'Namen'."
-    },
-    {
-      "id": "greetings_social_091",
-      "de": "Ich möchte mich entschuldigen.",
-      "es": "Quiero pedir perdón.",
-      "en": "I'd like to apologise.",
-      "gloss": "yo quisiera me disculpar",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Con 'mich' significa 'disculparse uno mismo'."
-    },
-    {
-      "id": "greetings_social_092",
-      "de": "Entschuldigen Sie die Verspätung.",
-      "es": "Disculpe el retraso.",
-      "en": "Sorry for being late.",
-      "gloss": "disculpe usted el retraso",
-      "lemmas": [
-        "entschuldigen",
-        "Verspätung"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_093",
-      "de": "Wir gratulieren dir zum Geburtstag!",
-      "es": "¡Te felicitamos por tu cumpleaños!",
-      "en": "We congratulate you on your birthday!",
-      "gloss": "nosotros felicitamos a-ti a-el cumpleaños",
-      "lemmas": [
-        "gratulieren"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_094",
-      "de": "Ich wünsche dir alles Gute!",
-      "es": "¡Te deseo lo mejor!",
-      "en": "I wish you all the best!",
-      "gloss": "yo deseo a-ti todo bueno",
-      "lemmas": [
-        "wünschen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'wünschen' pide dativo de persona ('dir') y acusativo de cosa ('alles Gute')."
-    },
-    {
-      "id": "greetings_social_095",
-      "de": "Meine Eltern erlauben mir das nicht.",
-      "es": "Mis padres no me lo permiten.",
-      "en": "My parents don't let me do that.",
-      "gloss": "mis padres permiten a-mí eso no",
-      "lemmas": [
-        "erlauben"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'erlauben' pide dativo de persona: 'mir'."
-    },
-    {
-      "id": "greetings_social_096",
-      "de": "Es ist verboten, hier ___.",
-      "es": "Está prohibido ___ aquí.",
-      "en": "It's forbidden to ___ here.",
-      "gloss": "ello es prohibido, aquí ___",
-      "lemmas": [
-        "verbieten"
-      ],
-      "level": 4,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "zu rauchen",
-          "es": "fumar"
-        },
-        {
-          "de": "zu parken",
-          "es": "aparcar"
-        },
-        {
-          "de": "zu fotografieren",
-          "es": "hacer fotos"
-        },
-        {
-          "de": "laut zu sein",
-          "es": "hacer ruido"
-        }
-      ],
-      "note": "El infinitivo con 'zu' va al final."
-    },
-    {
-      "id": "greetings_social_097",
-      "de": "Ich habe eine Einladung bekommen.",
-      "es": "He recibido una invitación.",
-      "en": "I got an invitation.",
-      "gloss": "yo he una invitación recibido",
-      "lemmas": [
-        "Einladung",
-        "bekommen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'bekommen' no lleva 'ge-' en el participio."
-    },
-    {
-      "id": "greetings_social_098",
-      "de": "Ich freue mich auf deinen Besuch.",
-      "es": "Me hace ilusión tu visita.",
-      "en": "I'm looking forward to your visit.",
-      "gloss": "yo alegro me sobre tu visita",
-      "lemmas": [
-        "sich freuen",
-        "Besuch"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'sich freuen auf' + acusativo = tener ganas de algo futuro."
-    },
-    {
-      "id": "greetings_social_099",
-      "de": "Wir hatten ein gutes Gespräch.",
-      "es": "Tuvimos una buena conversación.",
-      "en": "We had a good conversation.",
-      "gloss": "nosotros teníamos una buena conversación",
-      "lemmas": [
-        "haben",
-        "Gespräch"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_100",
-      "de": "Können Sie mir ein Restaurant empfehlen?",
-      "es": "¿Me puede recomendar un restaurante?",
-      "en": "Can you recommend a restaurant to me?",
-      "gloss": "puede usted a-mí un restaurante recomendar",
-      "lemmas": [
-        "empfehlen"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_101",
-      "de": "Sag ihm einen schönen Gruß von mir.",
-      "es": "Dale recuerdos de mi parte.",
-      "en": "Give him my regards.",
-      "gloss": "di a-él un bonito saludo de mí",
-      "lemmas": [
-        "sagen",
-        "Gruß"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'ihm' es dativo (a él), 'einen Gruß' acusativo."
-    },
-    {
-      "id": "greetings_social_102",
-      "de": "Er hat sich bei mir entschuldigt.",
-      "es": "Me pidió perdón.",
-      "en": "He apologised to me.",
-      "gloss": "él ha se junto-a mí disculpado",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "La persona a la que pides perdón va con 'bei' + dativo."
-    },
-    {
-      "id": "greetings_social_103",
-      "de": "Ich wollte mich für gestern entschuldigen.",
-      "es": "Quería pedirte perdón por lo de ayer.",
-      "en": "I wanted to apologise for yesterday.",
-      "gloss": "yo quería me por ayer disculpar",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "El motivo va con 'für' + acusativo."
-    },
-    {
-      "id": "greetings_social_104",
-      "de": "Es tut mir leid, dass ich mich nicht gemeldet habe.",
-      "es": "Siento no haber dado señales de vida.",
-      "en": "I'm sorry I didn't get in touch.",
-      "gloss": "ello hace a-mí pena, que yo me no comunicado he",
-      "lemmas": [
-        "leidtun",
-        "sich melden"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Tras 'dass' el verbo conjugado va al final."
-    },
-    {
-      "id": "greetings_social_105",
-      "de": "Wenn du willst, kannst du jemanden mitbringen.",
-      "es": "Si quieres, puedes traer a alguien.",
-      "en": "If you want, you can bring someone.",
-      "gloss": "si tú quieres, puedes tú a-alguien traer-con",
-      "lemmas": [
-        "wollen",
-        "mitbringen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Tras la frase con 'wenn', el verbo principal va justo después de la coma."
-    },
-    {
-      "id": "greetings_social_106",
-      "de": "Ich habe ihn zum Essen eingeladen.",
-      "es": "Lo he invitado a comer.",
-      "en": "I invited him for a meal.",
-      "gloss": "yo he a-él a-el comer invitado",
-      "lemmas": [
-        "einladen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "En Perfekt el 'ge-' va dentro: ein-ge-laden."
-    },
-    {
-      "id": "greetings_social_107",
-      "de": "Danke, dass du gekommen bist!",
-      "es": "¡Gracias por venir!",
-      "en": "Thanks for coming!",
-      "gloss": "gracias, que tú venido eres",
-      "lemmas": [
-        "danke"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "'kommen' forma el Perfekt con 'sein', no con 'haben'."
-    },
-    {
-      "id": "greetings_social_108",
-      "de": "Darf ich fragen, wie Sie heißen?",
-      "es": "¿Puedo preguntarle cómo se llama?",
-      "en": "May I ask what your name is?",
-      "gloss": "puedo yo preguntar, cómo usted se-llama",
-      "lemmas": [
-        "fragen",
-        "heißen"
-      ],
-      "level": 5,
-      "type": "question",
-      "note": "En la pregunta indirecta el verbo se va al final."
-    },
-    {
-      "id": "greetings_social_109",
-      "de": "Meine Eltern erlauben mir, länger zu bleiben.",
-      "es": "Mis padres me permiten quedarme hasta más tarde.",
-      "en": "My parents allow me to stay out longer.",
-      "gloss": "mis padres permiten a-mí, más-tiempo a quedar",
-      "lemmas": [
-        "erlauben"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_110",
-      "de": "Mein Vater hat mir verboten, allein zu gehen.",
-      "es": "Mi padre me ha prohibido ir solo.",
-      "en": "My father has forbidden me to go alone.",
-      "gloss": "mi padre ha a-mí prohibido, solo a ir",
-      "lemmas": [
-        "verbieten"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "'verbieten' pide dativo de persona: 'mir'."
-    },
-    {
-      "id": "greetings_social_111",
-      "de": "Okay, ich sage ihm Bescheid.",
-      "es": "Vale, le aviso.",
-      "en": "Okay, I'll let him know.",
-      "gloss": "vale, yo digo a-él aviso",
-      "lemmas": [
-        "okay",
-        "sagen",
-        "Bescheid"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "'Bescheid sagen' = avisar; se escribe siempre separado."
-    },
-    {
-      "id": "greetings_social_112",
-      "de": "Er hat mir von seinem Besuch in Berlin erzählt.",
-      "es": "Me contó lo de su visita a Berlín.",
-      "en": "He told me about his visit to Berlin.",
-      "gloss": "él ha a-mí de su visita en Berlín contado",
-      "lemmas": [
-        "erzählen",
-        "Besuch"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p113",
-      "de": "Herzlich willkommen!",
-      "es": "¡Bienvenido!",
-      "en": "Welcome!",
-      "gloss": "cordialmente bienvenido",
-      "lemmas": [
-        "herzlich",
-        "willkommen"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p114",
-      "de": "Willkommen bei uns!",
-      "es": "¡Bienvenido a nuestra casa!",
-      "en": "Welcome to our place!",
-      "gloss": "bienvenido en-casa-de nosotros",
-      "lemmas": [
-        "willkommen"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "«bei uns» significa en nuestra casa o empresa, no «con nosotros»."
-    },
-    {
-      "id": "greetings_social_p115",
-      "de": "Du bist hier immer willkommen.",
-      "es": "Aquí siempre eres bienvenido.",
-      "en": "You're always welcome here.",
-      "gloss": "tú eres aquí siempre bienvenido",
-      "lemmas": [
-        "willkommen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p116",
-      "de": "Herzlich willkommen in ___!",
-      "es": "¡Bienvenido a ___!",
-      "en": "Welcome to ___!",
-      "gloss": "cordialmente bienvenido en ___",
-      "lemmas": [
-        "herzlich",
-        "willkommen"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Berlin",
-          "es": "Berlín"
-        },
-        {
-          "de": "Hamburg",
-          "es": "Hamburgo"
-        },
-        {
-          "de": "München",
-          "es": "Múnich"
-        },
-        {
-          "de": "Deutschland",
-          "es": "Alemania"
-        }
-      ],
-      "note": "Con ciudades y países se usa «in», no «zu»."
-    },
-    {
-      "id": "greetings_social_p117",
-      "de": "Herzlichen Dank!",
-      "es": "¡Muchísimas gracias!",
-      "en": "Many thanks!",
-      "gloss": "cordial agradecimiento",
-      "lemmas": [
-        "herzlich",
-        "Dank"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": "Más cálido que «Danke»; la forma «Herzlichen» es fija."
-    },
-    {
-      "id": "greetings_social_p118",
-      "de": "Er hat sich herzlich bedankt.",
-      "es": "Dio las gracias muy afectuosamente.",
-      "en": "He expressed his thanks warmly.",
-      "gloss": "él ha se cordialmente agradecido",
-      "lemmas": [
-        "herzlich",
-        "sich bedanken"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "«sich bedanken» siempre lleva el reflexivo."
-    },
-    {
-      "id": "greetings_social_p119",
-      "de": "Das ist ja super!",
-      "es": "¡Qué bien!",
-      "en": "That's great!",
-      "gloss": "eso es pues súper",
-      "lemmas": [
-        "super"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "Aquí «ja» no es «sí»: solo da énfasis."
-    },
-    {
-      "id": "greetings_social_p120",
-      "de": "Super, danke dir!",
-      "es": "¡Genial, gracias!",
-      "en": "Great, thanks!",
-      "gloss": "súper, gracias a-ti",
-      "lemmas": [
-        "super"
-      ],
-      "level": 1,
-      "type": "phrase",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p121",
-      "de": "Mir geht's super.",
-      "es": "Estoy genial.",
-      "en": "I'm doing great.",
-      "gloss": "a-mí va-ello súper",
-      "lemmas": [
-        "super"
-      ],
-      "level": 2,
-      "type": "answer",
-      "note": "«mir» va en dativo: literalmente «me va»."
-    },
-    {
-      "id": "greetings_social_p122",
-      "de": "Das hast du super gemacht!",
-      "es": "¡Lo has hecho genial!",
-      "en": "You did that really well!",
-      "gloss": "eso has tú súper hecho",
-      "lemmas": [
-        "super"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p123",
-      "de": "Wir müssen mal reden.",
-      "es": "Tenemos que hablar.",
-      "en": "We need to talk.",
-      "gloss": "nosotros debemos alguna-vez hablar",
-      "lemmas": [
-        "reden"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«mal» suaviza el tono: «a ver si hablamos»."
-    },
-    {
-      "id": "greetings_social_p124",
-      "de": "Ich rede gerade mit Lena.",
-      "es": "Estoy hablando con Lena ahora mismo.",
-      "en": "I'm talking to Lena right now.",
-      "gloss": "yo hablo ahora-mismo con Lena",
-      "lemmas": [
-        "reden"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "«mit» siempre va con dativo."
-    },
-    {
-      "id": "greetings_social_p125",
-      "de": "Reden wir später darüber.",
-      "es": "Hablamos de eso más tarde.",
-      "en": "Let's talk about it later.",
-      "gloss": "hablamos nosotros más-tarde sobre-eso",
-      "lemmas": [
-        "reden"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«darüber» sustituye a «über das»."
-    },
-    {
-      "id": "greetings_social_p126",
-      "de": "Ich muss kurz mit ___ reden.",
-      "es": "Tengo que hablar un momento con ___.",
-      "en": "I need to talk to ___ for a second.",
-      "gloss": "yo debo brevemente con ___ hablar",
-      "lemmas": [
-        "reden"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "dir",
-          "es": "contigo"
-        },
-        {
-          "de": "ihm",
-          "es": "con él"
-        },
-        {
-          "de": "meinem Chef",
-          "es": "con mi jefe"
-        },
-        {
-          "de": "deiner Mutter",
-          "es": "con tu madre"
-        }
-      ],
-      "note": "Tras «mit» todo va en dativo: du→dir, er→ihm."
-    },
-    {
-      "id": "greetings_social_p127",
-      "de": "Danke für das Gespräch!",
-      "es": "¡Gracias por la conversación!",
-      "en": "Thanks for the talk!",
-      "gloss": "gracias por la conversación",
-      "lemmas": [
-        "Gespräch"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "«für» pide acusativo: das Gespräch no cambia por ser neutro."
-    },
-    {
-      "id": "greetings_social_p128",
-      "de": "Ich bin gerade in einem Gespräch.",
-      "es": "Ahora mismo estoy en una conversación.",
-      "en": "I'm in a conversation right now.",
-      "gloss": "yo estoy ahora-mismo en una conversación",
-      "lemmas": [
-        "Gespräch"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«in» con dativo: einem Gespräch."
-    },
-    {
-      "id": "greetings_social_p129",
-      "de": "Ich hatte gestern ein wichtiges Gespräch.",
-      "es": "Ayer tuve una conversación importante.",
-      "en": "I had an important conversation yesterday.",
-      "gloss": "yo tenía ayer una importante conversación",
-      "lemmas": [
-        "Gespräch"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p130",
-      "de": "Ich wünsche dir einen schönen Tag!",
-      "es": "¡Que tengas un buen día!",
-      "en": "Have a nice day!",
-      "gloss": "yo deseo a-ti un bonito día",
-      "lemmas": [
-        "wünschen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«dir» dativo (a quién) y «einen schönen Tag» acusativo (qué)."
-    },
-    {
-      "id": "greetings_social_p131",
-      "de": "Wir wünschen euch viel Spaß!",
-      "es": "¡Que os divirtáis!",
-      "en": "Have fun!",
-      "gloss": "nosotros deseamos a-vosotros mucha diversión",
-      "lemmas": [
-        "wünschen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p132",
-      "de": "Ich wünsche dir ___!",
-      "es": "¡Te deseo ___!",
-      "en": "I wish you ___!",
-      "gloss": "yo deseo a-ti ___",
-      "lemmas": [
-        "wünschen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "viel Glück",
-          "es": "mucha suerte"
-        },
-        {
-          "de": "gute Besserung",
-          "es": "que te mejores"
-        },
-        {
-          "de": "einen schönen Abend",
-          "es": "una buena tarde"
-        },
-        {
-          "de": "frohe Weihnachten",
-          "es": "feliz Navidad"
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p133",
-      "de": "Was wünschst du dir zum Geburtstag?",
-      "es": "¿Qué quieres que te regalen por tu cumpleaños?",
-      "en": "What do you want for your birthday?",
-      "gloss": "qué deseas tú a-ti para-el cumpleaños",
-      "lemmas": [
-        "wünschen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "«sich etwas wünschen» = desear algo para uno mismo; el «dir» es obligatorio."
-    },
-    {
-      "id": "greetings_social_p134",
-      "de": "Ruf mich an, wenn du da bist!",
-      "es": "¡Llámame cuando estés ahí!",
-      "en": "Call me when you're there!",
-      "gloss": "llama a-mí a, cuando tú ahí eres",
-      "lemmas": [
-        "anrufen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Por teléfono se dice «anrufen»; «rufen» a secas es llamar en voz alta."
-    },
-    {
-      "id": "greetings_social_p135",
-      "de": "Soll ich einen Arzt rufen?",
-      "es": "¿Llamo a un médico?",
-      "en": "Should I call a doctor?",
-      "gloss": "debo yo un médico llamar",
-      "lemmas": [
-        "rufen"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "El infinitivo «rufen» va al final."
-    },
-    {
-      "id": "greetings_social_p136",
-      "de": "Jemand hat deinen Namen gerufen.",
-      "es": "Alguien ha gritado tu nombre.",
-      "en": "Someone called your name.",
-      "gloss": "alguien ha tu nombre llamado",
-      "lemmas": [
-        "rufen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p137",
-      "de": "Mit freundlichen Grüßen",
-      "es": "Atentamente / Un saludo cordial",
-      "en": "Kind regards",
-      "gloss": "con amables saludos",
-      "lemmas": [
-        "Gruß"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "Despedida estándar de cartas y correos formales; sin punto final."
-    },
-    {
-      "id": "greetings_social_p138",
-      "de": "Schöne Grüße von meiner Mutter!",
-      "es": "¡Saludos de parte de mi madre!",
-      "en": "Greetings from my mother!",
-      "gloss": "bonitos saludos de mi madre",
-      "lemmas": [
-        "Gruß"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "«von» + dativo: meiner Mutter."
-    },
-    {
-      "id": "greetings_social_p139",
-      "de": "Einen schönen Gruß an alle!",
-      "es": "¡Saludos a todos!",
-      "en": "Say hi to everyone!",
-      "gloss": "un bonito saludo a todos",
-      "lemmas": [
-        "Gruß"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "«an» + acusativo: einen Gruß an alle."
-    },
-    {
-      "id": "greetings_social_p140",
-      "de": "Das verspreche ich dir.",
-      "es": "Te lo prometo.",
-      "en": "I promise you that.",
-      "gloss": "eso prometo yo a-ti",
-      "lemmas": [
-        "versprechen"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p141",
-      "de": "Ich kann dir nichts versprechen.",
-      "es": "No te puedo prometer nada.",
-      "en": "I can't promise you anything.",
-      "gloss": "yo puedo a-ti nada prometer",
-      "lemmas": [
-        "versprechen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«nichts» ya es la negación: no se añade «nicht»."
-    },
-    {
-      "id": "greetings_social_p142",
-      "de": "Versprich mir, dass du dich meldest.",
-      "es": "Prométeme que darás señales de vida.",
-      "en": "Promise me you'll get in touch.",
-      "gloss": "promete a-mí, que tú te avisas",
-      "lemmas": [
-        "versprechen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "El imperativo de «versprechen» es irregular: versprich."
-    },
-    {
-      "id": "greetings_social_p143",
-      "de": "Danke für den Anruf!",
-      "es": "¡Gracias por la llamada!",
-      "en": "Thanks for calling!",
-      "gloss": "gracias por la llamada",
-      "lemmas": [
-        "Anruf"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "«für» + acusativo: der Anruf pasa a den Anruf."
-    },
-    {
-      "id": "greetings_social_p144",
-      "de": "Ich warte auf einen wichtigen Anruf.",
-      "es": "Estoy esperando una llamada importante.",
-      "en": "I'm waiting for an important call.",
-      "gloss": "yo espero sobre una importante llamada",
-      "lemmas": [
-        "Anruf"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«warten auf» + acusativo, aunque en español no lleva preposición."
-    },
-    {
-      "id": "greetings_social_p145",
-      "de": "Das war nur ein kurzer Anruf.",
-      "es": "Solo fue una llamada corta.",
-      "en": "It was just a short call.",
-      "gloss": "eso era solo una corta llamada",
-      "lemmas": [
-        "Anruf"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p146",
-      "de": "Störe ich gerade?",
-      "es": "¿Molesto ahora?",
-      "en": "Am I interrupting?",
-      "gloss": "molesto yo ahora-mismo",
-      "lemmas": [
-        "stören"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_p147",
-      "de": "Entschuldigung, dass ich störe.",
-      "es": "Perdón por molestar.",
-      "en": "Sorry to bother you.",
-      "gloss": "perdón, que yo molesto",
-      "lemmas": [
-        "stören"
-      ],
-      "level": 4,
-      "type": "phrase",
-      "note": "Tras «dass» el verbo va al final."
-    },
-    {
-      "id": "greetings_social_p148",
-      "de": "Das stört mich überhaupt nicht.",
-      "es": "Eso no me molesta en absoluto.",
-      "en": "That doesn't bother me at all.",
-      "gloss": "eso molesta a-mí en-absoluto no",
-      "lemmas": [
-        "stören"
-      ],
-      "level": 3,
-      "type": "answer",
-      "note": "«stören» lleva acusativo: mich, no mir."
-    },
-    {
-      "id": "greetings_social_p149",
-      "de": "Sag mir bitte Bescheid!",
-      "es": "¡Avísame, por favor!",
-      "en": "Let me know, please!",
-      "gloss": "di a-mí por-favor aviso",
-      "lemmas": [
-        "Bescheid"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": "«Bescheid sagen» funciona como una unidad: avisar."
-    },
-    {
-      "id": "greetings_social_p150",
-      "de": "Ich gebe dir morgen Bescheid.",
-      "es": "Te aviso mañana.",
-      "en": "I'll let you know tomorrow.",
-      "gloss": "yo doy a-ti mañana aviso",
-      "lemmas": [
-        "Bescheid"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«Bescheid» va siempre al final de la frase."
-    },
-    {
-      "id": "greetings_social_p151",
-      "de": "Weißt du schon Bescheid?",
-      "es": "¿Ya estás al tanto?",
-      "en": "Do you already know about it?",
-      "gloss": "sabes tú ya aviso",
-      "lemmas": [
-        "Bescheid"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "«Bescheid wissen» = estar informado."
-    },
-    {
-      "id": "greetings_social_p152",
-      "de": "Sag ___ Bescheid!",
-      "es": "¡Avisa a ___!",
-      "en": "Let ___ know!",
-      "gloss": "di a-___ aviso",
-      "lemmas": [
-        "Bescheid"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "mir",
-          "es": "a mí"
-        },
-        {
-          "de": "ihm",
-          "es": "a él"
-        },
-        {
-          "de": "ihr",
-          "es": "a ella"
-        },
-        {
-          "de": "deiner Mutter",
-          "es": "a tu madre"
-        }
-      ],
-      "note": "La persona avisada va en dativo."
-    },
-    {
-      "id": "greetings_social_p153",
-      "de": "Hör mir bitte kurz zu!",
-      "es": "¡Escúchame un momento, por favor!",
-      "en": "Listen to me for a second!",
-      "gloss": "escucha a-mí por-favor brevemente a",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«zuhören» es separable y la persona va en dativo: mir."
-    },
-    {
-      "id": "greetings_social_p154",
-      "de": "Er hört nie richtig zu.",
-      "es": "Nunca escucha de verdad.",
-      "en": "He never really listens.",
-      "gloss": "él escucha nunca de-verdad a",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "El prefijo «zu» se separa y va al final."
-    },
-    {
-      "id": "greetings_social_p155",
-      "de": "Danke, dass du mir zugehört hast.",
-      "es": "Gracias por escucharme.",
-      "en": "Thanks for listening to me.",
-      "gloss": "gracias, que tú a-mí escuchado has",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 5,
-      "type": "phrase",
-      "note": "En el participio el «ge-» va dentro: zugehört."
-    },
-    {
-      "id": "greetings_social_p156",
-      "de": "Verzeihung, darf ich kurz vorbei?",
-      "es": "Perdón, ¿puedo pasar un momento?",
-      "en": "Excuse me, may I get past?",
-      "gloss": "perdón, puedo yo brevemente por-delante",
-      "lemmas": [
-        "Verzeihung"
-      ],
-      "level": 2,
-      "type": "question",
-      "note": "Se dice al pasar entre gente; «vorbei» va solo, sin verbo."
-    },
-    {
-      "id": "greetings_social_p157",
-      "de": "Verzeihung, ich habe Sie nicht gesehen.",
-      "es": "Perdone, no le había visto.",
-      "en": "Sorry, I didn't see you.",
-      "gloss": "perdón, yo he a-usted no visto",
-      "lemmas": [
-        "Verzeihung"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "«Sie» con mayúscula es usted, no «ellos»."
-    },
-    {
-      "id": "greetings_social_p158",
-      "de": "Ich bitte um Verzeihung.",
-      "es": "Le pido perdón.",
-      "en": "I do apologize.",
-      "gloss": "yo pido por perdón",
-      "lemmas": [
-        "Verzeihung"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "Muy formal; «bitten um» + acusativo."
-    },
-    {
-      "id": "greetings_social_p159",
-      "de": "Du musst dich nicht entschuldigen.",
-      "es": "No hace falta que te disculpes.",
-      "en": "You don't have to apologize.",
-      "gloss": "tú debes te no disculpar",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "El reflexivo «dich» es obligatorio en alemán."
-    },
-    {
-      "id": "greetings_social_p160",
-      "de": "Entschuldige dich bei ihm!",
-      "es": "¡Discúlpate con él!",
-      "en": "Apologize to him!",
-      "gloss": "disculpa te junto-a él",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Con la persona se usa «bei» + dativo, no «mit»."
-    },
-    {
-      "id": "greetings_social_p161",
-      "de": "Sie hat sich für die Verspätung entschuldigt.",
-      "es": "Se disculpó por el retraso.",
-      "en": "She apologized for being late.",
-      "gloss": "ella ha se por el retraso disculpado",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "El motivo va con «für» + acusativo."
-    },
-    {
-      "id": "greetings_social_p162",
-      "de": "Wir haben uns nett unterhalten.",
-      "es": "Hemos charlado muy a gusto.",
-      "en": "We had a nice chat.",
-      "gloss": "nosotros hemos nos agradablemente conversado",
-      "lemmas": [
-        "sich unterhalten"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "El participio no lleva «ge-»: unterhalten."
-    },
-    {
-      "id": "greetings_social_p163",
-      "de": "Ich unterhalte mich gern mit ihm.",
-      "es": "Me gusta charlar con él.",
-      "en": "I enjoy talking with him.",
-      "gloss": "yo converso me con-gusto con él",
-      "lemmas": [
-        "sich unterhalten"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Sin el reflexivo «mich» significaría «entretener a otro»."
-    },
-    {
-      "id": "greetings_social_p164",
-      "de": "Worüber habt ihr euch unterhalten?",
-      "es": "¿De qué habéis hablado?",
-      "en": "What did you talk about?",
-      "gloss": "sobre-qué habéis vosotros os conversado",
-      "lemmas": [
-        "sich unterhalten"
-      ],
-      "level": 5,
-      "type": "question",
-      "note": "Para cosas se dice «worüber», no «über was»."
-    },
-    {
-      "id": "greetings_social_q001",
-      "de": "Ich ruf dich heute Abend an.",
-      "es": "Te llamo esta noche.",
-      "en": "I'll call you tonight.",
-      "gloss": "yo llamo a-ti hoy noche a",
-      "lemmas": [
-        "anrufen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Hablando se dice «ich ruf», sin la -e final."
-    },
-    {
-      "id": "greetings_social_q002",
-      "de": "Er ruft immer viel zu spät an.",
-      "es": "Siempre llama demasiado tarde.",
-      "en": "He always calls way too late.",
-      "gloss": "él llama siempre mucho demasiado tarde a",
-      "lemmas": [
-        "anrufen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q003",
-      "de": "Er hat schon zweimal angerufen.",
-      "es": "Ya ha llamado dos veces.",
-      "en": "He's already called twice.",
-      "gloss": "él ha ya dos-veces llamado",
-      "lemmas": [
-        "anrufen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "El «ge-» va dentro: an-ge-rufen."
-    },
-    {
-      "id": "greetings_social_q004",
-      "de": "Kannst du mal bei ___ anrufen?",
-      "es": "¿Puedes llamar ___?",
-      "en": "Can you give ___ a call?",
-      "gloss": "puedes tú una-vez junto-a ___ llamar",
-      "lemmas": [
-        "anrufen"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "der Werkstatt",
-          "es": "al taller"
-        },
-        {
-          "de": "deiner Mutter",
-          "es": "a tu madre"
-        },
-        {
-          "de": "deinem Chef",
-          "es": "a tu jefe"
-        },
-        {
-          "de": "der Schule",
-          "es": "al colegio"
-        }
-      ],
-      "note": "«bei» + dativo: llamas a un sitio o a casa de alguien. A una persona directamente va en acusativo: ruf mich an."
-    },
-    {
-      "id": "greetings_social_q005",
-      "de": "Das musst du mir genauer erzählen!",
-      "es": "¡Eso me lo tienes que contar con más detalle!",
-      "en": "You have to tell me more about that!",
-      "gloss": "eso debes tú a-mí más-exacto contar",
-      "lemmas": [
-        "erzählen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q006",
-      "de": "Sie hat mir nichts davon erzählt.",
-      "es": "No me ha contado nada de eso.",
-      "en": "She didn't tell me anything about it.",
-      "gloss": "ella ha a-mí nada de-eso contado",
-      "lemmas": [
-        "erzählen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": "«davon» sustituye a «von + cosa»."
-    },
-    {
-      "id": "greetings_social_q007",
-      "de": "Erzähl doch mal, wie es war!",
-      "es": "¡Anda, cuenta qué tal fue!",
-      "en": "Come on, tell me how it went!",
-      "gloss": "cuenta pues una-vez, cómo ello fue",
-      "lemmas": [
-        "erzählen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "Tras «wie» el verbo se va al final."
-    },
-    {
-      "id": "greetings_social_q008",
-      "de": "Er antwortet nie auf meine Nachrichten.",
-      "es": "Nunca contesta a mis mensajes.",
-      "en": "He never answers my messages.",
-      "gloss": "él responde nunca sobre mis mensajes",
-      "lemmas": [
-        "antworten",
-        "Nachricht"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Se responde «auf» + acusativo, no «zu»."
-    },
-    {
-      "id": "greetings_social_q009",
-      "de": "Antworte mir bitte bis morgen.",
-      "es": "Contéstame para mañana, por favor.",
-      "en": "Please answer me by tomorrow.",
-      "gloss": "responde a-mí por-favor hasta mañana",
-      "lemmas": [
-        "antworten"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "A la persona se le responde en dativo: mir, dir, ihm."
-    },
-    {
-      "id": "greetings_social_q010",
-      "de": "Ich habe ihr noch nicht geantwortet.",
-      "es": "Todavía no le he contestado.",
-      "en": "I haven't answered her yet.",
-      "gloss": "yo he a-ella todavía no respondido",
-      "lemmas": [
-        "antworten"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q011",
-      "de": "Was soll ich denn darauf antworten?",
-      "es": "¿Y qué contesto yo a eso?",
-      "en": "What am I supposed to answer to that?",
-      "gloss": "qué debo yo pues sobre-eso responder",
-      "lemmas": [
-        "antworten"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": "Para cosas se dice «darauf», no «auf es»."
-    },
-    {
-      "id": "greetings_social_q012",
-      "de": "Ich bringe eine Flasche Wein mit.",
-      "es": "Llevo una botella de vino.",
-      "en": "I'll bring a bottle of wine.",
-      "gloss": "yo traigo una botella vino con",
-      "lemmas": [
-        "mitbringen",
-        "Flasche"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q013",
-      "de": "Sie hat uns Blumen mitgebracht.",
-      "es": "Nos trajo flores.",
-      "en": "She brought us flowers.",
-      "gloss": "ella ha a-nosotros flores traído-con",
-      "lemmas": [
-        "mitbringen",
-        "Blume"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q014",
-      "de": "Bring bitte was zu essen mit.",
-      "es": "Trae algo de comer, porfa.",
-      "en": "Please bring something to eat.",
-      "gloss": "trae por-favor algo a comer con",
-      "lemmas": [
-        "mitbringen"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "En el habla «was» vale por «etwas»."
-    },
-    {
-      "id": "greetings_social_q015",
-      "de": "Entschuldige, ich habe dich nicht gesehen.",
-      "es": "Perdona, no te había visto.",
-      "en": "Sorry, I didn't see you.",
-      "gloss": "disculpa, yo he a-ti no visto",
-      "lemmas": [
-        "entschuldigen"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q016",
-      "de": "Entschuldigen Sie, ist hier noch frei?",
-      "es": "Disculpe, ¿está libre aquí?",
-      "en": "Excuse me, is this seat free?",
-      "gloss": "disculpe usted, está aquí todavía libre",
-      "lemmas": [
-        "entschuldigen",
-        "frei"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "Lo que se dice para sentarse en una mesa ocupada."
-    },
-    {
-      "id": "greetings_social_q017",
-      "de": "Entschuldige die späte Antwort.",
-      "es": "Perdona por contestar tan tarde.",
-      "en": "Sorry for the late reply.",
-      "gloss": "disculpa la tardía respuesta",
-      "lemmas": [
-        "entschuldigen",
-        "Antwort"
-      ],
-      "level": 3,
-      "type": "phrase",
-      "note": "Muy típico al empezar un mensaje o un correo."
-    },
-    {
-      "id": "greetings_social_q018",
-      "de": "Er hat sich für sein Verhalten entschuldigt.",
-      "es": "Pidió perdón por cómo se comportó.",
-      "en": "He apologised for his behaviour.",
-      "gloss": "él ha se por su comportamiento disculpado",
-      "lemmas": [
-        "sich entschuldigen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": "El motivo va con «für» + acusativo."
-    },
-    {
-      "id": "greetings_social_q019",
-      "de": "Wir laden am Samstag ein paar Leute ein.",
-      "es": "El sábado invitamos a unos cuantos.",
-      "en": "We're having a few people over on Saturday.",
-      "gloss": "nosotros invitamos en-el sábado un par gente dentro",
-      "lemmas": [
-        "einladen",
-        "Leute"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q020",
-      "de": "Sie hat mich zu ihrer Hochzeit eingeladen.",
-      "es": "Me ha invitado a su boda.",
-      "en": "She invited me to her wedding.",
-      "gloss": "ella ha a-mí a su boda invitado",
-      "lemmas": [
-        "einladen"
-      ],
-      "level": 5,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q021",
-      "de": "Bist du auch eingeladen?",
-      "es": "¿A ti también te han invitado?",
-      "en": "Are you invited too?",
-      "gloss": "eres tú también invitado",
-      "lemmas": [
-        "einladen"
-      ],
-      "level": 4,
-      "type": "question",
-      "note": "Con «sein», «eingeladen» funciona como adjetivo: estar invitado."
-    },
-    {
-      "id": "greetings_social_q022",
-      "de": "Hörst du mir überhaupt zu?",
-      "es": "¿Me estás escuchando siquiera?",
-      "en": "Are you even listening to me?",
-      "gloss": "escuchas tú a-mí siquiera a",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": "«zuhören» pide dativo: mir, dir, ihm."
-    },
-    {
-      "id": "greetings_social_q023",
-      "de": "Danke fürs Zuhören!",
-      "es": "¡Gracias por escuchar!",
-      "en": "Thanks for listening!",
-      "gloss": "gracias por-el escuchar",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 2,
-      "type": "phrase",
-      "note": "«fürs» es «für das»; el verbo en mayúscula funciona como sustantivo."
-    },
-    {
-      "id": "greetings_social_q024",
-      "de": "Sie hat gar nicht zugehört.",
-      "es": "No ha escuchado en absoluto.",
-      "en": "She wasn't listening at all.",
-      "gloss": "ella ha en-absoluto no escuchado",
-      "lemmas": [
-        "zuhören"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q025",
-      "de": "Was schenken wir ihr zum Geburtstag?",
-      "es": "¿Qué le regalamos por su cumpleaños?",
-      "en": "What shall we give her for her birthday?",
-      "gloss": "qué regalamos nosotros a-ella para-el cumpleaños",
-      "lemmas": [
-        "schenken",
-        "Geburtstag"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q026",
-      "de": "Meine Oma hat mir das geschenkt.",
-      "es": "Me lo regaló mi abuela.",
-      "en": "My grandma gave me that.",
-      "gloss": "mi abuela ha a-mí eso regalado",
-      "lemmas": [
-        "schenken"
-      ],
-      "level": 4,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_q027",
-      "de": "Ich schenke dir was Kleines.",
-      "es": "Te voy a regalar un detallito.",
-      "en": "I'll get you something small.",
-      "gloss": "yo regalo a-ti algo pequeño",
-      "lemmas": [
-        "schenken"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "«was Kleines» es el «etwas Kleines» del día a día."
-    },
-    {
-      "id": "greetings_social_q028",
-      "de": "Zum Geburtstag schenke ich ihm ___.",
-      "es": "Por su cumpleaños le regalo ___.",
-      "en": "For his birthday I'm giving him ___.",
-      "gloss": "para-el cumpleaños regalo yo a-él ___",
-      "lemmas": [
-        "schenken"
-      ],
-      "level": 3,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "ein Buch",
-          "es": "un libro"
-        },
-        {
-          "de": "eine Uhr",
-          "es": "un reloj"
-        },
-        {
-          "de": "Kopfhörer",
-          "es": "unos auriculares"
-        },
-        {
-          "de": "Geld",
-          "es": "dinero"
-        }
-      ],
-      "note": "Al empezar por «zum Geburtstag», el verbo se queda en segundo lugar."
-    },
-    {
-      "id": "greetings_social_r001",
-      "de": "Wie ist deine Adresse?",
-      "es": "¿Cuál es tu dirección?",
-      "en": "What is your address?",
-      "gloss": "cómo es tu dirección",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 1,
-      "type": "question",
-      "note": "Se pregunta con «wie» (cómo), no con «was» ni «welche»: «Wie ist deine Adresse?»."
-    },
-    {
-      "id": "greetings_social_r002",
-      "de": "Wir haben eine neue Adresse.",
-      "es": "Tenemos una dirección nueva.",
-      "en": "We have a new address.",
-      "gloss": "nosotros tenemos una nueva dirección",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 2,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_r003",
-      "de": "Kannst du mir deine Adresse geben?",
-      "es": "¿Me puedes dar tu dirección?",
-      "en": "Can you give me your address?",
-      "gloss": "puedes tú a-mí tu dirección dar",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 3,
-      "type": "question",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_r004",
-      "de": "Ich schicke dir meine Adresse per WhatsApp.",
-      "es": "Te mando mi dirección por WhatsApp.",
-      "en": "I'll send you my address on WhatsApp.",
-      "gloss": "yo envío a-ti mi dirección por WhatsApp",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": ""
-    },
-    {
-      "id": "greetings_social_r005",
-      "de": "Schreib mir mal deine Adresse.",
-      "es": "Escríbeme tu dirección.",
-      "en": "Just write me your address.",
-      "gloss": "escribe a-mí una-vez tu dirección",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 3,
-      "type": "sentence",
-      "note": "Aquí «mal» solo suaviza la orden, como el «venga» o el «anda» del español."
-    },
-    {
-      "id": "greetings_social_r006",
-      "de": "Meine neue Adresse ist ___.",
-      "es": "Mi nueva dirección es ___.",
-      "en": "My new address is ___.",
-      "gloss": "mi nueva dirección es ___",
-      "lemmas": [
-        "Adresse"
-      ],
-      "level": 2,
-      "type": "frame",
-      "fillers": [
-        {
-          "de": "Hauptstraße 12",
-          "es": "Hauptstraße 12"
-        },
-        {
-          "de": "Gartenweg 5",
-          "es": "Gartenweg 5"
-        },
-        {
-          "de": "Bahnhofstraße 3b",
-          "es": "Bahnhofstraße 3b"
-        },
-        {
-          "de": "Lindenallee 40",
-          "es": "Lindenallee 40"
-        }
-      ],
-      "note": "El número va detrás del nombre de la calle, y calle y nombre se escriben juntos: «-straße» = calle, «-weg» = camino, «-allee» = avenida."
+ "packId": "greetings_social",
+ "title": "Begrüßung & Small Talk",
+ "titleDe": "Hallo sagen und ins Gespräch kommen",
+ "desc": "Después de este pack sabes saludar, despedirte, presentarte, dar las gracias, pedir perdón, felicitar, invitar a alguien y mantener una conversación corta en alemán.",
+ "chunks": [
+  {
+   "id": "greetings_social_001",
+   "de": "Hallo!",
+   "es": "¡Hola!",
+   "en": "Hi!",
+   "gloss": "hola",
+   "lemmas": [
+    "hallo"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_002",
+   "de": "Guten Morgen!",
+   "es": "¡Buenos días!",
+   "en": "Good morning!",
+   "gloss": "buen mañana",
+   "lemmas": [
+    "gut",
+    "Morgen"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Solo hasta las 10-11 de la mañana."
+  },
+  {
+   "id": "greetings_social_003",
+   "de": "Guten Tag!",
+   "es": "¡Buenos días! / ¡Buenas!",
+   "en": "Good day! / Hello!",
+   "gloss": "buen día",
+   "lemmas": [
+    "gut",
+    "Tag"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Saludo formal, con desconocidos y en tiendas."
+  },
+  {
+   "id": "greetings_social_004",
+   "de": "Guten Abend!",
+   "es": "¡Buenas tardes! / ¡Buenas noches!",
+   "en": "Good evening!",
+   "gloss": "buen tarde-noche",
+   "lemmas": [
+    "gut",
+    "Abend"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_005",
+   "de": "Gute Nacht!",
+   "es": "¡Buenas noches!",
+   "en": "Good night!",
+   "gloss": "buena noche",
+   "lemmas": [
+    "gut",
+    "Nacht"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Solo para despedirse antes de dormir, nunca para saludar."
+  },
+  {
+   "id": "greetings_social_006",
+   "de": "Hallo, ich bin Lena.",
+   "es": "Hola, soy Lena.",
+   "en": "Hi, I'm Lena.",
+   "gloss": "hola, yo soy Lena",
+   "lemmas": [
+    "hallo",
+    "ich",
+    "sein"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_007",
+   "de": "Wie geht's?",
+   "es": "¿Qué tal?",
+   "en": "How's it going?",
+   "gloss": "cómo va-ello",
+   "lemmas": [
+    "wie",
+    "gehen",
+    "es"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'geht's' es 'geht es' hablado; es la forma normal."
+  },
+  {
+   "id": "greetings_social_008",
+   "de": "Gut, danke!",
+   "es": "¡Bien, gracias!",
+   "en": "Good, thanks!",
+   "gloss": "bien, gracias",
+   "lemmas": [
+    "gut",
+    "danke"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_009",
+   "de": "Und dir?",
+   "es": "¿Y a ti?",
+   "en": "And you?",
+   "gloss": "y a-ti",
+   "lemmas": [
+    "und",
+    "du"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "Se dice 'dir' (dativo), no 'du'."
+  },
+  {
+   "id": "greetings_social_010",
+   "de": "Tschüss!",
+   "es": "¡Adiós! / ¡Chao!",
+   "en": "Bye!",
+   "gloss": "chao",
+   "lemmas": [
+    "tschüss"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_011",
+   "de": "Tschüss, bis morgen!",
+   "es": "¡Chao, hasta mañana!",
+   "en": "Bye, see you tomorrow!",
+   "gloss": "chao, hasta mañana",
+   "lemmas": [
+    "tschüss"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_012",
+   "de": "Auf Wiedersehen!",
+   "es": "¡Adiós! / ¡Hasta luego!",
+   "en": "Goodbye!",
+   "gloss": "hasta re-ver",
+   "lemmas": [
+    "auf",
+    "Wiedersehen"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Más formal que 'tschüss'; en tiendas y oficinas es lo normal."
+  },
+  {
+   "id": "greetings_social_013",
+   "de": "Bis bald!",
+   "es": "¡Hasta pronto!",
+   "en": "See you soon!",
+   "gloss": "hasta pronto",
+   "lemmas": [
+    "bis",
+    "bald"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_014",
+   "de": "Danke!",
+   "es": "¡Gracias!",
+   "en": "Thanks!",
+   "gloss": "gracias",
+   "lemmas": [
+    "danke"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_015",
+   "de": "Danke schön!",
+   "es": "¡Muchas gracias!",
+   "en": "Thank you!",
+   "gloss": "gracias bonito",
+   "lemmas": [
+    "danke",
+    "schön"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_016",
+   "de": "Vielen Dank!",
+   "es": "¡Muchísimas gracias!",
+   "en": "Many thanks!",
+   "gloss": "mucho agradecimiento",
+   "lemmas": [
+    "viel",
+    "Dank"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_017",
+   "de": "Bitte!",
+   "es": "¡De nada!",
+   "en": "You're welcome!",
+   "gloss": "por-favor",
+   "lemmas": [
+    "bitte"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": "'Bitte' significa 'por favor' y también 'de nada'."
+  },
+  {
+   "id": "greetings_social_018",
+   "de": "Bitte schön!",
+   "es": "¡Aquí tiene! / ¡De nada!",
+   "en": "Here you go! / You're welcome!",
+   "gloss": "por-favor bonito",
+   "lemmas": [
+    "bitte"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Lo dice quien entrega algo."
+  },
+  {
+   "id": "greetings_social_019",
+   "de": "Ja, bitte.",
+   "es": "Sí, por favor.",
+   "en": "Yes, please.",
+   "gloss": "sí, por-favor",
+   "lemmas": [
+    "bitte"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_020",
+   "de": "Nein, danke.",
+   "es": "No, gracias.",
+   "en": "No, thanks.",
+   "gloss": "no, gracias",
+   "lemmas": [
+    "danke"
+   ],
+   "level": 1,
+   "type": "answer",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_021",
+   "de": "Okay!",
+   "es": "¡Vale!",
+   "en": "Okay!",
+   "gloss": "vale",
+   "lemmas": [
+    "okay"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_022",
+   "de": "Alles okay?",
+   "es": "¿Todo bien?",
+   "en": "Everything okay?",
+   "gloss": "todo okay",
+   "lemmas": [
+    "okay"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_023",
+   "de": "Okay, kein Problem.",
+   "es": "Vale, no hay problema.",
+   "en": "Okay, no problem.",
+   "gloss": "vale, ningún problema",
+   "lemmas": [
+    "okay",
+    "kein",
+    "Problem"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_024",
+   "de": "Wie heißt du?",
+   "es": "¿Cómo te llamas?",
+   "en": "What's your name?",
+   "gloss": "cómo te-llamas tú",
+   "lemmas": [
+    "heißen"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_025",
+   "de": "Ich heiße ___.",
+   "es": "Me llamo ___.",
+   "en": "My name is ___.",
+   "gloss": "yo me-llamo ___",
+   "lemmas": [
+    "heißen"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Lena",
+     "es": "Lena"
+    },
+    {
+     "de": "Max",
+     "es": "Max"
+    },
+    {
+     "de": "Sofía",
+     "es": "Sofía"
+    },
+    {
+     "de": "Jonas",
+     "es": "Jonas"
     }
-  ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_026",
+   "de": "Wie ist Ihr Name?",
+   "es": "¿Cuál es su nombre?",
+   "en": "What is your name? (formal)",
+   "gloss": "cómo es su nombre",
+   "lemmas": [
+    "wie",
+    "sein",
+    "Name"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "Se pregunta con 'wie' (cómo), no con 'was' (qué). Con un amigo: 'Wie ist dein Name?'."
+  },
+  {
+   "id": "greetings_social_027",
+   "de": "Mein Name ist ___.",
+   "es": "Mi nombre es ___.",
+   "en": "My name is ___.",
+   "gloss": "mi nombre es ___",
+   "lemmas": [
+    "Name"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Wu",
+     "es": "Wu"
+    },
+    {
+     "de": "Meier",
+     "es": "Meier"
+    },
+    {
+     "de": "Lena Schmidt",
+     "es": "Lena Schmidt"
+    },
+    {
+     "de": "García",
+     "es": "García"
+    }
+   ],
+   "note": "Más formal que 'ich heiße'."
+  },
+  {
+   "id": "greetings_social_028",
+   "de": "Entschuldigung!",
+   "es": "¡Perdón! / ¡Disculpe!",
+   "en": "Excuse me! / Sorry!",
+   "gloss": "perdón",
+   "lemmas": [
+    "Entschuldigung"
+   ],
+   "level": 1,
+   "type": "word",
+   "note": "Sirve para pedir perdón y para llamar la atención de alguien."
+  },
+  {
+   "id": "greetings_social_029",
+   "de": "Entschuldigung, wie bitte?",
+   "es": "Perdón, ¿cómo dice?",
+   "en": "Sorry, what was that?",
+   "gloss": "perdón, cómo por-favor",
+   "lemmas": [
+    "Entschuldigung",
+    "bitte"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'Wie bitte?' es lo que dices cuando no has entendido."
+  },
+  {
+   "id": "greetings_social_030",
+   "de": "Guten Tag, Herr ___!",
+   "es": "¡Buenos días, señor ___!",
+   "en": "Good day, Mr. ___!",
+   "gloss": "buen día, señor ___",
+   "lemmas": [
+    "Herr"
+   ],
+   "level": 1,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Meier",
+     "es": "Meier"
+    },
+    {
+     "de": "Schmidt",
+     "es": "Schmidt"
+    },
+    {
+     "de": "Müller",
+     "es": "Müller"
+    },
+    {
+     "de": "Wu",
+     "es": "Wu"
+    }
+   ],
+   "note": "Con 'Herr' siempre va el apellido, nunca el nombre."
+  },
+  {
+   "id": "greetings_social_031",
+   "de": "Hallo zusammen!",
+   "es": "¡Hola a todos!",
+   "en": "Hi everyone!",
+   "gloss": "hola juntos",
+   "lemmas": [
+    "hallo"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Para saludar a un grupo o en un chat."
+  },
+  {
+   "id": "greetings_social_032",
+   "de": "Wie heißen Sie?",
+   "es": "¿Cómo se llama usted?",
+   "en": "What's your name? (formal)",
+   "gloss": "cómo se-llama usted",
+   "lemmas": [
+    "heißen"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "'Sie' con mayúscula es 'usted'."
+  },
+  {
+   "id": "greetings_social_033",
+   "de": "Das ist Herr Fischer.",
+   "es": "Este es el señor Fischer.",
+   "en": "This is Mr. Fischer.",
+   "gloss": "eso es señor Fischer",
+   "lemmas": [
+    "Herr"
+   ],
+   "level": 1,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_034",
+   "de": "Wie geht es Ihnen, Herr Wu?",
+   "es": "¿Cómo está usted, señor Wu?",
+   "en": "How are you, Mr. Wu?",
+   "gloss": "cómo va ello a-usted, señor Wu",
+   "lemmas": [
+    "gehen",
+    "Herr"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Versión formal de 'Wie geht's?'."
+  },
+  {
+   "id": "greetings_social_035",
+   "de": "Alles klar, bis dann!",
+   "es": "Vale, ¡hasta luego!",
+   "en": "Alright, see you!",
+   "gloss": "todo claro, hasta entonces",
+   "lemmas": [
+    "alles",
+    "klar",
+    "bis",
+    "dann"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_036",
+   "de": "Entschuldigung, wo ist ___?",
+   "es": "Perdón, ¿dónde está ___?",
+   "en": "Excuse me, where is ___?",
+   "gloss": "perdón, dónde está ___",
+   "lemmas": [
+    "Entschuldigung"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "der Bahnhof",
+     "es": "la estación"
+    },
+    {
+     "de": "die Toilette",
+     "es": "el baño"
+    },
+    {
+     "de": "der Ausgang",
+     "es": "la salida"
+    },
+    {
+     "de": "die Schule",
+     "es": "el colegio"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_037",
+   "de": "Entschuldige!",
+   "es": "¡Perdona!",
+   "en": "Sorry!",
+   "gloss": "disculpa",
+   "lemmas": [
+    "entschuldigen"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Forma informal, a un amigo."
+  },
+  {
+   "id": "greetings_social_038",
+   "de": "Danke für ___!",
+   "es": "¡Gracias por ___!",
+   "en": "Thanks for ___!",
+   "gloss": "gracias por ___",
+   "lemmas": [
+    "danke"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "die Hilfe",
+     "es": "la ayuda"
+    },
+    {
+     "de": "das Geschenk",
+     "es": "el regalo"
+    },
+    {
+     "de": "deine Nachricht",
+     "es": "tu mensaje"
+    },
+    {
+     "de": "alles",
+     "es": "todo"
+    }
+   ],
+   "note": "'für' siempre lleva acusativo."
+  },
+  {
+   "id": "greetings_social_039",
+   "de": "Was sagst du?",
+   "es": "¿Qué dices?",
+   "en": "What are you saying?",
+   "gloss": "qué dices tú",
+   "lemmas": [
+    "sagen"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_040",
+   "de": "Sag mal, ___?",
+   "es": "Oye, ¿___?",
+   "en": "Say, ___?",
+   "gloss": "di una-vez, ___",
+   "lemmas": [
+    "sagen"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "hast du kurz Zeit",
+     "es": "tienes un momento"
+    },
+    {
+     "de": "wie geht's dir",
+     "es": "qué tal estás"
+    },
+    {
+     "de": "wo bist du",
+     "es": "dónde estás"
+    },
+    {
+     "de": "was machst du gerade",
+     "es": "qué estás haciendo"
+    }
+   ],
+   "note": "'Sag mal' abre una pregunta de forma coloquial, como 'oye'."
+  },
+  {
+   "id": "greetings_social_041",
+   "de": "Er heißt Jonas.",
+   "es": "Él se llama Jonas.",
+   "en": "His name is Jonas.",
+   "gloss": "él se-llama Jonas",
+   "lemmas": [
+    "heißen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_042",
+   "de": "Was heißt das auf Spanisch?",
+   "es": "¿Qué significa eso en español?",
+   "en": "What does that mean in Spanish?",
+   "gloss": "qué significa eso en español",
+   "lemmas": [
+    "heißen"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "'heißen' también significa 'significar'."
+  },
+  {
+   "id": "greetings_social_043",
+   "de": "Wie war noch mal dein Name?",
+   "es": "¿Cómo era tu nombre?",
+   "en": "What was your name again?",
+   "gloss": "cómo era aún una-vez tu nombre",
+   "lemmas": [
+    "Name"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "'noch mal' aquí = 'otra vez que se me ha olvidado'. Muy usado."
+  },
+  {
+   "id": "greetings_social_044",
+   "de": "Viele Grüße!",
+   "es": "¡Saludos!",
+   "en": "Best regards!",
+   "gloss": "muchos saludos",
+   "lemmas": [
+    "viel",
+    "Gruß"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Cierre normal de un correo o mensaje."
+  },
+  {
+   "id": "greetings_social_045",
+   "de": "Liebe Grüße, Lena",
+   "es": "Un abrazo, Lena",
+   "en": "Warm regards, Lena",
+   "gloss": "queridos saludos, Lena",
+   "lemmas": [
+    "lieb",
+    "Gruß"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Entre amigos se abrevia 'LG' en los chats."
+  },
+  {
+   "id": "greetings_social_046",
+   "de": "Grüß dich!",
+   "es": "¡Hola!",
+   "en": "Hi there!",
+   "gloss": "saluda a-ti",
+   "lemmas": [
+    "grüßen",
+    "du"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Saludo informal, sobre todo en el sur de Alemania."
+  },
+  {
+   "id": "greetings_social_047",
+   "de": "Herzlichen Glückwunsch!",
+   "es": "¡Felicidades!",
+   "en": "Congratulations!",
+   "gloss": "cordial felicitación",
+   "lemmas": [
+    "Glückwunsch"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_048",
+   "de": "Herzlichen Glückwunsch zum ___!",
+   "es": "¡Felicidades por ___!",
+   "en": "Congratulations on ___!",
+   "gloss": "cordial felicitación a-el ___",
+   "lemmas": [
+    "Glückwunsch"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Geburtstag",
+     "es": "el cumpleaños"
+    },
+    {
+     "de": "neuen Job",
+     "es": "el nuevo trabajo"
+    },
+    {
+     "de": "Führerschein",
+     "es": "el carnet de conducir"
+    },
+    {
+     "de": "Abitur",
+     "es": "el bachillerato"
+    }
+   ],
+   "note": "'zum' = zu dem; con palabras femeninas se dice 'zur'."
+  },
+  {
+   "id": "greetings_social_049",
+   "de": "Danke für die Einladung!",
+   "es": "¡Gracias por la invitación!",
+   "en": "Thanks for the invitation!",
+   "gloss": "gracias por la invitación",
+   "lemmas": [
+    "danke",
+    "Einladung"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_050",
+   "de": "Die Einladung ist für Samstag.",
+   "es": "La invitación es para el sábado.",
+   "en": "The invitation is for Saturday.",
+   "gloss": "la invitación es para sábado",
+   "lemmas": [
+    "Einladung"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_051",
+   "de": "Ich lade dich ein.",
+   "es": "Te invito.",
+   "en": "I'm inviting you. / It's on me.",
+   "gloss": "yo invito a-ti dentro",
+   "lemmas": [
+    "einladen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Verbo separable: el 'ein' se va al final de la frase."
+  },
+  {
+   "id": "greetings_social_052",
+   "de": "Ich habe Besuch.",
+   "es": "Tengo visita.",
+   "en": "I have visitors.",
+   "gloss": "yo tengo visita",
+   "lemmas": [
+    "Besuch"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Sin artículo, aunque en español digas 'una visita'."
+  },
+  {
+   "id": "greetings_social_053",
+   "de": "Danke für den Besuch!",
+   "es": "¡Gracias por la visita!",
+   "en": "Thanks for coming by!",
+   "gloss": "gracias por la visita",
+   "lemmas": [
+    "danke",
+    "Besuch"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_054",
+   "de": "Das ist verboten.",
+   "es": "Eso está prohibido.",
+   "en": "That's forbidden.",
+   "gloss": "eso está prohibido",
+   "lemmas": [
+    "verbieten"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_055",
+   "de": "Das war ein Witz!",
+   "es": "¡Era broma!",
+   "en": "That was a joke!",
+   "gloss": "eso era un chiste",
+   "lemmas": [
+    "sein",
+    "Witz"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_056",
+   "de": "Das ist kein Witz.",
+   "es": "No es broma.",
+   "en": "That's no joke.",
+   "gloss": "eso es ningún chiste",
+   "lemmas": [
+    "Witz"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Delante de un sustantivo se niega con 'kein', no con 'nicht'."
+  },
+  {
+   "id": "greetings_social_057",
+   "de": "Erzähl mal!",
+   "es": "¡Cuenta!",
+   "en": "Tell me!",
+   "gloss": "cuenta una-vez",
+   "lemmas": [
+    "erzählen"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_058",
+   "de": "Ich frage meine Mutter.",
+   "es": "Le pregunto a mi madre.",
+   "en": "I'll ask my mum.",
+   "gloss": "yo pregunto mi madre",
+   "lemmas": [
+    "fragen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "'fragen' lleva acusativo directo, sin 'a': 'ich frage sie'."
+  },
+  {
+   "id": "greetings_social_059",
+   "de": "Okay, dann bis später!",
+   "es": "Vale, ¡hasta luego entonces!",
+   "en": "Okay, see you later then!",
+   "gloss": "vale, entonces hasta más-tarde",
+   "lemmas": [
+    "okay"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_060",
+   "de": "Entschuldigen Sie bitte!",
+   "es": "¡Disculpe, por favor!",
+   "en": "Excuse me, please!",
+   "gloss": "disculpe usted por-favor",
+   "lemmas": [
+    "entschuldigen",
+    "bitte"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "Forma formal; a un amigo se dice 'Entschuldige'."
+  },
+  {
+   "id": "greetings_social_061",
+   "de": "Entschuldigung, das war mein Fehler.",
+   "es": "Perdón, fue culpa mía.",
+   "en": "Sorry, that was my mistake.",
+   "gloss": "perdón, eso era mi error",
+   "lemmas": [
+    "Entschuldigung",
+    "Fehler"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_062",
+   "de": "Kannst du mir helfen?",
+   "es": "¿Me puedes ayudar?",
+   "en": "Can you help me?",
+   "gloss": "puedes tú a-mí ayudar",
+   "lemmas": [
+    "helfen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'helfen' pide dativo: 'mir', nunca 'mich'."
+  },
+  {
+   "id": "greetings_social_063",
+   "de": "Kannst du mir mit ___ helfen?",
+   "es": "¿Me puedes ayudar con ___?",
+   "en": "Can you help me with ___?",
+   "gloss": "puedes tú a-mí con ___ ayudar",
+   "lemmas": [
+    "helfen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "den Hausaufgaben",
+     "es": "los deberes"
+    },
+    {
+     "de": "dem Koffer",
+     "es": "la maleta"
+    },
+    {
+     "de": "dem Computer",
+     "es": "el ordenador"
+    },
+    {
+     "de": "meinem Deutsch",
+     "es": "mi alemán"
+    }
+   ],
+   "note": "'mit' siempre va con dativo."
+  },
+  {
+   "id": "greetings_social_064",
+   "de": "Können Sie mir bitte helfen?",
+   "es": "¿Me puede ayudar, por favor?",
+   "en": "Could you help me, please?",
+   "gloss": "puede usted a-mí por-favor ayudar",
+   "lemmas": [
+    "bitte",
+    "helfen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Versión formal de 'Kannst du mir helfen?'."
+  },
+  {
+   "id": "greetings_social_065",
+   "de": "Wie sagt man das auf Deutsch?",
+   "es": "¿Cómo se dice eso en alemán?",
+   "en": "How do you say that in German?",
+   "gloss": "cómo dice uno eso en alemán",
+   "lemmas": [
+    "sagen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'man' es el 'se' impersonal del español."
+  },
+  {
+   "id": "greetings_social_066",
+   "de": "Sagen Sie das bitte noch mal.",
+   "es": "Dígalo otra vez, por favor.",
+   "en": "Please say that again.",
+   "gloss": "diga usted eso por-favor aún una-vez",
+   "lemmas": [
+    "sagen",
+    "bitte"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_067",
+   "de": "Darf ich dich etwas fragen?",
+   "es": "¿Te puedo preguntar una cosa?",
+   "en": "Can I ask you something?",
+   "gloss": "puedo yo a-ti algo preguntar",
+   "lemmas": [
+    "fragen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Con 'fragen' la persona va en acusativo: 'dich'."
+  },
+  {
+   "id": "greetings_social_068",
+   "de": "Frag ihn doch einfach!",
+   "es": "¡Pregúntale sin más!",
+   "en": "Just ask him!",
+   "gloss": "pregunta a-él pues simplemente",
+   "lemmas": [
+    "fragen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'doch' aquí solo da ánimo, no se traduce."
+  },
+  {
+   "id": "greetings_social_069",
+   "de": "Darf ich mich vorstellen?",
+   "es": "¿Me permite presentarme?",
+   "en": "May I introduce myself?",
+   "gloss": "puedo yo me presentar",
+   "lemmas": [
+    "vorstellen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_070",
+   "de": "Darf ich dir ___ vorstellen?",
+   "es": "¿Te presento a ___?",
+   "en": "May I introduce ___ to you?",
+   "gloss": "puedo yo a-ti ___ presentar",
+   "lemmas": [
+    "vorstellen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "meinen Bruder",
+     "es": "a mi hermano"
+    },
+    {
+     "de": "meine Freundin",
+     "es": "a mi novia/amiga"
+    },
+    {
+     "de": "Herrn Wu",
+     "es": "al señor Wu"
+    },
+    {
+     "de": "meine Eltern",
+     "es": "a mis padres"
+    }
+   ],
+   "note": "Verbo separable: 'vorstellen' va entero al final tras un modal."
+  },
+  {
+   "id": "greetings_social_071",
+   "de": "Ich stelle dir meine Familie vor.",
+   "es": "Te presento a mi familia.",
+   "en": "I'll introduce my family to you.",
+   "gloss": "yo presento a-ti mi familia ante",
+   "lemmas": [
+    "vorstellen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Sin modal, el prefijo 'vor' se va al final."
+  },
+  {
+   "id": "greetings_social_072",
+   "de": "Was kannst du mir empfehlen?",
+   "es": "¿Qué me recomiendas?",
+   "en": "What can you recommend to me?",
+   "gloss": "qué puedes tú a-mí recomendar",
+   "lemmas": [
+    "empfehlen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_073",
+   "de": "Ich kann dir ___ empfehlen.",
+   "es": "Te puedo recomendar ___.",
+   "en": "I can recommend ___ to you.",
+   "gloss": "yo puedo a-ti ___ recomendar",
+   "lemmas": [
+    "empfehlen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "den Kuchen hier",
+     "es": "el pastel de aquí"
+    },
+    {
+     "de": "diesen Film",
+     "es": "esta película"
+    },
+    {
+     "de": "das Restaurant",
+     "es": "el restaurante"
+    },
+    {
+     "de": "dieses Buch",
+     "es": "este libro"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_074",
+   "de": "Das ist hier nicht erlaubt.",
+   "es": "Eso no está permitido aquí.",
+   "en": "That's not allowed here.",
+   "gloss": "eso está aquí no permitido",
+   "lemmas": [
+    "erlauben"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_075",
+   "de": "Ich melde mich später.",
+   "es": "Ya te digo algo luego.",
+   "en": "I'll get in touch later.",
+   "gloss": "yo aviso me más-tarde",
+   "lemmas": [
+    "sich melden"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'sich melden' = dar señales de vida, escribir o llamar."
+  },
+  {
+   "id": "greetings_social_076",
+   "de": "Melde dich mal!",
+   "es": "¡Da señales de vida!",
+   "en": "Get in touch sometime!",
+   "gloss": "avisa te una-vez",
+   "lemmas": [
+    "sich melden"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "En imperativo el 'dich' va justo detrás del verbo."
+  },
+  {
+   "id": "greetings_social_077",
+   "de": "Ich melde mich ___.",
+   "es": "Te aviso ___.",
+   "en": "I'll be in touch ___.",
+   "gloss": "yo aviso me ___",
+   "lemmas": [
+    "sich melden"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "morgen",
+     "es": "mañana"
+    },
+    {
+     "de": "heute Abend",
+     "es": "esta noche"
+    },
+    {
+     "de": "am Wochenende",
+     "es": "el fin de semana"
+    },
+    {
+     "de": "nächste Woche",
+     "es": "la semana que viene"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_078",
+   "de": "Was soll ich mitbringen?",
+   "es": "¿Qué llevo? / ¿Qué traigo?",
+   "en": "What should I bring?",
+   "gloss": "qué debo yo traer-con",
+   "lemmas": [
+    "mitbringen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "La pregunta típica antes de ir a una fiesta."
+  },
+  {
+   "id": "greetings_social_079",
+   "de": "Kannst du ___ mitbringen?",
+   "es": "¿Puedes traer ___?",
+   "en": "Can you bring ___?",
+   "gloss": "puedes tú ___ traer-con",
+   "lemmas": [
+    "mitbringen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "etwas zu trinken",
+     "es": "algo de beber"
+    },
+    {
+     "de": "einen Kuchen",
+     "es": "un pastel"
+    },
+    {
+     "de": "deine Freundin",
+     "es": "a tu amiga"
+    },
+    {
+     "de": "Musik",
+     "es": "música"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_080",
+   "de": "Ich gratuliere dir!",
+   "es": "¡Te felicito!",
+   "en": "Congratulations!",
+   "gloss": "yo felicito a-ti",
+   "lemmas": [
+    "gratulieren"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'gratulieren' pide dativo: 'dir', no 'dich'."
+  },
+  {
+   "id": "greetings_social_081",
+   "de": "Herzlichen Glückwunsch zur Hochzeit!",
+   "es": "¡Felicidades por la boda!",
+   "en": "Congratulations on the wedding!",
+   "gloss": "cordial felicitación a-la boda",
+   "lemmas": [
+    "Glückwunsch"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_082",
+   "de": "Er erzählt gern Witze.",
+   "es": "Le gusta contar chistes.",
+   "en": "He likes telling jokes.",
+   "gloss": "él cuenta con-gusto chistes",
+   "lemmas": [
+    "erzählen",
+    "Witz"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "'gern' + verbo = 'le gusta hacer algo'."
+  },
+  {
+   "id": "greetings_social_083",
+   "de": "Er macht immer Witze.",
+   "es": "Siempre está de broma.",
+   "en": "He's always joking.",
+   "gloss": "él hace siempre chistes",
+   "lemmas": [
+    "machen",
+    "Witz"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_084",
+   "de": "Erzähl mal von ___!",
+   "es": "¡Cuéntame de ___!",
+   "en": "Tell me about ___!",
+   "gloss": "cuenta una-vez de ___",
+   "lemmas": [
+    "erzählen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "deinem Wochenende",
+     "es": "tu fin de semana"
+    },
+    {
+     "de": "deiner Familie",
+     "es": "tu familia"
+    },
+    {
+     "de": "deiner Schule",
+     "es": "tu colegio"
+    },
+    {
+     "de": "deiner Reise",
+     "es": "tu viaje"
+    }
+   ],
+   "note": "'von' siempre lleva dativo."
+  },
+  {
+   "id": "greetings_social_085",
+   "de": "Viele Grüße an deine Familie!",
+   "es": "¡Saludos a tu familia!",
+   "en": "Say hi to your family!",
+   "gloss": "muchos saludos a tu familia",
+   "lemmas": [
+    "Gruß"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_086",
+   "de": "Das war ein nettes Gespräch.",
+   "es": "Ha sido una conversación agradable.",
+   "en": "That was a nice conversation.",
+   "gloss": "eso era una agradable conversación",
+   "lemmas": [
+    "nett",
+    "Gespräch"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_087",
+   "de": "Das Gespräch war sehr interessant.",
+   "es": "La conversación fue muy interesante.",
+   "en": "The conversation was very interesting.",
+   "gloss": "la conversación era muy interesante",
+   "lemmas": [
+    "Gespräch"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_088",
+   "de": "Okay, machen wir das so.",
+   "es": "Vale, lo hacemos así.",
+   "en": "Okay, let's do it that way.",
+   "gloss": "vale, hacemos nosotros eso así",
+   "lemmas": [
+    "okay",
+    "machen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El verbo va primero: es una propuesta, no una pregunta."
+  },
+  {
+   "id": "greetings_social_089",
+   "de": "Ich möchte dich zu ___ einladen.",
+   "es": "Quiero invitarte a ___.",
+   "en": "I'd like to invite you to ___.",
+   "gloss": "yo quisiera a-ti a ___ invitar",
+   "lemmas": [
+    "einladen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "meiner Party",
+     "es": "mi fiesta"
+    },
+    {
+     "de": "meinem Geburtstag",
+     "es": "mi cumpleaños"
+    },
+    {
+     "de": "einem Kaffee",
+     "es": "un café"
+    },
+    {
+     "de": "uns nach Hause",
+     "es": "nuestra casa"
+    }
+   ],
+   "note": "'zu' siempre lleva dativo."
+  },
+  {
+   "id": "greetings_social_090",
+   "de": "Wie schreibt man Ihren Namen?",
+   "es": "¿Cómo se escribe su nombre?",
+   "en": "How do you spell your name?",
+   "gloss": "cómo escribe uno su nombre",
+   "lemmas": [
+    "schreiben",
+    "Name"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "'Name' es especial: en acusativo hace 'Namen'."
+  },
+  {
+   "id": "greetings_social_091",
+   "de": "Ich möchte mich entschuldigen.",
+   "es": "Quiero pedir perdón.",
+   "en": "I'd like to apologise.",
+   "gloss": "yo quisiera me disculpar",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Con 'mich' significa 'disculparse uno mismo'."
+  },
+  {
+   "id": "greetings_social_092",
+   "de": "Entschuldigen Sie die Verspätung.",
+   "es": "Disculpe el retraso.",
+   "en": "Sorry for being late.",
+   "gloss": "disculpe usted el retraso",
+   "lemmas": [
+    "entschuldigen",
+    "Verspätung"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_093",
+   "de": "Wir gratulieren dir zum Geburtstag!",
+   "es": "¡Te felicitamos por tu cumpleaños!",
+   "en": "We congratulate you on your birthday!",
+   "gloss": "nosotros felicitamos a-ti a-el cumpleaños",
+   "lemmas": [
+    "gratulieren"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_094",
+   "de": "Ich wünsche dir alles Gute!",
+   "es": "¡Te deseo lo mejor!",
+   "en": "I wish you all the best!",
+   "gloss": "yo deseo a-ti todo bueno",
+   "lemmas": [
+    "wünschen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'wünschen' pide dativo de persona ('dir') y acusativo de cosa ('alles Gute')."
+  },
+  {
+   "id": "greetings_social_095",
+   "de": "Meine Eltern erlauben mir das nicht.",
+   "es": "Mis padres no me lo permiten.",
+   "en": "My parents don't let me do that.",
+   "gloss": "mis padres permiten a-mí eso no",
+   "lemmas": [
+    "erlauben"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'erlauben' pide dativo de persona: 'mir'."
+  },
+  {
+   "id": "greetings_social_096",
+   "de": "Es ist verboten, hier ___.",
+   "es": "Está prohibido ___ aquí.",
+   "en": "It's forbidden to ___ here.",
+   "gloss": "ello es prohibido, aquí ___",
+   "lemmas": [
+    "verbieten"
+   ],
+   "level": 4,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "zu rauchen",
+     "es": "fumar"
+    },
+    {
+     "de": "zu parken",
+     "es": "aparcar"
+    },
+    {
+     "de": "zu fotografieren",
+     "es": "hacer fotos"
+    },
+    {
+     "de": "laut zu sein",
+     "es": "hacer ruido"
+    }
+   ],
+   "note": "El infinitivo con 'zu' va al final."
+  },
+  {
+   "id": "greetings_social_097",
+   "de": "Ich habe eine Einladung bekommen.",
+   "es": "He recibido una invitación.",
+   "en": "I got an invitation.",
+   "gloss": "yo he una invitación recibido",
+   "lemmas": [
+    "Einladung",
+    "bekommen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'bekommen' no lleva 'ge-' en el participio."
+  },
+  {
+   "id": "greetings_social_098",
+   "de": "Ich freue mich auf deinen Besuch.",
+   "es": "Me hace ilusión tu visita.",
+   "en": "I'm looking forward to your visit.",
+   "gloss": "yo alegro me sobre tu visita",
+   "lemmas": [
+    "sich freuen",
+    "Besuch"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'sich freuen auf' + acusativo = tener ganas de algo futuro."
+  },
+  {
+   "id": "greetings_social_099",
+   "de": "Wir hatten ein gutes Gespräch.",
+   "es": "Tuvimos una buena conversación.",
+   "en": "We had a good conversation.",
+   "gloss": "nosotros teníamos una buena conversación",
+   "lemmas": [
+    "haben",
+    "Gespräch"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_100",
+   "de": "Können Sie mir ein Restaurant empfehlen?",
+   "es": "¿Me puede recomendar un restaurante?",
+   "en": "Can you recommend a restaurant to me?",
+   "gloss": "puede usted a-mí un restaurante recomendar",
+   "lemmas": [
+    "empfehlen"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_101",
+   "de": "Sag ihm einen schönen Gruß von mir.",
+   "es": "Dale recuerdos de mi parte.",
+   "en": "Give him my regards.",
+   "gloss": "di a-él un bonito saludo de mí",
+   "lemmas": [
+    "sagen",
+    "Gruß"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'ihm' es dativo (a él), 'einen Gruß' acusativo."
+  },
+  {
+   "id": "greetings_social_102",
+   "de": "Er hat sich bei mir entschuldigt.",
+   "es": "Me pidió perdón.",
+   "en": "He apologised to me.",
+   "gloss": "él ha se junto-a mí disculpado",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "La persona a la que pides perdón va con 'bei' + dativo."
+  },
+  {
+   "id": "greetings_social_103",
+   "de": "Ich wollte mich für gestern entschuldigen.",
+   "es": "Quería pedirte perdón por lo de ayer.",
+   "en": "I wanted to apologise for yesterday.",
+   "gloss": "yo quería me por ayer disculpar",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "El motivo va con 'für' + acusativo."
+  },
+  {
+   "id": "greetings_social_104",
+   "de": "Es tut mir leid, dass ich mich nicht gemeldet habe.",
+   "es": "Siento no haber dado señales de vida.",
+   "en": "I'm sorry I didn't get in touch.",
+   "gloss": "ello hace a-mí pena, que yo me no comunicado he",
+   "lemmas": [
+    "leidtun",
+    "sich melden"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Tras 'dass' el verbo conjugado va al final."
+  },
+  {
+   "id": "greetings_social_105",
+   "de": "Wenn du willst, kannst du jemanden mitbringen.",
+   "es": "Si quieres, puedes traer a alguien.",
+   "en": "If you want, you can bring someone.",
+   "gloss": "si tú quieres, puedes tú a-alguien traer-con",
+   "lemmas": [
+    "wollen",
+    "mitbringen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Tras la frase con 'wenn', el verbo principal va justo después de la coma."
+  },
+  {
+   "id": "greetings_social_106",
+   "de": "Ich habe ihn zum Essen eingeladen.",
+   "es": "Lo he invitado a comer.",
+   "en": "I invited him for a meal.",
+   "gloss": "yo he a-él a-el comer invitado",
+   "lemmas": [
+    "einladen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "En Perfekt el 'ge-' va dentro: ein-ge-laden."
+  },
+  {
+   "id": "greetings_social_107",
+   "de": "Danke, dass du gekommen bist!",
+   "es": "¡Gracias por venir!",
+   "en": "Thanks for coming!",
+   "gloss": "gracias, que tú venido eres",
+   "lemmas": [
+    "danke"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "'kommen' forma el Perfekt con 'sein', no con 'haben'."
+  },
+  {
+   "id": "greetings_social_108",
+   "de": "Darf ich fragen, wie Sie heißen?",
+   "es": "¿Puedo preguntarle cómo se llama?",
+   "en": "May I ask what your name is?",
+   "gloss": "puedo yo preguntar, cómo usted se-llama",
+   "lemmas": [
+    "fragen",
+    "heißen"
+   ],
+   "level": 5,
+   "type": "question",
+   "note": "En la pregunta indirecta el verbo se va al final."
+  },
+  {
+   "id": "greetings_social_109",
+   "de": "Meine Eltern erlauben mir, länger zu bleiben.",
+   "es": "Mis padres me permiten quedarme hasta más tarde.",
+   "en": "My parents allow me to stay out longer.",
+   "gloss": "mis padres permiten a-mí, más-tiempo a quedar",
+   "lemmas": [
+    "erlauben"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_110",
+   "de": "Mein Vater hat mir verboten, allein zu gehen.",
+   "es": "Mi padre me ha prohibido ir solo.",
+   "en": "My father has forbidden me to go alone.",
+   "gloss": "mi padre ha a-mí prohibido, solo a ir",
+   "lemmas": [
+    "verbieten"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "'verbieten' pide dativo de persona: 'mir'."
+  },
+  {
+   "id": "greetings_social_111",
+   "de": "Okay, ich sage ihm Bescheid.",
+   "es": "Vale, le aviso.",
+   "en": "Okay, I'll let him know.",
+   "gloss": "vale, yo digo a-él aviso",
+   "lemmas": [
+    "okay",
+    "sagen",
+    "Bescheid"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "'Bescheid sagen' = avisar; se escribe siempre separado."
+  },
+  {
+   "id": "greetings_social_112",
+   "de": "Er hat mir von seinem Besuch in Berlin erzählt.",
+   "es": "Me contó lo de su visita a Berlín.",
+   "en": "He told me about his visit to Berlin.",
+   "gloss": "él ha a-mí de su visita en Berlín contado",
+   "lemmas": [
+    "erzählen",
+    "Besuch"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p113",
+   "de": "Herzlich willkommen!",
+   "es": "¡Bienvenido!",
+   "en": "Welcome!",
+   "gloss": "cordialmente bienvenido",
+   "lemmas": [
+    "herzlich",
+    "willkommen"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p114",
+   "de": "Willkommen bei uns!",
+   "es": "¡Bienvenido a nuestra casa!",
+   "en": "Welcome to our place!",
+   "gloss": "bienvenido en-casa-de nosotros",
+   "lemmas": [
+    "willkommen"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "«bei uns» significa en nuestra casa o empresa, no «con nosotros»."
+  },
+  {
+   "id": "greetings_social_p115",
+   "de": "Du bist hier immer willkommen.",
+   "es": "Aquí siempre eres bienvenido.",
+   "en": "You're always welcome here.",
+   "gloss": "tú eres aquí siempre bienvenido",
+   "lemmas": [
+    "willkommen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p116",
+   "de": "Herzlich willkommen in ___!",
+   "es": "¡Bienvenido a ___!",
+   "en": "Welcome to ___!",
+   "gloss": "cordialmente bienvenido en ___",
+   "lemmas": [
+    "herzlich",
+    "willkommen"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Berlin",
+     "es": "Berlín"
+    },
+    {
+     "de": "Hamburg",
+     "es": "Hamburgo"
+    },
+    {
+     "de": "München",
+     "es": "Múnich"
+    },
+    {
+     "de": "Deutschland",
+     "es": "Alemania"
+    }
+   ],
+   "note": "Con ciudades y países se usa «in», no «zu»."
+  },
+  {
+   "id": "greetings_social_p117",
+   "de": "Herzlichen Dank!",
+   "es": "¡Muchísimas gracias!",
+   "en": "Many thanks!",
+   "gloss": "cordial agradecimiento",
+   "lemmas": [
+    "herzlich",
+    "Dank"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": "Más cálido que «Danke»; la forma «Herzlichen» es fija."
+  },
+  {
+   "id": "greetings_social_p118",
+   "de": "Er hat sich herzlich bedankt.",
+   "es": "Dio las gracias muy afectuosamente.",
+   "en": "He expressed his thanks warmly.",
+   "gloss": "él ha se cordialmente agradecido",
+   "lemmas": [
+    "herzlich",
+    "sich bedanken"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "«sich bedanken» siempre lleva el reflexivo."
+  },
+  {
+   "id": "greetings_social_p119",
+   "de": "Das ist ja super!",
+   "es": "¡Qué bien!",
+   "en": "That's great!",
+   "gloss": "eso es pues súper",
+   "lemmas": [
+    "super"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "Aquí «ja» no es «sí»: solo da énfasis."
+  },
+  {
+   "id": "greetings_social_p120",
+   "de": "Super, danke dir!",
+   "es": "¡Genial, gracias!",
+   "en": "Great, thanks!",
+   "gloss": "súper, gracias a-ti",
+   "lemmas": [
+    "super"
+   ],
+   "level": 1,
+   "type": "phrase",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p121",
+   "de": "Mir geht's super.",
+   "es": "Estoy genial.",
+   "en": "I'm doing great.",
+   "gloss": "a-mí va-ello súper",
+   "lemmas": [
+    "super"
+   ],
+   "level": 2,
+   "type": "answer",
+   "note": "«mir» va en dativo: literalmente «me va»."
+  },
+  {
+   "id": "greetings_social_p122",
+   "de": "Das hast du super gemacht!",
+   "es": "¡Lo has hecho genial!",
+   "en": "You did that really well!",
+   "gloss": "eso has tú súper hecho",
+   "lemmas": [
+    "super"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p123",
+   "de": "Wir müssen mal reden.",
+   "es": "Tenemos que hablar.",
+   "en": "We need to talk.",
+   "gloss": "nosotros debemos alguna-vez hablar",
+   "lemmas": [
+    "reden"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«mal» suaviza el tono: «a ver si hablamos»."
+  },
+  {
+   "id": "greetings_social_p124",
+   "de": "Ich rede gerade mit Lena.",
+   "es": "Estoy hablando con Lena ahora mismo.",
+   "en": "I'm talking to Lena right now.",
+   "gloss": "yo hablo ahora-mismo con Lena",
+   "lemmas": [
+    "reden"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "«mit» siempre va con dativo."
+  },
+  {
+   "id": "greetings_social_p125",
+   "de": "Reden wir später darüber.",
+   "es": "Hablamos de eso más tarde.",
+   "en": "Let's talk about it later.",
+   "gloss": "hablamos nosotros más-tarde sobre-eso",
+   "lemmas": [
+    "reden"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«darüber» sustituye a «über das»."
+  },
+  {
+   "id": "greetings_social_p126",
+   "de": "Ich muss kurz mit ___ reden.",
+   "es": "Tengo que hablar un momento con ___.",
+   "en": "I need to talk to ___ for a second.",
+   "gloss": "yo debo brevemente con ___ hablar",
+   "lemmas": [
+    "reden"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "dir",
+     "es": "contigo"
+    },
+    {
+     "de": "ihm",
+     "es": "con él"
+    },
+    {
+     "de": "meinem Chef",
+     "es": "con mi jefe"
+    },
+    {
+     "de": "deiner Mutter",
+     "es": "con tu madre"
+    }
+   ],
+   "note": "Tras «mit» todo va en dativo: du→dir, er→ihm."
+  },
+  {
+   "id": "greetings_social_p127",
+   "de": "Danke für das Gespräch!",
+   "es": "¡Gracias por la conversación!",
+   "en": "Thanks for the talk!",
+   "gloss": "gracias por la conversación",
+   "lemmas": [
+    "Gespräch"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "«für» pide acusativo: das Gespräch no cambia por ser neutro."
+  },
+  {
+   "id": "greetings_social_p128",
+   "de": "Ich bin gerade in einem Gespräch.",
+   "es": "Ahora mismo estoy en una conversación.",
+   "en": "I'm in a conversation right now.",
+   "gloss": "yo estoy ahora-mismo en una conversación",
+   "lemmas": [
+    "Gespräch"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«in» con dativo: einem Gespräch."
+  },
+  {
+   "id": "greetings_social_p129",
+   "de": "Ich hatte gestern ein wichtiges Gespräch.",
+   "es": "Ayer tuve una conversación importante.",
+   "en": "I had an important conversation yesterday.",
+   "gloss": "yo tenía ayer una importante conversación",
+   "lemmas": [
+    "Gespräch"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p130",
+   "de": "Ich wünsche dir einen schönen Tag!",
+   "es": "¡Que tengas un buen día!",
+   "en": "Have a nice day!",
+   "gloss": "yo deseo a-ti un bonito día",
+   "lemmas": [
+    "wünschen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«dir» dativo (a quién) y «einen schönen Tag» acusativo (qué)."
+  },
+  {
+   "id": "greetings_social_p131",
+   "de": "Wir wünschen euch viel Spaß!",
+   "es": "¡Que os divirtáis!",
+   "en": "Have fun!",
+   "gloss": "nosotros deseamos a-vosotros mucha diversión",
+   "lemmas": [
+    "wünschen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p132",
+   "de": "Ich wünsche dir ___!",
+   "es": "¡Te deseo ___!",
+   "en": "I wish you ___!",
+   "gloss": "yo deseo a-ti ___",
+   "lemmas": [
+    "wünschen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "viel Glück",
+     "es": "mucha suerte"
+    },
+    {
+     "de": "gute Besserung",
+     "es": "que te mejores"
+    },
+    {
+     "de": "einen schönen Abend",
+     "es": "una buena tarde"
+    },
+    {
+     "de": "frohe Weihnachten",
+     "es": "feliz Navidad"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p133",
+   "de": "Was wünschst du dir zum Geburtstag?",
+   "es": "¿Qué quieres que te regalen por tu cumpleaños?",
+   "en": "What do you want for your birthday?",
+   "gloss": "qué deseas tú a-ti para-el cumpleaños",
+   "lemmas": [
+    "wünschen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "«sich etwas wünschen» = desear algo para uno mismo; el «dir» es obligatorio."
+  },
+  {
+   "id": "greetings_social_p134",
+   "de": "Ruf mich an, wenn du da bist!",
+   "es": "¡Llámame cuando estés ahí!",
+   "en": "Call me when you're there!",
+   "gloss": "llama a-mí a, cuando tú ahí eres",
+   "lemmas": [
+    "anrufen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Por teléfono se dice «anrufen»; «rufen» a secas es llamar en voz alta."
+  },
+  {
+   "id": "greetings_social_p135",
+   "de": "Soll ich einen Arzt rufen?",
+   "es": "¿Llamo a un médico?",
+   "en": "Should I call a doctor?",
+   "gloss": "debo yo un médico llamar",
+   "lemmas": [
+    "rufen"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "El infinitivo «rufen» va al final."
+  },
+  {
+   "id": "greetings_social_p136",
+   "de": "Jemand hat deinen Namen gerufen.",
+   "es": "Alguien ha gritado tu nombre.",
+   "en": "Someone called your name.",
+   "gloss": "alguien ha tu nombre llamado",
+   "lemmas": [
+    "rufen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p137",
+   "de": "Mit freundlichen Grüßen",
+   "es": "Atentamente / Un saludo cordial",
+   "en": "Kind regards",
+   "gloss": "con amables saludos",
+   "lemmas": [
+    "Gruß"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "Despedida estándar de cartas y correos formales; sin punto final."
+  },
+  {
+   "id": "greetings_social_p138",
+   "de": "Schöne Grüße von meiner Mutter!",
+   "es": "¡Saludos de parte de mi madre!",
+   "en": "Greetings from my mother!",
+   "gloss": "bonitos saludos de mi madre",
+   "lemmas": [
+    "Gruß"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "«von» + dativo: meiner Mutter."
+  },
+  {
+   "id": "greetings_social_p139",
+   "de": "Einen schönen Gruß an alle!",
+   "es": "¡Saludos a todos!",
+   "en": "Say hi to everyone!",
+   "gloss": "un bonito saludo a todos",
+   "lemmas": [
+    "Gruß"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "«an» + acusativo: einen Gruß an alle."
+  },
+  {
+   "id": "greetings_social_p140",
+   "de": "Das verspreche ich dir.",
+   "es": "Te lo prometo.",
+   "en": "I promise you that.",
+   "gloss": "eso prometo yo a-ti",
+   "lemmas": [
+    "versprechen"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p141",
+   "de": "Ich kann dir nichts versprechen.",
+   "es": "No te puedo prometer nada.",
+   "en": "I can't promise you anything.",
+   "gloss": "yo puedo a-ti nada prometer",
+   "lemmas": [
+    "versprechen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«nichts» ya es la negación: no se añade «nicht»."
+  },
+  {
+   "id": "greetings_social_p142",
+   "de": "Versprich mir, dass du dich meldest.",
+   "es": "Prométeme que darás señales de vida.",
+   "en": "Promise me you'll get in touch.",
+   "gloss": "promete a-mí, que tú te avisas",
+   "lemmas": [
+    "versprechen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "El imperativo de «versprechen» es irregular: versprich."
+  },
+  {
+   "id": "greetings_social_p143",
+   "de": "Danke für den Anruf!",
+   "es": "¡Gracias por la llamada!",
+   "en": "Thanks for calling!",
+   "gloss": "gracias por la llamada",
+   "lemmas": [
+    "Anruf"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "«für» + acusativo: der Anruf pasa a den Anruf."
+  },
+  {
+   "id": "greetings_social_p144",
+   "de": "Ich warte auf einen wichtigen Anruf.",
+   "es": "Estoy esperando una llamada importante.",
+   "en": "I'm waiting for an important call.",
+   "gloss": "yo espero sobre una importante llamada",
+   "lemmas": [
+    "Anruf"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«warten auf» + acusativo, aunque en español no lleva preposición."
+  },
+  {
+   "id": "greetings_social_p145",
+   "de": "Das war nur ein kurzer Anruf.",
+   "es": "Solo fue una llamada corta.",
+   "en": "It was just a short call.",
+   "gloss": "eso era solo una corta llamada",
+   "lemmas": [
+    "Anruf"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p146",
+   "de": "Störe ich gerade?",
+   "es": "¿Molesto ahora?",
+   "en": "Am I interrupting?",
+   "gloss": "molesto yo ahora-mismo",
+   "lemmas": [
+    "stören"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_p147",
+   "de": "Entschuldigung, dass ich störe.",
+   "es": "Perdón por molestar.",
+   "en": "Sorry to bother you.",
+   "gloss": "perdón, que yo molesto",
+   "lemmas": [
+    "stören"
+   ],
+   "level": 4,
+   "type": "phrase",
+   "note": "Tras «dass» el verbo va al final."
+  },
+  {
+   "id": "greetings_social_p148",
+   "de": "Das stört mich überhaupt nicht.",
+   "es": "Eso no me molesta en absoluto.",
+   "en": "That doesn't bother me at all.",
+   "gloss": "eso molesta a-mí en-absoluto no",
+   "lemmas": [
+    "stören"
+   ],
+   "level": 3,
+   "type": "answer",
+   "note": "«stören» lleva acusativo: mich, no mir."
+  },
+  {
+   "id": "greetings_social_p149",
+   "de": "Sag mir bitte Bescheid!",
+   "es": "¡Avísame, por favor!",
+   "en": "Let me know, please!",
+   "gloss": "di a-mí por-favor aviso",
+   "lemmas": [
+    "Bescheid"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": "«Bescheid sagen» funciona como una unidad: avisar."
+  },
+  {
+   "id": "greetings_social_p150",
+   "de": "Ich gebe dir morgen Bescheid.",
+   "es": "Te aviso mañana.",
+   "en": "I'll let you know tomorrow.",
+   "gloss": "yo doy a-ti mañana aviso",
+   "lemmas": [
+    "Bescheid"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«Bescheid» va siempre al final de la frase."
+  },
+  {
+   "id": "greetings_social_p151",
+   "de": "Weißt du schon Bescheid?",
+   "es": "¿Ya estás al tanto?",
+   "en": "Do you already know about it?",
+   "gloss": "sabes tú ya aviso",
+   "lemmas": [
+    "Bescheid"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "«Bescheid wissen» = estar informado."
+  },
+  {
+   "id": "greetings_social_p152",
+   "de": "Sag ___ Bescheid!",
+   "es": "¡Avisa a ___!",
+   "en": "Let ___ know!",
+   "gloss": "di a-___ aviso",
+   "lemmas": [
+    "Bescheid"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "mir",
+     "es": "a mí"
+    },
+    {
+     "de": "ihm",
+     "es": "a él"
+    },
+    {
+     "de": "ihr",
+     "es": "a ella"
+    },
+    {
+     "de": "deiner Mutter",
+     "es": "a tu madre"
+    }
+   ],
+   "note": "La persona avisada va en dativo."
+  },
+  {
+   "id": "greetings_social_p153",
+   "de": "Hör mir bitte kurz zu!",
+   "es": "¡Escúchame un momento, por favor!",
+   "en": "Listen to me for a second!",
+   "gloss": "escucha a-mí por-favor brevemente a",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«zuhören» es separable y la persona va en dativo: mir."
+  },
+  {
+   "id": "greetings_social_p154",
+   "de": "Er hört nie richtig zu.",
+   "es": "Nunca escucha de verdad.",
+   "en": "He never really listens.",
+   "gloss": "él escucha nunca de-verdad a",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "El prefijo «zu» se separa y va al final."
+  },
+  {
+   "id": "greetings_social_p155",
+   "de": "Danke, dass du mir zugehört hast.",
+   "es": "Gracias por escucharme.",
+   "en": "Thanks for listening to me.",
+   "gloss": "gracias, que tú a-mí escuchado has",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 5,
+   "type": "phrase",
+   "note": "En el participio el «ge-» va dentro: zugehört."
+  },
+  {
+   "id": "greetings_social_p156",
+   "de": "Verzeihung, darf ich kurz vorbei?",
+   "es": "Perdón, ¿puedo pasar un momento?",
+   "en": "Excuse me, may I get past?",
+   "gloss": "perdón, puedo yo brevemente por-delante",
+   "lemmas": [
+    "Verzeihung"
+   ],
+   "level": 2,
+   "type": "question",
+   "note": "Se dice al pasar entre gente; «vorbei» va solo, sin verbo."
+  },
+  {
+   "id": "greetings_social_p157",
+   "de": "Verzeihung, ich habe Sie nicht gesehen.",
+   "es": "Perdone, no le había visto.",
+   "en": "Sorry, I didn't see you.",
+   "gloss": "perdón, yo he a-usted no visto",
+   "lemmas": [
+    "Verzeihung"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "«Sie» con mayúscula es usted, no «ellos»."
+  },
+  {
+   "id": "greetings_social_p158",
+   "de": "Ich bitte um Verzeihung.",
+   "es": "Le pido perdón.",
+   "en": "I do apologize.",
+   "gloss": "yo pido por perdón",
+   "lemmas": [
+    "Verzeihung"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "Muy formal; «bitten um» + acusativo."
+  },
+  {
+   "id": "greetings_social_p159",
+   "de": "Du musst dich nicht entschuldigen.",
+   "es": "No hace falta que te disculpes.",
+   "en": "You don't have to apologize.",
+   "gloss": "tú debes te no disculpar",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "El reflexivo «dich» es obligatorio en alemán."
+  },
+  {
+   "id": "greetings_social_p160",
+   "de": "Entschuldige dich bei ihm!",
+   "es": "¡Discúlpate con él!",
+   "en": "Apologize to him!",
+   "gloss": "disculpa te junto-a él",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Con la persona se usa «bei» + dativo, no «mit»."
+  },
+  {
+   "id": "greetings_social_p161",
+   "de": "Sie hat sich für die Verspätung entschuldigt.",
+   "es": "Se disculpó por el retraso.",
+   "en": "She apologized for being late.",
+   "gloss": "ella ha se por el retraso disculpado",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "El motivo va con «für» + acusativo."
+  },
+  {
+   "id": "greetings_social_p162",
+   "de": "Wir haben uns nett unterhalten.",
+   "es": "Hemos charlado muy a gusto.",
+   "en": "We had a nice chat.",
+   "gloss": "nosotros hemos nos agradablemente conversado",
+   "lemmas": [
+    "sich unterhalten"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "El participio no lleva «ge-»: unterhalten."
+  },
+  {
+   "id": "greetings_social_p163",
+   "de": "Ich unterhalte mich gern mit ihm.",
+   "es": "Me gusta charlar con él.",
+   "en": "I enjoy talking with him.",
+   "gloss": "yo converso me con-gusto con él",
+   "lemmas": [
+    "sich unterhalten"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Sin el reflexivo «mich» significaría «entretener a otro»."
+  },
+  {
+   "id": "greetings_social_p164",
+   "de": "Worüber habt ihr euch unterhalten?",
+   "es": "¿De qué habéis hablado?",
+   "en": "What did you talk about?",
+   "gloss": "sobre-qué habéis vosotros os conversado",
+   "lemmas": [
+    "sich unterhalten"
+   ],
+   "level": 5,
+   "type": "question",
+   "note": "Para cosas se dice «worüber», no «über was»."
+  },
+  {
+   "id": "greetings_social_q001",
+   "de": "Ich ruf dich heute Abend an.",
+   "es": "Te llamo esta noche.",
+   "en": "I'll call you tonight.",
+   "gloss": "yo llamo a-ti hoy noche a",
+   "lemmas": [
+    "anrufen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Hablando se dice «ich ruf», sin la -e final."
+  },
+  {
+   "id": "greetings_social_q002",
+   "de": "Er ruft immer viel zu spät an.",
+   "es": "Siempre llama demasiado tarde.",
+   "en": "He always calls way too late.",
+   "gloss": "él llama siempre mucho demasiado tarde a",
+   "lemmas": [
+    "anrufen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q003",
+   "de": "Er hat schon zweimal angerufen.",
+   "es": "Ya ha llamado dos veces.",
+   "en": "He's already called twice.",
+   "gloss": "él ha ya dos-veces llamado",
+   "lemmas": [
+    "anrufen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "El «ge-» va dentro: an-ge-rufen."
+  },
+  {
+   "id": "greetings_social_q004",
+   "de": "Kannst du mal bei ___ anrufen?",
+   "es": "¿Puedes llamar ___?",
+   "en": "Can you give ___ a call?",
+   "gloss": "puedes tú una-vez junto-a ___ llamar",
+   "lemmas": [
+    "anrufen"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "der Werkstatt",
+     "es": "al taller"
+    },
+    {
+     "de": "deiner Mutter",
+     "es": "a tu madre"
+    },
+    {
+     "de": "deinem Chef",
+     "es": "a tu jefe"
+    },
+    {
+     "de": "der Schule",
+     "es": "al colegio"
+    }
+   ],
+   "note": "«bei» + dativo: llamas a un sitio o a casa de alguien. A una persona directamente va en acusativo: ruf mich an."
+  },
+  {
+   "id": "greetings_social_q005",
+   "de": "Das musst du mir genauer erzählen!",
+   "es": "¡Eso me lo tienes que contar con más detalle!",
+   "en": "You have to tell me more about that!",
+   "gloss": "eso debes tú a-mí más-exacto contar",
+   "lemmas": [
+    "erzählen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q006",
+   "de": "Sie hat mir nichts davon erzählt.",
+   "es": "No me ha contado nada de eso.",
+   "en": "She didn't tell me anything about it.",
+   "gloss": "ella ha a-mí nada de-eso contado",
+   "lemmas": [
+    "erzählen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": "«davon» sustituye a «von + cosa»."
+  },
+  {
+   "id": "greetings_social_q007",
+   "de": "Erzähl doch mal, wie es war!",
+   "es": "¡Anda, cuenta qué tal fue!",
+   "en": "Come on, tell me how it went!",
+   "gloss": "cuenta pues una-vez, cómo ello fue",
+   "lemmas": [
+    "erzählen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "Tras «wie» el verbo se va al final."
+  },
+  {
+   "id": "greetings_social_q008",
+   "de": "Er antwortet nie auf meine Nachrichten.",
+   "es": "Nunca contesta a mis mensajes.",
+   "en": "He never answers my messages.",
+   "gloss": "él responde nunca sobre mis mensajes",
+   "lemmas": [
+    "antworten",
+    "Nachricht"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Se responde «auf» + acusativo, no «zu»."
+  },
+  {
+   "id": "greetings_social_q009",
+   "de": "Antworte mir bitte bis morgen.",
+   "es": "Contéstame para mañana, por favor.",
+   "en": "Please answer me by tomorrow.",
+   "gloss": "responde a-mí por-favor hasta mañana",
+   "lemmas": [
+    "antworten"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "A la persona se le responde en dativo: mir, dir, ihm."
+  },
+  {
+   "id": "greetings_social_q010",
+   "de": "Ich habe ihr noch nicht geantwortet.",
+   "es": "Todavía no le he contestado.",
+   "en": "I haven't answered her yet.",
+   "gloss": "yo he a-ella todavía no respondido",
+   "lemmas": [
+    "antworten"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q011",
+   "de": "Was soll ich denn darauf antworten?",
+   "es": "¿Y qué contesto yo a eso?",
+   "en": "What am I supposed to answer to that?",
+   "gloss": "qué debo yo pues sobre-eso responder",
+   "lemmas": [
+    "antworten"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "Para cosas se dice «darauf», no «auf es»."
+  },
+  {
+   "id": "greetings_social_q012",
+   "de": "Ich bringe eine Flasche Wein mit.",
+   "es": "Llevo una botella de vino.",
+   "en": "I'll bring a bottle of wine.",
+   "gloss": "yo traigo una botella vino con",
+   "lemmas": [
+    "mitbringen",
+    "Flasche"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q013",
+   "de": "Sie hat uns Blumen mitgebracht.",
+   "es": "Nos trajo flores.",
+   "en": "She brought us flowers.",
+   "gloss": "ella ha a-nosotros flores traído-con",
+   "lemmas": [
+    "mitbringen",
+    "Blume"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q014",
+   "de": "Bring bitte was zu essen mit.",
+   "es": "Trae algo de comer, porfa.",
+   "en": "Please bring something to eat.",
+   "gloss": "trae por-favor algo a comer con",
+   "lemmas": [
+    "mitbringen"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "En el habla «was» vale por «etwas»."
+  },
+  {
+   "id": "greetings_social_q015",
+   "de": "Entschuldige, ich habe dich nicht gesehen.",
+   "es": "Perdona, no te había visto.",
+   "en": "Sorry, I didn't see you.",
+   "gloss": "disculpa, yo he a-ti no visto",
+   "lemmas": [
+    "entschuldigen"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q016",
+   "de": "Entschuldigen Sie, ist hier noch frei?",
+   "es": "Disculpe, ¿está libre aquí?",
+   "en": "Excuse me, is this seat free?",
+   "gloss": "disculpe usted, está aquí todavía libre",
+   "lemmas": [
+    "entschuldigen",
+    "frei"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "Lo que se dice para sentarse en una mesa ocupada."
+  },
+  {
+   "id": "greetings_social_q017",
+   "de": "Entschuldige die späte Antwort.",
+   "es": "Perdona por contestar tan tarde.",
+   "en": "Sorry for the late reply.",
+   "gloss": "disculpa la tardía respuesta",
+   "lemmas": [
+    "entschuldigen",
+    "Antwort"
+   ],
+   "level": 3,
+   "type": "phrase",
+   "note": "Muy típico al empezar un mensaje o un correo."
+  },
+  {
+   "id": "greetings_social_q018",
+   "de": "Er hat sich für sein Verhalten entschuldigt.",
+   "es": "Pidió perdón por cómo se comportó.",
+   "en": "He apologised for his behaviour.",
+   "gloss": "él ha se por su comportamiento disculpado",
+   "lemmas": [
+    "sich entschuldigen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": "El motivo va con «für» + acusativo."
+  },
+  {
+   "id": "greetings_social_q019",
+   "de": "Wir laden am Samstag ein paar Leute ein.",
+   "es": "El sábado invitamos a unos cuantos.",
+   "en": "We're having a few people over on Saturday.",
+   "gloss": "nosotros invitamos en-el sábado un par gente dentro",
+   "lemmas": [
+    "einladen",
+    "Leute"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q020",
+   "de": "Sie hat mich zu ihrer Hochzeit eingeladen.",
+   "es": "Me ha invitado a su boda.",
+   "en": "She invited me to her wedding.",
+   "gloss": "ella ha a-mí a su boda invitado",
+   "lemmas": [
+    "einladen"
+   ],
+   "level": 5,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q021",
+   "de": "Bist du auch eingeladen?",
+   "es": "¿A ti también te han invitado?",
+   "en": "Are you invited too?",
+   "gloss": "eres tú también invitado",
+   "lemmas": [
+    "einladen"
+   ],
+   "level": 4,
+   "type": "question",
+   "note": "Con «sein», «eingeladen» funciona como adjetivo: estar invitado."
+  },
+  {
+   "id": "greetings_social_q022",
+   "de": "Hörst du mir überhaupt zu?",
+   "es": "¿Me estás escuchando siquiera?",
+   "en": "Are you even listening to me?",
+   "gloss": "escuchas tú a-mí siquiera a",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": "«zuhören» pide dativo: mir, dir, ihm."
+  },
+  {
+   "id": "greetings_social_q023",
+   "de": "Danke fürs Zuhören!",
+   "es": "¡Gracias por escuchar!",
+   "en": "Thanks for listening!",
+   "gloss": "gracias por-el escuchar",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 2,
+   "type": "phrase",
+   "note": "«fürs» es «für das»; el verbo en mayúscula funciona como sustantivo."
+  },
+  {
+   "id": "greetings_social_q024",
+   "de": "Sie hat gar nicht zugehört.",
+   "es": "No ha escuchado en absoluto.",
+   "en": "She wasn't listening at all.",
+   "gloss": "ella ha en-absoluto no escuchado",
+   "lemmas": [
+    "zuhören"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q025",
+   "de": "Was schenken wir ihr zum Geburtstag?",
+   "es": "¿Qué le regalamos por su cumpleaños?",
+   "en": "What shall we give her for her birthday?",
+   "gloss": "qué regalamos nosotros a-ella para-el cumpleaños",
+   "lemmas": [
+    "schenken",
+    "Geburtstag"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q026",
+   "de": "Meine Oma hat mir das geschenkt.",
+   "es": "Me lo regaló mi abuela.",
+   "en": "My grandma gave me that.",
+   "gloss": "mi abuela ha a-mí eso regalado",
+   "lemmas": [
+    "schenken"
+   ],
+   "level": 4,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_q027",
+   "de": "Ich schenke dir was Kleines.",
+   "es": "Te voy a regalar un detallito.",
+   "en": "I'll get you something small.",
+   "gloss": "yo regalo a-ti algo pequeño",
+   "lemmas": [
+    "schenken"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "«was Kleines» es el «etwas Kleines» del día a día."
+  },
+  {
+   "id": "greetings_social_q028",
+   "de": "Zum Geburtstag schenke ich ihm ___.",
+   "es": "Por su cumpleaños le regalo ___.",
+   "en": "For his birthday I'm giving him ___.",
+   "gloss": "para-el cumpleaños regalo yo a-él ___",
+   "lemmas": [
+    "schenken"
+   ],
+   "level": 3,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "ein Buch",
+     "es": "un libro"
+    },
+    {
+     "de": "eine Uhr",
+     "es": "un reloj"
+    },
+    {
+     "de": "Kopfhörer",
+     "es": "unos auriculares"
+    },
+    {
+     "de": "Geld",
+     "es": "dinero"
+    }
+   ],
+   "note": "Al empezar por «zum Geburtstag», el verbo se queda en segundo lugar."
+  },
+  {
+   "id": "greetings_social_r001",
+   "de": "Wie ist deine Adresse?",
+   "es": "¿Cuál es tu dirección?",
+   "en": "What is your address?",
+   "gloss": "cómo es tu dirección",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 1,
+   "type": "question",
+   "note": "Se pregunta con «wie» (cómo), no con «was» ni «welche»: «Wie ist deine Adresse?»."
+  },
+  {
+   "id": "greetings_social_r002",
+   "de": "Wir haben eine neue Adresse.",
+   "es": "Tenemos una dirección nueva.",
+   "en": "We have a new address.",
+   "gloss": "nosotros tenemos una nueva dirección",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 2,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_r003",
+   "de": "Kannst du mir deine Adresse geben?",
+   "es": "¿Me puedes dar tu dirección?",
+   "en": "Can you give me your address?",
+   "gloss": "puedes tú a-mí tu dirección dar",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 3,
+   "type": "question",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_r004",
+   "de": "Ich schicke dir meine Adresse per WhatsApp.",
+   "es": "Te mando mi dirección por WhatsApp.",
+   "en": "I'll send you my address on WhatsApp.",
+   "gloss": "yo envío a-ti mi dirección por WhatsApp",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": ""
+  },
+  {
+   "id": "greetings_social_r005",
+   "de": "Schreib mir mal deine Adresse.",
+   "es": "Escríbeme tu dirección.",
+   "en": "Just write me your address.",
+   "gloss": "escribe a-mí una-vez tu dirección",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 3,
+   "type": "sentence",
+   "note": "Aquí «mal» solo suaviza la orden, como el «venga» o el «anda» del español."
+  },
+  {
+   "id": "greetings_social_r006",
+   "de": "Meine neue Adresse ist ___.",
+   "es": "Mi nueva dirección es ___.",
+   "en": "My new address is ___.",
+   "gloss": "mi nueva dirección es ___",
+   "lemmas": [
+    "Adresse"
+   ],
+   "level": 2,
+   "type": "frame",
+   "fillers": [
+    {
+     "de": "Hauptstraße 12",
+     "es": "Hauptstraße 12"
+    },
+    {
+     "de": "Gartenweg 5",
+     "es": "Gartenweg 5"
+    },
+    {
+     "de": "Bahnhofstraße 3b",
+     "es": "Bahnhofstraße 3b"
+    },
+    {
+     "de": "Lindenallee 40",
+     "es": "Lindenallee 40"
+    }
+   ],
+   "note": "El número va detrás del nombre de la calle, y calle y nombre se escriben juntos: «-straße» = calle, «-weg» = camino, «-allee» = avenida."
+  }
+ ]
 }
