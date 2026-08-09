@@ -603,8 +603,44 @@ const Game = (() => {
     $('set-newper').value = state.settings.newPer || 6;
     $('set-key').value = localStorage.getItem('gq_key') || '';
     $('set-model').value = state.settings.model || 'claude-opus-5';
+    renderVoicePicker();
     show('screen-settings');
   }
+  /* The voice matters more than it looks: a learner imitates what they hear,
+     so a cartoon or a legacy compressed voice teaches bad pronunciation.
+     If the machine only has poor German voices, say so and give the exact
+     steps — it is a one-time download that changes everything. */
+  function renderVoicePicker() {
+    const sel = $('set-voice'); if (!sel) return;
+    Speech.load();
+    const list = Speech.list;
+    const cur = Speech.voice ? Speech.voice.name : '';
+    sel.innerHTML = '<option value="">Automática (la mejor disponible)</option>' +
+      list.map(v => `<option value="${esc(v.name)}"${v.name === cur ? ' selected' : ''}>` +
+                    `${esc(v.name)} — ${esc(v.lang)}${Speech.score(v) >= 60 ? ' ⭐' : ''}</option>`).join('');
+
+    const note = $('voice-note');
+    if (!list.length) {
+      note.innerHTML = '⚠️ No hay ninguna voz alemana en este dispositivo. ' + installHint();
+    } else if (Speech.qualityIsPoor()) {
+      note.innerHTML = `Ahora mismo usas <b>${esc(cur)}</b>, una voz básica que suena robótica. ` +
+        'Para oír alemán de verdad, descarga una voz de calidad: ' + installHint();
+    } else {
+      note.innerHTML = `✅ Usando <b>${esc(cur)}</b> — voz de buena calidad.`;
+    }
+  }
+
+  function installHint() {
+    const ua = navigator.userAgent;
+    if (/iPhone|iPad/.test(ua))
+      return 'Ajustes → Accesibilidad → Contenido hablado → Voces → Alemán → elige una y descárgala (busca “Premium”).';
+    if (/Android/.test(ua))
+      return 'Ajustes → Sistema → Idiomas → Salida de texto a voz → instala el paquete de alemán.';
+    if (/Mac OS X/.test(ua))
+      return 'Ajustes del Sistema → Accesibilidad → Contenido hablado → Voz del sistema → Gestionar voces… → Alemán → descarga una <b>Premium</b> (p. ej. “Anna (Premium)”). Luego recarga el juego.';
+    return 'Instala un paquete de voz alemana en tu sistema y recarga el juego.';
+  }
+
   function bindSettings() {
     $('set-lang').onchange = e => { state.settings.lang = e.target.value; save(); };
     $('set-tts').onchange = e => { state.settings.tts = e.target.checked; save(); };
@@ -612,6 +648,12 @@ const Game = (() => {
     $('set-rate').oninput = e => { state.settings.rate = +e.target.value; save(); };
     $('set-newper').onchange = e => { state.settings.newPer = Math.max(3, Math.min(12, +e.target.value || 6)); save(); };
     $('set-model').onchange = e => { state.settings.model = e.target.value; save(); };
+    $('set-voice').onchange = e => {
+      if (e.target.value) Speech.setVoice(e.target.value);
+      else { try { localStorage.removeItem('gq_voice'); } catch (err) {} Speech.load(); }
+      renderVoicePicker();
+      Speech.say('Guten Tag! Ich spreche Deutsch.', { force: true });
+    };
     $('set-key').onchange = e => {
       const v = e.target.value.trim();
       if (v) localStorage.setItem('gq_key', v); else localStorage.removeItem('gq_key');
@@ -650,6 +692,16 @@ const Game = (() => {
     show('screen-world');
     if (!running) { running = true; loop(); }
     save();
+
+    // One-time nudge: the single biggest audio-quality win is a voice
+    // download the player has no reason to know exists. Say it once, then
+    // never nag again.
+    if (Speech.available() && Speech.qualityIsPoor() && !state.profile.voiceNudged) {
+      state.profile.voiceNudged = true; save();
+      setTimeout(() => toast(
+        '🔊 La voz alemana de este dispositivo es básica. ' +
+        'En <b>⚙️ Optionen → Voz alemana</b> te explico cómo bajar una de verdad.', 7000), 3500);
+    }
 
     if (!cont) {
       setTimeout(() => Dialogue.show('Die Eule', '🦉', [
@@ -755,6 +807,7 @@ const Game = (() => {
         start: () => { if (hasSave() && !confirm('Ya hay una partida guardada. ¿Empezar de nuevo y borrarla?')) return; localStorage.removeItem(SAVE_KEY); startGame(false); },
         continue: () => { if (!hasSave()) { toast('Keine Speicherung gefunden.'); return; } startGame(true); },
         peek: toggleTranslations,
+        'voice-test': () => Speech.say('Guten Tag! Ich hätte gern einen Kaffee, bitte.', { force: true }),
         settings: openSettings,
         journal: openJournal,
         review: reviewSession,

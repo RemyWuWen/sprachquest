@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Sprachquest — Deutsch lernen</title>
-<link rel="stylesheet" href="css/style.css?v=982f507f">
+<link rel="stylesheet" href="css/style.css?v=2bc837cc">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
@@ -240,7 +240,14 @@
           <select id="set-lang"><option value="es">Español</option><option value="en">English</option></select>
         </label>
         <label class="row"><span>Audio (TTS)</span><input type="checkbox" id="set-tts" checked></label>
-        <label class="row"><span>Velocidad del audio</span><input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="0.85"></label>
+        <label class="row"><span>Velocidad del audio</span><input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="0.9"></label>
+        <label class="row col"><span>Voz alemana</span>
+          <div class="voice-row">
+            <select id="set-voice"><option value="">Automática (la mejor)</option></select>
+            <button class="btn ghost" data-act="voice-test">🔊 Probar</button>
+          </div>
+          <small id="voice-note"></small>
+        </label>
         <label class="row"><span>Efectos de sonido</span><input type="checkbox" id="set-sfx" checked></label>
         <label class="row"><span>Nuevos chunks por lección</span><input type="number" id="set-newper" min="3" max="12" value="6"></label>
         <hr>
@@ -270,16 +277,16 @@
 
 </div>
 
-<script src="data/chunks.js?v=982f507f"></script>
-<script src="js/srs.js?v=982f507f"></script>
-<script src="js/audio.js?v=982f507f"></script>
-<script src="js/fx.js?v=982f507f"></script>
-<script src="js/world.js?v=982f507f"></script>
-<script src="js/meta.js?v=982f507f"></script>
-<script src="js/battle.js?v=982f507f"></script>
-<script src="js/ai.js?v=982f507f"></script>
-<script src="js/lookup.js?v=982f507f"></script>
-<script src="js/game.js?v=982f507f"></script>
+<script src="data/chunks.js?v=2bc837cc"></script>
+<script src="js/srs.js?v=2bc837cc"></script>
+<script src="js/audio.js?v=2bc837cc"></script>
+<script src="js/fx.js?v=2bc837cc"></script>
+<script src="js/world.js?v=2bc837cc"></script>
+<script src="js/meta.js?v=2bc837cc"></script>
+<script src="js/battle.js?v=2bc837cc"></script>
+<script src="js/ai.js?v=2bc837cc"></script>
+<script src="js/lookup.js?v=2bc837cc"></script>
+<script src="js/game.js?v=2bc837cc"></script>
 <script>
   // Precaches the whole game so it plays with no connection at all.
   // file:// has no service workers — harmless, the game still runs.
